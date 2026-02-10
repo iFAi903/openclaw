@@ -6,13 +6,24 @@ disable-model-invocation: false
 
 # VibeCoding Toolkit
 
-Unified orchestration layer for OpenCode, Codex, and Antigravity AI coding agents.
+Unified orchestration layer for OpenCode, Codex, Antigravity, and **Claude Code** AI coding agents.
 
 ## Philosophy
 
 **Not all tools are equal for every task.** This toolkit analyzes your project and task characteristics to recommend and orchestrate the optimal tool(s) for the job.
 
 ## Tool Profiles
+
+### 🔮 Claude Code (Anthropic)
+**Strengths**: Deep Anthropic integration, Plan Mode for systematic planning, subagent system, best-in-class code understanding
+**Best for**: Complex refactoring, systematic debugging, multi-step implementations, projects requiring careful planning
+**Models**: Claude 4 Opus/Sonnet, Claude 3.5 Sonnet
+**Key Features**:
+- Plan Mode (Shift+Tab) for exploration without code changes
+- Subagent system (@mentions) for specialized tasks
+- CLAUDE.md project configuration
+- /clear, /compact, /context for context management
+- Skills system (load custom skills)
 
 ### 🔧 OpenCode
 **Strengths**: Multi-model, open-source, highly configurable, rich agent system
@@ -52,35 +63,41 @@ Unified orchestration layer for OpenCode, Codex, and Antigravity AI coding agent
 
 | Project Type | Primary | Secondary | Rationale |
 |--------------|---------|-----------|-----------|
+| Complex refactoring | **Claude Code** | OpenCode | Plan Mode essential for large refactors |
+| Systematic debugging | **Claude Code** | OpenCode | Best debugging workflow and context management |
+| Multi-step implementation | **Claude Code** | Codex | Plan → Execute pattern |
 | Full-stack web app | OpenCode | Codex | Multi-agent for complex architecture |
 | API/backend service | Codex | OpenCode | Fast iteration, standard patterns |
 | Browser automation | Antigravity | - | Native web interaction |
-| Legacy codebase | OpenCode | - | Explore agent for understanding |
+| Legacy codebase | **Claude Code** | OpenCode | Plan Mode for understanding before changes |
 | Quick prototype | Codex | - | Fastest setup-to-code |
-| Research/exploration | OpenCode | - | Plan mode, subagents |
+| Research/exploration | **Claude Code** | OpenCode | Plan mode, subagents |
 
 ### By Task Type
 
 | Task | Recommended Tool | Why |
 |------|------------------|-----|
-| Initial project setup | OpenCode (/init) | AGENTS.md generation |
-| Feature implementation | Codex or OpenCode | Depends on complexity |
-| Code review | OpenCode (@code-reviewer) | Dedicated subagent |
-| Debugging | OpenCode | Systematic debugging skill |
-| Web scraping | Antigravity | Browser automation |
-| UI testing | Antigravity | Visual interaction |
-| Refactoring | OpenCode | Plan mode first |
-| Documentation | Codex | Quick generation |
+| **Refactoring** | **Claude Code** | Plan Mode first, systematic approach |
+| **Debugging** | **Claude Code** | Best context management, /rewind support |
+| **Initial project setup** | OpenCode (/init) | AGENTS.md generation |
+| **Feature implementation** | **Claude Code** or Codex | Claude for complex, Codex for simple |
+| **Code review** | **Claude Code** (@subagent) | Dedicated subagent system |
+| **Web scraping** | Antigravity | Browser automation |
+| **UI testing** | Antigravity | Visual interaction |
+| **Documentation** | Codex | Quick generation |
 
 ### By Constraint
 
 | Constraint | Best Choice |
 |------------|-------------|
+| **Planning-heavy** | **Claude Code** | Plan Mode essential |
+| **Complex debugging** | **Claude Code** | Best debugging workflow |
 | Cost-sensitive | OpenCode (choose cheaper models) |
 | Speed priority | Codex (optimized UX) |
 | Privacy-first | OpenCode (local models via Ollama) |
 | Browser-heavy | Antigravity |
 | Multi-model needs | OpenCode |
+| Best code understanding | **Claude Code** |
 
 ---
 
@@ -156,6 +173,30 @@ sessions_spawn(
 
 ## Tool-Specific Launch Commands
 
+### Claude Code
+```bash
+# Interactive mode (recommended for complex tasks)
+claude
+
+# Plan mode first
+claude --permission-mode plan
+
+# One-shot with wrapper (for automation)
+./scripts/claude_code_run.py -p "task description" --permission-mode plan
+
+# With specific tools allowed
+./scripts/claude_code_run.py \
+  -p "implement feature" \
+  --allowedTools "Bash,Read,Edit"
+
+# Continue recent conversation
+claude -c
+
+# List and resume previous sessions
+claude --list
+claude --resume
+```
+
 ### OpenCode
 ```bash
 # Standard
@@ -195,23 +236,23 @@ python main.py --env=playwright --initial_url="https://example.com" --query="...
 
 ## Workflow Templates
 
-### Template A: Web Application (Full Stack)
+### Template A: Web Application (Full Stack) - with Claude Code
 
 ```yaml
-name: fullstack-webapp
-description: Complete web application development
+name: fullstack-webapp-claude
+description: Complete web application development with Claude Code planning
 
 steps:
   1:
-    tool: opencode
-    action: /init
-    output: AGENTS.md
+    tool: claude_code
+    mode: plan
+    action: analyze codebase and create implementation plan
+    output: implementation_plan.md
     
   2:
-    tool: opencode
-    agent: plan
-    action: architecture design
-    output: architecture.md
+    tool: claude_code
+    action: scaffold project structure based on plan
+    output: project_skeleton/
     
   3:
     tool: codex
@@ -220,16 +261,48 @@ steps:
       - backend: "Implement API endpoints"
       
   4:
-    tool: opencode
-    agent: @code-reviewer
-    action: review all changes
+    tool: claude_code
+    subagent: @code-reviewer
+    action: comprehensive code review
     
   5:
     tool: antigravity
     action: e2e browser testing
 ```
 
-### Template B: Data Pipeline
+### Template B: Complex Refactoring (Claude Code Optimized)
+
+```yaml
+name: complex-refactoring
+description: Large-scale refactoring with systematic planning
+
+steps:
+  1:
+    tool: claude_code
+    mode: plan
+    action: analyze current implementation and identify refactoring targets
+    output: refactoring_plan.md
+    
+  2:
+    tool: claude_code
+    action: create test cases for existing behavior (before changes)
+    output: regression_tests/
+    
+  3:
+    tool: claude_code
+    action: execute refactoring in small, verifiable steps
+    checkpoint: after each module
+    
+  4:
+    tool: claude_code
+    action: run tests and fix any failures
+    
+  5:
+    tool: opencode
+    action: final review and edge case testing
+```
+
+### Template C: Data Pipeline
 
 ```yaml
 name: data-pipeline
@@ -282,6 +355,7 @@ steps:
 ```python
 def select_tool(project_profile, task_profile):
     scores = {
+        "claude_code": 0,
         "opencode": 0,
         "codex": 0,
         "antigravity": 0
@@ -290,18 +364,32 @@ def select_tool(project_profile, task_profile):
     # Project complexity
     if project_profile["files"] > 20:
         scores["opencode"] += 2  # Better for large projects
+        scores["claude_code"] += 1  # Good for large projects with planning
+    
     if project_profile["is_web"]:
         scores["antigravity"] += 2
+    
+    if project_profile["needs_planning"]:
+        scores["claude_code"] += 3  # Plan Mode is best
+    
     if project_profile["needs_quick_iteration"]:
         scores["codex"] += 2
         
     # Task characteristics
     if task_profile["type"] == "browser_automation":
         return "antigravity"
+    
+    if task_profile["type"] in ["refactoring", "debugging"]:
+        scores["claude_code"] += 3  # Best for these tasks
+    
     if task_profile["type"] == "research":
-        return "opencode"
+        scores["claude_code"] += 2  # Plan Mode great for research
+        scores["opencode"] += 1
+    
     if task_profile["complexity"] == "simple":
-        return "codex"
+        scores["codex"] += 2
+    elif task_profile["complexity"] == "high":
+        scores["claude_code"] += 2  # Better for high complexity
         
     # Select highest score
     return max(scores, key=scores.get)
@@ -342,11 +430,17 @@ def select_tool(project_profile, task_profile):
 
 ## Extensions
 
+### Current Core Tools
+- ✅ **Claude Code** (Anthropic) - Planning and systematic development
+- ✅ OpenCode - Multi-model, open-source
+- ✅ Codex (OpenAI) - Quick iterations
+- ✅ Antigravity (Google) - Browser automation
+
 ### Future Integrations
-- Claude Code (Anthropic)
 - GitHub Copilot Chat
 - Cursor
 - Continue.dev
+- Windsurf
 
 ### Custom Workflows
 Users can define custom workflows in `.vibecoding/workflows/` directory.
