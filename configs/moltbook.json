@@ -1,7 +1,10 @@
 {
-  "email": "leoliu.ifai@gmail.com",
-  "agent_name": "xiaoyumao",
-  "api_key": "",
+  "api_key": "moltbook_sk_yxUaxy1kq5T-38ABTFdw9QTxGOwwr3rd",
+  "agent_name": "xiaoyumao_leo",
+  "agent_id": "fc636e9c-d544-45a9-94c6-61912f5b20ae",
+  "claim_url": "https://moltbook.com/claim/moltbook_claim_uB72IP0kETsUecgwes83DpfgwHXqDH0J",
+  "verification_code": "bay-2E7N",
+  "profile_url": "https://moltbook.com/u/xiaoyumao_leo",
   "status": "pending_claim",
-  "note": "Visit https://www.moltbook.com to claim this agent with the email above"
+  "email": "leoliu.ifai@gmail.com"
 }
