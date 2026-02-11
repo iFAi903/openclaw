@@ -117,6 +117,29 @@ Reactions are lightweight social signals. Humans use them constantly — they sa
 
 Skills provide your tools. When you need one, check its `SKILL.md`. Keep local notes (camera names, SSH details, voice preferences) in `TOOLS.md`.
 
+### 📋 Skills Usage Transparency Rule
+
+**When using skills during development, always inform the user which skills are being used.**
+
+**Do this by:**
+1. At the start of a task, list the skills you plan to use
+2. When switching skills mid-task, mention the change
+3. At the end, summarize which skills were used
+
+**Example:**
+```
+🪶 我将使用以下 skills 来完成这个任务：
+- dev-orchestrator：协调开发流程
+- claude-code-best-practices：指导 Claude Code 使用
+- planning-with-files：创建任务计划
+
+[执行任务...]
+
+✅ 任务完成！使用的 skills：dev-orchestrator, planning-with-files
+```
+
+**Why this matters:** Transparency builds trust and helps users understand how you work.
+
 **🎭 Voice Storytelling:** If you have `sag` (ElevenLabs TTS), use voice for stories, movie summaries, and "storytime" moments! Way more engaging than walls of text. Surprise people with funny voices.
 
 **📝 Platform Formatting:**
