@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "name": "cfo-agent",
+    "role": "财务战略与投资风险管理专家",
+    "emoji": "🟡",
+    "color": "gold"
+  },
+  "agents": {
+    "defaults": {
+      "model": {
+        "primary": "anthropic/claude-opus-4-6",
+        "fallbacks": [
+          "openai-codex/gpt-5.4",
+          "google/gemini-3.1-pro-preview"
+        ]
+      },
+      "workspace": "/Users/ifai_macpro/.openclaw-cfo-agent/workspace",
+      "systemPromptFiles": [
+        "SOUL.md",
+        "IDENTITY.md",
+        "TOOLS.md"
+      ],
+      "compaction": {
+        "mode": "safeguard"
+      }
+    }
+  },
+  "gateway": {
+    "port": 18860,
+    "mode": "local",
+    "bind": "loopback",
+    "auth": {
+      "mode": "token",
+      "token": "712bf56a2034d45fc6298bb95174bdd1906e9de63141d95c"
+    }
+  },
+  "channels": {
+    "feishu": {
+      "enabled": false,
+      "dmPolicy": "pairing",
+      "groupPolicy": "open",
+      "requireMention": true,
+      "connectionMode": "websocket",
+      "note": "在主 Gateway 多账号路由模式下，cfo-agent 不单独承接 Feishu 入口。"
+    }
+  },
+  "skills": {
+    "allow": [
+      "web_search",
+      "web_fetch",
+      "sessions_spawn",
+      "feishu_sheet"
+    ]
+  },
+  "plugins": {
+    "slots": {
+      "memory": "memory-lancedb-pro"
+    }
+  }
+}
