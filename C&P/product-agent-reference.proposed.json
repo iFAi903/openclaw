@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "name": "紫色小羽毛 product-agent",
+    "role": "产品经理、需求分析师、PRD专家",
+    "emoji": "🪶",
+    "color": "purple"
+  },
+  "agents": {
+    "defaults": {
+      "model": {
+        "primary": "anthropic/claude-opus-4-6",
+        "fallbacks": [
+          "anthropic/claude-sonnet-4-6",
+          "google/gemini-3.1-pro-preview",
+          "kimi-coding/k2p5",
+          "openai-codex/gpt-5.3-codex"
+        ]
+      },
+      "workspace": "/Users/ifai_macpro/.openclaw-product-agent/workspace",
+      "systemPromptFiles": [
+        "SOUL.md",
+        "IDENTITY.md",
+        "TOOLS.md"
+      ],
+      "contextPruning": {
+        "mode": "cache-ttl",
+        "ttl": "115m"
+      },
+      "compaction": {
+        "mode": "safeguard"
+      },
+      "heartbeat": {
+        "every": "2h"
+      },
+      "maxConcurrent": 4,
+      "subagents": {
+        "maxConcurrent": 6,
+        "model": "anthropic/claude-sonnet-4-6"
+      }
+    }
+  },
+  "gateway": {
+    "port": 18810,
+    "mode": "local",
+    "bind": "loopback",
+    "auth": {
+      "mode": "token",
+      "token": "2772a6e1e021649d913483a2d4fe06a036498d13a62b9131"
+    }
+  },
+  "channels": {
+    "feishu": {
+      "enabled": false,
+      "note": "在主 Gateway 多账号路由模式下，product-agent 不单独承接 Feishu 入口。"
+    }
+  },
+  "messages": {
+    "ackReactionScope": "group-mentions"
+  },
+  "commands": {
+    "native": "auto",
+    "nativeSkills": "auto",
+    "restart": true,
+    "ownerDisplay": "raw"
+  },
+  "plugins": {
+    "slots": {
+      "memory": "memory-lancedb-pro"
+    }
+  }
+}

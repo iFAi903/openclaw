@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "name": "白色小羽毛 copy-agent",
+    "role": "文案高手、策划天才、提示词大师",
+    "emoji": "🪶",
+    "color": "white"
+  },
+  "agents": {
+    "defaults": {
+      "model": {
+        "primary": "google/gemini-3.1-pro-preview",
+        "fallbacks": [
+          "anthropic/claude-sonnet-4-6",
+          "kimi-coding/k2p5",
+          "anthropic/claude-opus-4-6"
+        ]
+      },
+      "workspace": "/Users/ifai_macpro/.openclaw-copy-agent/workspace",
+      "systemPromptFiles": [
+        "SOUL.md",
+        "IDENTITY.md",
+        "TOOLS.md"
+      ],
+      "compaction": {
+        "mode": "safeguard"
+      }
+    }
+  },
+  "gateway": {
+    "port": 18782,
+    "mode": "local",
+    "bind": "loopback",
+    "auth": {
+      "mode": "token",
+      "token": "copy-agent-token-2026"
+    }
+  },
+  "channels": {
+    "feishu": {
+      "enabled": false,
+      "note": "在主 Gateway 多账号路由模式下，copy-agent 不单独承接 Feishu 入口。"
+    }
+  },
+  "skills": {
+    "allow": [
+      "web_search",
+      "web_fetch",
+      "image",
+      "sessions_spawn"
+    ]
+  },
+  "plugins": {
+    "slots": {
+      "memory": "memory-lancedb-pro"
+    }
+  }
+}
