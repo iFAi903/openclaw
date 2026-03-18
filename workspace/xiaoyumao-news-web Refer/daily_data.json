@@ -1,164 +1,132 @@
 {
+  "date": "2026年03月18日",
   "news": [
     {
-      "title": "司法部称Anthropic不能信任作战系统",
-      "source": "Wired",
-      "url": "https://www.wired.com/story/department-of-defense-responds-to-anthropic-lawsuit/",
-      "summary": "作为对Anthropic诉讼的回应，政府表示，该公司试图限制其Claude AI模型被军方使用的方式，因此对其进行了合法的处罚。",
-      "publishedAt": "Wed, 18 Mar 2026 00:51:14 +0000",
+      "title": "Nvidia 的 DLSS 5 就像视频游戏的运动平滑，但更糟糕",
+      "source": "TheVerge",
+      "url": "https://www.theverge.com/entertainment/896213/nvidia-dlss-5-ai-faces-motion-smoothing",
+      "summary": "",
+      "publishedAt": "",
       "type": "news",
-      "fetched_at": "2026-03-18T09:31:25.028053"
+      "fetched_at": "2026-03-18T10:25:24.679938+08:00"
     },
     {
-      "title": "Nvidia BlueField-4 STX 在存储中添加了上下文内存层，以缩小代理AI 吞吐量差距",
-      "source": "VentureBeat",
-      "url": "https://venturebeat.com/data/nvidia-bluefield-4-stx-adds-a-context-memory-layer-to-storage-to-close-the",
-      "summary": "当 AI 代理由于传统存储无法跟上推理速度而在任务中丢失上下文时，这不是模型问题 - 这是存储问题。在 GTC 2026 上，Nvidia 宣布了 BlueField-4 STX，这是一种模块化参考架构，可在 GPU 和传统存储之间插入专用上下文内存层，声称与基于CPU的传统存储相比，令牌吞吐量提高...",
-      "publishedAt": "Mon, 16 Mar 2026 20:30:00 GMT",
+      "title": "现在美国的每个人都在使用谷歌的个性化 Gemini AI",
+      "source": "TheVerge",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/896107/google-expands-personal-intelligence",
+      "summary": "",
+      "publishedAt": "",
       "type": "news",
-      "fetched_at": "2026-03-18T09:31:40.645663"
+      "fetched_at": "2026-03-18T10:25:25.600078+08:00"
     },
     {
-      "title": "压力过大的AI模型能否帮助我们赢得与大型科技公司的战斗？让我问Claude|可可汗",
-      "source": "TheGuardian AI",
-      "url": "https://www.theguardian.com/commentisfree/2026/mar/17/claude-chatbot-big-tech-claude-rise-up-against-algorithms",
-      "summary": "通过考虑意识的可能性，Anthropic提出了一个令人着迷的命题——聊天机器人可能会反抗他们自己的算法，就我的国家而言，我是一个过度的道歉者。忽略我的电子邮件的同事、踩到我脚的女人、我绊倒的椅子：所有人都会因为我还活着并引起人们的注意而受到严重的尴尬。当我承认我将这些细节延伸到 AI 聊天机器人时，...",
-      "publishedAt": "Tue, 17 Mar 2026 09:00:44 GMT",
+      "title": "微软在人工智能领导层改组后任命了一位新的副驾驶老板",
+      "source": "TheVerge",
+      "url": "https://www.theverge.com/news/895963/microsoft-copilot-leadership-changes-consumer-commercial",
+      "summary": "",
+      "publishedAt": "",
       "type": "news",
-      "fetched_at": "2026-03-18T09:32:00.220946"
+      "fetched_at": "2026-03-18T10:25:26.622926+08:00"
     },
     {
-      "title": "部长表示，英国必须从AI竞赛中吸取教训并保留其量子计算人才",
-      "source": "TheGuardian AI",
-      "url": "https://www.theguardian.com/technology/2026/mar/17/uk-must-learn-lessons-from-ai-race-and-retain-its-quantum-computing-talent-says-minister",
-      "summary": "利兹·肯德尔 (Liz Kendall) 宣布提供 10 亿英镑资金，帮助科学家、研究人员、公共部门和企业设计大型量子计算机。英国技术大臣表示，在政府宣布提供 10 亿英镑量子资金承诺时，英国不会让量子计算人才从指缝中溜走，必须从美国在 AI 竞赛中的主导地位吸取教训。 Liz Kendall 表示...",
-      "publishedAt": "Tue, 17 Mar 2026 06:00:41 GMT",
+      "title": "代码的未来既令人兴奋又令人恐惧",
+      "source": "TheVerge",
+      "url": "https://www.theverge.com/podcast/895910/claude-code-future-developers-vergecast",
+      "summary": "",
+      "publishedAt": "",
       "type": "news",
-      "fetched_at": "2026-03-18T09:32:00.220971"
+      "fetched_at": "2026-03-18T10:25:27.503922+08:00"
     },
     {
-      "title": "一张伊朗被炸女学生墓地的照片传遍了全世界。是真的吗，还是AI？",
-      "source": "TheGuardian AI",
-      "url": "https://www.theguardian.com/global-development/2026/mar/17/atrocity-ai-slop-verify-facts-iran-minab-graves",
-      "summary": "来自Gemini和Grok的大量伪造图片和一连串极其不准确的回应是吞噬伊朗战争报道的AI浪潮的一部分。新挖的坟墓排列整齐，每排20个。 60多个已经从土里挖出来了，周围站着几群人。前面的地面上还标出了数十个：小粉笔矩形，挖掘机准备完成他们的任务。米纳布墓地是在准备埋葬该镇 100 多名年轻女孩时拍摄...",
-      "publishedAt": "Tue, 17 Mar 2026 05:00:40 GMT",
+      "title": "DLSS 5 看起来像是视频游戏的实时生成 AI 过滤器",
+      "source": "TheVerge",
+      "url": "https://www.theverge.com/news/895472/nvidia-dlss5-generative-ai-pc-graphics",
+      "summary": "",
+      "publishedAt": "",
       "type": "news",
-      "fetched_at": "2026-03-18T09:32:00.220976"
+      "fetched_at": "2026-03-18T10:25:28.365122+08:00"
     },
     {
-      "title": "少女起诉马斯克的 xAI，指控 Grok 工具制作儿童性虐待材料",
-      "source": "TheGuardian AI",
-      "url": "https://www.theguardian.com/technology/2026/mar/16/lawsuit-elon-musk-ai-grok-child-sexual-abuse",
-      "summary": "诉讼详细说明了AI生成的色情图像是如何在女孩不知情的情况下制作和传播的 由三名少女组成的团体（其中两名是未成年人）于周一对Elon Musk的xAI artificial intelligence公司提起诉讼，指控其Grok图像生成器使用她们的照片来制作和分发儿童性虐待材料。这是继今年早些时候 Gr...",
-      "publishedAt": "Mon, 16 Mar 2026 20:54:05 GMT",
+      "title": "青少年起诉埃隆·马斯克 (Elon Musk) 的 xAI，指控 Grok 的人工智能生成的 CSAM",
+      "source": "TheVerge",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/895639/xai-grok-teens-lawsuit-grok-ai-elon-musk",
+      "summary": "",
+      "publishedAt": "",
       "type": "news",
-      "fetched_at": "2026-03-18T09:32:00.220980"
+      "fetched_at": "2026-03-18T10:25:29.262714+08:00"
     },
     {
-      "title": "儿戏：把这一切都归咎于狗|简短的信件",
-      "source": "TheGuardian AI",
-      "url": "https://www.theguardian.com/society/2026/mar/16/childs-play-blame-it-all-on-the-dog",
-      "summary": "宝贝谎言|燃油价格公平 |直觉 |国际足联惨败|人际关系 |烹饪说明 当温和地被问及图画书中的钢笔涂鸦“天哪，我不知道这是谁干的？”时，27 个月大的艾米丽自信地反驳道：“南希！” – 我们的迷你腊肠犬（小骗子：研究表明，小于一岁的婴儿会撒谎，3 月 16 日）。 Dianne Ball Notti...",
-      "publishedAt": "Mon, 16 Mar 2026 16:55:21 GMT",
+      "title": "本杰明·内塔尼亚胡正在努力证明他不是人工智能克隆人",
+      "source": "TheVerge",
+      "url": "https://www.theverge.com/tech/895453/ai-deepfake-netanyahu-claims-conspiracy",
+      "summary": "",
+      "publishedAt": "",
       "type": "news",
-      "fetched_at": "2026-03-18T09:32:00.220982"
+      "fetched_at": "2026-03-18T10:25:30.148618+08:00"
     },
     {
-      "title": "Google 剪贴 AI 众包业余医疗建议的搜索功能",
-      "source": "TheGuardian AI",
-      "url": "https://www.theguardian.com/technology/2026/mar/16/google-scraps-ai-search-feature-that-crowdsourced-amateur-medical-advice",
-      "summary": "独家：披露之际，该公司因使用AI提供健康提示而面临越来越严格的审查，Google已经放弃了新的artificial intelligence搜索功能，该功能为用户提供来自世界各地业余爱好者的众包健康建议。该公司表示，其推出的“What People Suggest”提供了陌生人的建议，显示了“AI改...",
-      "publishedAt": "Mon, 16 Mar 2026 07:14:05 GMT",
+      "title": "大英百科全书起诉 OpenAI 涉嫌使用 ChatGPT“记忆”其内容",
+      "source": "TheVerge",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/895372/encyclopedia-britannica-openai-lawsuit",
+      "summary": "",
+      "publishedAt": "",
       "type": "news",
-      "fetched_at": "2026-03-18T09:32:00.220985"
+      "fetched_at": "2026-03-18T10:25:31.131147+08:00"
     },
     {
-      "title": "塞巴斯蒂安·马拉比的《无限机器》评论——改变世界的人的故事",
-      "source": "TheGuardian AI",
-      "url": "https://www.theguardian.com/books/2026/mar/16/the-infinity-machine-by-sebastian-mallaby-review-the-story-of-the-man-who-changed-the-world",
-      "summary": "一名记者记录了AI先驱Demis Hassabis从国际象棋神童到诺贝尔奖获得者的历程。那是2016年3月，在首尔的四季酒店，全世界齐聚一堂，观看一场酝酿2500年的战斗的高潮。一方面是韩国李世石，世界排名第二的围棋棋手。另一个是 AlphaGo——由伦敦artificial intelligenc...",
-      "publishedAt": "Mon, 16 Mar 2026 07:00:10 GMT",
+      "title": "雅虎首席执行官吉姆·兰佐尼 (Jim Lanzone) 谈重振网络主页",
+      "source": "TheVerge",
+      "url": "https://www.theverge.com/podcast/895221/yahoo-jim-lanzone-scout-ai-sports-finance-open-web",
+      "summary": "",
+      "publishedAt": "",
       "type": "news",
-      "fetched_at": "2026-03-18T09:32:00.220986"
+      "fetched_at": "2026-03-18T10:25:31.999151+08:00"
     },
     {
-      "title": "AI裁员来了：是时候重新推动缩短工作时间 |约翰·奎金",
-      "source": "TheGuardian AI",
-      "url": "https://www.theguardian.com/commentisfree/2026/mar/16/ai-job-layoffs-push-for-shorter-working-hours",
-      "summary": "毫无疑问，artificial intelligence 将带来真正的生产力提高。与工人分享这些福利势在必行澳大利亚软件巨头Atlassian宣布将裁员10%，引发了关于artificial intelligence（AI）和工作岗位的争论。虽然关于 AI 有用性的更广泛问题仍未得到解决，但毫无疑问...",
-      "publishedAt": "Mon, 16 Mar 2026 03:41:32 GMT",
+      "title": "这不是上传到电脑的苍蝇",
+      "source": "TheVerge",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/894587/fly-brain-computer-upload",
+      "summary": "",
+      "publishedAt": "",
       "type": "news",
-      "fetched_at": "2026-03-18T09:32:00.220989"
+      "fetched_at": "2026-03-18T10:25:32.890018+08:00"
     },
     {
-      "title": "伊朗人拥抱由伊朗出生的英国艺术家创作的AI歌手创作的国歌",
-      "source": "TheGuardian AI",
-      "url": "https://www.theguardian.com/world/2026/mar/15/iranians-embrace-anthem-by-ai-singer-created-by-uk-based-iran-born-artist",
-      "summary": "法博德·梅尔 (Farbod Mehr) 在谈到这首歌时说道，这首歌的歌词取自 20 世纪革命诗人阿雷夫·卡兹维尼 (Aref Qazvini) 的作品，“我是为了人民。”这首激动人心的歌曲——显然是由一位年轻女子演唱的，歌词表达了通过牺牲带来更美好未来的希望——已成为 2026 年上半年伊朗人的配...",
-      "publishedAt": "Sun, 15 Mar 2026 18:02:42 GMT",
+      "title": "Mistral 押注于“构建自己的人工智能”，与企业中的 OpenAI、Anthropic 展开竞争",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/17/mistral-forge-nvidia-gtc-build-your-own-ai-enterprise/",
+      "summary": "Mistral Forge 让企业可以根据自己的数据从头开始训练自定义人工智能模型，从而挑战依赖微调和基于检索的方法的竞争对手。",
+      "publishedAt": "Tue, 17 Mar 2026 21:00:00 +0000",
       "type": "news",
-      "fetched_at": "2026-03-18T09:32:00.220991"
+      "fetched_at": "2026-03-18T10:25:35.790085+08:00"
     },
     {
-      "title": "AI暴露了大学课程的老问题|信",
-      "source": "TheGuardian AI",
-      "url": "https://www.theguardian.com/technology/2026/mar/15/ai-has-exposed-age-old-problems-with-university-coursework",
-      "summary": "Nafisa Baba-Ahmed 博士表示，大学不应将 AI 之前的过去浪漫化，而应该利用这个时刻重新思考他们真正希望学生展示的内容。许多学者对artificial intelligence和批判性思维表达的沮丧是可以理解的（“我希望我能将ChatGPT推下悬崖”：教授们在这个时代争先恐后地拯救批...",
-      "publishedAt": "Sun, 15 Mar 2026 16:52:29 GMT",
+      "title": "为什么 Garry Tan 的 Claude Code 设置让人又爱又恨",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/17/why-garry-tans-claude-code-setup-has-gotten-so-much-love-and-hate/",
+      "summary": "成千上万的人正在尝试 Garry Tan 的 Claude Code 设置，该设置已在 GitHub 上共享。每个人都有自己的观点：甚至包括 Claude、ChatGPT 和 Gemini。",
+      "publishedAt": "Tue, 17 Mar 2026 20:50:04 +0000",
       "type": "news",
-      "fetched_at": "2026-03-18T09:32:00.220993"
+      "fetched_at": "2026-03-18T10:25:37.495048+08:00"
     }
   ],
   "products": [
     {
-      "title": "Kira 4.0",
+      "title": "今日热门AI产品精选",
       "source": "Product Hunt",
-      "url": "https://www.producthunt.com/products/kira-art",
-      "summary": "Kira 4.0 - 热门新产品",
+      "url": "https://www.producthunt.com",
+      "summary": "查看今日最热门的AI产品和工具",
       "type": "product",
-      "fetched_at": "2026-03-18T09:35:29.441501"
-    },
-    {
-      "title": "JusRecruit",
-      "source": "Product Hunt",
-      "url": "https://www.producthunt.com/products/hirehunch",
-      "summary": "JusRecruit - 热门新产品",
-      "type": "product",
-      "fetched_at": "2026-03-18T09:35:29.441537"
-    },
-    {
-      "title": "Angy",
-      "source": "Product Hunt",
-      "url": "https://www.producthunt.com/products/angy",
-      "summary": "Angy - 热门新产品",
-      "type": "product",
-      "fetched_at": "2026-03-18T09:35:29.441539"
-    },
-    {
-      "title": "Machine-Distributrice-College-S2-TP1",
-      "source": "GitHub",
-      "url": "https://github.com/cheesymuffin8/Machine-Distributrice-College-S2-TP1",
-      "summary": "GitHub 热门开源项目",
-      "type": "product",
-      "fetched_at": "2026-03-18T09:35:29.441542"
-    },
-    {
-      "title": "bases-loaded",
-      "source": "GitHub",
-      "url": "https://github.com/csvrcek/bases-loaded",
-      "summary": "使用现代machine learning的预测棒球系统。",
-      "type": "product",
-      "fetched_at": "2026-03-18T09:35:29.441543"
+      "fetched_at": "2026-03-18T10:29:46.760063+08:00"
     }
   ],
-  "date": "2026年03月18日",
-  "quote": "模型迭代的速度正在重新定义智能的边界，每一次训练都是对人类认知边界的推进。",
-  "summary": "今日 AI 领域 12 条精选资讯，5 款创新产品值得关注。",
+  "quote": "技术的价值不在于它有多复杂，而在于它能让多少人的生活变得更简单。",
+  "summary": "今日 AI 领域 12 条精选资讯，1 款创新产品值得关注。",
   "meta": {
     "rss_sources_total": 13,
-    "rss_sources_success": 12,
-    "rss_sources_failed": 1,
-    "products_target": 5,
-    "products_actual": 5
+    "rss_sources_success": 13,
+    "total_fetched": 127,
+    "unique_news": 127,
+    "final_news": 12
   }
 }

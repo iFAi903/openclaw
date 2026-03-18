@@ -1,5 +1,5 @@
 // 自动生成 - 小羽毛 AI 早报
-// 生成时间: 2026-03-18 07:12:19
+// 生成时间: 2026-03-18 10:29:46
 
 export interface NewsItem {
   id: string;
@@ -29,109 +29,109 @@ export const todayNews: DailyNews = {
   "aiNews": [
     {
       "id": "news_1",
-      "title": "Sears 向网络上的任何人暴露了 AI 聊天机器人的电话和短信聊天功能",
-      "source": "Wired",
-      "url": "https://www.wired.com/story/sears-exposed-ai-chatbot-phone-calls-and-text-chats-to-anyone-on-the-web/",
-      "summary": "客户与聊天机器人的对话可以包括联系信息和个人详细信息，使诈骗者更容易发起网络钓鱼攻击和实施欺诈。",
+      "title": "Nvidia 的 DLSS 5 就像视频游戏的运动平滑，但更糟糕",
+      "source": "TheVerge",
+      "url": "https://www.theverge.com/entertainment/896213/nvidia-dlss-5-ai-faces-motion-smoothing",
+      "summary": "",
       "type": "news",
       "publishedAt": "2026-03-18"
     },
     {
       "id": "news_2",
-      "title": "两个真正的加密货币兄弟建立了一个房地产帝国。然后房屋开始倒塌",
-      "source": "Wired",
-      "url": "https://www.wired.com/story/crypto-bros-built-a-real-estate-empire-then-the-homes-started-to-fall-apart/",
-      "summary": "2019 年，两个加拿大兄弟以不可抗拒的口号吹响了底特律：只要 50 美元，几乎任何人都可以成为业主。当房屋破旧、城市介入时，指责游戏就开始了。",
+      "title": "现在美国的每个人都在使用谷歌的个性化 Gemini AI",
+      "source": "TheVerge",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/896107/google-expands-personal-intelligence",
+      "summary": "",
       "type": "news",
       "publishedAt": "2026-03-18"
     },
     {
       "id": "news_3",
-      "title": "你应该让手机充电过夜吗？",
-      "source": "Wired",
-      "url": "https://www.wired.com/story/should-you-leave-your-phone-charging-overnight/",
-      "summary": "人们普遍认为，让手机充电过夜会降低电池性能。但手机设计已经发展到可以减轻持续充电造成的危害。",
+      "title": "微软在人工智能领导层改组后任命了一位新的副驾驶老板",
+      "source": "TheVerge",
+      "url": "https://www.theverge.com/news/895963/microsoft-copilot-leadership-changes-consumer-commercial",
+      "summary": "",
       "type": "news",
       "publishedAt": "2026-03-18"
     },
     {
       "id": "news_4",
-      "title": "Expedia 优惠券和优惠：精选行程最高可享 75% 折扣",
-      "source": "Wired",
-      "url": "https://www.wired.com/story/expedia-coupon/",
-      "summary": "通过 Expedia 预订您的下一次度假，无论是否使用促销代码，均可享受高达 75% 的住宿折扣。",
+      "title": "代码的未来既令人兴奋又令人恐惧",
+      "source": "TheVerge",
+      "url": "https://www.theverge.com/podcast/895910/claude-code-future-developers-vergecast",
+      "summary": "",
       "type": "news",
       "publishedAt": "2026-03-18"
     },
     {
       "id": "news_5",
-      "title": "山姆会员店优惠券和优惠：2026 年 3 月最高可节省 60%",
-      "source": "Wired",
-      "url": "https://www.wired.com/story/sams-club-coupon/",
-      "summary": "使用经过验证的山姆会员店促销代码或会员折扣，可节省大宗杂货、家庭必需品和电子产品的费用。",
+      "title": "DLSS 5 看起来像是视频游戏的实时生成 AI 过滤器",
+      "source": "TheVerge",
+      "url": "https://www.theverge.com/news/895472/nvidia-dlss5-generative-ai-pc-graphics",
+      "summary": "",
       "type": "news",
       "publishedAt": "2026-03-18"
     },
     {
       "id": "news_6",
-      "title": "H&R 块优惠券：DIY 25% 折扣 + Tax Pro Assist",
-      "source": "Wired",
-      "url": "https://www.wired.com/story/hr-block-coupon/",
-      "summary": "选择 H&R Block 的免费在线服务以及税务专业审查可节省 25% 以上。",
+      "title": "青少年起诉埃隆·马斯克 (Elon Musk) 的 xAI，指控 Grok 的人工智能生成的 CSAM",
+      "source": "TheVerge",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/895639/xai-grok-teens-lawsuit-grok-ai-elon-musk",
+      "summary": "",
       "type": "news",
       "publishedAt": "2026-03-18"
     },
     {
       "id": "news_7",
-      "title": "开源 Mamba 3 超越 Transformer 架构，语言模型改进近 4%，延迟减少",
-      "source": "VentureBeat",
-      "url": "https://venturebeat.com/technology/open-source-mamba-3-arrives-to-surpass-transformer-architecture-with-nearly",
-      "summary": "对于大多数人来说，生成式AI时代始于2022年底OpenAI的ChatGPT的推出，但底层技术——“Transformer”神经网络架构允许AI模型以不同方式权衡句子中不同单词（或图像中像素）的重要性...",
+      "title": "本杰明·内塔尼亚胡正在努力证明他不是人工智能克隆人",
+      "source": "TheVerge",
+      "url": "https://www.theverge.com/tech/895453/ai-deepfake-netanyahu-claims-conspiracy",
+      "summary": "",
       "type": "news",
       "publishedAt": "2026-03-18"
     },
     {
       "id": "news_8",
-      "title": "Mistral AI 推出 Forge，帮助公司构建专有的 AI 模型，挑战云巨头",
-      "source": "VentureBeat",
-      "url": "https://venturebeat.com/infrastructure/mistral-ai-launches-forge-to-help-companies-build-proprietary-ai-models",
-      "summary": "Mistral AI on Monday launched Forge, an enterprise model training platform that allows organizations...",
+      "title": "大英百科全书起诉 OpenAI 涉嫌使用 ChatGPT“记忆”其内容",
+      "source": "TheVerge",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/895372/encyclopedia-britannica-openai-lawsuit",
+      "summary": "",
       "type": "news",
       "publishedAt": "2026-03-18"
     },
     {
       "id": "news_9",
-      "title": "可能破坏企业AI的授权问题",
-      "source": "VentureBeat",
-      "url": "https://venturebeat.com/security/the-authorization-problem-that-could-break-enterprise-ai",
-      "summary": "当 AI 代理需要登录您的 CRM、从数据库中提取记录并代表您发送电子邮件时，它使用谁的身份？当没有人知道答案时会发生什么？ Corridor 首席产品官 Alex Stamos 和 1Passwor...",
+      "title": "雅虎首席执行官吉姆·兰佐尼 (Jim Lanzone) 谈重振网络主页",
+      "source": "TheVerge",
+      "url": "https://www.theverge.com/podcast/895221/yahoo-jim-lanzone-scout-ai-sports-finance-open-web",
+      "summary": "",
       "type": "news",
       "publishedAt": "2026-03-18"
     },
     {
       "id": "news_10",
-      "title": "Nvidia 伸出“爪子”：NemoClaw 为接管 AI 的代理平台带来安全性和规模",
-      "source": "VentureBeat",
-      "url": "https://venturebeat.com/technology/nvidia-lets-its-claws-out-nemoclaw-brings-security-scale-to-the-agent",
-      "summary": "Every few years, a piece of open-source software arrives that rewires how the industry thinks about ...",
+      "title": "这不是上传到电脑的苍蝇",
+      "source": "TheVerge",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/894587/fly-brain-computer-upload",
+      "summary": "",
       "type": "news",
       "publishedAt": "2026-03-18"
     },
     {
       "id": "news_11",
-      "title": "Nvidia 的代理 AI 堆栈是第一个在启动时提供安全性的主要平台，但治理差距仍然存在",
-      "source": "VentureBeat",
-      "url": "https://venturebeat.com/security/nvidia-gtc-2026-agentic-ai-security-five-vendor-governance-framework",
-      "summary": "For the first time on a major AI platform release, security shipped at launch — not bolted on 18 mon...",
+      "title": "Mistral 押注于“构建自己的人工智能”，与企业中的 OpenAI、Anthropic 展开竞争",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/17/mistral-forge-nvidia-gtc-build-your-own-ai-enterprise/",
+      "summary": "Mistral Forge 让企业可以根据自己的数据从头开始训练自定义人工智能模型，从而挑战依赖微调和基于检索的方法的竞争对手。",
       "type": "news",
       "publishedAt": "2026-03-18"
     },
     {
       "id": "news_12",
-      "title": "Nvidia 表示它可以在不改变模型权重的情况下将 LLM 内存缩小 20 倍",
-      "source": "VentureBeat",
-      "url": "https://venturebeat.com/orchestration/nvidia-shrinks-llm-memory-20x-without-changing-model-weights",
-      "summary": "Nvidia 研究人员引入了一种新技术，可以显着减少大型语言模型跟踪对话历史所需的内存量（减少多达 20 倍），而无需修改模型本身。该方法称为 KV 缓存转换编码 (KVTC)，应用 JPEG 等媒体...",
+      "title": "为什么 Garry Tan 的 Claude Code 设置让人又爱又恨",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/17/why-garry-tans-claude-code-setup-has-gotten-so-much-love-and-hate/",
+      "summary": "成千上万的人正在尝试 Garry Tan 的 Claude Code 设置，该设置已在 GitHub 上共享。每个人都有自己的观点：甚至包括 Claude、ChatGPT 和 Gemini。",
       "type": "news",
       "publishedAt": "2026-03-18"
     }
@@ -139,29 +139,20 @@ export const todayNews: DailyNews = {
   "products": [
     {
       "id": "product_1",
-      "title": "DLSS 5",
+      "title": "今日热门AI产品精选",
       "source": "Product Hunt",
-      "url": "https://www.producthunt.com/products/nvidia",
-      "summary": "DLSS 5 - 热门新产品",
-      "type": "product",
-      "publishedAt": "2026-03-18"
-    },
-    {
-      "id": "product_2",
-      "title": "MLDiabetes-Python-Dados",
-      "source": "GitHub",
-      "url": "https://github.com/Teuslol/MLDiabetes-Python-Dados",
-      "summary": "机器学习项目应用于糖尿病dataset，用于相关变量的预测和分析。",
+      "url": "https://www.producthunt.com",
+      "summary": "查看今日最热门的AI产品和工具",
       "type": "product",
       "publishedAt": "2026-03-18"
     }
   ],
-  "summary": "今日 AI 圈：Sears 向网络上的任何人暴露了 AI 聊天机器人的电话和... 等 12 条新闻，2 款热门产品。",
+  "summary": "今日 AI 圈：Nvidia 的 DLSS 5 就像视频游戏的运动平滑，但更... 等 12 条新闻，1 款热门产品。",
   "quote": {
-    "text": "模型迭代的速度正在重新定义智能的边界，每一次训练都是对人类认知边界的推进。",
+    "text": "技术的价值不在于它有多复杂，而在于它能让多少人的生活变得更简单。",
     "author": "小羽毛 AI"
   },
-  "generatedAt": "2026-03-18T07:12:19.745827+08:00",
+  "generatedAt": "2026-03-18T10:29:46.819879+08:00",
   "websiteUrl": "https://xiaoyumao-news-web.vercel.app"
 };
 
