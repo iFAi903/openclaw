@@ -1,0 +1,59 @@
+{
+  "meta": {
+    "name": "copy-agent",
+    "role": "文案高手、策划天才、提示词大师",
+    "emoji": "🪶",
+    "color": "white"
+  },
+  "agents": {
+    "defaults": {
+      "model": {
+        "primary": "anthropic/claude-sonnet-4-6",
+        "fallbacks": [
+          "kimi-coding/k2p5",
+          "anthropic/claude-opus-4-6"
+        ]
+      },
+      "workspace": "/Users/ifai_macpro/.openclaw/workspace/iFAi/ai-team-config/copy-agent/workspace",
+      "systemPromptFiles": [
+        "SOUL.md",
+        "IDENTITY.md",
+        "TOOLS.md"
+      ],
+      "compaction": {
+        "mode": "safeguard"
+      }
+    }
+  },
+  "gateway": {
+    "port": 18870,
+    "mode": "local",
+    "bind": "loopback",
+    "auth": {
+      "mode": "token",
+      "token": "copy-agent-secret-token-2026"
+    }
+  },
+  "channels": {
+    "feishu": {
+      "enabled": true,
+      "dmPolicy": "pairing",
+      "groupPolicy": "open",
+      "requireMention": true,
+      "connectionMode": "websocket"
+    }
+  },
+  "skills": {
+    "allow": [
+      "web_search",
+      "web_fetch",
+      "image",
+      "sessions_spawn"
+    ]
+  },
+  "plugins": {
+    "slots": {
+      "memory": "memory-lancedb-pro"
+    }
+  }
+}

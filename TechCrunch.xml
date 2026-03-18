@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>TechCrunch</title>
+	<atom:link href="https://techcrunch.com/feed/" rel="self" type="application/rss+xml" />
+	<link>https://techcrunch.com/</link>
+	<description>Startup and Technology News</description>
+	<lastBuildDate>Thu, 12 Mar 2026 05:25:43 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.9.4</generator>
+
+<image>
+	<url>https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=32</url>
+	<title>TechCrunch</title>
+	<link>https://techcrunch.com/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Chinese brain interface startup Gestala raises $21M just two months after launch</title>
+		<link>https://techcrunch.com/2026/03/11/bci-startup-gestala-raises-21-million-for-non-invasive-ultrasound-brain-tech/</link>
+		
+		<dc:creator><![CDATA[Kate Park]]></dc:creator>
+		<pubDate>Thu, 12 Mar 2026 04:00:00 +0000</pubDate>
+				<category><![CDATA[Startups]]></category>
+		<category><![CDATA[Biotech & Health]]></category>
+		<category><![CDATA[China]]></category>
+		<category><![CDATA[startup]]></category>
+		<category><![CDATA[Exclusive]]></category>
+		<category><![CDATA[HealthTech]]></category>
+		<category><![CDATA[Asia]]></category>
+		<category><![CDATA[Neuralink]]></category>
+		<category><![CDATA[healthtech startups]]></category>
+		<category><![CDATA[merge labs]]></category>
+		<category><![CDATA[brain computer interface]]></category>
+		<category><![CDATA[ultrasound BCI]]></category>
+		<category><![CDATA[brain tech]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=3101306</guid>
+
+					<description><![CDATA[This is the largest early-stage funding in China’s brain computer interface industry. ]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>AI &#8216;actor&#8217; Tilly Norwood put out the worst song I&#8217;ve ever heard</title>
+		<link>https://techcrunch.com/2026/03/11/ai-actor-tilly-norwood-put-out-the-worst-song-ive-ever-heard/</link>
+		
+		<dc:creator><![CDATA[Amanda Silberling]]></dc:creator>
+		<pubDate>Wed, 11 Mar 2026 23:35:03 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[Media & Entertainment]]></category>
+		<category><![CDATA[tilly norwood]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=3101594</guid>
+
+					<description><![CDATA[This song is an AI actor's rallying cry to other AI actors, urging them to keep going despite the naysayers who doubt their humanity. Literally no one can relate to this.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Nuro is testing its autonomous vehicle tech on Tokyo&#8217;s streets</title>
+		<link>https://techcrunch.com/2026/03/11/nuro-is-testing-its-autonomous-vehicle-tech-on-tokyos-streets/</link>
+		
+		<dc:creator><![CDATA[Kirsten Korosec]]></dc:creator>
+		<pubDate>Wed, 11 Mar 2026 23:09:38 +0000</pubDate>
+				<category><![CDATA[Transportation]]></category>
+		<category><![CDATA[autonomous vehicles]]></category>
+		<category><![CDATA[Japan]]></category>
+		<category><![CDATA[nuro]]></category>
+		<category><![CDATA[self-driving cars]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=3101027</guid>
+
+					<description><![CDATA[Nuro began testing its self-driving software on public roads in Tokyo, marking the first international expansion for the AV startup. ]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Google Play is adding new paid and PC games, game trials, community posts, and more</title>
+		<link>https://techcrunch.com/2026/03/11/google-play-is-adding-new-paid-and-pc-games-game-trials-community-posts-and-more/</link>
+		
+		<dc:creator><![CDATA[Aisha Malik]]></dc:creator>
+		<pubDate>Wed, 11 Mar 2026 23:00:00 +0000</pubDate>
+				<category><![CDATA[Apps]]></category>
+		<category><![CDATA[Gaming]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[Google Play]]></category>
+		<category><![CDATA[mobile games]]></category>
+		<category><![CDATA[video games]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=3101021</guid>
+
+					<description><![CDATA[The updates indicate that Google is focused on transforming Google Play into an enhanced gaming hub.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Ford&#8217;s new AI assistant will help fleet owners know if seatbelts are being used</title>
+		<link>https://techcrunch.com/2026/03/11/fords-new-ai-assistant-will-help-fleet-owners-know-if-seatbelts-are-being-used/</link>
+		
+		<dc:creator><![CDATA[Kirsten Korosec]]></dc:creator>
+		<pubDate>Wed, 11 Mar 2026 22:51:39 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[Transportation]]></category>
+		<category><![CDATA[Ford]]></category>
+		<category><![CDATA[Ford Pro]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=3101742</guid>
+
+					<description><![CDATA[Ford Pro AI debuted at Work Truck Week in Indianapolis and is now available to all of its U.S.-based Pro telematics subscribers. ]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Ride-hailing inDrive acquires Pakistan&#8217;s Krave Mart to bolster grocery delivery</title>
+		<link>https://techcrunch.com/2026/03/11/ride-hailing-indrive-acquires-pakistans-kravemart-to-bolster-grocery-delivery/</link>
+		
+		<dc:creator><![CDATA[Jagmeet Singh]]></dc:creator>
+		<pubDate>Wed, 11 Mar 2026 22:45:35 +0000</pubDate>
+				<category><![CDATA[Apps]]></category>
+		<category><![CDATA[Commerce]]></category>
+		<category><![CDATA[Startups]]></category>
+		<category><![CDATA[Transportation]]></category>
+		<category><![CDATA[Exclusive]]></category>
+		<category><![CDATA[indrive]]></category>
+		<category><![CDATA[Krave Mart]]></category>
+		<category><![CDATA[Mergers and Acquisitions]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=3101699</guid>
+
+					<description><![CDATA[inDrive has closed its acquisition of KraveMart, expanding grocery delivery in a market dominated by Foodpanda.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Zendesk acquires agentic customer service startup Forethought</title>
+		<link>https://techcrunch.com/2026/03/11/zendesk-acquires-agentic-customer-service-startup-forethought/</link>
+		
+		<dc:creator><![CDATA[Julie Bort]]></dc:creator>
+		<pubDate>Wed, 11 Mar 2026 22:41:27 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[Startups]]></category>
+		<category><![CDATA[TC]]></category>
+		<category><![CDATA[forethought ai]]></category>
+		<category><![CDATA[Mergers and Acquisitions]]></category>
+		<category><![CDATA[Startup battlefied]]></category>
+		<category><![CDATA[Zendesk]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=3101695</guid>
+
+					<description><![CDATA[Forethought was years ahead of its time and the 2018 winner of TechCrunch Battlefield.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>India neobank Fi winds down banking services on its platform</title>
+		<link>https://techcrunch.com/2026/03/11/india-neobank-fi-winds-down-banking-services-on-its-platform/</link>
+		
+		<dc:creator><![CDATA[Jagmeet Singh]]></dc:creator>
+		<pubDate>Wed, 11 Mar 2026 22:17:44 +0000</pubDate>
+				<category><![CDATA[Fintech]]></category>
+		<category><![CDATA[Startups]]></category>
+		<category><![CDATA[Exclusive]]></category>
+		<category><![CDATA[Federal Bank]]></category>
+		<category><![CDATA[fi]]></category>
+		<category><![CDATA[Fi Money]]></category>
+		<category><![CDATA[neobank]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=3101395</guid>
+
+					<description><![CDATA[Fi, founded by former Google Pay executives, is discontinuing banking services over four years after launch.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Netflix may have paid $600 million for Ben Affleck&#8217;s AI startup</title>
+		<link>https://techcrunch.com/2026/03/11/netflix-may-have-paid-600-million-for-ben-afflecks-ai-startup/</link>
+		
+		<dc:creator><![CDATA[Lauren Forristal]]></dc:creator>
+		<pubDate>Wed, 11 Mar 2026 22:00:05 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[Media & Entertainment]]></category>
+		<category><![CDATA[filmmaking]]></category>
+		<category><![CDATA[Generative AI]]></category>
+		<category><![CDATA[In Brief]]></category>
+		<category><![CDATA[InterPositive]]></category>
+		<category><![CDATA[Mergers and Acquisitions]]></category>
+		<category><![CDATA[Netflix]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=3101741</guid>
+
+					<description><![CDATA[This deal could rank as among the streaming giant's largest acquisitions ever. ]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Lovable says it added $100M in revenue last month alone, with just 146 employees</title>
+		<link>https://techcrunch.com/2026/03/11/lovable-says-it-added-100m-in-revenue-last-month-alone-with-just-146-employees/</link>
+		
+		<dc:creator><![CDATA[Anna Heim]]></dc:creator>
+		<pubDate>Wed, 11 Mar 2026 21:40:49 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[Startups]]></category>
+		<category><![CDATA[Lovable]]></category>
+		<category><![CDATA[product-led growth]]></category>
+		<category><![CDATA[vibe-coding]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=3101477</guid>
+
+					<description><![CDATA[Swedish vibe-coding unicorn Lovable crossed $400 million in annual recurring revenue (ARR) in February.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Quince hits $10B valuation with giant $500M round led by Iconiq</title>
+		<link>https://techcrunch.com/2026/03/11/quince-series-e-10b-valuation-with-500m-round-led-by-iconiq/</link>
+		
+		<dc:creator><![CDATA[Julie Bort]]></dc:creator>
+		<pubDate>Wed, 11 Mar 2026 20:50:17 +0000</pubDate>
+				<category><![CDATA[Commerce]]></category>
+		<category><![CDATA[Fundraising]]></category>
+		<category><![CDATA[Startups]]></category>
+		<category><![CDATA[e-commerce]]></category>
+		<category><![CDATA[ICONIQ]]></category>
+		<category><![CDATA[Quince]]></category>
+		<category><![CDATA[retail]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=3101620</guid>
+
+					<description><![CDATA[E-commerce company Quince has raised another massive round, less than a year after its previous raise.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Alternative app store AltStore PAL joins the fediverse</title>
+		<link>https://techcrunch.com/2026/03/11/alternative-app-store-altstore-pal-joins-the-fediverse/</link>
+		
+		<dc:creator><![CDATA[Sarah Perez]]></dc:creator>
+		<pubDate>Wed, 11 Mar 2026 20:26:48 +0000</pubDate>
+				<category><![CDATA[Apps]]></category>
+		<category><![CDATA[Social]]></category>
+		<category><![CDATA[altstore]]></category>
+		<category><![CDATA[app store]]></category>
+		<category><![CDATA[fediverse]]></category>
+		<category><![CDATA[open social web]]></category>
+		<category><![CDATA[social media]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=3101614</guid>
+
+					<description><![CDATA[AltStore PAL now supports the fediverse, using its own Mastodon server to let iOS developers share app updates and alerts across platforms like Mastodon and Threads.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Drivers in fatal Ford BlueCruise crashes were likely distracted before impact</title>
+		<link>https://techcrunch.com/2026/03/11/drivers-in-fatal-ford-bluecruise-crashes-were-likely-distracted-before-impact/</link>
+		
+		<dc:creator><![CDATA[Sean O'Kane]]></dc:creator>
+		<pubDate>Wed, 11 Mar 2026 19:20:00 +0000</pubDate>
+				<category><![CDATA[Transportation]]></category>
+		<category><![CDATA[advanced driver assistance systems]]></category>
+		<category><![CDATA[BlueCruise]]></category>
+		<category><![CDATA[Ford]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=3101454</guid>
+
+					<description><![CDATA[The National Transportation Safety Board released documents ahead of a March 31 hearing that help show how and why two drivers crashed into stationary vehicles in 2024, leading to three deaths.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Replit snags $9B valuation 6 months after hitting $3B</title>
+		<link>https://techcrunch.com/2026/03/11/replit-snags-9b-valuation-6-months-after-hitting-3b/</link>
+		
+		<dc:creator><![CDATA[Julie Bort]]></dc:creator>
+		<pubDate>Wed, 11 Mar 2026 18:52:52 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[Startups]]></category>
+		<category><![CDATA[TC]]></category>
+		<category><![CDATA[In Brief]]></category>
+		<category><![CDATA[Replit]]></category>
+		<category><![CDATA[vibe coding]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=3101554</guid>
+
+					<description><![CDATA[Replit raised a new $400 million round and said it hopes to have $1B in ARR by year's end.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Pro-Iran hacktivist group says it is behind attack on medical tech giant Stryker</title>
+		<link>https://techcrunch.com/2026/03/11/stryker-hack-pro-iran-hacktivist-group-handala-says-it-is-behind-attack/</link>
+		
+		<dc:creator><![CDATA[Lorenzo Franceschi-Bicchierai]]></dc:creator>
+		<pubDate>Wed, 11 Mar 2026 18:33:00 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[cybersecurity]]></category>
+		<category><![CDATA[data breach]]></category>
+		<category><![CDATA[hackers]]></category>
+		<category><![CDATA[hacking]]></category>
+		<category><![CDATA[hacktivist]]></category>
+		<category><![CDATA[Handala]]></category>
+		<category><![CDATA[iran]]></category>
+		<category><![CDATA[Iran War]]></category>
+		<category><![CDATA[Israel]]></category>
+		<category><![CDATA[Stryker]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=3101488</guid>
+
+					<description><![CDATA[The hacktivist group claimed the attack was in retaliation for a U.S. strike on a Tehran school that killed more than 175 people, most of them children. ]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Breakout Ventures raises $114M fund to back AI science startups</title>
+		<link>https://techcrunch.com/2026/03/11/breakout-ventures-raises-114m-fund-to-back-ai-science-startups/</link>
+		
+		<dc:creator><![CDATA[Dominic-Madori Davis]]></dc:creator>
+		<pubDate>Wed, 11 Mar 2026 18:06:34 +0000</pubDate>
+				<category><![CDATA[Venture]]></category>
+		<category><![CDATA[AI]]></category>
+		<category><![CDATA[biology]]></category>
+		<category><![CDATA[Breakout Ventures]]></category>
+		<category><![CDATA[In Brief]]></category>
+		<category><![CDATA[science]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=3101431</guid>
+
+					<description><![CDATA[Breakout Ventures is finding growing success by backing early-stage startups in scientific fields such as biology and chemistry. ]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Almost 40 new unicorns have been minted so far this year — here they are</title>
+		<link>https://techcrunch.com/2026/03/11/almost-40-new-unicorns-have-been-minted-so-far-this-year-here-they-are/</link>
+		
+		<dc:creator><![CDATA[Dominic-Madori Davis]]></dc:creator>
+		<pubDate>Wed, 11 Mar 2026 18:00:00 +0000</pubDate>
+				<category><![CDATA[Startups]]></category>
+		<category><![CDATA[Venture]]></category>
+		<category><![CDATA[unicorns]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=3101494</guid>
+
+					<description><![CDATA[With AI igniting an investor frenzy, more startups are achieving unicorn status every month. ]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>VC mega-funds are back with General Catalyst, Spark rumored to be raising billions</title>
+		<link>https://techcrunch.com/2026/03/11/vc-mega-funds-are-back-with-general-catalyst-spark-rumored-to-be-raising-billions/</link>
+		
+		<dc:creator><![CDATA[Julie Bort]]></dc:creator>
+		<pubDate>Wed, 11 Mar 2026 17:53:47 +0000</pubDate>
+				<category><![CDATA[Fundraising]]></category>
+		<category><![CDATA[Venture]]></category>
+		<category><![CDATA[Spark Capital]]></category>
+		<category><![CDATA[General Catalyst]]></category>
+		<category><![CDATA[Startups]]></category>
+		<category><![CDATA[In Brief]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=3101491</guid>
+
+					<description><![CDATA[General Catalyst is said to be raising $10 billion and Spark Capital $3 billion. This after several other firms have also raised mega-funds.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Poppi founder on TikTok, Super Bowl ads, and her return to Shark Tank</title>
+		<link>https://techcrunch.com/video/poppi-founder-on-tiktok-super-bowl-ads-and-her-return-to-shark-tank/</link>
+		
+		<dc:creator><![CDATA[Theresa Loconsolo]]></dc:creator>
+		<pubDate>Wed, 11 Mar 2026 17:47:05 +0000</pubDate>
+				<category><![CDATA[Startups]]></category>
+		<category><![CDATA[acquisition]]></category>
+		<category><![CDATA[Allison Ellsworth]]></category>
+		<category><![CDATA[cpg]]></category>
+		<category><![CDATA[Equity Video]]></category>
+		<category><![CDATA[founder]]></category>
+		<category><![CDATA[M&A]]></category>
+		<category><![CDATA[PepsiCo acquisition]]></category>
+		<category><![CDATA[Poppi]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?post_type=tc_video&#038;p=3101518</guid>
+
+					<description><![CDATA[For years, venture capitalists have been&#160;skeptical of beverage startups, citing thin margins and brutal distribution as reasons most brands never break out. But a new wave of “functional soda” companies has been challenging that assumption, including&#160;Poppi, the prebiotic soda brand that grew from a kitchen experiment into a&#160;$1.95 billion&#160;acquisition by PepsiCo.&#160; On this episode of [&#8230;]]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Hacker broke into FBI and compromised Epstein files, report says</title>
+		<link>https://techcrunch.com/2026/03/11/hacker-broke-into-fbi-and-compromised-epstein-files-report-says/</link>
+		
+		<dc:creator><![CDATA[Lorenzo Franceschi-Bicchierai]]></dc:creator>
+		<pubDate>Wed, 11 Mar 2026 16:50:22 +0000</pubDate>
+				<category><![CDATA[Government & Policy]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[cybersecurity]]></category>
+		<category><![CDATA[data breach]]></category>
+		<category><![CDATA[FBI]]></category>
+		<category><![CDATA[hackers]]></category>
+		<category><![CDATA[hacking]]></category>
+		<category><![CDATA[In Brief]]></category>
+		<category><![CDATA[jeffrey epstein]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=3101365</guid>
+
+					<description><![CDATA[According to a Reuters report, a foreign hacker broke into a server that was part of the FBI’s investigation into Jeffrey Epstein — without realizing they had hacked an FBI server.]]></description>
+		
+		
+		
+			</item>
+	</channel>
+</rss>

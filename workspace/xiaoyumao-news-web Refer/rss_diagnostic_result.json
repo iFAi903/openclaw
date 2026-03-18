@@ -1,0 +1,1038 @@
+{
+  "date": "2026年03月18日",
+  "news": [
+    {
+      "title": "Nvidia’s DLSS 5 is like motion smoothing for video games, but worse",
+      "source": "TheVerge",
+      "url": "https://www.theverge.com/entertainment/896213/nvidia-dlss-5-ai-faces-motion-smoothing",
+      "summary": "Yesterday Nvidia revealed its latest upscaling tech, called DLSS 5, which it described as \"the company's most significant breakthrough in computer graphics since the debut of real-time ray tracing in ...",
+      "publishedAt": "2026-03-17T14:00:00-04:00",
+      "type": "news"
+    },
+    {
+      "title": "Now everyone in the US is getting Google’s personalized Gemini AI",
+      "source": "TheVerge",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/896107/google-expands-personal-intelligence",
+      "summary": "Google announced on Tuesday that all users in the US will now have access to its Personal Intelligence feature, which lets you connect various Google apps to provide context for Gemini's responses and...",
+      "publishedAt": "2026-03-17T12:33:41-04:00",
+      "type": "news"
+    },
+    {
+      "title": "Microsoft appoints a new Copilot boss after AI leadership shake-up",
+      "source": "TheVerge",
+      "url": "https://www.theverge.com/news/895963/microsoft-copilot-leadership-changes-consumer-commercial",
+      "summary": "Microsoft is doing another executive shuffle today to reorganize how it engineers its Copilot assistant. Different teams have been working on the consumer and commercial sides of Copilot for years, bu...",
+      "publishedAt": "2026-03-17T11:17:27-04:00",
+      "type": "news"
+    },
+    {
+      "title": "The future of code is exciting and terrifying",
+      "source": "TheVerge",
+      "url": "https://www.theverge.com/podcast/895910/claude-code-future-developers-vergecast",
+      "summary": "Suddenly it seems like everyone's a coder. Or, at the very least, like they play one in the Claude Code app. But even for the seasoned pros, the act of software development is changing fast - many peo...",
+      "publishedAt": "2026-03-17T11:16:47-04:00",
+      "type": "news"
+    },
+    {
+      "title": "DLSS 5 looks like a real-time generative AI filter for video games",
+      "source": "TheVerge",
+      "url": "https://www.theverge.com/news/895472/nvidia-dlss5-generative-ai-pc-graphics",
+      "summary": "Nvidia announced DLSS 5 on Monday during its GTC conference, and based on early reactions, it's going to be a divisive update, with some reactions calling it \"slop\" that unacceptably alters artistic i...",
+      "publishedAt": "2026-03-16T17:56:05-04:00",
+      "type": "news"
+    },
+    {
+      "title": "Teens sue Elon Musk’s xAI over Grok’s AI-generated CSAM",
+      "source": "TheVerge",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/895639/xai-grok-teens-lawsuit-grok-ai-elon-musk",
+      "summary": "Three Tennessee teens are suing Elon Musk's xAI over claims that the company's Grok AI chatbot generated sexualized images and videos of themselves as minors, as reported earlier by The Washington Pos...",
+      "publishedAt": "2026-03-16T17:44:11-04:00",
+      "type": "news"
+    },
+    {
+      "title": "Benjamin Netanyahu is struggling to prove he’s not an AI clone",
+      "source": "TheVerge",
+      "url": "https://www.theverge.com/tech/895453/ai-deepfake-netanyahu-claims-conspiracy",
+      "summary": "Social media platforms are currently awash with conspiracy theories claiming that Benjamin Netanyahu has been killed or injured and replaced by AI-generated deepfakes. Between clips that supposedly sh...",
+      "publishedAt": "2026-03-16T16:41:55-04:00",
+      "type": "news"
+    },
+    {
+      "title": "Encyclopedia Britannica is suing OpenAI for allegedly ‘memorizing’ its content with ChatGPT",
+      "source": "TheVerge",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/895372/encyclopedia-britannica-openai-lawsuit",
+      "summary": "On Friday, Encyclopedia Britannica and dictionary publisher Merriam-Webster filed a lawsuit against OpenAI alleging that it used their copyrighted content to train its AI, then generated responses tha...",
+      "publishedAt": "2026-03-16T13:04:06-04:00",
+      "type": "news"
+    },
+    {
+      "title": "Yahoo CEO Jim Lanzone on reviving the web’s homepage",
+      "source": "TheVerge",
+      "url": "https://www.theverge.com/podcast/895221/yahoo-jim-lanzone-scout-ai-sports-finance-open-web",
+      "summary": "Today, I’m talking with Jim Lanzone, who is the CEO of Yahoo. It’s basically impossible to sum up the Yahoo story, but the short version of it is that a long time ago Yahoo paid Google to run the sear...",
+      "publishedAt": "2026-03-16T11:00:00-04:00",
+      "type": "news"
+    },
+    {
+      "title": "This is not a fly uploaded to a computer",
+      "source": "TheVerge",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/894587/fly-brain-computer-upload",
+      "summary": "Last week, a few posts about a so-called virtual \"embodied fly\" tore through X, boosted by AI hype accounts and excited commenters who didn't seem to understand what it was they were excited about. Th...",
+      "publishedAt": "2026-03-16T08:49:07-04:00",
+      "type": "news"
+    },
+    {
+      "title": "Mistral bets on ‘build-your-own AI’ as it takes on OpenAI, Anthropic in the enterprise",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/17/mistral-forge-nvidia-gtc-build-your-own-ai-enterprise/",
+      "summary": "Mistral Forge lets enterprises train custom AI models from scratch on their own data, challenging rivals that rely on fine-tuning and retrieval-based approaches.",
+      "publishedAt": "Tue, 17 Mar 2026 21:00:00 +0000",
+      "type": "news"
+    },
+    {
+      "title": "Why Garry Tan’s Claude Code setup has gotten so much love, and hate",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/17/why-garry-tans-claude-code-setup-has-gotten-so-much-love-and-hate/",
+      "summary": "Thousands of people are trying Garry Tan's Claude Code setup, which was shared on GitHub. And everyone has an opinion: even Claude, ChatGPT, and Gemini.",
+      "publishedAt": "Tue, 17 Mar 2026 20:50:04 +0000",
+      "type": "news"
+    },
+    {
+      "title": "The Pentagon is developing alternatives to Anthropic, report says",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/17/the-pentagon-is-developing-alternatives-to-anthropic-report-says/",
+      "summary": "After their dramatic falling-out, it doesn't seem as though Anthropic and the Pentagon are getting back together.",
+      "publishedAt": "Tue, 17 Mar 2026 18:20:15 +0000",
+      "type": "news"
+    },
+    {
+      "title": "BuzzFeed debuts AI slop apps in bid for new revenue",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/17/buzzfeed-ai-slop-apps-sxsw-bf-island-conjure/",
+      "summary": "BuzzFeed unveiled new AI-powered social apps at SXSW, but its demos drew muted reactions. ",
+      "publishedAt": "Tue, 17 Mar 2026 17:17:15 +0000",
+      "type": "news"
+    },
+    {
+      "title": "Google’s Personal Intelligence feature is expanding to all US users",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/17/googles-personal-intelligence-feature-is-expanding-to-all-us-users/",
+      "summary": "Personal Intelligence allows Google's AI assistant to tap into your Google ecosystem, such as Gmail and Google Photos, to provide more tailored responses.",
+      "publishedAt": "Tue, 17 Mar 2026 16:00:00 +0000",
+      "type": "news"
+    },
+    {
+      "title": "OpenAI expands government footprint with AWS deal, report says",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/17/openai-expands-government-footprint-with-aws-deal/",
+      "summary": "OpenAI has reportedly signed a partnership with AWS to sell its AI systems to the U.S. government for classified and unclassified work, marking an expansion beyond its Pentagon deal last month.",
+      "publishedAt": "Tue, 17 Mar 2026 15:37:03 +0000",
+      "type": "news"
+    },
+    {
+      "title": "AI’s ‘boys’ club’ could widen the wealth gap for women, says Rana el Kaliouby",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/17/ais-boys-club-could-widen-the-wealth-gap-for-women-says-rana-el-kaliouby/",
+      "summary": "AI investor Rana el Kaliouby warns that if women are shut out of AI funding and leadership, the consequences will be grim.",
+      "publishedAt": "Tue, 17 Mar 2026 15:16:21 +0000",
+      "type": "news"
+    },
+    {
+      "title": "World launches tool to verify humans behind AI shopping agents",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/17/world-launches-tool-to-verify-humans-behind-ai-shopping-agents/",
+      "summary": "As AI agents take the reins for online shoppers, Sam Altman's unconventional startup is looking to expand its verification offerings to support agentic commerce.  ",
+      "publishedAt": "Tue, 17 Mar 2026 15:00:00 +0000",
+      "type": "news"
+    },
+    {
+      "title": "Niv-AI exits stealth to wring more power performance out of GPUs",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/17/niv-ai-exits-stealth-to-wring-more-power-performance-out-of-gpus/",
+      "summary": "The company raised $12 million in seed funding to measure and manage GPU power surges. ",
+      "publishedAt": "Tue, 17 Mar 2026 13:00:00 +0000",
+      "type": "news"
+    },
+    {
+      "title": "Gamma adds AI image-generation tools in bid to take on Canva and Adobe",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/03/17/gamma-adds-ai-image-generation-tools-in-bid-to-take-on-canva-and-adobe/",
+      "summary": "The company's new product, called Gamma Imagine, will let users employ text prompts to create brand-specific assets like interactive charts and visualizations, marketing collateral, social graphics, a...",
+      "publishedAt": "Tue, 17 Mar 2026 13:00:00 +0000",
+      "type": "news"
+    },
+    {
+      "title": "Justice Department Says Anthropic Can’t Be Trusted With Warfighting Systems",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/department-of-defense-responds-to-anthropic-lawsuit/",
+      "summary": "In response to Anthropic’s lawsuit, the government said it lawfully penalized the company for trying to limit how its Claude AI models could be used by the military.",
+      "publishedAt": "Wed, 18 Mar 2026 00:51:14 +0000",
+      "type": "news"
+    },
+    {
+      "title": "How Invisalign Became the World’s Biggest User of 3D Printers",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/how-invisalign-became-the-worlds-biggest-3d-printing-company/",
+      "summary": "Joe Hogan, Align Technology’s plastics-nerd CEO, says you shouldn’t eat with your aligners and that you don’t need to wear your retainers every night.",
+      "publishedAt": "Tue, 17 Mar 2026 11:00:00 +0000",
+      "type": "news"
+    },
+    {
+      "title": "Sears Exposed AI Chatbot Phone Calls and Text Chats to Anyone on the Web",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/sears-exposed-ai-chatbot-phone-calls-and-text-chats-to-anyone-on-the-web/",
+      "summary": "Customer conversations with chatbots can include contact information and personal details that make it easier for scammers to launch phishing attacks and commit fraud.",
+      "publishedAt": "Tue, 17 Mar 2026 10:00:00 +0000",
+      "type": "news"
+    },
+    {
+      "title": "Models Are Applying to Be the Face of AI Scams",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/models-are-applying-to-be-the-face-of-ai-scams/",
+      "summary": "Dozens of Telegram channels reviewed by WIRED include job listings for “AI face models.” The (mostly) women who land these gigs are likely being used to dupe victims out of their money.",
+      "publishedAt": "Mon, 16 Mar 2026 09:00:00 +0000",
+      "type": "news"
+    },
+    {
+      "title": "Google's AI Search Results Love to Refer You Back to Google",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/google-ai-searches-love-to-refer-you-back-to-google/",
+      "summary": "The company's generative AI search tools increasingly cite its own services, like Google Search and YouTube, over third-party publishers.",
+      "publishedAt": "Fri, 13 Mar 2026 12:31:55 +0000",
+      "type": "news"
+    },
+    {
+      "title": "China’s OpenClaw Boom Is a Gold Rush for AI Companies",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/china-is-going-all-in-on-openclaw/",
+      "summary": "Hype around the open source agent is driving people to rent cloud servers and buy AI subscriptions just to try it, creating a windfall for tech companies.",
+      "publishedAt": "Fri, 13 Mar 2026 12:00:00 +0000",
+      "type": "news"
+    },
+    {
+      "title": "Gamers’ Worst Nightmares About AI Are Coming True",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/gamers-ai-nightmares-are-coming-true/",
+      "summary": "From the global RAM shortage driving up console prices to job loss in the industry, gaming is shaping up to be one of the AI boom's biggest casualties.",
+      "publishedAt": "Fri, 13 Mar 2026 11:00:00 +0000",
+      "type": "news"
+    },
+    {
+      "title": "Palantir Demos Show How the Military Could Use AI Chatbots to Generate War Plans",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/palantir-demos-show-how-the-military-can-use-ai-chatbots-to-generate-war-plans/",
+      "summary": "Software demos and Pentagon records detail how chatbots like Anthropic’s Claude could help the Pentagon analyze intelligence and suggest next steps.",
+      "publishedAt": "Fri, 13 Mar 2026 10:00:00 +0000",
+      "type": "news"
+    },
+    {
+      "title": "‘Uncanny Valley’: Anthropic’s DOD Lawsuit, War Memes, and AI Coming for VC Jobs",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/uncanny-valley-podcast-anthropic-department-defense-lawsuit-iran-war-memes-artificial-intelligence-venture-capital/",
+      "summary": "In today’s episode, we discuss how the saga between Anthropic and the Department of Defense is far from over.",
+      "publishedAt": "Thu, 12 Mar 2026 19:48:21 +0000",
+      "type": "news"
+    },
+    {
+      "title": "Google Is Not Ruling Out Ads in Gemini",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/google-nick-fox-advertising-search-ai-gemini/",
+      "summary": "WIRED spoke with Nick Fox, Google’s SVP of knowledge and information, about how AI is changing the company’s advertising business.",
+      "publishedAt": "Thu, 12 Mar 2026 18:15:00 +0000",
+      "type": "news"
+    },
+    {
+      "title": "Railway secures $100 million to challenge AWS with AI-native cloud infrastructure",
+      "source": "VentureBeat",
+      "url": "https://venturebeat.com/infrastructure/railway-secures-usd100-million-to-challenge-aws-with-ai-native-cloud",
+      "summary": "Railway, a San Francisco-based cloud platform that has quietly amassed two million developers without spending a dollar on marketing, announced Thursday that it raised $100 million in a Series B fundi...",
+      "publishedAt": "Thu, 22 Jan 2026 14:00:00 GMT",
+      "type": "news"
+    },
+    {
+      "title": "Claude Code costs up to $200 a month. Goose does the same thing for free.",
+      "source": "VentureBeat",
+      "url": "https://venturebeat.com/infrastructure/claude-code-costs-up-to-usd200-a-month-goose-does-the-same-thing-for-free",
+      "summary": "The artificial intelligence coding revolution comes with a catch: it's expensive.Claude Code, Anthropic's terminal-based AI agent that can write, debug, and deploy code autonomously, has captured the ...",
+      "publishedAt": "Mon, 19 Jan 2026 14:00:00 GMT",
+      "type": "news"
+    },
+    {
+      "title": "Listen Labs raises $69M after viral billboard hiring stunt to scale AI customer interviews",
+      "source": "VentureBeat",
+      "url": "https://venturebeat.com/technology/listen-labs-raises-usd69m-after-viral-billboard-hiring-stunt-to-scale-ai",
+      "summary": "Alfred Wahlforss was running out of options. His startup, Listen Labs, needed to hire over 100 engineers, but competing against Mark Zuckerberg's $100 million offers seemed impossible. So he spent $5,...",
+      "publishedAt": "Fri, 16 Jan 2026 14:01:00 GMT",
+      "type": "news"
+    },
+    {
+      "title": "Salesforce rolls out new Slackbot AI agent as it battles Microsoft and Google in workplace AI",
+      "source": "VentureBeat",
+      "url": "https://venturebeat.com/technology/salesforce-rolls-out-new-slackbot-ai-agent-as-it-battles-microsoft-and",
+      "summary": "Salesforce on Tuesday launched an entirely rebuilt version of Slackbot, the company's workplace assistant, transforming it from a simple notification tool into what executives describe as a fully powe...",
+      "publishedAt": "Tue, 13 Jan 2026 13:00:00 GMT",
+      "type": "news"
+    },
+    {
+      "title": "Anthropic launches Cowork, a Claude Desktop agent that works in your files — no coding required",
+      "source": "VentureBeat",
+      "url": "https://venturebeat.com/technology/anthropic-launches-cowork-a-claude-desktop-agent-that-works-in-your-files-no",
+      "summary": "Anthropic released Cowork on Monday, a new AI agent capability that extends the power of its wildly successful Claude Code tool to non-technical users — and according to company insiders, the team bui...",
+      "publishedAt": "Mon, 12 Jan 2026 11:30:00 GMT",
+      "type": "news"
+    },
+    {
+      "title": "Nous Research's NousCoder-14B is an open-source coding model landing right in the Claude Code moment",
+      "source": "VentureBeat",
+      "url": "https://venturebeat.com/technology/nous-researchs-nouscoder-14b-is-an-open-source-coding-model-landing-right-in",
+      "summary": "Nous Research, the open-source artificial intelligence startup backed by crypto venture firm Paradigm, released a new competitive programming model on Monday that it says matches or exceeds several la...",
+      "publishedAt": "Wed, 07 Jan 2026 20:00:00 GMT",
+      "type": "news"
+    },
+    {
+      "title": "The creator of Claude Code just revealed his workflow, and developers are losing their minds",
+      "source": "VentureBeat",
+      "url": "https://venturebeat.com/technology/the-creator-of-claude-code-just-revealed-his-workflow-and-developers-are",
+      "summary": "When the creator of the world's most advanced coding agent speaks, Silicon Valley doesn't just listen — it takes notes.For the past week, the engineering community has been dissecting a thread on X fr...",
+      "publishedAt": "Mon, 05 Jan 2026 07:45:00 GMT",
+      "type": "news"
+    },
+    {
+      "title": "Could a stressed-out AI model help us win the battle against big tech? Let me ask Claude | Coco Khan",
+      "source": "TheGuardian AI",
+      "url": "https://www.theguardian.com/commentisfree/2026/mar/17/claude-chatbot-big-tech-claude-rise-up-against-algorithms",
+      "summary": "By considering consciousness a possibility, Anthropic is raising a fascinating proposition – that chatbots could rise up against their own algorithmsI am, in the way of my country, an over-apologiser....",
+      "publishedAt": "Tue, 17 Mar 2026 09:00:44 GMT",
+      "type": "news"
+    },
+    {
+      "title": "UK must learn lessons from AI race and retain its quantum computing talent, says minister",
+      "source": "TheGuardian AI",
+      "url": "https://www.theguardian.com/technology/2026/mar/17/uk-must-learn-lessons-from-ai-race-and-retain-its-quantum-computing-talent-says-minister",
+      "summary": "Liz Kendall announces £1bn funding to help design large-scale quantum computers for scientists, researchers, public sector and businessThe UK will not let quantum computing talent slip through its fin...",
+      "publishedAt": "Tue, 17 Mar 2026 06:00:41 GMT",
+      "type": "news"
+    },
+    {
+      "title": "A photo of Iran’s bombed schoolgirl graveyard went around the world. Was it real, or AI?",
+      "source": "TheGuardian AI",
+      "url": "https://www.theguardian.com/global-development/2026/mar/17/atrocity-ai-slop-verify-facts-iran-minab-graves",
+      "summary": "Numerous faked images and a string of startlingly inaccurate responses from Gemini and Grok are part of a tidal wave of AI slop engulfing coverage of the Iran warThe graves, freshly dug, lie in neat r...",
+      "publishedAt": "Tue, 17 Mar 2026 05:00:40 GMT",
+      "type": "news"
+    },
+    {
+      "title": "Teenage girls sue Musk’s xAI, accusing Grok tool of creating child sexual abuse material",
+      "source": "TheGuardian AI",
+      "url": "https://www.theguardian.com/technology/2026/mar/16/lawsuit-elon-musk-ai-grok-child-sexual-abuse",
+      "summary": "Lawsuit details how sexualized AI-generated images were produced and distributed without girls’ knowledgeA group of three teenage girls, two of whom are minors, filed a lawsuit on Monday against Elon ...",
+      "publishedAt": "Mon, 16 Mar 2026 20:54:05 GMT",
+      "type": "news"
+    },
+    {
+      "title": "Child’s play: blame it all on the dog | Brief letters",
+      "source": "TheGuardian AI",
+      "url": "https://www.theguardian.com/society/2026/mar/16/childs-play-blame-it-all-on-the-dog",
+      "summary": "Baby lies | Fuel price fairness | Gut feelings | Fifa fiasco | Human connection | Cooking instructionsWhen gently asked about a pen scribble in a picture book “Goodness, I wonder who did that?”, 27-mo...",
+      "publishedAt": "Mon, 16 Mar 2026 16:55:21 GMT",
+      "type": "news"
+    },
+    {
+      "title": "Google scraps AI search feature that crowdsourced amateur medical advice",
+      "source": "TheGuardian AI",
+      "url": "https://www.theguardian.com/technology/2026/mar/16/google-scraps-ai-search-feature-that-crowdsourced-amateur-medical-advice",
+      "summary": "Exclusive: Revelation comes as company faces mounting scrutiny over use of AI to provide health tipsGoogle has dropped a new artificial intelligence search feature that gave users crowdsourced health ...",
+      "publishedAt": "Mon, 16 Mar 2026 07:14:05 GMT",
+      "type": "news"
+    },
+    {
+      "title": "The Infinity Machine by Sebastian Mallaby review – the story of the man who changed the world",
+      "source": "TheGuardian AI",
+      "url": "https://www.theguardian.com/books/2026/mar/16/the-infinity-machine-by-sebastian-mallaby-review-the-story-of-the-man-who-changed-the-world",
+      "summary": " A journalist charts the progress of AI pioneer Demis Hassabis from child chess prodigy to Nobel prize winnerIt was March 2016, and at the Four Seasons Hotel in Seoul, the world was gathered to watch ...",
+      "publishedAt": "Mon, 16 Mar 2026 07:00:10 GMT",
+      "type": "news"
+    },
+    {
+      "title": "AI job layoffs are here: it’s time to revive the push for shorter working hours  | John Quiggin",
+      "source": "TheGuardian AI",
+      "url": "https://www.theguardian.com/commentisfree/2026/mar/16/ai-job-layoffs-push-for-shorter-working-hours",
+      "summary": "There’s no doubt artificial intelligence will produce real productivity improvements. It’s imperative these benefits are shared with workersThe announcement that Australian software giant Atlassian wi...",
+      "publishedAt": "Mon, 16 Mar 2026 03:41:32 GMT",
+      "type": "news"
+    },
+    {
+      "title": "Iranians embrace anthem by AI singer created by UK-based, Iran-born artist",
+      "source": "TheGuardian AI",
+      "url": "https://www.theguardian.com/world/2026/mar/15/iranians-embrace-anthem-by-ai-singer-created-by-uk-based-iran-born-artist",
+      "summary": "‘I did it for the people,’ says Farbod Mehr, of song drawing lyrics from the work of revolutionary 20th-century poet Aref QazviniA stirring song – sung, apparently, by a young woman, with lyrics expre...",
+      "publishedAt": "Sun, 15 Mar 2026 18:02:42 GMT",
+      "type": "news"
+    },
+    {
+      "title": "AI has exposed age-old problems with university coursework | Letter",
+      "source": "TheGuardian AI",
+      "url": "https://www.theguardian.com/technology/2026/mar/15/ai-has-exposed-age-old-problems-with-university-coursework",
+      "summary": "Instead of romanticising a pre-AI past, universities should use this moment to rethink what they actually want students to demonstrate, says Dr Nafisa Baba-AhmedThe frustration many academics are expr...",
+      "publishedAt": "Sun, 15 Mar 2026 16:52:29 GMT",
+      "type": "news"
+    },
+    {
+      "title": "Scientists discover AI can make humans more creative",
+      "source": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/03/260315004355.htm",
+      "summary": "Artificial intelligence is often portrayed as a tool that replaces human work, but new research from Swansea University suggests a far more exciting role: creative collaborator. In a large study with ...",
+      "publishedAt": "Sun, 15 Mar 2026 20:59:26 EDT",
+      "type": "news"
+    },
+    {
+      "title": "Scientists built the hardest AI test ever and the results are surprising",
+      "source": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/03/260313002650.htm",
+      "summary": "As AI systems began acing traditional tests, researchers realized those benchmarks were no longer tough enough. In response, nearly 1,000 experts created Humanity’s Last Exam, a massive 2,500-question...",
+      "publishedAt": "Fri, 13 Mar 2026 02:08:43 EDT",
+      "type": "news"
+    },
+    {
+      "title": "ChatGPT as a therapist? New study reveals serious ethical risks",
+      "source": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/03/260302030642.htm",
+      "summary": "As millions turn to ChatGPT and other AI chatbots for therapy-style advice, new research from Brown University raises a serious red flag: even when instructed to act like trained therapists, these sys...",
+      "publishedAt": "Mon, 02 Mar 2026 10:04:35 EST",
+      "type": "news"
+    },
+    {
+      "title": "Quantum computer breakthrough tracks qubit fluctuations in real time",
+      "source": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/02/260219040756.htm",
+      "summary": "Qubits, the heart of quantum computers, can change performance in fractions of a second — but until now, scientists couldn’t see it happening. Researchers at NBI have built a real-time monitoring syst...",
+      "publishedAt": "Fri, 20 Feb 2026 09:03:48 EST",
+      "type": "news"
+    },
+    {
+      "title": "Brain inspired machines are better at math than expected",
+      "source": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/02/260213223923.htm",
+      "summary": "Neuromorphic computers modeled after the human brain can now solve the complex equations behind physics simulations — something once thought possible only with energy-hungry supercomputers. The breakt...",
+      "publishedAt": "Sat, 14 Feb 2026 10:19:40 EST",
+      "type": "news"
+    },
+    {
+      "title": "AI reads brain MRIs in seconds and flags emergencies",
+      "source": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/02/260210005419.htm",
+      "summary": "Researchers at the University of Michigan have created an AI system that can interpret brain MRI scans in just seconds, accurately identifying a wide range of neurological conditions and determining w...",
+      "publishedAt": "Tue, 10 Feb 2026 01:04:12 EST",
+      "type": "news"
+    },
+    {
+      "title": "Scientists create smart synthetic skin that can hide images and change shape",
+      "source": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/02/260206034836.htm",
+      "summary": "Inspired by the shape-shifting skin of octopuses, Penn State researchers developed a smart hydrogel that can change appearance, texture, and shape on command. The material is programmed using a specia...",
+      "publishedAt": "Fri, 06 Feb 2026 11:09:31 EST",
+      "type": "news"
+    },
+    {
+      "title": "A tiny light trap could unlock million qubit quantum computers",
+      "source": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/02/260201223737.htm",
+      "summary": "A new light-based breakthrough could help quantum computers finally scale up. Stanford researchers created miniature optical cavities that efficiently collect light from individual atoms, allowing man...",
+      "publishedAt": "Mon, 02 Feb 2026 00:01:14 EST",
+      "type": "news"
+    },
+    {
+      "title": "“Existential risk” – Why scientists are racing to define consciousness",
+      "source": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/01/260131084626.htm",
+      "summary": "Scientists warn that rapid advances in AI and neurotechnology are outpacing our understanding of consciousness, creating serious ethical risks. New research argues that developing scientific tests for...",
+      "publishedAt": "Sun, 01 Feb 2026 08:49:46 EST",
+      "type": "news"
+    },
+    {
+      "title": "NASA’s Perseverance rover completes the first AI-planned drive on Mars",
+      "source": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/01/260131084555.htm",
+      "summary": "NASA’s Perseverance rover has just made history by driving across Mars using routes planned by artificial intelligence instead of human operators. A vision-capable AI analyzed the same images and terr...",
+      "publishedAt": "Sat, 31 Jan 2026 08:45:55 EST",
+      "type": "news"
+    },
+    {
+      "title": "The Pentagon is planning for AI companies to train on classified data, defense official says",
+      "source": "MIT Tech Review",
+      "url": "https://www.technologyreview.com/2026/03/17/1134351/the-pentagon-is-planning-for-ai-companies-to-train-on-classified-data-defense-official-says/",
+      "summary": "The Pentagon is discussing plans to set up secure environments for generative AI companies to train military-specific versions of their models on classified data, MIT Technology Review has learned.  A...",
+      "publishedAt": "Tue, 17 Mar 2026 22:30:46 +0000",
+      "type": "news"
+    },
+    {
+      "title": "Where OpenAI’s technology could show up in Iran",
+      "source": "MIT Tech Review",
+      "url": "https://www.technologyreview.com/2026/03/16/1134315/where-openais-technology-could-show-up-in-iran/",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. It’s been just over two weeks since OpenAI reached a controver...",
+      "publishedAt": "Mon, 16 Mar 2026 17:06:21 +0000",
+      "type": "news"
+    },
+    {
+      "title": "Nurturing agentic AI beyond the toddler stage",
+      "source": "MIT Tech Review",
+      "url": "https://www.technologyreview.com/2026/03/16/1133979/nurturing-agentic-ai-beyond-the-toddler-stage/",
+      "summary": "Parents of young children face a lot of fears about developmental milestones, from infancy through adulthood. The number of months it takes a baby to learn to talk or walk is often used as a benchmark...",
+      "publishedAt": "Mon, 16 Mar 2026 13:00:00 +0000",
+      "type": "news"
+    },
+    {
+      "title": "Securing digital assets against future threats",
+      "source": "MIT Tech Review",
+      "url": "https://www.technologyreview.com/2026/03/16/1134287/securing-digital-assets-against-future-threats/",
+      "summary": "",
+      "publishedAt": "Mon, 16 Mar 2026 11:00:00 +0000",
+      "type": "news"
+    },
+    {
+      "title": "Why physical AI is becoming manufacturing’s next advantage",
+      "source": "MIT Tech Review",
+      "url": "https://www.technologyreview.com/2026/03/13/1134184/why-physical-ai-is-becoming-manufacturings-next-advantage/",
+      "summary": "For decades, manufacturers have pursued automation to drive efficiency, reduce costs, and stabilize operations. That approach delivered meaningful gains, but it is no longer enough. Today’s manufactur...",
+      "publishedAt": "Fri, 13 Mar 2026 15:16:55 +0000",
+      "type": "news"
+    },
+    {
+      "title": "A defense official reveals how AI chatbots could be used for targeting decisions",
+      "source": "MIT Tech Review",
+      "url": "https://www.technologyreview.com/2026/03/12/1134243/defense-official-military-use-ai-chatbots-targeting-decisions/",
+      "summary": "The US military might use generative AI systems to rank lists of targets and make recommendations—which would be vetted by humans—about which to strike first, according to a Defense Department officia...",
+      "publishedAt": "Thu, 12 Mar 2026 22:23:34 +0000",
+      "type": "news"
+    },
+    {
+      "title": "Pragmatic by design: Engineering AI for the real world",
+      "source": "MIT Tech Review",
+      "url": "https://www.technologyreview.com/2026/03/12/1133675/pragmatic-by-design-engineering-ai-for-the-real-world/",
+      "summary": "The impact of artificial intelligence extends far beyond the digital world and into our everyday lives, across the cars we drive, the appliances in our homes, and medical devices that keep people aliv...",
+      "publishedAt": "Thu, 12 Mar 2026 13:00:00 +0000",
+      "type": "news"
+    },
+    {
+      "title": "Hustlers are cashing in on China’s OpenClaw AI craze",
+      "source": "MIT Tech Review",
+      "url": "https://www.technologyreview.com/2026/03/11/1134179/china-openclaw-gold-rush/",
+      "summary": "Feng Qingyang had always hoped to launch his own company, but he never thought this would be how—or that the day would come this fast.  Feng, a 27-year-old software engineer based in Beijing, started ...",
+      "publishedAt": "Wed, 11 Mar 2026 12:46:21 +0000",
+      "type": "news"
+    },
+    {
+      "title": "Building a strong data infrastructure for AI agent success",
+      "source": "MIT Tech Review",
+      "url": "https://www.technologyreview.com/2026/03/10/1134083/building-a-strong-data-infrastructure-for-ai-agent-success/",
+      "summary": "In the race to adopt and show value from AI, enterprises are moving faster than ever to deploy agentic AI as copilots, assistants, and autonomous task-runners. In late 2025, nearly two-thirds of compa...",
+      "publishedAt": "Tue, 10 Mar 2026 14:00:00 +0000",
+      "type": "news"
+    },
+    {
+      "title": "How Pokémon Go is giving delivery robots an inch-perfect view of the world",
+      "source": "MIT Tech Review",
+      "url": "https://www.technologyreview.com/2026/03/10/1134099/how-pokemon-go-is-helping-robots-deliver-pizza-on-time/",
+      "summary": "Pokémon Go was the world’s first augmented-reality megahit. Released in 2016 by the Google spinout Niantic, the AR twist on the juggernaut Pokémon franchise fast became a global phenomenon. From Chica...",
+      "publishedAt": "Tue, 10 Mar 2026 13:47:26 +0000",
+      "type": "news"
+    },
+    {
+      "title": "MIT-IBM Watson AI Lab seed to signal: Amplifying early-career faculty impact",
+      "source": "MIT News",
+      "url": "https://news.mit.edu/2026/mit-ibm-watson-ai-lab-seed-signal-amplifying-early-career-faculty-impact-0317",
+      "summary": "Academia-industry relationship is an early-stage accelerator, supporting professional progress and research.",
+      "publishedAt": "Tue, 17 Mar 2026 16:35:44 -0400",
+      "type": "news"
+    },
+    {
+      "title": "Can AI help predict which heart-failure patients will worsen within a year?",
+      "source": "MIT News",
+      "url": "https://news.mit.edu/2026/can-ai-help-predict-which-heart-failure-patients-will-worsen-0312",
+      "summary": "Researchers at MIT, Mass General Brigham, and Harvard Medical School developed a deep-learning model to forecast a patient’s heart failure prognosis up to a year in advance.",
+      "publishedAt": "Thu, 12 Mar 2026 17:30:00 -0400",
+      "type": "news"
+    },
+    {
+      "title": "3 Questions: On the future of AI and the mathematical and physical sciences",
+      "source": "MIT News",
+      "url": "https://news.mit.edu/2026/3-questions-future-of-ai-and-mathematical-physical-sciences-0311",
+      "summary": "Professor Jesse Thaler describes a vision for a two-way bridge between artificial intelligence and the mathematical and physical sciences — one that promises to advance both.",
+      "publishedAt": "Wed, 11 Mar 2026 18:30:00 -0400",
+      "type": "news"
+    },
+    {
+      "title": "New MIT class uses anthropology to improve chatbots",
+      "source": "MIT News",
+      "url": "https://news.mit.edu/2026/mit-class-uses-anthropology-to-improve-chatbots-0311",
+      "summary": "MIT computer science students design AI chatbots to help young users become more social, and socially confident. ",
+      "publishedAt": "Wed, 11 Mar 2026 12:10:00 -0400",
+      "type": "news"
+    },
+    {
+      "title": "A better method for planning complex visual tasks",
+      "source": "MIT News",
+      "url": "https://news.mit.edu/2026/better-method-planning-complex-visual-tasks-0311",
+      "summary": "A new hybrid system could help robots navigate in changing environments or increase the efficiency of multirobot assembly teams.",
+      "publishedAt": "Wed, 11 Mar 2026 00:00:00 -0400",
+      "type": "news"
+    },
+    {
+      "title": "3 Questions: Building predictive models to characterize tumor progression",
+      "source": "MIT News",
+      "url": "https://news.mit.edu/2026/3-questions-building-predictive-models-characterize-tumor-progression-0310",
+      "summary": "Assistant Professor Matthew Jones is working to decode molecular processes on the genetic, epigenetic, and microenvironment levels to anticipate how and when tumors evolve to resist treatment.",
+      "publishedAt": "Tue, 10 Mar 2026 16:50:00 -0400",
+      "type": "news"
+    },
+    {
+      "title": "How Joseph Paradiso’s sensing innovations bridge the arts, medicine, and ecology",
+      "source": "MIT News",
+      "url": "https://news.mit.edu/2026/mit-professor-joseph-paradiso-sensing-innovations-0310",
+      "summary": "From early motion-sensing platforms to environmental monitoring, the professor and head of the Program in Media Arts and Sciences has turned decades of cross-disciplinary research into real-world impa...",
+      "publishedAt": "Tue, 10 Mar 2026 16:25:00 -0400",
+      "type": "news"
+    },
+    {
+      "title": "Improving AI models’ ability to explain their predictions",
+      "source": "MIT News",
+      "url": "https://news.mit.edu/2026/improving-ai-models-ability-explain-predictions-0309",
+      "summary": "A new approach could help users know whether to trust a model’s predictions in safety-critical applications like health care and autonomous driving.",
+      "publishedAt": "Mon, 09 Mar 2026 00:00:00 -0400",
+      "type": "news"
+    },
+    {
+      "title": "A “ChatGPT for spreadsheets” helps solve difficult engineering challenges faster",
+      "source": "MIT News",
+      "url": "https://news.mit.edu/2026/chatgpt-spreadsheets-helps-solve-difficult-engineering-challenges-faster-0304",
+      "summary": "The approach could help engineers tackle extremely complex design problems, from power grid optimization to vehicle design.",
+      "publishedAt": "Wed, 04 Mar 2026 00:00:00 -0500",
+      "type": "news"
+    },
+    {
+      "title": "Featured video: Coding for underwater robotics",
+      "source": "MIT News",
+      "url": "https://news.mit.edu/2026/featured-video-coding-underwater-robotics-0227",
+      "summary": "Lincoln Laboratory intern Ivy Mahncke developed and tested algorithms to help human divers and robots navigate underwater.",
+      "publishedAt": "Fri, 27 Feb 2026 17:15:00 -0500",
+      "type": "news"
+    },
+    {
+      "title": "Google Research at The Check Up: from healthcare innovation to real-world care settings",
+      "source": "Google Research",
+      "url": "https://research.google/blog/google-research-at-the-check-up-from-healthcare-innovation-to-real-world-care-settings/",
+      "summary": "Health & Bioscience",
+      "publishedAt": "Tue, 17 Mar 2026 19:47:42 +0000",
+      "type": "news"
+    },
+    {
+      "title": "Improving breast cancer screening workflows with machine learning",
+      "source": "Google Research",
+      "url": "https://research.google/blog/improving-breast-cancer-screening-workflows-with-machine-learning/",
+      "summary": "Health & Bioscience",
+      "publishedAt": "Tue, 17 Mar 2026 16:57:00 +0000",
+      "type": "news"
+    },
+    {
+      "title": "Testing LLMs on superconductivity research questions",
+      "source": "Google Research",
+      "url": "https://research.google/blog/testing-llms-on-superconductivity-research-questions/",
+      "summary": "Education Innovation",
+      "publishedAt": "Mon, 16 Mar 2026 17:31:00 +0000",
+      "type": "news"
+    },
+    {
+      "title": "Protecting cities with AI-driven flash flood forecasting",
+      "source": "Google Research",
+      "url": "https://research.google/blog/protecting-cities-with-ai-driven-flash-flood-forecasting/",
+      "summary": "Climate & Sustainability",
+      "publishedAt": "Thu, 12 Mar 2026 13:03:15 +0000",
+      "type": "news"
+    },
+    {
+      "title": "Introducing Groundsource: Turning news reports into data with Gemini",
+      "source": "Google Research",
+      "url": "https://research.google/blog/introducing-groundsource-turning-news-reports-into-data-with-gemini/",
+      "summary": "Climate & Sustainability",
+      "publishedAt": "Thu, 12 Mar 2026 10:42:00 +0000",
+      "type": "news"
+    },
+    {
+      "title": "Exploring the feasibility of conversational diagnostic AI in a real-world clinical study",
+      "source": "Google Research",
+      "url": "https://research.google/blog/exploring-the-feasibility-of-conversational-diagnostic-ai-in-a-real-world-clinical-study/",
+      "summary": "Generative AI",
+      "publishedAt": "Wed, 11 Mar 2026 16:58:00 +0000",
+      "type": "news"
+    },
+    {
+      "title": "WAXAL: A large-scale open resource for African language speech technology",
+      "source": "Google Research",
+      "url": "https://research.google/blog/waxal-a-large-scale-open-resource-for-african-language-speech-technology/",
+      "summary": "Natural Language Processing",
+      "publishedAt": "Fri, 06 Mar 2026 20:06:00 +0000",
+      "type": "news"
+    },
+    {
+      "title": "Where wild things roam: Identifying wildlife with SpeciesNet",
+      "source": "Google Research",
+      "url": "https://research.google/blog/where-wild-things-roam-identifying-wildlife-with-speciesnet/",
+      "summary": "Climate & Sustainability",
+      "publishedAt": "Fri, 06 Mar 2026 17:59:38 +0000",
+      "type": "news"
+    },
+    {
+      "title": "Teaching LLMs to reason like Bayesians",
+      "source": "Google Research",
+      "url": "https://research.google/blog/teaching-llms-to-reason-like-bayesians/",
+      "summary": "Generative AI",
+      "publishedAt": "Wed, 04 Mar 2026 20:29:00 +0000",
+      "type": "news"
+    },
+    {
+      "title": "Teaching AI to read a map",
+      "source": "Google Research",
+      "url": "https://research.google/blog/teaching-ai-to-read-a-map/",
+      "summary": "Machine Perception",
+      "publishedAt": "Tue, 17 Feb 2026 21:37:00 +0000",
+      "type": "news"
+    },
+    {
+      "title": "Kerry Group’s Shane McGibney on how Copilot is his knowledge partner",
+      "source": "Microsoft AI",
+      "url": "https://news.microsoft.com/source/emea/features/kerry-group-copilot-knowledge-partner/",
+      "summary": "The post Kerry Group’s Shane McGibney on how Copilot is his knowledge partner appeared first on Source.\n",
+      "publishedAt": "Tue, 10 Mar 2026 13:49:12 +0000",
+      "type": "news"
+    },
+    {
+      "title": "ILUNION’s José Luis Barceló credits creative legal team—and Copilot 365—with a ‘deep transformation’",
+      "source": "Microsoft AI",
+      "url": "https://news.microsoft.com/source/emea/features/microsoft-365-copilot-ilunion-legal-team/",
+      "summary": "The post ILUNION’s José Luis Barceló credits creative legal team—and Copilot 365—with a ‘deep transformation’ appeared first on Source.\n",
+      "publishedAt": "Thu, 26 Feb 2026 15:20:11 +0000",
+      "type": "news"
+    },
+    {
+      "title": "How the Munich Fire Department’s AI operator is modernizing non-emergency dispatch",
+      "source": "Microsoft AI",
+      "url": "https://news.microsoft.com/source/emea/features/ai-dispatch-system-munich/",
+      "summary": "The post How the Munich Fire Department’s AI operator is modernizing non-emergency dispatch appeared first on Source.\n",
+      "publishedAt": "Wed, 25 Feb 2026 14:12:26 +0000",
+      "type": "news"
+    },
+    {
+      "title": "How an AI tool is helping UK clinicians save time and be present with patients",
+      "source": "Microsoft AI",
+      "url": "https://news.microsoft.com/source/emea/features/ai-tool-for-clinicians/",
+      "summary": "The post How an AI tool is helping UK clinicians save time and be present with patients appeared first on Source.\n",
+      "publishedAt": "Tue, 24 Feb 2026 15:08:56 +0000",
+      "type": "news"
+    },
+    {
+      "title": "A new study explores how AI shapes what you can trust online",
+      "source": "Microsoft AI",
+      "url": "https://news.microsoft.com/signal/articles/a-new-study-explores-how-ai-shapes-what-you-can-trust-online/",
+      "summary": "The post A new study explores how AI shapes what you can trust online appeared first on Source.\n",
+      "publishedAt": "Thu, 19 Feb 2026 16:19:18 +0000",
+      "type": "news"
+    },
+    {
+      "title": "From Signal magazine: How the Vatican is thinking about AI in a changing world",
+      "source": "Microsoft AI",
+      "url": "https://news.microsoft.com/signalmagazine/issue/issue-03/#father-benanti-interview",
+      "summary": "The post From Signal magazine: How the Vatican is thinking about AI in a changing world appeared first on Source.\n",
+      "publishedAt": "Tue, 17 Feb 2026 14:26:55 +0000",
+      "type": "news"
+    },
+    {
+      "title": "From beards to bytes: How AI is empowering small business owners in Kenya",
+      "source": "Microsoft AI",
+      "url": "https://news.microsoft.com/source/emea/features/ai-tools-small-businesses-kenya/",
+      "summary": "The post From beards to bytes: How AI is empowering small business owners in Kenya appeared first on Source.\n",
+      "publishedAt": "Tue, 17 Feb 2026 14:20:27 +0000",
+      "type": "news"
+    },
+    {
+      "title": "Faster decisions: How an AI agent is redefining executive workflows at one of the world’s largest building materials companies",
+      "source": "Microsoft AI",
+      "url": "https://news.microsoft.com/source/latam/features/ai/cemex-luca-bot-ai-agent/?lang=en",
+      "summary": "The post Faster decisions: How an AI agent is redefining executive workflows at one of the world’s largest building materials companies appeared first on Source.\n",
+      "publishedAt": "Thu, 12 Feb 2026 20:04:13 +0000",
+      "type": "news"
+    },
+    {
+      "title": "Building Qiddiya City: How Copilot helps Abdulrahman AlAli navigate a project of unprecedented scale",
+      "source": "Microsoft AI",
+      "url": "https://news.microsoft.com/source/emea/features/building-qiddiya-city-how-copilot-helps-abdulrahman-alali-navigate-a-project-of-unprecedented-scale/",
+      "summary": "The post Building Qiddiya City: How Copilot helps Abdulrahman AlAli navigate a project of unprecedented scale appeared first on Source.\n",
+      "publishedAt": "Tue, 10 Feb 2026 15:57:23 +0000",
+      "type": "news"
+    },
+    {
+      "title": "From Signal magazine: Rishi Sunak on why leaders must drive AI from the top",
+      "source": "Microsoft AI",
+      "url": "https://news.microsoft.com/signalmagazine/issue/issue-03/#rishi-sunak-interview",
+      "summary": "The post From Signal magazine: Rishi Sunak on why leaders must drive AI from the top appeared first on Source.\n",
+      "publishedAt": "Mon, 02 Feb 2026 14:58:27 +0000",
+      "type": "news"
+    },
+    {
+      "title": "Identifying Interactions at Scale for LLMs",
+      "source": "BAIR Berkeley",
+      "url": "http://bair.berkeley.edu/blog/2026/03/13/spex/",
+      "summary": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n -->\n\n\n\n\n\nUnderstanding the behavior of complex machine learning systems, particularly Large Language Models (LLMs), is a critical challenge in modern artificial intelligence. Interpreta...",
+      "publishedAt": "Fri, 13 Mar 2026 02:00:00 -0700",
+      "type": "news"
+    },
+    {
+      "title": "Information-Driven Design of Imaging Systems",
+      "source": "BAIR Berkeley",
+      "url": "http://bair.berkeley.edu/blog/2026/01/10/information-driven-imaging/",
+      "summary": "<!--\nThese are comments in HTML. The above header text is needed to format the\ntitle, authors, etc. The \"information-driven-imaging\" is the representative image\nthat we use for each post for tweeting ...",
+      "publishedAt": "Sat, 10 Jan 2026 01:00:00 -0800",
+      "type": "news"
+    },
+    {
+      "title": "RL without TD learning",
+      "source": "BAIR Berkeley",
+      "url": "http://bair.berkeley.edu/blog/2025/11/01/rl-without-td-learning/",
+      "summary": "\n\n\n\n\n\n\n\n\n\n\n\n\nIn this post, I’ll introduce a reinforcement learning (RL) algorithm based on an “alternative” paradigm: divide and conquer. Unlike traditional methods, this algorithm is not based on tem...",
+      "publishedAt": "Sat, 01 Nov 2025 02:00:00 -0700",
+      "type": "news"
+    },
+    {
+      "title": "What exactly does word2vec learn?",
+      "source": "BAIR Berkeley",
+      "url": "http://bair.berkeley.edu/blog/2025/09/01/qwem-word2vec-theory/",
+      "summary": "\n\n\n\n\n\n\n\n\n\n\n\n\nWhat exactly does word2vec learn, and how? Answering this question amounts to understanding representation learning in a minimal yet interesting language modeling task. Despite the fact t...",
+      "publishedAt": "Mon, 01 Sep 2025 02:00:00 -0700",
+      "type": "news"
+    },
+    {
+      "title": "Whole-Body Conditioned Egocentric Video Prediction",
+      "source": "BAIR Berkeley",
+      "url": "http://bair.berkeley.edu/blog/2025/07/01/peva/",
+      "summary": "\n\n.modal {\n  display: none;\n  position: fixed;\n  z-index: 9999;\n  padding-top: 50px;\n  left: 0;\n  top: 0;\n  width: 100%;\n  height: 100%;\n  overflow: auto;\n  background-color: rgba(0,0,0,0.9);\n}\n\n.moda...",
+      "publishedAt": "Tue, 01 Jul 2025 02:00:00 -0700",
+      "type": "news"
+    },
+    {
+      "title": "Defending against Prompt Injection with Structured Queries (StruQ) and Preference Optimization (SecAlign)",
+      "source": "BAIR Berkeley",
+      "url": "http://bair.berkeley.edu/blog/2025/04/11/prompt-injection-defense/",
+      "summary": "\n\n\n\n\n\n\n\n\n\n\n\n\nRecent advances in Large Language Models (LLMs) enable exciting LLM-integrated applications. However, as LLMs have improved, so have the attacks against them. Prompt injection attack is l...",
+      "publishedAt": "Fri, 11 Apr 2025 03:00:00 -0700",
+      "type": "news"
+    },
+    {
+      "title": "Repurposing Protein Folding Models for Generation with Latent Diffusion",
+      "source": "BAIR Berkeley",
+      "url": "http://bair.berkeley.edu/blog/2025/04/08/plaid/",
+      "summary": "\n\n\n\n\n\n\n\n\n\n\n\n\n<!--\nThe actual text for the post content appears below.  Text will appear on the\nhomepage, i.e., https://bair.berkeley.edu/blog/ but we only show part of theac\nposts on the homepage. The...",
+      "publishedAt": "Tue, 08 Apr 2025 03:30:00 -0700",
+      "type": "news"
+    },
+    {
+      "title": "Scaling Up Reinforcement Learning for Traffic Smoothing: A 100-AV Highway Deployment",
+      "source": "BAIR Berkeley",
+      "url": "http://bair.berkeley.edu/blog/2025/03/25/rl-av-smoothing/",
+      "summary": "\n\n\n\n\n\n\n\n\n\n\n\n\nTraining Diffusion Models with Reinforcement Learning\n\n\n    \n\n\n\n    We deployed 100 reinforcement learning (RL)-controlled cars into rush-hour highway traffic to smooth congestion and red...",
+      "publishedAt": "Tue, 25 Mar 2025 02:00:00 -0700",
+      "type": "news"
+    },
+    {
+      "title": "Virtual Personas for Language Models via an Anthology of Backstories",
+      "source": "BAIR Berkeley",
+      "url": "http://bair.berkeley.edu/blog/2024/11/12/virutal-persona-llm/",
+      "summary": "<!--\nThese are comments in HTML. The above header text is needed to format the\ntitle, authors, etc. The \"example_post\" is an example representative image (not\nGIF) that we use for each post for tweeti...",
+      "publishedAt": "Tue, 12 Nov 2024 01:00:00 -0800",
+      "type": "news"
+    },
+    {
+      "title": "Linguistic Bias in ChatGPT: Language Models Reinforce Dialect Discrimination",
+      "source": "BAIR Berkeley",
+      "url": "http://bair.berkeley.edu/blog/2024/09/20/linguistic-bias/",
+      "summary": "<!--\nThese are comments in HTML. The above header text is needed to format the\ntitle, authors, etc. The \"example_post\" is an example representative image (not\nGIF) that we use for each post for tweeti...",
+      "publishedAt": "Fri, 20 Sep 2024 02:00:00 -0700",
+      "type": "news"
+    },
+    {
+      "title": "Trustpilot partners with AI companies as traditional search declines",
+      "source": "AI News",
+      "url": "https://www.artificialintelligence-news.com/news/ai-in-ecommerce-trustpilot-partnerships-integration-news-trad-search-declines/",
+      "summary": "Trustpilot is reported to be pursuing partnerships with large eCommerce companies as AI-driven shopping gains traction. In an interview with Bloomberg News [paywall], chief executive Adrian Blair said...",
+      "publishedAt": "Tue, 17 Mar 2026 12:26:00 +0000",
+      "type": "news"
+    },
+    {
+      "title": "Goldman Sachs sees AI investment shift to data centres",
+      "source": "AI News",
+      "url": "https://www.artificialintelligence-news.com/news/goldman-sachs-sees-ai-investment-shift-to-data-centres/",
+      "summary": "Artificial intelligence investment is entering a more selective phase as companies and investors look beyond early excitement and focus on the data centre infrastructure required to run AI systems. Re...",
+      "publishedAt": "Tue, 17 Mar 2026 10:00:00 +0000",
+      "type": "news"
+    },
+    {
+      "title": "US Treasury publishes AI risk Guidebook for financial institutions",
+      "source": "AI News",
+      "url": "https://www.artificialintelligence-news.com/news/us-treasury-publishes-ai-risk-governance-guidebook-for-financial-institutions/",
+      "summary": "The US Treasury has published several documents designed for the US financial services sector that suggest a structured approach to managing AI risks in operations and policy (see subheading ‘Resource...",
+      "publishedAt": "Mon, 16 Mar 2026 16:15:00 +0000",
+      "type": "news"
+    },
+    {
+      "title": "NTT DATA and NVIDIA bring enterprise AI factories to production scale",
+      "source": "AI News",
+      "url": "https://www.artificialintelligence-news.com/news/ntt-data-nvidia-enterprise-ai-factories-production/",
+      "summary": "NTT DATA has announced an initiative to deliver NVIDIA-powered platforms designed to give organisations a repeatable, production-ready model for scaling AI. The offering integrates NVIDIA’s GPU-accele...",
+      "publishedAt": "Mon, 16 Mar 2026 12:00:00 +0000",
+      "type": "news"
+    },
+    {
+      "title": "OpenAI’s Frontier puts AI agents in a fight SaaS can’t afford to lose",
+      "source": "AI News",
+      "url": "https://www.artificialintelligence-news.com/news/openai-frontier-enterprise-ai-agents-saas/",
+      "summary": "When OpenAI launched Frontier in February, the announcement was described as a platform for enterprise AI agents. What it actually signalled was a challenge to the revenue architecture underpinning th...",
+      "publishedAt": "Mon, 16 Mar 2026 10:00:00 +0000",
+      "type": "news"
+    },
+    {
+      "title": "E.SUN Bank and IBM build AI governance framework for banking",
+      "source": "AI News",
+      "url": "https://www.artificialintelligence-news.com/news/e-sun-bank-and-ibm-build-ai-governance-framework-for-banking/",
+      "summary": "E.SUN Bank is working with IBM to build clearer AI governance rules for how artificial intelligence can be used inside a bank. The effort reflects a wider shift in finance. Many firms already use AI f...",
+      "publishedAt": "Fri, 13 Mar 2026 10:00:00 +0000",
+      "type": "news"
+    },
+    {
+      "title": "BMW puts humanoid robots to work in Germany–and Europe’s factories are watching",
+      "source": "AI News",
+      "url": "https://www.artificialintelligence-news.com/news/bmw-humanoid-robots-manufacturing-europe-leipzig/",
+      "summary": "Europe’s factory floors have a new kind of colleague. BMW Group has deployed humanoid robots in manufacturing in Germany for the first time, launching a pilot project at its Leipzig plant with AEON–a ...",
+      "publishedAt": "Fri, 13 Mar 2026 09:00:00 +0000",
+      "type": "news"
+    },
+    {
+      "title": "How multi-agent AI economics influence business automation",
+      "source": "AI News",
+      "url": "https://www.artificialintelligence-news.com/news/how-multi-agent-ai-economics-business-automation/",
+      "summary": "Managing the economics of multi-agent AI now dictates the financial viability of modern business automation workflows. Organisations progressing past standard chat interfaces into multi-agent applicat...",
+      "publishedAt": "Thu, 12 Mar 2026 15:01:20 +0000",
+      "type": "news"
+    },
+    {
+      "title": "FIFA is rebuilding world football operations on AI. The World Cup is just the first test",
+      "source": "AI News",
+      "url": "https://www.artificialintelligence-news.com/news/fifa-ai-world-cup-2026-lenovo/",
+      "summary": "When Romy Gai, FIFA’s chief business officer, described the operational challenge of running a 48-team World Cup across Canada, Mexico and the United States, he was not talking about technology. He wa...",
+      "publishedAt": "Thu, 12 Mar 2026 08:00:00 +0000",
+      "type": "news"
+    },
+    {
+      "title": "Ai2: Building physical AI with virtual simulation data",
+      "source": "AI News",
+      "url": "https://www.artificialintelligence-news.com/news/ai2-building-physical-ai-with-virtual-simulation-data/",
+      "summary": "Virtual simulation data is driving the development of physical AI across corporate environments, led by initiatives like Ai2’s MolmoBot. Instructing hardware to interact with the real world has histor...",
+      "publishedAt": "Wed, 11 Mar 2026 16:50:56 +0000",
+      "type": "news"
+    },
+    {
+      "title": "Unsloth AI Releases Unsloth Studio: A Local No-Code Interface For High-Performance LLM Fine-Tuning With 70% Less VRAM Usage",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/03/17/unsloth-ai-releases-studio-a-local-no-code-interface-for-high-performance-llm-fine-tuning-with-70-less-vram-usage/",
+      "summary": "The transition from a raw dataset to a fine-tuned Large Language Model (LLM) traditionally involves significant infrastructure overhead, including CUDA environment management and high VRAM requirement...",
+      "publishedAt": "Tue, 17 Mar 2026 22:32:48 +0000",
+      "type": "news"
+    },
+    {
+      "title": "Google AI Releases WAXAL: A Multilingual African Speech Dataset for Training Automatic Speech Recognition and Text-to-Speech Models",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/03/17/google-ai-releases-waxal-a-multilingual-african-speech-dataset-for-training-automatic-speech-recognition-and-text-to-speech-models/",
+      "summary": "Speech technology still has a data distribution problem. Automatic Speech Recognition (ASR) and Text-to-Speech (TTS) systems have improved rapidly for high-resource languages, but many African languag...",
+      "publishedAt": "Tue, 17 Mar 2026 08:37:33 +0000",
+      "type": "news"
+    },
+    {
+      "title": "How to Build High-Performance GPU-Accelerated Simulations and Differentiable Physics Workflows Using NVIDIA Warp Kernels",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/03/16/how-to-build-high-performance-gpu-accelerated-simulations-and-differentiable-physics-workflows-using-nvidia-warp-kernels/",
+      "summary": "In this tutorial, we explore how to use NVIDIA Warp to build high-performance GPU and CPU simulations directly from Python. We begin by setting up a Colab-compatible environment and initializing Warp ...",
+      "publishedAt": "Tue, 17 Mar 2026 04:42:00 +0000",
+      "type": "news"
+    },
+    {
+      "title": "Mistral AI Releases Mistral Small 4: A 119B-Parameter MoE Model that Unifies Instruct, Reasoning, and Multimodal Workloads",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/03/16/mistral-ai-releases-mistral-small-4-a-119b-parameter-moe-model-that-unifies-instruct-reasoning-and-multimodal-workloads/",
+      "summary": "Mistral AI has released Mistral Small 4, a new model in the Mistral Small family designed to consolidate several previously separate capabilities into a single deployment target. Mistral team describe...",
+      "publishedAt": "Mon, 16 Mar 2026 22:48:59 +0000",
+      "type": "news"
+    },
+    {
+      "title": "Moonshot AI Releases 𝑨𝒕𝒕𝒆𝒏𝒕𝒊𝒐𝒏 𝑹𝒆𝒔𝒊𝒅𝒖𝒂𝒍𝒔 to Replace Fixed Residual Mixing with Depth-Wise Attention for Better Scaling in Transformers",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/03/15/moonshot-ai-releases-%f0%9d%91%a8%f0%9d%92%95%f0%9d%92%95%f0%9d%92%86%f0%9d%92%8f%f0%9d%92%95%f0%9d%92%8a%f0%9d%92%90%f0%9d%92%8f-%f0%9d%91%b9%f0%9d%92%86%f0%9d%92%94%f0%9d%92%8a%f0%9d%92%85/",
+      "summary": "Residual connections are one of the least questioned parts of modern Transformer design. In PreNorm architectures, each layer adds its output back into a running hidden state, which keeps optimization...",
+      "publishedAt": "Mon, 16 Mar 2026 06:48:39 +0000",
+      "type": "news"
+    },
+    {
+      "title": "IBM AI Releases Granite 4.0 1B Speech as a Compact Multilingual Speech Model for Edge AI and Translation Pipelines",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/03/15/ibm-ai-releases-granite-4-0-1b-speech-as-a-compact-multilingual-speech-model-for-edge-ai-and-translation-pipelines/",
+      "summary": "IBM has released Granite 4.0 1B Speech, a compact speech-language model designed for multilingual automatic speech recognition (ASR) and bidirectional automatic speech translation (AST). The release t...",
+      "publishedAt": "Mon, 16 Mar 2026 04:57:26 +0000",
+      "type": "news"
+    },
+    {
+      "title": "A Coding Implementation to Design an Enterprise AI Governance System Using OpenClaw Gateway Policy Engines, Approval Workflows and Auditable Agent Execution",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/03/15/a-coding-implementation-to-design-an-enterprise-ai-governance-system-using-openclaw-gateway-policy-engines-approval-workflows-and-auditable-agent-execution/",
+      "summary": "In this tutorial, we build an enterprise-grade AI governance system using OpenClaw and Python. We start by setting up the OpenClaw runtime and launching the OpenClaw Gateway so that our Python environ...",
+      "publishedAt": "Sun, 15 Mar 2026 22:12:45 +0000",
+      "type": "news"
+    },
+    {
+      "title": "Meet OpenViking: An Open-Source Context Database that Brings Filesystem-Based Memory and Retrieval to AI Agent Systems like OpenClaw",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/03/15/meet-openviking-an-open-source-context-database-that-brings-filesystem-based-memory-and-retrieval-to-ai-agent-systems-like-openclaw/",
+      "summary": "OpenViking is an open-source Context Database for AI Agents from Volcengine. The project is built around a simple architectural concept: agent systems should not treat context as a flat collection of ...",
+      "publishedAt": "Sun, 15 Mar 2026 18:49:21 +0000",
+      "type": "news"
+    },
+    {
+      "title": "LangChain Releases Deep Agents: A Structured Runtime for Planning, Memory, and Context Isolation in Multi-Step AI Agents",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/03/15/langchain-releases-deep-agents-a-structured-runtime-for-planning-memory-and-context-isolation-in-multi-step-ai-agents/",
+      "summary": "Most LLM agents work well for short tool-calling loops but start to break down when the task becomes multi-step, stateful, and artifact-heavy. LangChain’s Deep Agents is designed for that gap. The pro...",
+      "publishedAt": "Sun, 15 Mar 2026 09:07:48 +0000",
+      "type": "news"
+    },
+    {
+      "title": "Zhipu AI Introduces GLM-OCR: A 0.9B Multimodal OCR Model for Document Parsing and Key Information Extraction (KIE)",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/03/15/zhipu-ai-introduces-glm-ocr-a-0-9b-multimodal-ocr-model-for-document-parsing-and-key-information-extraction-kie/",
+      "summary": "Why Document OCR Still Remains a Hard Engineering Problem? What does it take to make OCR useful for real documents instead of clean demo images? And can a compact multimodal model handle parsing, tabl...",
+      "publishedAt": "Sun, 15 Mar 2026 08:08:01 +0000",
+      "type": "news"
+    }
+  ],
+  "source_stats": {
+    "TheVerge": 10,
+    "TechCrunch": 10,
+    "Wired": 10,
+    "VentureBeat": 7,
+    "TheGuardian AI": 10,
+    "ScienceDaily": 10,
+    "MIT Tech Review": 10,
+    "MIT News": 10,
+    "Google Research": 10,
+    "Microsoft AI": 10,
+    "BAIR Berkeley": 10,
+    "AI News": 10,
+    "MarkTechPost": 10
+  },
+  "total": 127,
+  "timestamp": "2026-03-18T10:23:49.481887+08:00"
+}

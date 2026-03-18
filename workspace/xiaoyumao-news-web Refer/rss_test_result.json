@@ -1,0 +1,125 @@
+{
+  "timestamp": "2026-03-18T09:54:28.292542+08:00",
+  "success_rate": "13/13",
+  "sources": [
+    {
+      "name": "TheVerge",
+      "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+      "status": "success",
+      "items": 0,
+      "error": null,
+      "total_available": 10
+    },
+    {
+      "name": "TechCrunch",
+      "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "status": "success",
+      "items": 5,
+      "error": null,
+      "total_available": 20
+    },
+    {
+      "name": "Wired",
+      "url": "https://www.wired.com/feed/tag/ai/latest/rss",
+      "status": "success",
+      "items": 5,
+      "error": null,
+      "total_available": 10
+    },
+    {
+      "name": "VentureBeat",
+      "url": "https://venturebeat.com/category/ai/feed/",
+      "status": "success",
+      "items": 5,
+      "error": null,
+      "total_available": 7
+    },
+    {
+      "name": "TheGuardian AI",
+      "url": "https://www.theguardian.com/technology/artificialintelligenceai/rss",
+      "status": "success",
+      "items": 5,
+      "error": null,
+      "total_available": 20
+    },
+    {
+      "name": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml",
+      "status": "success",
+      "items": 5,
+      "error": null,
+      "total_available": 60
+    },
+    {
+      "name": "MIT Tech Review",
+      "url": "https://www.technologyreview.com/topic/artificial-intelligence/feed",
+      "status": "success",
+      "items": 4,
+      "error": null,
+      "total_available": 10
+    },
+    {
+      "name": "MIT News",
+      "url": "https://news.mit.edu/rss/topic/artificial-intelligence2",
+      "status": "success",
+      "items": 5,
+      "error": null,
+      "total_available": 50
+    },
+    {
+      "name": "Google Research",
+      "url": "https://research.google/blog/rss/",
+      "status": "success",
+      "items": 5,
+      "error": null,
+      "total_available": 100
+    },
+    {
+      "name": "Microsoft AI",
+      "url": "https://news.microsoft.com/source/topics/ai/feed/",
+      "status": "success",
+      "items": 5,
+      "error": null,
+      "total_available": 10
+    },
+    {
+      "name": "BAIR Berkeley",
+      "url": "https://bair.berkeley.edu/blog/feed.xml",
+      "status": "success",
+      "items": 5,
+      "error": null,
+      "total_available": 10
+    },
+    {
+      "name": "AI News",
+      "url": "https://www.artificialintelligence-news.com/feed/",
+      "status": "success",
+      "items": 5,
+      "error": null,
+      "total_available": 12
+    },
+    {
+      "name": "MarkTechPost",
+      "url": "https://www.marktechpost.com/feed/",
+      "status": "success",
+      "items": 5,
+      "error": null,
+      "total_available": 10
+    }
+  ],
+  "total_news": 59,
+  "source_distribution": {
+    "TechCrunch": 5,
+    "Wired": 5,
+    "VentureBeat": 5,
+    "TheGuardian AI": 5,
+    "ScienceDaily": 5,
+    "MIT Tech Review": 4,
+    "MIT News": 5,
+    "Google Research": 5,
+    "Microsoft AI": 5,
+    "BAIR Berkeley": 5,
+    "AI News": 5,
+    "MarkTechPost": 5
+  }
+}

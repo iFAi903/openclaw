@@ -1,0 +1,95 @@
+{
+  "channels": {
+    "feishu": {
+      "enabled": true,
+      "defaultAccount": "default",
+      "domain": "feishu",
+      "connectionMode": "websocket",
+      "requireMention": true,
+      "dmPolicy": "pairing",
+      "groupPolicy": "open",
+      "allowFrom": [],
+      "groupAllowFrom": [],
+      "streaming": true,
+      "footer": {
+        "elapsed": true,
+        "status": true
+      },
+      "threadSession": true,
+      "accounts": {
+        "default": {
+          "appId": "cli_a90d36b5cf38dcda",
+          "appSecret": "Y66iEWySOoC2lQNXe5JbAdnJCkhrnof8"
+        },
+        "copy-agent": {
+          "appId": "cli_a91d4791de389cbd",
+          "appSecret": "Wgv3Sp2k65LIeYlKkq5qGgGKzqZ4KaZh"
+        },
+        "product-agent": {
+          "appId": "cli_a912b5791bb89cc0",
+          "appSecret": "6QbxdVtgu8mtoIIi4uDKVc1uXRJmlotl"
+        },
+        "cfo-agent": {
+          "appId": "cli_a912b73dfdf8dcd4",
+          "appSecret": "yztp3jTwl37NcaXDl1HRDfCQgSmYtSZq"
+        }
+      }
+    }
+  },
+  "bindings": [
+    {
+      "type": "route",
+      "agentId": "copy-agent",
+      "match": {
+        "channel": "feishu",
+        "accountId": "copy-agent"
+      }
+    },
+    {
+      "type": "route",
+      "agentId": "product-agent",
+      "match": {
+        "channel": "feishu",
+        "accountId": "product-agent"
+      }
+    },
+    {
+      "type": "route",
+      "agentId": "cfo-agent",
+      "match": {
+        "channel": "feishu",
+        "accountId": "cfo-agent"
+      }
+    }
+  ],
+  "agents": {
+    "list": [
+      {
+        "id": "main",
+        "model": "openai-codex/gpt-5.4",
+        "workspace": "/Users/ifai_macpro/.openclaw/workspace/iFAi"
+      },
+      {
+        "id": "copy-agent",
+        "name": "copy-agent",
+        "model": "google/gemini-3.1-pro-preview",
+        "workspace": "/Users/ifai_macpro/.openclaw-copy-agent/workspace",
+        "agentDir": "/Users/ifai_macpro/.openclaw-copy-agent/agent"
+      },
+      {
+        "id": "product-agent",
+        "name": "product-agent",
+        "model": "anthropic/claude-opus-4-6",
+        "workspace": "/Users/ifai_macpro/.openclaw-product-agent/workspace",
+        "agentDir": "/Users/ifai_macpro/.openclaw-product-agent/agent"
+      },
+      {
+        "id": "cfo-agent",
+        "name": "cfo-agent",
+        "model": "anthropic/claude-opus-4-6",
+        "workspace": "/Users/ifai_macpro/.openclaw-cfo-agent/workspace",
+        "agentDir": "/Users/ifai_macpro/.openclaw-cfo-agent/agent"
+      }
+    ]
+  }
+}

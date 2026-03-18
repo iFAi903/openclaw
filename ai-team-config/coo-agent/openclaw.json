@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "name": "coo-agent",
+    "role": "电商与社群运营战略专家",
+    "emoji": "🟢",
+    "color": "green"
+  },
+  "agents": {
+    "defaults": {
+      "model": {
+        "primary": "openai-codex/gpt-5.4",
+        "fallbacks": [
+          "anthropic/claude-sonnet-4-6",
+          "kimi-coding/k2p5"
+        ]
+      },
+      "workspace": "/Users/ifai_macpro/.openclaw/workspace/iFAi/ai-team-config/coo-agent/workspace",
+      "systemPromptFiles": [
+        "SOUL.md",
+        "IDENTITY.md",
+        "TOOLS.md"
+      ],
+      "compaction": {
+        "mode": "safeguard"
+      }
+    }
+  },
+  "gateway": {
+    "port": 18840,
+    "mode": "local",
+    "bind": "loopback",
+    "auth": {
+      "mode": "token",
+      "token": "coo-agent-secret-token-2026"
+    }
+  },
+  "channels": {
+    "feishu": {
+      "enabled": true,
+      "dmPolicy": "pairing",
+      "groupPolicy": "open",
+      "requireMention": true,
+      "connectionMode": "websocket"
+    }
+  },
+  "skills": {
+    "allow": [
+      "web_search",
+      "web_fetch",
+      "sessions_spawn",
+      "feishu_bitable_app",
+      "feishu_sheet"
+    ]
+  },
+  "plugins": {
+    "slots": {
+      "memory": "memory-lancedb-pro"
+    }
+  }
+}

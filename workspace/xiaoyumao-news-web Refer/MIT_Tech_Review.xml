@@ -1,0 +1,1027 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Artificial intelligence &#8211; MIT Technology Review</title>
+	<atom:link href="https://www.technologyreview.com/topic/artificial-intelligence/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.technologyreview.com</link>
+	<description></description>
+	<lastBuildDate>Wed, 18 Mar 2026 01:36:35 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.8.5</generator>
+
+<image>
+	<url>https://wp.technologyreview.com/wp-content/uploads/2024/09/cropped-TR-Logo-Block-Centered-R.png?w=32</url>
+	<title>Artificial intelligence &#8211; MIT Technology Review</title>
+	<link>https://www.technologyreview.com</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+<site xmlns="com-wordpress:feed-additions:1">172986898</site>	<item>
+		<title>The Pentagon is planning for AI companies to train on classified data, defense official says</title>
+		<link>https://www.technologyreview.com/2026/03/17/1134351/the-pentagon-is-planning-for-ai-companies-to-train-on-classified-data-defense-official-says/</link>
+		
+		<dc:creator><![CDATA[James O'Donnell]]></dc:creator>
+		<pubDate>Tue, 17 Mar 2026 22:30:46 +0000</pubDate>
+				<category><![CDATA[Artificial intelligence]]></category>
+		<category><![CDATA[App]]></category>
+		<category><![CDATA[artificial intelligence]]></category>
+		<guid isPermaLink="false">https://www.technologyreview.com/?p=1134351</guid>
+
+					<description><![CDATA[The Pentagon is discussing plans to set up secure environments for generative AI companies to train military-specific versions of their models on classified data, MIT Technology Review has learned.&#160; AI models like Anthropic’s Claude are already used to answer questions in classified settings; applications include analyzing targets in Iran. But allowing models to train on&#8230;]]></description>
+										<content:encoded><![CDATA[
+<p>The Pentagon is discussing plans to set up secure environments for generative AI companies to train military-specific versions of their models on classified data, <em>MIT Technology Review </em>has learned.&nbsp;</p>
+
+
+
+<p>AI models like Anthropic’s Claude are already used to answer questions in classified settings; applications include analyzing targets in Iran. But allowing models to train on and learn from classified data would be a new development that presents unique security risks. It would mean sensitive intelligence like surveillance reports or battlefield assessments could become embedded into the models themselves, and it would bring AI firms into closer contact with classified data than before.&nbsp;</p>
+
+
+
+<p>Training versions of AI models on classified data is expected to make them more accurate and effective in certain tasks, according to a US defense official who spoke on background with <em>MIT Technology Review</em>. The news comes as demand for more powerful models is high: The Pentagon has reached agreements with OpenAI and Elon Musk’s xAI to operate their models in classified settings and is implementing a new <a href="https://media.defense.gov/2026/Jan/12/2003855671/-1/-1/0/ARTIFICIAL-INTELLIGENCE-STRATEGY-FOR-THE-DEPARTMENT-OF-WAR.PDF">agenda</a> to become an “an ‘AI-first’ warfighting force” as the conflict with Iran escalates. (The Pentagon did not comment on its AI training plans as of publication time.)</p>
+
+
+
+<p>Training would be done in a secure data center that’s accredited to host classified government projects, and where a copy of an AI model is paired with classified data, according to two people familiar with how such operations work. Though the Department of Defense would remain the owner of the data, personnel from AI companies might in rare cases access the data if they have appropriate security clearance, the official said.&nbsp;</p>
+
+
+
+<p>Before allowing this new training, though, the official said, the Pentagon intends to evaluate how accurate and effective models are when trained on nonclassified data, like commercially available satellite imagery.&nbsp;</p>
+
+
+
+<p>The military has long used computer vision models, an older form of AI, to identify objects in images and footage it collects from drones and airplanes, and federal agencies have <a href="https://breakingdefense.com/2025/11/startup-enabled-intelligence-nabs-ngas-708-million-ai-training-contract/#:~:text=NGA%20took%20over%20Maven%20from,%2C%E2%80%9D%20the%20press%20release%20said.">awarded contracts</a> to companies to train AI models on such content. And AI companies building large language models (LLMs) and chatbots have created versions of their models fine-tuned for government work, like Anthropic’s Claude Gov, which are designed to operate across more languages and in secure environments. But the official’s comments are the first indication that AI companies building LLMs, like OpenAI and xAI, could train government-specific versions of their models directly on classified data.</p>
+
+
+
+<p>Aalok Mehta, who directs the Wadhwani AI Center at the Center for Strategic and International Studies and previously led AI policy efforts at Google and OpenAI, says training on classified data, as opposed to just answering questions about it, would present new risks.&nbsp;</p>
+
+
+
+
+
+<p>The biggest of these, he says, is that classified information these models train on could be resurfaced to anyone using the model. That would be a problem if lots of different military departments, all with different classification levels and needs for information, were to share the same AI.&nbsp;</p>
+
+
+
+<p>“You can imagine, for example, a model that has access to some sort of sensitive human intelligence—like the name of an operative—leaking that information to a part of the Defense Department that isn’t supposed to have access to that information,” Mehta says. That could create a security risk for the operative, one that’s difficult to perfectly mitigate if a particular model is used by more than one group within the military.</p>
+
+
+
+<p>However, Mehta says, it’s not as hard to keep information contained from the broader world: “If you set this up right, you will have very little risk of that data being surfaced on the general internet or back to OpenAI.” The government has some of the infrastructure for this already; the security giant Palantir has won sizable contracts for building a secure environment through which officials can ask AI models about classified topics without sending the information back to AI companies. But using these systems for training is still a new challenge.&nbsp;</p>
+
+
+
+<p>The Pentagon, spurred by a <a href="https://media.defense.gov/2026/Jan/12/2003855671/-1/-1/0/ARTIFICIAL-INTELLIGENCE-STRATEGY-FOR-THE-DEPARTMENT-OF-WAR.PDF">memo</a> from Defense Secretary Pete Hegseth in January, has been racing to <a href="https://www.technologyreview.com/2026/03/12/1134243/defense-official-military-use-ai-chatbots-targeting-decisions/">incorporate more AI</a>. It has been used in combat, where generative AI has ranked lists of targets and recommended which to strike first, and in more administrative roles, like drafting contracts and reports.</p>
+
+
+
+<p>There are lots of tasks currently handled by human analysts that the military might want to train leading AI models to perform and would require access to classified data, Mehta says. That could include learning to identify subtle clues in an image the way an analyst does, or connecting new information with historical context. The classified data could be pulled from the unfathomable amounts of text, audio, images, and video, in many languages, that intelligence services collect.&nbsp;</p>
+
+
+
+<p>It’s really hard to say which specific military tasks would require AI models to train on such data, Mehta cautions, “because obviously the Defense Department has lots of incentives to keep that information confidential, and they don&#8217;t want other countries to know what kind of capabilities we have exactly in that space.”</p>
+
+
+
+<p><em>If you have information about the military’s use of AI, you can share it securely via Signal (username jamesodonnell.22).</em></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">1134351</post-id>	</item>
+		<item>
+		<title>Where OpenAI’s technology could show up in Iran</title>
+		<link>https://www.technologyreview.com/2026/03/16/1134315/where-openais-technology-could-show-up-in-iran/</link>
+		
+		<dc:creator><![CDATA[James O'Donnell]]></dc:creator>
+		<pubDate>Mon, 16 Mar 2026 17:06:21 +0000</pubDate>
+				<category><![CDATA[Artificial intelligence]]></category>
+		<category><![CDATA[App]]></category>
+		<category><![CDATA[artificial intelligence]]></category>
+		<category><![CDATA[The Algorithm]]></category>
+		<guid isPermaLink="false">https://www.technologyreview.com/?p=1134315</guid>
+
+					<description><![CDATA[This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. It&#8217;s been just over two weeks since OpenAI reached a controversial agreement to allow the Pentagon to use its AI in classified environments. There are still pressing questions about what exactly OpenAI’s&#8230;]]></description>
+										<content:encoded><![CDATA[
+<p><br><em>This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, </em><a href="https://forms.technologyreview.com/newsletters/ai-demystified-the-algorithm/"><em>sign up here</em></a><em>.</em></p>
+
+
+
+<p>It&#8217;s been just over two weeks since OpenAI reached a controversial agreement to allow the Pentagon to use its AI in classified environments. There are still pressing questions about what exactly OpenAI’s <a href="https://www.technologyreview.com/2026/03/02/1133850/openais-compromise-with-the-pentagon-is-what-anthropic-feared/">agreement</a> allows for; Sam Altman said the military can’t use his company’s technology to build autonomous weapons, but the agreement really just demands that the military follow its own (quite permissive) <a href="https://www.esd.whs.mil/portals/54/documents/dd/issuances/dodd/300009p.pdf">guidelines</a> about such weapons. OpenAI’s other main claim, that the agreement will prevent use of its technology for domestic surveillance, appears equally <a href="https://www.technologyreview.com/2026/03/06/1134012/is-the-pentagon-allowed-to-surveil-americans-with-ai/">dubious</a>.</p>
+
+
+
+<p>It’s unclear what OpenAI’s motivations are. It’s not the first tech giant to embrace military contracts it had once vowed never to enter into, but the speed of the pivot was notable. Perhaps it’s just about money; OpenAI is spending lots on AI training and is on the hunt for more revenue (from sources including <a href="https://openai.com/index/our-approach-to-advertising-and-expanding-access/">ads</a>). Or perhaps Altman truly believes the ideological framing he often invokes: that liberal democracies (and their militaries) must have access to the most powerful AI to compete with China.</p>
+
+
+
+<p>The more consequential question is what happens next. OpenAI has decided it is comfortable operating right in the messy heart of combat, just as the US escalates its strikes against Iran (with AI <a href="https://www.technologyreview.com/2026/03/12/1134243/defense-official-military-use-ai-chatbots-targeting-decisions/">playing a larger role</a> in that than ever before). So where exactly could OpenAI’s tech show up in this fight? And which applications will its customers (and employees) tolerate?</p>
+
+
+
+<h3 class="wp-block-heading"><strong>Targets and strikes</strong></h3>
+
+
+
+<p>Though its Pentagon agreement is in place, it’s unclear when OpenAI’s technology will be ready for classified environments, since it must be integrated with other tools the military uses (Elon Musk’s xAI, which recently struck its own deal with the Pentagon, is expected to go through the same process with its AI model Grok). But there’s pressure to do this quickly because of controversy around the technology in use to date: After Anthropic refused to allow its AI to be used for “any lawful use,” President Trump ordered the military to stop using it, and Anthropic was designated a supply chain risk by the Pentagon. (Anthropic is fighting the designation in court.)</p>
+
+
+
+<p>If the Iran conflict is still underway by the time OpenAI’s tech is in the system, what could it be used for? A recent <a href="https://www.technologyreview.com/2026/03/12/1134243/defense-official-military-use-ai-chatbots-targeting-decisions/">conversation</a> I had with a defense official suggests it might look something like this: A human analyst could put a list of potential targets into the AI model and ask it to analyze the information and prioritize which to strike first. The model could account for logistics information, like where particular planes or supplies are located. It could analyze lots of different inputs in the form of text, image, and video.&nbsp;</p>
+
+
+
+<p>A human would then be responsible for manually checking these outputs, the official said. But that raises an obvious question: If a person is truly double-checking AI’s outputs, how is it speeding up targeting and strike decisions?</p>
+
+
+
+<p>For years the military has been using another AI system, called Maven, which can handle things like automatically analyzing drone footage to identify possible targets. It’s likely that OpenAI’s models, like Anthropic’s Claude, will offer a conversational interface on top of that, allowing users to ask for interpretations of intelligence and recommendations for which targets to strike first.&nbsp;</p>
+
+
+
+<p>It’s hard to overstate how new this is: AI has long done analysis for the military, drawing insights out of oceans of data. But using generative AI’s advice about which actions to take in the field is being tested in earnest for the first time in Iran.</p>
+
+
+
+<h3 class="wp-block-heading"><strong>Drone defense</strong></h3>
+
+
+
+<p>At the end of 2024, OpenAI announced a <a href="https://www.technologyreview.com/2024/12/04/1107897/openais-new-defense-contract-completes-its-military-pivot/">partnership</a> with Anduril, which makes both drones and counter-drone technologies for the military. The agreement said OpenAI would work with Anduril to do time-sensitive analysis of drones attacking US forces and help take them down. An OpenAI spokesperson told me at the time that this didn’t violate the company’s policies, which prohibited “systems designed to harm others,” because the technology was being used to target drones and not people.&nbsp;</p>
+
+
+
+<p>Anduril provides a suite of counter-drone technologies to military bases around the world (though the company declined to tell me whether its systems are deployed near Iran). Neither company has provided updates on how the project has developed since it was announced. However, Anduril has long trained its own AI models to analyze camera footage and sensor data to identify threats; what it focuses less on are conversational AI systems that allow soldiers to query those systems directly or receive guidance in natural language—an area where OpenAI’s models may fit.</p>
+
+
+
+<p>The stakes are high. Six US service members were killed in Kuwait on March 1 following an Iranian drone attack that was not intercepted by US air defenses.&nbsp;</p>
+
+
+
+
+
+<p>Anduril’s interface, called Lattice, is where soldiers can control everything from drone defenses to missiles and autonomous submarines. And the company is winning massive contracts—<a href="https://www.bloomberg.com/news/articles/2026-03-14/us-army-awards-anduril-contract-worth-as-much-as-20-billion">$20 billion from the US Army just last week</a>—to connect its systems with legacy military equipment and layer AI on them. If OpenAI’s models prove useful to Anduril, Lattice is designed to incorporate them quickly across this broader warfare stack.&nbsp;</p>
+
+
+
+<h3 class="wp-block-heading"><strong>Back-office AI</strong></h3>
+
+
+
+<p>In December, Defense Secretary Pete Hegseth started encouraging millions of people in more administrative roles in the military—contracts, logistics, purchasing—to use a new AI tool. Called GenAI.mil, it provided a way for personnel to securely access commercial AI models and use them for the same sorts of things as anyone in the business world.&nbsp;</p>
+
+
+
+<p>Google Gemini was one of the first to be available. In January, the Pentagon announced that xAI’s Grok was going to be added to the GenAI.mil platform as well, despite incidents in which the model had spread antisemitic content and created nonconsensual deepfakes. OpenAI followed in February, with the company announcing that its models would be used for drafting policy documents and contracts and assisting with administrative support of missions.</p>
+
+
+
+<p>Anyone using ChatGPT for unclassified tasks on this platform is unlikely to have much sway over sensitive decisions in Iran, but the prospect of OpenAI deploying on the platform is important in another way. It serves the all-in attitude toward AI that Hegseth has been pushing relentlessly across the Pentagon (even if many <a href="https://defensescoop.com/2025/12/18/genai-mil-users-have-mixed-reactions-and-many-questions/">early users</a> aren’t entirely sure what they’re supposed to use it for). The message is that AI is transforming every aspect of how the US fights, from targeting decisions down to paperwork. And OpenAI is increasingly winning a piece of it all.</p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">1134315</post-id>	</item>
+		<item>
+		<title>Nurturing agentic AI beyond the toddler stage</title>
+		<link>https://www.technologyreview.com/2026/03/16/1133979/nurturing-agentic-ai-beyond-the-toddler-stage/</link>
+		
+		<dc:creator><![CDATA[Lynn Comp]]></dc:creator>
+		<pubDate>Mon, 16 Mar 2026 13:00:00 +0000</pubDate>
+				<category><![CDATA[Artificial intelligence]]></category>
+		<category><![CDATA[sponsored]]></category>
+		<guid isPermaLink="false">https://www.technologyreview.com/?p=1133979</guid>
+
+					<description><![CDATA[Parents of young children face a lot of fears about developmental milestones, from infancy through adulthood. The number of months it takes a baby to learn to talk or walk is often used as a benchmark for wellness, or an indicator of additional tests needed to properly diagnose a potential health condition. A parent rejoices&#8230;]]></description>
+										<content:encoded><![CDATA[
+<p>Parents of young children face a lot of fears about developmental milestones, from infancy through adulthood. The number of months it takes a baby to learn to talk or walk is often used as a benchmark for wellness, or an indicator of additional tests needed to properly diagnose a potential health condition. A parent rejoices over the child’s first steps and then realizes how much has changed when the child can quickly walk outside, instead of slowly crawling in a safe area inside. Suddenly safety, including childproofing, takes a completely different lens and approach.</p>
+
+
+
+<figure class="wp-block-image size-large"><img fetchpriority="high" decoding="async" width="1254" height="836" src="https://wp.technologyreview.com/wp-content/uploads/2026/03/MITTRI-Intel-iStock-2241096601.jpg?w=1254" alt="" class="wp-image-1134002" srcset="https://wp.technologyreview.com/wp-content/uploads/2026/03/MITTRI-Intel-iStock-2241096601.jpg 1254w, https://wp.technologyreview.com/wp-content/uploads/2026/03/MITTRI-Intel-iStock-2241096601.jpg?resize=300,200 300w, https://wp.technologyreview.com/wp-content/uploads/2026/03/MITTRI-Intel-iStock-2241096601.jpg?resize=768,512 768w" sizes="(max-width: 1254px) 100vw, 1254px" /></figure>
+
+
+
+<p>Generative AI hit toddlerhood between December 2025 and January 2026 with the introduction of no code tools from multiple vendors and the debut of OpenClaw, an open source personal agent posted on GitHub. No more crawling on the carpet—the generative AI tech baby broke into a sprint, and very few governance principles were operationally prepared.</p>
+
+
+
+<h3 class="wp-block-heading"><strong>The accountability challenge: It’s not them, it’s you</strong></h3>
+
+
+
+<p>Until now, governance has been focused on model output risks with humans in the loop before consequential decisions were made—such as with loan approvals or job applications. Model behavior, including drift, alignment, data exfiltration, and poisoning, was the focus. The pace was set by a human prompting a model in a chatbot format with plenty of back and forth interactions between machine and human.</p>
+
+
+
+<p>Today, with autonomous agents operating in complex workflows, the vision and the benefits of applied AI require significantly fewer humans in the loop. The point is to operate a business at machine pace by automating manual tasks that have clear architecture and decision rules. The goal, from a liability standpoint, is no reduction in enterprise or business risk between a machine operating a workflow and a human operating a workflow. <a href="https://www.cxtoday.com/ai-automation-in-cx/ai-agents-humans-lloyds-mastercard-and-others-lead-agentic-ai-adoption/">CX Today summarizes</a> the situation succinctly: “AI does the work, humans own the risk,” and &nbsp;&nbsp;California state law (AB 316), went into effect January 1, 2026, which removes the “AI did it; I didn’t approve it” excuse.&nbsp; This is similar to parenting when an adult is held responsible for a child’s actions that negatively impacts the larger community.</p>
+
+
+
+<p>The challenge is that without building in code that enforces operational governance aligned to different levels of risk and liability along the entire workflow, the benefit of autonomous AI agents is negated. In the past, governance had been static and aligned to the pace of interaction typical for a chatbot. However, autonomous AI by design removes humans from many decisions, which can affect governance. &nbsp;</p>
+
+
+
+<h3 class="wp-block-heading"><strong>Considering permissions</strong></h3>
+
+
+
+<p>Much like handing a three-year-old child a video game console that remotely controls an Abrams tank or an armed drone, leaving a probabilistic system operating without real-time guardrails that can change critical enterprise data carries significant risks.&nbsp; For instance, agents that integrate and chain actions across multiple corporate systems can drift beyond privileges that a single human user would be granted. To move forward successfully, governance must shift beyond policy set by committees to operational code built into the workflows from the start. &nbsp;</p>
+
+
+
+<p>A humorous meme around the behavior of toddlers with toys starts with all the reasons that whatever toy you have is mine and ends with a broken toy that is definitely yours.&nbsp; For example, OpenClaw delivered a user experience closer to working with a human assistant;, but the excitement shifted as <a href="https://www.zdnet.com/article/openclaw-moltbot-clawdbot-5-reasons-viral-ai-agent-security-nightmare/">security experts</a> realized inexperienced users could be easily compromised by using it.</p>
+
+
+
+<p>For decades, enterprise IT has lived with shadow IT and the reality that skilled technical teams must take over and clean up assets they did not architect or install, much like the toddler giving back a broken toy. With autonomous agents, the risks are larger: persistent service account credentials, long-lived API tokens, and permissions to make decisions over core file systems. To meet this challenge, it’s imperative to allocate upfront appropriate IT budget and labor to sustain central discovery, oversight, and remediation for the thousands of employee or department-created agents.</p>
+
+
+
+<h3 class="wp-block-heading"><strong>Having a retirement plan</strong></h3>
+
+
+
+<p>Recently, an acquaintance mentioned that she saved a client hundreds of thousands of dollars by identifying and then ending a “zombie project” —a neglected or failed AI pilot left running on a GPU cloud instance. There are potentially thousands of agents that risk becoming a zombie fleet inside a business. Today, many executives encourage employees to use AI—or else—and employees are told to create their own AI-first workflows or AI assistants. With the utility of something like OpenClaw and top-down directives, it is easy to project that the number of build-my-own agents coming to the office with their human employee will explode. Since an AI agent is a program that would fall under the definition of company-owned IP, as a employee changes departments or companies, those agents may be orphaned. There needs to be proactive policy and governance to decommission and retire any agents linked to a specific employee ID and permissions.</p>
+
+
+
+<h3 class="wp-block-heading"><strong>Financial optimization is governance out of the gate</strong></h3>
+
+
+
+<p>While for some executives, autonomous AI sounds like a way to improve their operating margins by limiting human capital, many are finding that the ROI for human labor replacement is the wrong angle to take. Adding AI capabilities to the enterprise does not mean purchasing a new software tool with predictable instance-per-hour or per-seat pricing. A December 2025 <a href="https://www.datarobot.com/resources/a-strategic-approach-to-scaling-generative-and-agentic-ai/thank-you">IDC survey</a> sponsored by Data Robot indicated that 96% of organizations deploying generative AI and 92% of those implementing agentic AI reported costs were higher or much higher than expected.</p>
+
+
+
+<p>The survey separates the concepts of governance and ROI, but as AI systems scale across large enterprises, financial and liability governance should be architected into the workflows from the beginning. Part of enterprise class governance stems from predicting and adhering to allocated budgeting. Unlike the software financial models of per-seat costs with support and maintenance fees, use of AI is consumption and usage costs scale as the workflow scales across the enterprise: the more users, the more tokens or the more compute time, and the higher the bill. Think of it as a tab left open, or an online retailer’s digital shopping cart button unlocked on a toddler’s electronic game device.</p>
+
+
+
+<p>Cloud FinOps was deterministic, but generative AI and agentic AI systems built on generative AI are probabilistic. <a href="ttps://www.linkedin.com/posts/davidvillalonpardo_a-single-ai-agent-hitting-an-api-can-burn-activity-7430607114743562240-dAAA/">Some</a> AI-first <a href="https://www.ainvest.com/news/ai-agent-economics-100k-year-cost-barrier-2602/">founders</a> are realizing that a single agents’ token costs can be as high as $100,000 per session. Without guardrails built in from the start, chaining complex autonomous agents that run unsupervised for long periods of time can easily blow past the budget for hiring a junior developer.</p>
+
+
+
+<h3 class="wp-block-heading"><strong>Keeping humans in the loop remains critical</strong></h3>
+
+
+
+<p>The promise of autonomous agentic AI is acceleration of business operations, product introductions, customer experience, and customer retention. Shifting to machine-speed decisions without humans in and or on the loop for these key functions significantly changes the governance landscape. While many of the principles around proactive permissions, discovery, audit, remediation, and financial operations/optimizations are the same, how they are executed has to shift to keep pace with autonomous agentic AI.</p>
+
+
+
+<p><em>This content was produced by Intel. It was not written by MIT Technology Review’s editorial staff.</em></p>
+
+
+
+<p></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">1133979</post-id>	</item>
+		<item>
+		<title>Securing digital assets against future threats</title>
+		<link>https://www.technologyreview.com/2026/03/16/1134287/securing-digital-assets-against-future-threats/</link>
+		
+		<dc:creator><![CDATA[MIT Technology Review Insights]]></dc:creator>
+		<pubDate>Mon, 16 Mar 2026 11:00:00 +0000</pubDate>
+				<category><![CDATA[Artificial intelligence]]></category>
+		<category><![CDATA[sponsored]]></category>
+		<guid isPermaLink="false">https://www.technologyreview.com/?p=1134287</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">1134287</post-id>	</item>
+		<item>
+		<title>Why physical AI is becoming manufacturing’s next advantage</title>
+		<link>https://www.technologyreview.com/2026/03/13/1134184/why-physical-ai-is-becoming-manufacturings-next-advantage/</link>
+		
+		<dc:creator><![CDATA[Dayan Rodriguez]]></dc:creator>
+		<pubDate>Fri, 13 Mar 2026 15:16:55 +0000</pubDate>
+				<category><![CDATA[Artificial intelligence]]></category>
+		<category><![CDATA[sponsored]]></category>
+		<guid isPermaLink="false">https://www.technologyreview.com/?p=1134184</guid>
+
+					<description><![CDATA[For decades, manufacturers have pursued automation to drive efficiency, reduce costs, and stabilize operations. That approach delivered meaningful gains, but it is no longer enough. Today’s manufacturing leaders face a different challenge: how to grow amid labor constraints, rising complexity, and increasing pressure to innovate faster without sacrificing safety, quality, or trust. The next phase&#8230;]]></description>
+										<content:encoded><![CDATA[
+<p>For decades, manufacturers have pursued automation to drive efficiency, reduce costs, and stabilize operations. That approach delivered meaningful gains, but it is no longer enough.</p>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" width="1200" height="675" src="https://wp.technologyreview.com/wp-content/uploads/2026/03/MIT-Article-Image-1200x675_C.jpg?w=1200" alt="" class="wp-image-1134186" srcset="https://wp.technologyreview.com/wp-content/uploads/2026/03/MIT-Article-Image-1200x675_C.jpg 1200w, https://wp.technologyreview.com/wp-content/uploads/2026/03/MIT-Article-Image-1200x675_C.jpg?resize=300,169 300w, https://wp.technologyreview.com/wp-content/uploads/2026/03/MIT-Article-Image-1200x675_C.jpg?resize=768,432 768w" sizes="(max-width: 1200px) 100vw, 1200px" /></figure>
+
+
+
+<p>Today’s manufacturing leaders face a different challenge: how to grow amid labor constraints, rising complexity, and increasing pressure to innovate faster without sacrificing safety, quality, or trust. The next phase of transformation will not be defined by isolated AI tools or individual robots, but by intelligence that can operate reliably in the physical world<strong>.</strong></p>
+
+
+
+<p>This is where physical AI—intelligence that can sense, reason, and act in the real world—marks a decisive shift. And it is why Microsoft and NVIDIA are working together to help manufacturers move from experimentation to production at industrial scale.</p>
+
+
+
+<h3 class="wp-block-heading"><strong>The industrial frontier: Intelligence and trust, not just automation</strong></h3>
+
+
+
+<p>Most early AI adoption focused on narrow optimization: automating tasks, improving utilization, and cutting costs. While valuable, that phase often created new friction, including skills gaps, governance concerns, and uncertainty about long‑term impact. Furthermore, the use cases were plentiful but not as strategic.</p>
+
+
+
+<p>The industrial frontier represents a different approach. Rather than asking how much work machines can replace, frontier manufacturers ask how AI can expand human capability, accelerate innovation, and unlock new forms of value while remaining trustworthy and controllable.</p>
+
+
+
+<p>Across industries, companies that successfully move into this frontier phase share two non‑negotiables:</p>
+
+
+
+<ul class="wp-block-list">
+<li>Intelligence: AI systems must understand how the business actually handles its data, workflows, and institutional knowledge.</li>
+
+
+
+<li>Trust: As AI begins to act in high‑stakes environments, organizations must retain security, governance, and observability at every layer.</li>
+</ul>
+
+
+
+<p>Without intelligence, AI becomes generic. Without trust, adoption stalls.</p>
+
+
+
+<h3 class="wp-block-heading"><strong>Why manufacturing is the proving ground for physical AI</strong></h3>
+
+
+
+<p>Manufacturing is uniquely positioned at the center of this shift.</p>
+
+
+
+<p>AI is no longer confined to planning or analytics. It is moving into physical execution: coordinating machines, adapting to real‑world variability, and working alongside people on the factory floor. Robotics, autonomous systems, and AI agents must now perceive, reason, and act in dynamic environments.</p>
+
+
+
+<p>This transition exposes a critical gap. Traditional automation excels at repetition but struggles with adaptability. Human workers bring judgment and context but are constrained by scale. Physical AI closes that gap by enabling human‑led, AI‑operated systems, where people set intent and intelligent systems execute, learn, and improve over time. Humans are essential for scaled success.</p>
+
+
+
+<h3 class="wp-block-heading"><strong>Microsoft and NVIDIA: Accelerating physical AI at scale</strong></h3>
+
+
+
+<p>Physical AI cannot be delivered through point solutions. It requires agentic-driven, enterprise-grade development, deployment, and operations toolchains and workflows that connect simulation, data, AI models, robotics, and governance into a coherent system.</p>
+
+
+
+<p>NVIDIA is building the AI infrastructure that makes physical AI possible, including accelerated computing, open models, simulation libraries, and robotics frameworks and blueprints that enable the ecosystem to build autonomous robotics systems that can perceive, reason, plan, and take action in the physical world. Microsoft complements this with a cloud and data platform designed to operate physical AI securely, at scale, and across the enterprise<strong>.</strong></p>
+
+
+
+<p>Together, Microsoft and NVIDIA are enabling manufacturers to move beyond pilots toward production‑ready physical AI systems that can be developed, tested, deployed, and continuously improved across heterogeneous environments spanning the product lifecycle, factory operations, and supply chain.</p>
+
+
+
+<h3 class="wp-block-heading"><strong>From intelligence to action: Human-agent teams in the factory</strong></h3>
+
+
+
+<p>At the industrial frontier, AI is not a standalone system, but a digital teammate.</p>
+
+
+
+<p>When AI agents are grounded in the proper operational data, embedded in human workflows, and governed end to end, they can assist with tasks such as:</p>
+
+
+
+<ul class="wp-block-list">
+<li>Optimizing production lines in real time</li>
+
+
+
+<li>Coordinating maintenance and quality decisions</li>
+
+
+
+<li>Adapting operations to supply or demand disruptions</li>
+
+
+
+<li>Accelerating engineering and product lifecycle decisions</li>
+</ul>
+
+
+
+<p>For example, manufacturers are beginning to use simulation‑grounded AI agents to evaluate production changes virtually before deploying them on the factory floor, reducing risk while accelerating decision‑making.</p>
+
+
+
+<p>Crucially, frontier manufacturers design these systems so humans remain in control. AI executes, monitors, and recommends, while people provide intent, oversight, and judgment. This balance allows organizations to move faster without losing confidence or control.</p>
+
+
+
+<h3 class="wp-block-heading"><strong>The role of trust in scaling physical AI</strong></h3>
+
+
+
+<p>As physical AI systems scale, trust becomes the limiting factor.</p>
+
+
+
+<p>Manufacturers must ensure that AI systems are secure, observable, and operating within policy, especially when they influence safety‑critical or mission‑critical processes. Governance cannot be an afterthought; It must be engineered into the platform itself.</p>
+
+
+
+<p>This is why frontier manufacturers treat trust as a first‑class requirement, pairing innovation with visibility, compliance, and accountability. Only then can physical AI move from promising demonstrations to enterprise‑wide deployment.</p>
+
+
+
+<h3 class="wp-block-heading"><strong>Why this moment matters—and what’s next</strong></h3>
+
+
+
+<p>The convergence of AI agents, robotics, simulation, and real‑time data marks an inflection point for manufacturing. What was once experimental is becoming operational. What was once siloed is becoming connected.</p>
+
+
+
+<p>At <a href="https://aka.ms/GTC-Info-MIT-ART">NVIDIA GTC 2026</a>, Microsoft and NVIDIA will demonstrate how this collaboration supports physical AI systems that manufacturers can deploy today and scale responsibly tomorrow. From simulation‑driven development to real‑world execution, the focus is on helping manufacturers cross the industrial frontier with confidence.</p>
+
+
+
+<p>For manufacturing leaders, the question is no longer whether physical AI will reshape operations, but how quickly they can adopt it responsibly, at scale, and with trust built in from the start.</p>
+
+
+
+<p><a href="https://aka.ms/GTC-Info-MIT-ART"><em>Discover more with Microsoft at NVIDIA GTC 2026</em></a><em>.</em><strong><em></em></strong></p>
+
+
+
+<p><em>This content was produced by Microsoft. It was not written by MIT Technology Review’s editorial staff.</em></p>
+
+
+
+<p></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">1134184</post-id>	</item>
+		<item>
+		<title>A defense official reveals how AI chatbots could be used for targeting decisions</title>
+		<link>https://www.technologyreview.com/2026/03/12/1134243/defense-official-military-use-ai-chatbots-targeting-decisions/</link>
+		
+		<dc:creator><![CDATA[James O'Donnell]]></dc:creator>
+		<pubDate>Thu, 12 Mar 2026 22:23:34 +0000</pubDate>
+				<category><![CDATA[Artificial intelligence]]></category>
+		<category><![CDATA[App]]></category>
+		<category><![CDATA[artificial intelligence]]></category>
+		<guid isPermaLink="false">https://www.technologyreview.com/?p=1134243</guid>
+
+					<description><![CDATA[The US military might use generative AI systems to rank lists of targets and make recommendations—which would be vetted by humans—about which to strike first, according to a Defense Department official with knowledge of the matter. The disclosure about how the military may use AI chatbots comes as the Pentagon faces scrutiny over a strike&#8230;]]></description>
+										<content:encoded><![CDATA[
+<p>The US military might use generative AI systems to rank lists of targets and make recommendations—which would be vetted by humans—about which to strike first, according to a Defense Department official with knowledge of the matter. The disclosure about how the military may use AI chatbots comes as the Pentagon faces scrutiny over a strike on an Iranian school, which it is still investigating.  </p>
+
+
+
+<p>A list of possible targets might be fed into a generative AI system that the Pentagon is fielding for classified settings. Then, said the official, who requested to speak on background with <em>MIT Technology Review </em>to discuss sensitive topics, humans might ask the system to analyze the information and prioritize the targets while accounting for factors like where aircraft are currently located. Humans would then be responsible for checking and evaluating the results and recommendations. OpenAI’s ChatGPT and xAI’s Grok could, in theory, be the models used for this type of scenario in the future, as both companies recently reached agreements for their models to be used by the Pentagon in classified settings.</p>
+
+
+
+<p>The official described this as an example of how things might work but would not confirm or deny whether it represents how AI systems are currently being used.</p>
+
+
+
+<p>Other outlets have reported that Anthropic’s Claude has been integrated into existing military AI systems and used in operations in <a href="https://www.washingtonpost.com/technology/2026/03/04/anthropic-ai-iran-campaign/">Iran</a> and <a href="https://www.wsj.com/livecoverage/iran-strikes-2026/card/u-s-strikes-in-middle-east-use-anthropic-hours-after-trump-ban-ozNO0iClZpfpL7K7ElJ2?gaa_at=eafs&amp;gaa_n=AWEtsqdxl5wWroseKoDDYyzbQCXv1Hgg1VBZWC2R6e1GlR_cV68CwK6O6rGrVUe7DqI%3D&amp;gaa_ts=69b2f381&amp;gaa_sig=VB7UoguP_JoozvJKhI7N2QAAUNSww-mLhIhP8cPyZ5TJhw7YTmbEUnVpqClGoShVGqmBJs5FMp-nPN_Q6BiSNg%3D%3D">Venezuela</a>, but the official’s comments add insight into the specific role chatbots may play, particularly in accelerating the search for targets. They also shed light on the way the military is deploying two different AI technologies, each with distinct limitations.</p>
+
+
+
+<p>Since at least 2017, the US military has been working on a “big data” initiative called Maven. It uses older types of AI, particularly computer vision, to analyze the oceans of data and imagery collected by the Pentagon. Maven might take thousands of hours of aerial drone footage, for example, and algorithmically identify targets. A 2024 <a href="https://cset.georgetown.edu/wp-content/uploads/CSET-Building-the-Tech-Coalition-1.pdf">report</a> from Georgetown University showed soldiers using the system to select targets and vet them, which sped up the process to get approval for these targets. Soldiers interacted with Maven through an interface with a battlefield map and dashboard, which might highlight potential targets in one color and friendly forces in another.</p>
+
+
+
+<p>The official’s comments suggest that generative AI is now being added as a conversational chatbot layer—one the military may use to find and analyze data more quickly as it makes decisions like which targets to prioritize. </p>
+
+
+
+<p>Generative AI systems, like those that underpin ChatGPT, Claude, and Grok, are a fundamentally different technology from the AI that has primarily powered Maven. Built on large language models, they are much less battle-tested. And while Maven’s interface forced users to directly inspect and interpret data on the map, the outputs produced by generative AI models are easier to access but harder to verify. </p>
+
+
+
+<p>The use of generative AI for such decisions is reducing the time required in the targeting process, added the official, who did not provide details when asked how much additional speed is possible if humans are required to spend time double-checking a model’s outputs.</p>
+
+
+
+<p>The use of military AI systems is under increased public scrutiny following the recent strike on a girls’ school in Iran in which more than 100 children died. <a href="https://www.nytimes.com/2026/03/05/world/middleeast/iran-school-us-strikes-naval-base.html">Multiple</a> <a href="https://www.reuters.com/world/middle-east/us-investigation-points-likely-us-responsibility-iran-school-strike-sources-say-2026-03-06/">news</a> <a href="https://www.bellingcat.com/news/2026/03/08/video-shows-us-tomahawk-missile-strike-next-to-girls-school-in-iran/?utm_source=linkedin">outlets</a> have reported that the strike was from a US missile, though the Pentagon has said it is still under investigation. And while the <em>Washington Post</em> has <a href="https://www.washingtonpost.com/technology/2026/03/04/anthropic-ai-iran-campaign/">reported</a> that Claude and Maven have been involved in targeting decisions in Iran, there is no evidence yet to explain what role generative AI systems played, if any. The <em>New York Times</em> <a href="https://www.nytimes.com/2026/03/11/us/politics/iran-school-missile-strike.html">reported</a> on Wednesday that a preliminary investigation found outdated targeting data to be partly responsible for the strike. </p>
+
+
+
+
+
+<p>The Pentagon has been ramping up its use of AI across operations in recent months. It started offering nonclassified use of generative AI models, for tasks like analyzing contracts or writing presentations, to millions of service members back in December through an effort called GenAI.mil. But only a few generative AI models have been approved by the Pentagon for classified use. </p>
+
+
+
+<p>The first was Anthropic’s Claude, which in addition to its use in Iran was reportedly used in the operations to capture <a href="https://www.wsj.com/politics/national-security/pentagon-used-anthropics-claude-in-maduro-venezuela-raid-583aff17?gaa_at=eafs&amp;gaa_n=AWEtsqdDWhJvvD7jKoXV0GZxQfvz-ujexvGFcZmufmYkMrSEu2tQELmJQnYNSHEKmuE%3D&amp;gaa_ts=69b2f765&amp;gaa_sig=7phffhZEIsTJ7kd6_of1MwVjoChrvVxZf3_CoR-udKThVaVjmBwhJtACP_8bNJRB-ZntGXCEokesEUmfNCfziw%3D%3D">Venezuelan leader Nicolas Maduro</a> in January. But following recent disagreements between the Pentagon and Anthropic over whether Anthropic could restrict the military’s use of its AI, the Defense Department designated the company a supply chain risk and President Trump demanded on social media that the government stop using its AI products within six months. Anthropic is fighting the designation in court. </p>
+
+
+
+<p>OpenAI <a href="https://www.technologyreview.com/2026/03/02/1133850/openais-compromise-with-the-pentagon-is-what-anthropic-feared/">announced</a> an agreement on February 28 for the military to use its technologies in classified settings. Elon Musk’s company xAI has also reached a deal for the Pentagon to use its model Grok in such settings. OpenAI has said its agreement with the Pentagon came with limitations, though the practical <a href="https://www.technologyreview.com/2026/03/06/1134012/is-the-pentagon-allowed-to-surveil-americans-with-ai/?utm_campaign=site_visitor.unpaid.engagement&amp;utm_source=LinkedIn&amp;utm_medium=tr_social">effectiveness</a> of those limitations is not clear. </p>
+
+
+
+<p><em>If you have information about the military’s use of AI, you can share it securely via Signal (username jamesodonnell.22).</em></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">1134243</post-id>	</item>
+		<item>
+		<title>Pragmatic by design: Engineering AI for the real world</title>
+		<link>https://www.technologyreview.com/2026/03/12/1133675/pragmatic-by-design-engineering-ai-for-the-real-world/</link>
+		
+		<dc:creator><![CDATA[MIT Technology Review Insights]]></dc:creator>
+		<pubDate>Thu, 12 Mar 2026 13:00:00 +0000</pubDate>
+				<category><![CDATA[Artificial intelligence]]></category>
+		<category><![CDATA[sponsored]]></category>
+		<guid isPermaLink="false">https://www.technologyreview.com/?p=1133675</guid>
+
+					<description><![CDATA[The impact of artificial intelligence extends far beyond the digital world and into our everyday lives, across the cars we drive, the appliances in our homes, and medical devices that keep people alive. More and more, product engineers are turning to AI to enhance, validate, and streamline the design of the items that furnish our&#8230;]]></description>
+										<content:encoded><![CDATA[
+<p>The impact of artificial intelligence extends far beyond the digital world and into our everyday lives, across the cars we drive, the appliances in our homes, and medical devices that keep people alive. More and more, product engineers are turning to AI to enhance, validate, and streamline the design of the items that furnish our worlds.</p>
+
+
+
+<p>The use of AI in product engineering follows a disciplined and pragmatic trajectory. A significant majority of engineering organizations are increasing their AI investment, according to our survey, but they are doing so in a measured way. This approach reflects the priorities typical of product engineers. Errors have concrete consequences beyond abstract fears, ranging from structural failures to safety recalls and even potentially putting lives at risk. The central challenge is realizing AI’s value without compromising product integrity. </p>
+
+
+
+<figure class="wp-block-image size-full is-resized"><a href="https://wp.technologyreview.com/wp-content/uploads/2026/03/MITTR-Insights_LTTS_Report_March26.pdf" target="_blank" rel=" noreferrer noopener"><img decoding="async" width="1240" height="1609" src="https://wp.technologyreview.com/wp-content/uploads/2026/02/LTTS-Report-2025-cover-1.png" alt="" class="wp-image-1133679" style="width:380px;height:auto" srcset="https://wp.technologyreview.com/wp-content/uploads/2026/02/LTTS-Report-2025-cover-1.png 1240w, https://wp.technologyreview.com/wp-content/uploads/2026/02/LTTS-Report-2025-cover-1.png?resize=231,300 231w, https://wp.technologyreview.com/wp-content/uploads/2026/02/LTTS-Report-2025-cover-1.png?resize=768,997 768w, https://wp.technologyreview.com/wp-content/uploads/2026/02/LTTS-Report-2025-cover-1.png?resize=1184,1536 1184w" sizes="(max-width: 1240px) 100vw, 1240px" /></a></figure>
+
+
+
+<div class="wp-block-buttons is-content-justification-left is-layout-flex wp-container-core-buttons-is-layout-fc4fd283 wp-block-buttons-is-layout-flex">
+<div class="wp-block-button has-custom-width wp-block-button__width-auto is-style-fill is-style-fill--1"><a class="wp-block-button__link has-mittr-white-color has-text-color has-background has-custom-font-size wp-element-button" href="https://wp.technologyreview.com/wp-content/uploads/2026/03/MITTR-Insights_LTTS_Report_March26.pdf" style="border-radius:4px;background-color:#122969;font-size:16px" target="_blank" rel="noreferrer noopener">DOWNLOAD THE REPORT</a></div>
+</div>
+
+
+
+<p>Drawing on data from a survey of 300 respondents and in-depth interviews with senior technology executives and other experts, this report examines how product engineering teams are scaling AI, what is limiting broader adoption, and which specific capabilities are shaping adoption today and, in the future, with actual or potential measurable outcomes.</p>
+
+
+
+<figure class="wp-block-image size-full"><a href="https://wp.technologyreview.com/wp-content/uploads/2026/03/MITTR-Insights_LTTS_Report_March26.pdf" target="_blank" rel=" noreferrer noopener"><img loading="lazy" decoding="async" width="1200" height="660" src="https://wp.technologyreview.com/wp-content/uploads/2026/02/LTTS-Social-Card-3.png" alt="" class="wp-image-1133809" srcset="https://wp.technologyreview.com/wp-content/uploads/2026/02/LTTS-Social-Card-3.png 1200w, https://wp.technologyreview.com/wp-content/uploads/2026/02/LTTS-Social-Card-3.png?resize=300,165 300w, https://wp.technologyreview.com/wp-content/uploads/2026/02/LTTS-Social-Card-3.png?resize=768,422 768w" sizes="auto, (max-width: 1200px) 100vw, 1200px" /></a></figure>
+
+
+
+<p>Key findings from the research include:</p>
+
+
+
+<p><strong>Verification, governance, and explicit human accountability are mandatory in an environment where the outputs are physical—and the risk high. </strong>Where product engineers are using AI to directly inform physical designs, embedded systems, and manufacturing decisions that are fixed at release, product failures can lead to real-world risks that cannot be rolled back. Product engineers are therefore adopting layered AI systems with distinct trust thresholds instead of general-purpose deployments.</p>
+
+
+
+<p><strong>Predictive analytics and AI-powered simulation and validation are the top near-term investment priorities for product engineering leaders.</strong> These capabilities—selected by a majority of survey respondents—offer clear feedback loops, allowing companies to audit performance, attain regulatory approval, and prove return on investment (ROI). Building gradual trust in AI tools is imperative.</p>
+
+
+
+<p><strong>Nine in ten product engineering leaders plan to increase investment in AI in the next one to two years, but the growth is modest. </strong>The highest proportion of respondents (45%) plan to increase investment by up to 25%, while nearly a third favor a 26% to 50% boost. And just 15% plan a bigger step change—between 51% and 100%. The focus for product engineers is on optimization over innovation, with scalable proof points and near-term ROI the dominant approach to AI adoption, as opposed to multi-year transformation.</p>
+
+
+
+<p><strong>Sustainability and product quality are top measurable outcomes for AI in product engineering.</strong> These outcomes, visible to customers, regulators, and investors, are prioritized over competitive metrics like time to-market and innovation—rated of medium importance—and internal operational gains like cost reduction and workforce satisfaction, at the bottom. What matters most are real-world signals like defect rates and emissions profiles rather than internal engineering dashboards.</p>
+
+
+
+<p><span style="text-decoration: underline;"><a href="https://wp.technologyreview.com/wp-content/uploads/2026/03/MITTR-Insights_LTTS_Report_March26.pdf" target="_blank" rel="noreferrer noopener"><em>Download the report</em>.</a></span></p>
+
+
+
+<p><em>This content was produced by Insights, the custom content arm of MIT Technology Review. It was not written by MIT Technology Review’s editorial staff. It was researched, designed, and written by human writers, editors, analysts, and illustrators. This includes the writing of surveys and collection of data for surveys. AI tools that may have been used were limited to secondary production processes that passed thorough human review.</em></p>
+
+
+
+<p></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">1133675</post-id>	</item>
+		<item>
+		<title>Hustlers are cashing in on China&#8217;s OpenClaw AI craze</title>
+		<link>https://www.technologyreview.com/2026/03/11/1134179/china-openclaw-gold-rush/</link>
+		
+		<dc:creator><![CDATA[Caiwei Chen]]></dc:creator>
+		<pubDate>Wed, 11 Mar 2026 12:46:21 +0000</pubDate>
+				<category><![CDATA[Artificial intelligence]]></category>
+		<category><![CDATA[App]]></category>
+		<guid isPermaLink="false">https://www.technologyreview.com/?p=1134179</guid>
+
+					<description><![CDATA[Feng Qingyang had always hoped to launch his own company, but he never thought this would be how—or that the day would come this fast.&#160; Feng, a 27-year-old software engineer based in Beijing, started tinkering with OpenClaw, a popular new open-source AI tool that can take over a device and autonomously complete tasks for a&#8230;]]></description>
+										<content:encoded><![CDATA[
+<p>Feng Qingyang had always hoped to launch his own company, but he never thought this would be how—or that the day would come this fast.&nbsp;</p>
+
+
+
+<p>Feng, a 27-year-old software engineer based in Beijing, started tinkering with OpenClaw, a popular new open-source AI tool that can take over a device and autonomously complete tasks for a user, in January. He was immediately hooked, and before long he was helping other curious tech workers with less technical proficiency install the AI agent.</p>
+
+
+
+<p>Feng soon realized this could be a lucrative opportunity. By the end of January, he had set up a page on Xianyu, a secondhand shopping site, advertising “OpenClaw installation support.” “No need to know coding or complex terms. Fully remote,” reads the posting. “Anyone can quickly own an AI assistant, available within 30 minutes.”&nbsp;</p>
+
+
+
+<p>At the same time, the broader Chinese public was beginning to catch on—and the tool, which had begun as a niche interest among tech workers, started to evolve into a popular sensation.</p>
+
+
+
+<p>Feng quickly became inundated with requests, and he started chatting with customers and managing orders late into the night. At the end of February, he quit his job. His side gig has now grown into a full-fledged professional operation with over 100 employees. So far, the store has handled 7,000 orders, each worth about 248 RMB or approximately $34. </p>
+
+
+
+<p>“Opportunities are always fleeting,” says Feng. “As programmers, we are the first to feel the winds shift.”</p>
+
+
+
+<p>Feng is among a small cohort of savvy early adopters turning China&#8217;s OpenClaw craze into cash. As users with little technical background want in, a cottage industry of people offering installation services and preconfigured hardware has sprung up to meet them. The sudden rise of these tinkerers and impromptu consultants shows just how eager the general public in China is to adopt cutting-edge AI—even when there are <a href="https://www.technologyreview.com/2026/02/11/1132768/is-a-secure-ai-assistant-possible/">huge security risks</a>.&nbsp;</p>
+
+
+
+<p></p>
+
+
+
+<h3 class="wp-block-heading"><strong>A “lobster craze”</strong></h3>
+
+
+
+<p>“Have you raised a lobster yet?”&nbsp;</p>
+
+
+
+<p>Xie Manrui, a 36-year-old software engineer in Shenzhen, says he has heard this question nonstop over the past month. “Lobster” is the nickname Chinese users have given to OpenClaw—a reference to its logo.</p>
+
+
+
+<p>Xie, like Feng, has been experimenting with OpenClaw since January. He’s built new open-source tools on top of the ecosystem, including one that visualizes the agent’s progress as an animated little desktop worker and another that lets users voice-chat with it.&nbsp;</p>
+
+
+
+<p>“I’ve met so many new people through ‘lobster raising,’” says Xie. “Many are lawyers or doctors, with little technical background, but all dedicated to learning new things.”</p>
+
+
+
+
+
+<p>Lobsters are indeed popping up everywhere in China right now—on and offline. In February, for instance, the entrepreneur and tech influencer Fu Sheng hosted a livestream showing off OpenClaw’s capabilities that got 20,000 views. And just last weekend, Xie attended three different OpenClaw events in Shenzhen, each drawing more than 500 people. These self-organized, unofficial gatherings feature power users, influencers, and sometimes venture capitalists as speakers. The biggest event Xie attended, on March 7, drew more than 1,000 people; in the packed venue, he says, people were shoulder to shoulder, with many attendees unable to even get a seat.</p>
+
+
+
+<p>Now China’s AI giants are starting to piggyback on the trend too, promoting their models, APIs,&nbsp; and cloud services (which can be used with OpenClaw), as well as their own OpenClaw-like agents. Earlier this month, Tencent held a public event offering free installation support for OpenClaw, drawing long lines of people waiting for help, including elderly users and children.</p>
+
+
+
+<p>This sudden burst in popularity has even prompted local governments to get involved. Earlier this month the government of Longgang, a district in Shenzhen, released several policies to support OpenClaw-related ventures, including free computing credits and cash rewards for standout projects. Other cities, including Wuxi, have begun rolling out similar measures.</p>
+
+
+
+<p>These policies only catalyze what’s already in the air. “It was not until my father, who is 77, asked me to help install a ‘lobster’ for him that I realized this thing is truly viral,” says Henry Li, a software engineer based in Beijing.&nbsp;</p>
+
+
+
+<p></p>
+
+
+
+<h3 class="wp-block-heading"><strong>A programmer gold rush</strong></h3>
+
+
+
+<p>What’s making this moment particularly lucrative for people with technical skills, like Feng, is that so many people want OpenClaw, but not nearly as many have the capabilities to access it. Setting it up requires a level of technical knowledge most people do not possess, from typing commands into a black terminal window to navigating unfamiliar developer platforms. On the hardware side, an older or budget laptop may struggle to run it smoothly. And if the tool is not installed on a device separate from someone’s everyday computer, or if the data accessible to OpenClaw is not properly partitioned, the user&#8217;s privacy could be at risk—opening the door to data leaks and even malicious attacks.&nbsp;</p>
+
+
+
+<p>Chris Zhao, known as “Qi Shifu” online, organizes OpenClaw social media groups and events in Beijing. On apps like Rednote and Jike, Zhao routinely shares his thoughts on AI, and he asks other interested users to leave their WeChat ID so he can invite them to a semi-private group chat. The proof required to join is a screenshot that shows your “lobster” up and running. Zhao says that even in group chats for experienced users, hardware and cloud setup remain a constant topic of discussion.</p>
+
+
+
+<p>The relatively high bar for setting up OpenClaw has generated a sense of exclusivity, creating a natural opening for a service industry to start unfolding around it. On Chinese e-commerce platforms like Taobao and JD, a simple search for “OpenClaw” now returns hundreds of listings, most of them installation guides and technical support packages aimed at nontechnical users, priced anywhere from 100 to 700 RMB (approximately $15 to $100). At the higher end, many vendors offer to come to help you in person.&nbsp;</p>
+
+
+
+
+
+<p>Like Feng, most providers of these services are early adopters with some technical ability who are looking for a side gig. But as demand has surged, some have found themselves overwhelmed. Xie, the developer in Shenzhen who created tools to layer on OpenClaw, was asked by a friend who runs one such business to help out over the weekend; the friend had a customer who worked in e-commerce and had little technical experience, so Xie had to show up in person to get it done. He walked away with 600 RMB ($87) for the afternoon.</p>
+
+
+
+<p>The growing demand has also pushed vendors like Feng to expand quickly. He has now standardized his operation into tiers: a basic installation, a custom package where users can make specific requests like configuring a preferred chat app, and an ongoing tutoring service for those who want a hand to hold as they find their footing with the technology.</p>
+
+
+
+<p>Other vendors in China are making money combining OpenClaw with hardware. Li Gong, a Shenzhen-based seller of refurbished Mac computers, was among the first online sellers to do this—offering Mac minis and MacBooks with OpenClaw preinstalled. Because OpenClaw is designed to operate with deep access to a hard drive and can run continuously in the background unattended, many users prefer to install it on a separate device rather than on the one they use every day. This would help prevent bad actors from infiltrating the program and immediately gaining access to a wide swathe of someone’s personal information. Many turn to secondhand or refurbished options to keep the cost down. Li says that in the last two weeks, orders have increased eightfold.</p>
+
+
+
+<p>Though OpenClaw itself is a new technology, the general practice of buying software bundles, downloading third-party packages, and seeking out modified devices is nothing new for many Chinese internet users, says Tianyu Fang, a PhD candidate studying the history of technology at Harvard University. Many users pay for one-off IT support services for tasks from installing Adobe software to jailbreaking a Kindle.</p>
+
+
+
+<p>Still, not everyone is getting swept up. Jiang Yunhui, a tech worker based in Ningbo, worries that ordinary users who struggle with setup may not be the right audience for a technology that is still effectively in testing.&nbsp;</p>
+
+
+
+<p>“The hype in first-tier cities can be a little overblown,” he says. “The agent is still a proof of concept, and I doubt it would be of any life-changing use to the average person for now.” He argues that using it safely and getting anything meaningful out of it requires a level of technical fluency and independent judgment that most new users simply don&#8217;t have yet.</p>
+
+
+
+<p>He’s not alone in his concerns. On March 10, the Chinese cybersecurity regulator CNCERT issued a <a href="https://www.scmp.com/tech/tech-trends/article/3346138/china-issues-second-warning-openclaw-risks-amid-adoption-frenzy">warning</a> about the security and data risks tied to OpenClaw, saying it heightens users’ exposure to data breaches.</p>
+
+
+
+<p>Despite the potential pitfalls, though, China’s enthusiasm for OpenClaw doesn’t seem to be slowing.</p>
+
+
+
+<p>Feng, now flush with the earnings from his operation, wants to use the momentum—and the capital—to keep building out his own venture with AI tools at the center of it.</p>
+
+
+
+<p>“With OpenClaw and other AI agents, I want to see if I can run a one-person company,” he says. “I’m giving myself one year.”</p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">1134179</post-id>	</item>
+		<item>
+		<title>Building a strong data infrastructure for AI agent success</title>
+		<link>https://www.technologyreview.com/2026/03/10/1134083/building-a-strong-data-infrastructure-for-ai-agent-success/</link>
+		
+		<dc:creator><![CDATA[MIT Technology Review Insights]]></dc:creator>
+		<pubDate>Tue, 10 Mar 2026 14:00:00 +0000</pubDate>
+				<category><![CDATA[Artificial intelligence]]></category>
+		<category><![CDATA[sponsored]]></category>
+		<guid isPermaLink="false">https://www.technologyreview.com/?p=1134083</guid>
+
+					<description><![CDATA[In the race to adopt and show value from AI, enterprises are moving faster than ever to deploy agentic AI as copilots, assistants, and autonomous task-runners. In late 2025, nearly two-thirds of companies were experimenting with AI agents, while 88% were using AI in at least one business function, up from 78% in 2024, according&#8230;]]></description>
+										<content:encoded><![CDATA[
+<p>In the race to adopt and show value from AI, enterprises are moving faster than ever to deploy agentic AI as copilots, assistants, and autonomous task-runners. In late 2025, nearly two-thirds of companies were experimenting with AI agents, while 88% were using AI in at least one business function, up from 78% in 2024, <a href="https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai">according to McKinsey&#8217;s annual AI report</a>. Yet, while early pilots often succeed, only one in 10 companies actually scaled their AI agents.</p>
+
+
+
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="1254" height="836" src="https://wp.technologyreview.com/wp-content/uploads/2026/03/SAP-article-iStock-933220212.jpg" alt="" class="wp-image-1134097" srcset="https://wp.technologyreview.com/wp-content/uploads/2026/03/SAP-article-iStock-933220212.jpg 1254w, https://wp.technologyreview.com/wp-content/uploads/2026/03/SAP-article-iStock-933220212.jpg?resize=300,200 300w, https://wp.technologyreview.com/wp-content/uploads/2026/03/SAP-article-iStock-933220212.jpg?resize=768,512 768w" sizes="auto, (max-width: 1254px) 100vw, 1254px" /></figure>
+
+
+
+<p>One major issue: AI agents are only as effective as the data foundation supporting them. Experts argue that most companies are seeing delays in implementing AI, not because of shortcomings in the models, but because they lack data architectures that deliver business context to be reliably used by humans and agents.</p>
+
+
+
+<p>Companies need to be ready with the right data architecture, and the next few months — years, at most — will be critical, says Irfan Khan, president and chief product officer of SAP Data &amp; Analytics.</p>
+
+
+
+<p>&#8220;The only prediction anybody can reliably make is that we don&#8217;t know what&#8217;s going to happen in the years, months — or even weeks —&nbsp;ahead with AI,&#8221; he says. &#8220;To be able to get quick wins right now, you need to adopt an AI mindset and &#8230; ground your AI models with reliable data.&#8221;<a></a></p>
+
+
+
+<p>While data has always been important for business, it will be even more so in the age of AI. The capabilities of agentic AI will be set more by the soundness of enterprise data architecture and governance, and less by the evolution of the models. To scale the technology, businesses need to adopt a modern data infrastructure that delivers context along with the data.</p>
+
+
+
+<h3 class="wp-block-heading">More business context, not necessarily more data</h3>
+
+
+
+<p>Traditional views often conflate structured data with high value, and unstructured data with less value. However, AI complicates that distinction. High-value data for agents is defined less by format and more by business context. Data for critical business functions — such as supply-chain operations and financial planning —&nbsp;is context dependent. While fine-grained, high-volume data, such as IoT, logs, and telemetry, can yield value, but only when delivered with business context.</p>
+
+
+
+<p>For that reason, the real risk for agentic AI is not lack of data, but lack of grounding, says Khan.</p>
+
+
+
+<p>“Anything that is business contextual will, by definition, give you greater value and greater levels of reliability of the business outcome,” he says. &#8220;It’s not as simple as saying high-value data is structured data and low-value data is where you have lots of repetition —&nbsp;both can have huge value in the right hands, and that’s what’s different about AI.&#8221;</p>
+
+
+
+<p>Context can be derived through integration with software, on-site analysis and enrichment, or through the governance pipeline. Data lacking those qualities will likely be untrusted — one reason why two-thirds of business leaders do not fully trust their data, <a href="https://www.ideainstitute.ai/wp-content/uploads/2026/01/IDEA-Research-Brief-RB3-121725-1.pdf">according to the Institute for Data and Enterprise AI (IDEA)</a>. The resulting &#8220;trust debt&#8221; has held back businesses in their quest for AI readiness. Overcoming that lack of trust requires shared definitions, semantic consistency, and reliable operational context to align data with business meaning.</p>
+
+
+
+<h3 class="wp-block-heading">Data sprawl demands a semantic, business-aware layer</h3>
+
+
+
+<p>Over the past decade, the most important shift in enterprise data architecture has been the separation of compute and storage, cloud-scale flexibility, says Khan. Yet, that separation and move to cloud also created sprawl, with data housed in multiple clouds, data lakes, warehouses, and a multitude of SaaS applications.</p>
+
+
+
+<p>As companies move to AI, that sprawl does not go away. In fact, the problem is growing with more than two-thirds of companies citing data siloes as a top challenge in adopting AI, with more than half of enterprises <a href="https://www.dataversity.net/articles/data-strategy-trends-in-2025-from-silos-to-unified-enterprise-value/">struggling with 1,000 data sources or more</a>. While the last era was about laying the foundation on which to build software-as-a-service — separating compute and storage and building lakes —&nbsp;the next era is about delivering the right data to autonomous AI agents tasked with various business functions.</p>
+
+
+
+<p>“Probably the biggest innovation that occurred in data management was the separation of compute and store,&#8221; Khan says. &#8220;But what’s really making a distinction now is the way that we harmonize the data and harvest the value of the data across multiple sources of content.”</p>
+
+
+
+<p>To do that requires a semantic or knowledge layer that supports multiple platforms, encodes business rules and relationships, provides a business-contextual and governed view of data, and allows humans and agents to access the data in the appropriate ways. But legacy data architectures cannot power the autonomous AI systems of the future, consultancy Deloitte <a href="https://www.deloitte.com/us/en/what-we-do/capabilities/applied-artificial-intelligence/content/state-of-ai-in-the-enterprise.html">stated in its State of AI in the Enterprise report</a>. Only four in 10 companies believe their data management process is ready for AI, and that&#8217;s down from 43% the previous year, suggesting that as companies explore AI deployment, they are realizing their infrastructure&#8217;s shortcomings.</p>
+
+
+
+<h3 class="wp-block-heading">Agentic AI does not replace SaaS</h3>
+
+
+
+<p>Some investors and technologists speculate that AI agents will make SaaS applications obsolete. Khan strongly disagrees. Over the past 15 years, value has steadily moved up the stack, from on-premises infrastructure to infrastructure as a service (IaaS) to platform as a service (PaaS) to SaaS. Agentic AI is simply the next layer. Agentic AI will have its own layer to access the data and interact with the business logic. The value rises up the stack, but nothing below disappears, he says.</p>
+
+
+
+<p>&#8220;SaaS doesn’t go away,&#8221; he says. &#8220;It just means SaaS and these agents will cooperate with one another. Companies are not going to throw away their entire general ledger and replace it with an agent. What’s the agent going to do? It doesn’t know anything without business context and business processing.”</p>
+
+
+
+<p>In this emerging model, the software stack is being reshaped so that applications and data provide governed context within which AI can act effectively. SaaS applications remain the systems of record, while the semantic layer becomes the business-context source of truth. AI agents become a new engagement layer, orchestrating across systems, and both humans and agents become &#8220;first-class citizens&#8221; in how they access business logic, he says.</p>
+
+
+
+<p>Critically, agents cannot directly connect to every operational system. “If we’re saying agents are going to take over the world … you can’t have an agent talking to every operational backend system,” Khan warns. “It just doesn’t work that way.”</p>
+
+
+
+<p>This further elevates the importance of a semantic or business-fabric layer.</p>
+
+
+
+<h3 class="wp-block-heading">Where to start</h3>
+
+
+
+<p>Most enterprises need to begin where their data already lives — in platforms like Snowflake, Databricks, Google BigQuery, or an existing SAP environment. Khan says that’s normal, but warns against rebuilding old patterns of vendor lock-in.</p>
+
+
+
+<p>He suggests that companies prioritize the data that matters most by focusing on preserving and providing business context to operational and application data. Companies should also invest early in governance and semantics by defining shared policies, access rules, and semantic models before scaling pilots. Finally, businesses should prioritize openness and fabric-style interoperability rather than forcing all data into one stack.</p>
+
+
+
+<p>Khan cautions against aiming for full automation too early. “There is a new brave opportunity to really engage in the agentic and AI world,” Khan says, &#8220;Fully automating [critical business processes] is maybe a stretch, because there’s going to be a lot of extra oversight necessary.&#8221; Early wins will likely come from less-critical processes and from agents that work off fresh, stateful data rather than stale dashboards, he adds. As AI begins to deliver value and adoption increases, leaders must decide how to reinvest those gains to drive top-line efficiency or enter new markets.</p>
+
+
+
+<p><em><a href="https://events.sap.com/fabric-of-data-and-ai/en_us/home.html?url_id=banner-glo-bdc-hero" target="_blank" rel="noreferrer noopener">Register</a> for &#8220;The Fabric of Data &amp; AI&#8221; virtual event on March 24, 2026. Hear insights from executives and thought leaders who are shaping the future of data and AI.</em></p>
+
+
+
+<p><em>This content was produced by Insights, the custom content arm of MIT Technology Review. It was not written by MIT Technology Review’s editorial staff. It was researched, designed, and written by human writers, editors, analysts, and illustrators. This includes the writing of surveys and collection of data for surveys. AI tools that may have been used were limited to secondary production processes that passed thorough human review.</em></p>
+
+
+
+<p></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">1134083</post-id>	</item>
+		<item>
+		<title>How Pokémon Go is giving delivery robots an inch-perfect view of the world</title>
+		<link>https://www.technologyreview.com/2026/03/10/1134099/how-pokemon-go-is-helping-robots-deliver-pizza-on-time/</link>
+		
+		<dc:creator><![CDATA[Will Douglas Heaven]]></dc:creator>
+		<pubDate>Tue, 10 Mar 2026 13:47:26 +0000</pubDate>
+				<category><![CDATA[Artificial intelligence]]></category>
+		<category><![CDATA[App]]></category>
+		<guid isPermaLink="false">https://www.technologyreview.com/?p=1134099</guid>
+
+					<description><![CDATA[Pokémon Go was the world’s first augmented-reality megahit. Released in 2016 by the Google spinout Niantic, the AR twist on the juggernaut Pokémon franchise fast became a global phenomenon. From Chicago to Oslo to Enoshima, players hit the streets in the urgent hope of catching a Jigglypuff or a Squirtle or (with a huge amount&#8230;]]></description>
+										<content:encoded><![CDATA[
+<p>Pokémon Go was the world’s first augmented-reality megahit. Released in 2016 by the Google spinout Niantic, the AR twist on the juggernaut Pokémon franchise fast became a global phenomenon. From Chicago to Oslo to Enoshima, players hit the streets in the urgent hope of catching a Jigglypuff or a Squirtle or (with a huge amount of luck) an ultra-rare Galarian Zapdos hovering just out of reach, superimposed on the everyday world.</p>
+
+
+
+<p>In short, we’re talking about a huge number of people pointing their phones at a huge number of buildings. “Five hundred million people installed that app in 60 days,” says Brian McClendon, CTO at Niantic Spatial, an AI company that Niantic spun out in May last year. According to the video-game firm Scopely, which bought Pokémon Go from Niantic at the same time, the game still drew more than 100 million players in 2024, eight years after it launched.&nbsp;</p>
+
+
+
+
+
+<p>Now Niantic Spatial is using that vast and unparalleled trove of crowdsourced data—images of urban landmarks tagged with super-accurate location markers taken from the phones of hundreds of millions of Pokémon Go players around the world—to build a kind of world model, a buzzy new technology that grounds the smarts of LLMs in real-world environments. </p>
+
+
+
+<p>The company’s latest product is a model that it says can pinpoint your location on a map to within a few centimeters, based on a handful of snapshots of the buildings or other landmarks in view. The firm wants to use it to help robots navigate with greater precision in places where GPS is unreliable.</p>
+
+
+
+<p>In the first big test of its technology, Niantic Spatial has just teamed up with Coco Robotics, a startup that deploys last-mile delivery robots in a number of cities across the US and Europe. “Everybody thought that AR was the future, that AR glasses were coming,” says McClendon. “And then robots became the audience.”</p>
+
+
+
+<h3 class="wp-block-heading"><strong>From Pikachu to pizza delivery</strong></h3>
+
+
+
+<p>Coco Robotics deploys around 1,000 flight-case-size robots—built to carry up to eight extra-large pizzas or four grocery bags—in Los Angeles, Chicago, Jersey City, Miami, and Helsinki. According to CEO Zach Rash, the robots have made more than half a million deliveries to date, covering a few million miles in all weather conditions.</p>
+
+
+
+<p>But to compete with human couriers, Coco’s robots, which trundle along sidewalks at around five miles per hour, must be as reliable as possible. “The best way we can do our job is by arriving exactly when we told you we were going to arrive,” says Rash. And that means not getting lost.</p>
+
+
+
+
+
+<p>The problem Coco faces is that it cannot rely on GPS, which can be weak in cities because radio signals bounce off buildings and interfere with each other. “We do deliveries in a lot of dense areas with high-rises and underpasses and freeways, and those are the areas where GPS just never really works,” says Rash.&nbsp;</p>
+
+
+
+<p>“The urban canyon is the worst place in the world for GPS,” says McClendon. “If you look at that blue dot on your phone, you’ll often see it drift 50 meters, which puts you on a different block going a different direction on the wrong side of the street.” That’s where Niantic Spatial comes in.&nbsp;</p>
+
+
+
+<p>For the last few years, Niantic Spatial has been taking the data collected from players of Pokémon Go and Ingress (Niantic’s previous phone-based AR game, launched in 2013) and building a visual positioning system, technology that tells you where you are based on what you can see. “It turns out that getting Pikachu to realistically run around and getting Coco’s robot to safely and accurately move through the world is actually the same problem,” says John Hanke, CEO of Niantic Spatial.</p>
+
+
+
+<p>“Visual positioning is not a very new technology,” says Konrad Wenzel at ESRI, a company that develops digital mapping and geospatial analysis software. “But it’s obvious that the more cameras we have out there, the better it becomes.”&nbsp;</p>
+
+
+
+<p>Niantic Spatial has trained its model on 30 billion images captured in urban environments. In particular, the images are clustered around hot spots—places that served as important locations in Niantic’s games that players were encouraged to visit, such as Pokémon battle arenas. “We had a million-plus locations around the world where we can locate you precisely,” says McClendon. “We know where you’re standing within several centimeters of accuracy and, most importantly, where you’re looking.”</p>
+
+
+
+<p>The upshot is that for each of those million locations, Niantic Spatial has many thousands of images taken in more or less the same place but from different angles, at different times of day, and in different weather conditions. Each of those images comes with detailed metadata that pinpoints where in space the phone was at the time it captured the image, including which way the phone was facing, which way up it was, whether or not it was moving, how fast and in which direction, and more.&nbsp;&nbsp;&nbsp;</p>
+
+
+
+<p>The firm has used this data set to train a model to predict exactly where it is by taking into account what it is looking at—even for locations other than those million hot spots, where good sources of image and location data are scarcer. </p>
+
+
+
+<p>In addition to GPS, Coco’s robots, which are fitted with four cameras, will now use this model to try to figure out where they are and where they are headed. The robots’ cameras are hip-height and point in all directions at once, so their viewpoint is a little different from a Pokémon Go player’s, but adapting the data was straightforward, says Rash.&nbsp;</p>
+
+
+
+<p>Rival companies use visual positioning systems too. For example, Starship Technologies, a robot delivery firm founded in Estonia in 2014, says its robots use their sensors to build a 3D map of their surroundings, plotting the edges of buildings and the position of streetlights.&nbsp;</p>
+
+
+
+<p>But Rash is betting that Niantic Spatial’s tech will give Coco an edge. He claims it will allow his robots to position themselves in the correct pickup spots outside restaurants, making sure they don’t get in anybody’s way, and stop just outside the customer’s door instead of a few steps away, which might have happened in the past.&nbsp;&nbsp;</p>
+
+
+
+<h3 class="wp-block-heading"><strong>A Cambrian explosion in robotics&nbsp;</strong></h3>
+
+
+
+<p>When Niantic Spatial started work on its visual positioning system, the idea was to apply it to augmented reality, says Hanke. “If you are wearing AR glasses and you want the world to lock in to where you&#8217;re looking, then you need some method for doing that,” he says. “But now we’re seeing a Cambrian explosion in robotics.”</p>
+
+
+
+<p>Some of those robots may need to share spaces with humans—spaces such as construction sites and sidewalks. “If robots are ever going to assimilate into that environment in a way that’s not disruptive for human beings, they’re going to have to have a similar level of spatial understanding,” says Hanke. “We can help robots find exactly where they are when they’ve been jostled and bumped.”</p>
+
+
+
+
+
+<p>The Coco Robotics partnership is the start. What Niantic Spatial is putting in place, says Hanke, are the first pieces of what he calls a living map: a hyper-detailed virtual simulation of the world that changes as the world changes. As robots from Coco and other firms move about the world, they will provide new sources of map data, feeding into more and more detailed digital replicas of the world.&nbsp;</p>
+
+
+
+<p>But the way Hanke and McClendon see it, maps are not only becoming more detailed; they are being used more and more by machines. That shifts what maps are for. Maps have long been used to help people locate themselves in the world. As they moved from 2D to 3D to 4D (think of real-time simulations, such as digital twins), the basic principle hasn’t changed: Points on the map correspond to points in space or time.</p>
+
+
+
+<p>And yet maps for machines may need to become more like guidebooks, full of information that humans take for granted. Companies like Niantic Spatial and ESRI want to add descriptions that tell machines what they’re actually looking at, with every object tagged with a list of its properties. “This era is about building useful descriptions of the world for machines to comprehend,” says Hanke. “The data that we have is a great starting point in terms of building up an understanding of how the connective tissue of the world works.”</p>
+
+
+
+<p>There is a lot of <a href="https://www.technologyreview.com/2026/01/22/1131661/yann-lecuns-new-venture-ami-labs/">buzz about world models</a> right now—and Niantic Spatial knows it. LLMs may seem like know-it-alls, but they have very little common sense when it comes to interpreting and interacting with everyday environments. World models aim to fix that. Some firms, such as Google DeepMind and World Labs, are developing models that generate virtual fantasy worlds on the fly, which can then be used as <a href="https://www.technologyreview.com/2025/11/13/1127921/google-deepmind-is-using-gemini-to-train-agents-inside-goat-simulator-3/">training dojos for AI agents</a>. </p>
+
+
+
+<p>Niantic Spatial says it is coming at the problem from a different angle. Push map-making far enough and you’ll end up capturing everything, says McClendon: “We’re not there yet, but we want to be there. I’m very focused on trying to re-create the real world.”</p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">1134099</post-id>	</item>
+	</channel>
+</rss>

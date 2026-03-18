@@ -1,0 +1,59 @@
+{
+  "meta": {
+    "name": "cfo-agent",
+    "role": "财务战略与投资风险管理专家",
+    "emoji": "🟡",
+    "color": "yellow"
+  },
+  "agents": {
+    "defaults": {
+      "model": {
+        "primary": "claude-sonnet-4-6",
+        "fallbacks": [
+          "kimi-coding/k2p5",
+          "openai-codex/gpt-5.4"
+        ]
+      },
+      "workspace": "/Users/ifai_macpro/.openclaw/workspace/iFAi/ai-team-config/cfo-agent/workspace",
+      "systemPromptFiles": [
+        "SOUL.md",
+        "IDENTITY.md",
+        "TOOLS.md"
+      ],
+      "compaction": {
+        "mode": "safeguard"
+      }
+    }
+  },
+  "gateway": {
+    "port": 18850,
+    "mode": "local",
+    "bind": "loopback",
+    "auth": {
+      "mode": "token",
+      "token": "cfo-agent-secret-token-2026"
+    }
+  },
+  "channels": {
+    "feishu": {
+      "enabled": true,
+      "dmPolicy": "pairing",
+      "groupPolicy": "open",
+      "requireMention": true,
+      "connectionMode": "websocket"
+    }
+  },
+  "skills": {
+    "allow": [
+      "web_search",
+      "web_fetch",
+      "sessions_spawn",
+      "feishu_sheet"
+    ]
+  },
+  "plugins": {
+    "slots": {
+      "memory": "memory-lancedb-pro"
+    }
+  }
+}

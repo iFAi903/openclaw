@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "jobs": [
+    {
+      "id": "74ad3d72-9dee-4d5a-96cf-b903ab6ed5c0",
+      "name": "每日7点小羽毛AI新闻早报推送",
+      "enabled": true,
+      "createdAtMs": 1773198411928,
+      "updatedAtMs": 1773702000000,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 7 * * *",
+        "tz": "Asia/Taipei"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "每日7:00新闻早报任务 - 唯一正确路径版。\n\n【强制路径】/Users/ifai_macpro/.openclaw-dev-agent/workspace/projects/xiaoyumao-news-web-RS/\n\n【执行步骤】\n1. cd /Users/ifai_macpro/.openclaw-dev-agent/workspace/projects/xiaoyumao-news-web-RS/\n2. 更新 src/data/news.ts 数据\n3. npm run build\n4. npx vercel --yes --prod\n5. 验证 https://xiaoyumao-news-web.vercel.app\n6. 发送完成通知到飞书\n\n【警告】旧路径 workspace/xiaoyumao-news-web 已删除，严禁使用。"
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "feishu",
+        "to": "user:ou_f804aeb5aa82fc47dca4830476a6e75d"
+      }
+    }
+  ]
+}

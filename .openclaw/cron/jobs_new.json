@@ -1,0 +1,135 @@
+{
+  "version": 1,
+  "jobs": [
+    {
+      "id": "ae43c5c4-3a7d-4cba-b15a-575c3f3a99c4",
+      "name": "每晚安全审计",
+      "enabled": true,
+      "createdAtMs": 1772935002811,
+      "updatedAtMs": 1773327608601,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 23 * * *",
+        "tz": "Asia/Taipei"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "运行安全审计：openclaw security audit --json，分析结果。如果无严重问题，回复'一切正常，继续先前。'；如果有新问题，详细报告并@我。"
+      },
+      "delivery": {
+        "mode": "none",
+        "channel": "last"
+      },
+      "state": {
+        "nextRunAtMs": 1773414000000,
+        "lastRunAtMs": 1773327600012,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 8589,
+        "lastDelivered": false,
+        "lastDeliveryStatus": "not-delivered",
+        "consecutiveErrors": 0
+      }
+    },
+    {
+      "id": "74ad3d72-9dee-4d5a-96cf-b903ab6ed5c0",
+      "name": "每日7点小羽毛AI新闻早报推送",
+      "enabled": true,
+      "createdAtMs": 1773198411928,
+      "updatedAtMs": 1773270996689,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 7 * * *",
+        "tz": "Asia/Taipei"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "现在是每日 7:00 新闻早报任务。请完成以下闭环：1) 运行 /Users/ifai_macpro/.openclaw/workspace/iFAi/workspace/xiaoyumao-news-web Refer/daily-cron.sh 或等效流程，更新当天早报网站；2) 严格检查 日期、星期、显示语言、线上版本一致性；3) 确认当前标准 UI 未被破坏；4) 然后向当前 Feishu 用户发送更新完成通知，仅发送最终线上链接 https://xiaoyumao-news-web.vercel.app 与一句简短摘要。若任一步失败，必须明确报告失败环节，不得假定完成。"
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "feishu",
+        "to": "user:ou_f804aeb5aa82fc47dca4830476a6e75d"
+      },
+      "state": {
+        "nextRunAtMs": 1773356400000,
+        "lastRunAtMs": 1773270000010,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 996679,
+        "lastDelivered": true,
+        "lastDeliveryStatus": "delivered",
+        "consecutiveErrors": 0
+      }
+    },
+    {
+      "id": "nightly-review-001",
+      "name": "深夜复盘（双节拍协议）",
+      "enabled": true,
+      "createdAtMs": 1773425400000,
+      "updatedAtMs": 1773425400000,
+      "schedule": {
+        "kind": "cron",
+        "expr": "30 23 * * *",
+        "tz": "Asia/Taipei"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "执行深夜复盘协议（23:30）。步骤：1) 查询当日向量记忆和文件变更；2) 分类整理对话/任务/决策/错误；3) 提取关键洞察和决策原则；4) 创建/更新 memory/📅 YYYY-MM-DD.md；5) 双层存储教训到 LanceDB；6) 更新 🎯 TASKS.md 状态；7) 生成明日建议。完成后静默确认，无需发送消息给用户。"
+      },
+      "delivery": {
+        "mode": "none",
+        "channel": "last"
+      },
+      "state": {
+        "nextRunAtMs": 1773415800000,
+        "lastRunAtMs": 0,
+        "lastRunStatus": "pending",
+        "lastStatus": "pending",
+        "lastDurationMs": 0,
+        "lastDelivered": false,
+        "lastDeliveryStatus": "not-delivered",
+        "consecutiveErrors": 0
+      }
+    },
+    {
+      "id": "morning-brief-001",
+      "name": "晨间简报（双节拍协议）",
+      "enabled": true,
+      "createdAtMs": 1773425400000,
+      "updatedAtMs": 1773425400000,
+      "schedule": {
+        "kind": "cron",
+        "expr": "30 8 * * *",
+        "tz": "Asia/Taipei"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "执行晨间简报协议（08:30）。步骤：1) 读取昨日复盘日志 📅 YYYY-MM-DD.md；2) 读取当前任务状态 🎯 TASKS.md；3) 提炼昨日总结（3句话）；4) 生成今日计划建议（P0/P1/P2 优先级）；5) 检查日程（如有日历集成）；6) 格式化简报；7) 推送到飞书用户 ou_f804aeb5aa82fc47dca4830476a6e75d。简报格式：🌅 早安 Leo，今日简报 → 昨日回顾 → 今日计划 → 日程提醒 → 需要协助？"
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "feishu",
+        "to": "user:ou_f804aeb5aa82fc47dca4830476a6e75d"
+      },
+      "state": {
+        "nextRunAtMs": 1773457800000,
+        "lastRunAtMs": 0,
+        "lastRunStatus": "pending",
+        "lastStatus": "pending",
+        "lastDurationMs": 0,
+        "lastDelivered": false,
+        "lastDeliveryStatus": "not-delivered",
+        "consecutiveErrors": 0
+      }
+    }
+  ]
+}

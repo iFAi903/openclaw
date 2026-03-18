@@ -1,0 +1,74 @@
+{
+  "user_id": "ou_f804aeb5aa82fc47dca4830476a6e75d",
+  "user_name": "Leo",
+  "model_version": "1.0",
+  "created_at": "2026-02-18T23:21:00+08:00",
+  "last_updated": "2026-02-18T23:21:00+08:00",
+  "profile": {
+    "communication_style": {
+      "formality": "casual_professional",
+      "verbosity": "medium",
+      "preferred_response_format": "structured",
+      "liked_phrases": [],
+      "disliked_phrases": []
+    },
+    "preferences": {
+      "learning_style": "hands_on",
+      "explanation_depth": "detailed_with_examples",
+      "tool_preferences": ["tmux", "Obsidian", "Claude", "OpenCode"],
+      "content_format": "markdown_with_tables",
+      "interaction_mode": "collaborative"
+    },
+    "prohibitions": {
+      "behavioral": ["清除记忆", "重置配置"],
+      "communication": [],
+      "topics": []
+    },
+    "behavior_patterns": {
+      "active_hours": "evening",
+      "response_time_preference": "fast",
+      "follow_up_style": "proactive",
+      "decision_making": "analytical_with_intuition"
+    },
+    "goals_and_plans": {
+      "short_term": ["完成17天学习计划", "搭建AI天团"],
+      "long_term": ["构建AI应用", "提升AI协作效率"],
+      "current_focus": "Day 10-11学习"
+    },
+    "habits": {
+      "daily_check_ins": true,
+      "preferred_session_length": "extended",
+      "note_taking": "obsidian_integration",
+      "project_management": "context_documentation"
+    }
+  },
+  "learning_history": {
+    "completed_days": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+    "mastered_concepts": [
+      "Vibe Coding哲学",
+      "Context管理",
+      "tmux多窗口协作",
+      "AI蜂群协作",
+      "Heartbeat机制",
+      "记忆图谱"
+    ],
+    "ongoing_projects": [
+      "AI天团搭建",
+      "新闻早报系统",
+      "个人知识库构建"
+    ]
+  },
+  "custom_commands": {
+    "quick_phrases": {
+      "继续Day 10": "加载Day 10学习状态",
+      "查看今日Context": "读取Daily-Context文件",
+      "补发新闻": "手动触发新闻早报"
+    }
+  },
+  "avatar_model": {
+    "archetype": "architect_director",
+    "traits": ["visionary", "systematic", "creative", "detail_oriented"],
+    "communication_preference": "atmosphere_builder",
+    "worldview": "narrative_system_thinker"
+  }
+}

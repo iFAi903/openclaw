@@ -1,0 +1,160 @@
+@import "tailwindcss";
+
+:root {
+  /* 高级灰背景 */
+  --bg-primary: #f9fafb;
+  --bg-secondary: #f3f4f6;
+  --bg-card: #ffffff;
+  
+  /* 文字颜色 */
+  --text-primary: #111827;
+  --text-secondary: #6b7280;
+  --text-muted: #9ca3af;
+  
+  /* 强调色 - 紫色 violet-600 */
+  --accent-primary: #7c3aed;
+  --accent-hover: #6d28d9;
+  --accent-light: #ede9fe;
+  
+  /* 渐变蓝 */
+  --blue-primary: #3b82f6;
+  --blue-dark: #1d4ed8;
+  
+  /* 深蓝 */
+  --navy-primary: #243b53;
+  --navy-dark: #102a43;
+}
+
+@theme inline {
+  --color-background: var(--bg-primary);
+  --color-foreground: var(--text-primary);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+/* 深色模式覆盖 */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-primary: #0f172a;
+    --bg-secondary: #1e293b;
+    --bg-card: #1e293b;
+    --text-primary: #f9fafb;
+    --text-secondary: #94a3b8;
+    --text-muted: #64748b;
+  }
+}
+
+body {
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* 四色系统工具类 */
+.bg-gray-advanced {
+  background: linear-gradient(145deg, #f9fafb 0%, #f3f4f6 100%);
+}
+
+.bg-blue-gradient {
+  background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
+}
+
+.bg-navy-deep {
+  background: linear-gradient(135deg, #243b53 0%, #102a43 100%);
+}
+
+.bg-violet-accent {
+  background-color: #7c3aed;
+}
+
+.text-violet-accent {
+  color: #7c3aed;
+}
+
+.border-violet-accent {
+  border-color: #7c3aed;
+}
+
+/* 卡片样式 */
+.card {
+  background: var(--bg-card);
+  border-radius: 12px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  transform: translateY(-2px);
+}
+
+/* 标签样式 */
+.tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 12px;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.tag-violet {
+  background-color: #ede9fe;
+  color: #7c3aed;
+}
+
+.tag-blue {
+  background-color: #dbeafe;
+  color: #2563eb;
+}
+
+.tag-navy {
+  background-color: #d9e2ec;
+  color: #334e68;
+}
+
+/* 动画 */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.5s ease-out forwards;
+}
+
+/* 滚动条美化 */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-secondary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d1d5db;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #9ca3af;
+}
+
+/* 隐藏滚动条但保持滚动功能 */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}

@@ -1,0 +1,797 @@
+<?xml version="1.0" encoding="UTF-8"?><feed
+	xmlns="http://www.w3.org/2005/Atom"
+	xmlns:thr="http://purl.org/syndication/thread/1.0"
+	xml:lang="en-US"
+	>
+	<title type="text">AI | The Verge</title>
+	<subtitle type="text">The Verge is about technology and how it makes us feel. Founded in 2011, we offer our audience everything from breaking news to reviews to award-winning features and investigations, on our site, in video, and in podcasts.</subtitle>
+
+	<updated>2026-03-17T20:09:46+00:00</updated>
+
+	<link rel="alternate" type="text/html" href="https://www.theverge.com/ai-artificial-intelligence" />
+	<id>https://www.theverge.com/rss/ai-artificial-intelligence/index.xml</id>
+	<link rel="self" type="application/atom+xml" href="https://www.theverge.com/rss/ai-artificial-intelligence/index.xml" />
+
+	<icon>https://platform.theverge.com/wp-content/uploads/sites/2/2025/01/verge-rss-large_80b47e.png?w=150&amp;h=150&amp;crop=1</icon>
+		<entry>
+			
+			<author>
+				<name>Andrew Webster</name>
+			</author>
+			
+			<title type="html"><![CDATA[Nvidia&#8217;s DLSS 5 is like motion smoothing for video games, but worse]]></title>
+			<link rel="alternate" type="text/html" href="https://www.theverge.com/entertainment/896213/nvidia-dlss-5-ai-faces-motion-smoothing" />
+			<id>https://www.theverge.com/?p=896213</id>
+			<updated>2026-03-17T16:09:46-04:00</updated>
+			<published>2026-03-17T14:00:00-04:00</published>
+			<category scheme="https://www.theverge.com" term="AI" /><category scheme="https://www.theverge.com" term="Analysis" /><category scheme="https://www.theverge.com" term="Entertainment" /><category scheme="https://www.theverge.com" term="Gaming" /><category scheme="https://www.theverge.com" term="Report" />
+							<summary type="html"><![CDATA[Yesterday Nvidia revealed its latest upscaling tech, called DLSS 5, which it described as "the company's most significant breakthrough in computer graphics since the debut of real-time ray tracing in 2018." Sounds good, until you actually see it. According to Nvidia, the tech "infuses pixels with photoreal lighting and materials," but all anyone seemed to [&#8230;]]]></summary>
+			
+							<content type="html">
+											<![CDATA[
+
+						
+<figure>
+
+<img alt="A screenshot of Starfield with DLSS 5 on." data-caption="" data-portal-copyright="Image: Nvidia" data-has-syndication-rights="1" src="https://platform.theverge.com/wp-content/uploads/sites/2/2026/03/Screenshot-2026-03-17-at-1.29.30%E2%80%AFPM.png?quality=90&#038;strip=all&#038;crop=0,0,100,100" />
+	<figcaption>
+		</figcaption>
+</figure>
+<p class="has-text-align-none">Yesterday <a href="https://www.theverge.com/news/895472/nvidia-dlss5-generative-ai-pc-graphics">Nvidia revealed its latest upscaling tech, called DLSS 5</a>, which <a href="https://www.nvidia.com/en-us/geforce/news/dlss5-breakthrough-in-visual-fidelity-for-games/">it described</a> as "the company's most significant breakthrough in computer graphics since the debut of real-time ray tracing in 2018." Sounds good, until you actually see it. According to Nvidia, the tech "infuses pixels with photoreal lighting and materials," but all anyone seemed to notice was that it turned recognizable faces into something resembling AI slop. <em>Resident Evil Requiem</em> protagonist Grace <a href="https://www.youtube.com/watch?v=MhLWH18vXH4">got a makeover</a> that would make her look at home in <a href="https://www.theverge.com/ai-artificial-intelligence/791680/tilly-norwood-particle6-xicoia-eline-van-der-velden">a Tilly Norwood video</a>. The <em>Hogwarts Legacy</em> kids <a href="https://www.youtube.com/watch?v=t50AdVMuxZE">looked like they'd been wrung through an Instagram filter</a>. Even Liverpoo …</p>
+<p><a href="https://www.theverge.com/entertainment/896213/nvidia-dlss-5-ai-faces-motion-smoothing">Read the full story at The Verge.</a></p>
+						]]>
+									</content>
+			
+					</entry>
+			<entry>
+			
+			<author>
+				<name>Stevie Bonifield</name>
+			</author>
+			
+			<title type="html"><![CDATA[Now everyone in the US is getting Google&#8217;s personalized Gemini AI]]></title>
+			<link rel="alternate" type="text/html" href="https://www.theverge.com/ai-artificial-intelligence/896107/google-expands-personal-intelligence" />
+			<id>https://www.theverge.com/?p=896107</id>
+			<updated>2026-03-17T12:39:01-04:00</updated>
+			<published>2026-03-17T12:33:41-04:00</published>
+			<category scheme="https://www.theverge.com" term="AI" /><category scheme="https://www.theverge.com" term="Google" /><category scheme="https://www.theverge.com" term="News" /><category scheme="https://www.theverge.com" term="Tech" />
+							<summary type="html"><![CDATA[Google announced on Tuesday that all users in the US will now have access to its Personal Intelligence feature, which lets you connect various Google apps to provide context for Gemini's responses and suggestions. Access was previously limited to Google AI Pro and AI Ultra subscribers. Now, free-tier users in the US can also use [&#8230;]]]></summary>
+			
+							<content type="html">
+											<![CDATA[
+
+						
+<figure>
+
+<img alt="" data-caption="" data-portal-copyright="Image: Google" data-has-syndication-rights="1" src="https://platform.theverge.com/wp-content/uploads/sites/2/2026/01/google-gemini-ai-personal-intelligence-tire-suggestion-demo.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100" />
+	<figcaption>
+		</figcaption>
+</figure>
+<p class="has-text-align-none">Google <a href="https://blog.google/products-and-platforms/products/search/personal-intelligence-expansion/">announced on Tuesday</a> that all users in the US will now have access to its <a href="https://www.theverge.com/news/861576/google-gemini-ai-personal-intelligence-gmail-search-youtube-photos">Personal Intelligence</a> feature, which lets you connect various Google apps to provide context for Gemini's responses and suggestions. Access was previously limited to Google AI Pro and AI Ultra subscribers. Now, free-tier users in the US can also use Personal Intelligence through AI Mode in Search, Gemini in Chrome, and the Gemini app. However, the feature is currently only available to users on personal Google accounts, not business, enterprise, or education users. </p>
+<p class="has-text-align-none">Personal Intelligence uses data from connected apps, like YouTube, Google Photos, and Gmail, to  …</p>
+<p><a href="https://www.theverge.com/ai-artificial-intelligence/896107/google-expands-personal-intelligence">Read the full story at The Verge.</a></p>
+						]]>
+									</content>
+			
+					</entry>
+			<entry>
+			
+			<author>
+				<name>Tom Warren</name>
+			</author>
+			
+			<title type="html"><![CDATA[Microsoft appoints a new Copilot boss after AI leadership shake-up]]></title>
+			<link rel="alternate" type="text/html" href="https://www.theverge.com/news/895963/microsoft-copilot-leadership-changes-consumer-commercial" />
+			<id>https://www.theverge.com/?p=895963</id>
+			<updated>2026-03-17T11:43:24-04:00</updated>
+			<published>2026-03-17T11:17:27-04:00</published>
+			<category scheme="https://www.theverge.com" term="AI" /><category scheme="https://www.theverge.com" term="Microsoft" /><category scheme="https://www.theverge.com" term="News" /><category scheme="https://www.theverge.com" term="Tech" />
+							<summary type="html"><![CDATA[Microsoft is doing another executive shuffle today to reorganize how it engineers its Copilot assistant. Different teams have been working on the consumer and commercial sides of Copilot for years, but Microsoft is about to unify parts of them in an effort to create a more cohesive Copilot for businesses and consumers. The changes will [&#8230;]]]></summary>
+			
+							<content type="html">
+											<![CDATA[
+
+						
+<figure>
+
+<img alt="An illustration of the Microsoft Copilot logo." data-caption="" data-portal-copyright="Image: The Verge" data-has-syndication-rights="1" src="https://platform.theverge.com/wp-content/uploads/sites/2/2025/07/STK259_MICROSOFT_COPILOT_2__C.png?quality=90&#038;strip=all&#038;crop=0,0,100,100" />
+	<figcaption>
+		</figcaption>
+</figure>
+<p class="has-text-align-none">Microsoft is doing another executive shuffle today to reorganize how it engineers its Copilot assistant. Different teams have been working on the consumer and commercial sides of Copilot for years, but Microsoft is about to unify parts of them in an effort to create a more cohesive Copilot for businesses and consumers.</p>
+<p class="has-text-align-none">The changes will see Microsoft AI CEO Mustafa Suleyman focus on creating Microsoft's own AI models, instead of working directly on the assistant-like features of Copilot for consumers. Suleyman first joined Microsoft nearly two years ago, after Microsoft hired a bunch of folks from Inflection AI. Months after Suleyman's hirin …</p>
+<p><a href="https://www.theverge.com/news/895963/microsoft-copilot-leadership-changes-consumer-commercial">Read the full story at The Verge.</a></p>
+						]]>
+									</content>
+			
+					</entry>
+			<entry>
+			
+			<author>
+				<name>David Pierce</name>
+			</author>
+			
+			<title type="html"><![CDATA[The future of code is exciting and terrifying]]></title>
+			<link rel="alternate" type="text/html" href="https://www.theverge.com/podcast/895910/claude-code-future-developers-vergecast" />
+			<id>https://www.theverge.com/?p=895910</id>
+			<updated>2026-03-17T11:16:47-04:00</updated>
+			<published>2026-03-17T11:16:47-04:00</published>
+			<category scheme="https://www.theverge.com" term="AI" /><category scheme="https://www.theverge.com" term="Gadgets" /><category scheme="https://www.theverge.com" term="Phones" /><category scheme="https://www.theverge.com" term="Podcasts" /><category scheme="https://www.theverge.com" term="Vergecast" />
+							<summary type="html"><![CDATA[Suddenly it seems like everyone's a coder. Or, at the very least, like they play one in the Claude Code app. But even for the seasoned pros, the act of software development is changing fast - many people are writing less code themselves and instead spending their time managing agents and projects. So what does [&#8230;]]]></summary>
+			
+							<content type="html">
+											<![CDATA[
+
+						
+<figure>
+
+<img alt="" data-caption="" data-portal-copyright="Image: Alex Parkin / The Verge" data-has-syndication-rights="1" src="https://platform.theverge.com/wp-content/uploads/sites/2/2026/03/VRG_VST_0317_Site.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100" />
+	<figcaption>
+		</figcaption>
+</figure>
+<p class="has-text-align-none">Suddenly it seems like <a href="https://www.theverge.com/report/874308/anthropic-claude-code-opus-hype-moment">everyone's a coder</a>. Or, at the very least, like they play one in the Claude Code app. But even for the seasoned pros, the act of software development is changing fast - many people are writing less code themselves and instead spending their time managing agents and projects. So what does all that change mean, both for the code and the people who make it?</p>
+<div class="wp-block-vox-media-highlight vox-media-highlight"><img src="https://platform.theverge.com/wp-content/uploads/sites/2/2025/11/Vergecast-Tile-Large.jpeg?quality=90&amp;strip=all&amp;crop=0,0,100,100" alt="" title="" data-has-syndication-rights="1" data-caption="" data-portal-copyright="">
+<p class="has-text-align-none"><em>Verge</em> subscribers, don't forget you get exclusive access to ad-free <em>Vergecast</em> wherever you get your podcasts. Head <a href="https://www.theverge.com/account/podcasts">here</a>. Not a subscriber? You can <a href="https://www.theverge.com/subscribe">sign up here</a>.</p>
+</div>
+<p class="has-text-align-none">On <a href="https://pod.link/vergecast">this episode of <em>The Vergecast</em></a>, Paul Ford, a <a href="https://www.ftrain.com/">writer</a> and <a href="https://aboard.com/">entrepreneur</a> and <a href="https://www.nytimes.com/2026/02/18/opinion/ai-software.html">longtime tech thinker</a>, expl …</p>
+<p><a href="https://www.theverge.com/podcast/895910/claude-code-future-developers-vergecast">Read the full story at The Verge.</a></p>
+						]]>
+									</content>
+			
+					</entry>
+			<entry>
+			
+			<author>
+				<name>Cameron Faulkner</name>
+			</author>
+			
+			<author>
+				<name>Richard Lawler</name>
+			</author>
+			
+			<title type="html"><![CDATA[DLSS 5 looks like a real-time generative AI filter for video games]]></title>
+			<link rel="alternate" type="text/html" href="https://www.theverge.com/news/895472/nvidia-dlss5-generative-ai-pc-graphics" />
+			<id>https://www.theverge.com/?p=895472</id>
+			<updated>2026-03-16T19:32:04-04:00</updated>
+			<published>2026-03-16T17:56:05-04:00</published>
+			<category scheme="https://www.theverge.com" term="AI" /><category scheme="https://www.theverge.com" term="Gaming" /><category scheme="https://www.theverge.com" term="News" /><category scheme="https://www.theverge.com" term="PC Gaming" />
+							<summary type="html"><![CDATA[Nvidia announced DLSS 5 on Monday during its GTC conference, and based on early reactions, it's going to be a divisive update, with some reactions calling it "slop" that unacceptably alters artistic intent. Nvidia CEO Jensen Huang is calling this the "GPT moment for graphics - blending hand-crafted rendering with generative AI to deliver a [&#8230;]]]></summary>
+			
+							<content type="html">
+											<![CDATA[
+
+						
+<figure>
+
+<img alt="" data-caption="" data-portal-copyright="Image: Nvidia" data-has-syndication-rights="1" src="https://platform.theverge.com/wp-content/uploads/sites/2/2026/03/grokashcroft.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100" />
+	<figcaption>
+		</figcaption>
+</figure>
+<p class="has-text-align-none">Nvidia announced DLSS 5 on Monday during its GTC conference, and based on early reactions, it's going to be a <a href="https://bsky.app/profile/dannyodwyer.bsky.social/post/3mh7bl7ntd222">divisive update</a>, with some reactions <a href="https://www.reddit.com/r/nvidia/comments/1rvilu2/comment/oathbwa/">calling it "slop"</a> that unacceptably alters <a href="https://bsky.app/profile/bobvids.com/post/3mh7eur4ros2f">artistic intent</a>. Nvidia CEO Jensen Huang is calling this the "GPT moment for graphics - blending hand-crafted rendering with generative AI to deliver a dramatic leap in visual realism while preserving the control artists need for creative expression."</p>
+<p class="has-text-align-none">In games that support DLSS 5, the tools can immediately provide noticeable boosts to lighting and shadows, but unlike previous versions of upscaling that used machine learning to close the gap between high  …</p>
+<p><a href="https://www.theverge.com/news/895472/nvidia-dlss5-generative-ai-pc-graphics">Read the full story at The Verge.</a></p>
+						]]>
+									</content>
+			
+					</entry>
+			<entry>
+			
+			<author>
+				<name>Emma Roth</name>
+			</author>
+			
+			<title type="html"><![CDATA[Teens sue Elon Musk’s xAI over Grok’s AI-generated CSAM]]></title>
+			<link rel="alternate" type="text/html" href="https://www.theverge.com/ai-artificial-intelligence/895639/xai-grok-teens-lawsuit-grok-ai-elon-musk" />
+			<id>https://www.theverge.com/?p=895639</id>
+			<updated>2026-03-16T19:27:34-04:00</updated>
+			<published>2026-03-16T17:44:11-04:00</published>
+			<category scheme="https://www.theverge.com" term="AI" /><category scheme="https://www.theverge.com" term="Elon Musk" /><category scheme="https://www.theverge.com" term="News" /><category scheme="https://www.theverge.com" term="Policy" /><category scheme="https://www.theverge.com" term="Tech" /><category scheme="https://www.theverge.com" term="Twitter - X" /><category scheme="https://www.theverge.com" term="xAI" />
+							<summary type="html"><![CDATA[Three Tennessee teens are suing Elon Musk's xAI over claims that the company's Grok AI chatbot generated sexualized images and videos of themselves as minors, as reported earlier by The Washington Post. The proposed class action lawsuit, filed on Monday, accuses Musk and other xAI leaders of knowing that Grok would produce AI-generated child sexual [&#8230;]]]></summary>
+			
+							<content type="html">
+											<![CDATA[
+
+						
+<figure>
+
+<img alt="Vector illustration of the Grok logo." data-caption="" data-portal-copyright="Image: The Verge" data-has-syndication-rights="1" src="https://platform.theverge.com/wp-content/uploads/sites/2/2025/05/STK262_GROK_B_C.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100" />
+	<figcaption>
+		</figcaption>
+</figure>
+<p class="has-text-align-none">Three Tennessee teens are suing Elon Musk's xAI over claims that the company's Grok AI chatbot generated sexualized images and videos of themselves as minors, <a href="https://www.washingtonpost.com/technology/2026/03/16/teens-sue-musk-xai-grok/">as reported earlier by <em>The Washington Post</em></a>. The <a href="https://www.documentcloud.org/documents/27881588-xai-grok-sexual-exploitation-lawsuit/">proposed class action lawsuit</a>, filed on Monday, accuses Musk and other xAI leaders of knowing that Grok would produce AI-generated child sexual abuse material (CSAM) when <a href="https://www.theverge.com/news/718795/xai-grok-imagine-video-generator-spicy-mode">launching its "spicy mode" last year</a>.</p>
+<p class="has-text-align-none">The plaintiffs include two minors and an adult who was underage when the events in the lawsuit took place. One of the victims, identified as "Jane Doe 1," alleges that last December, she learned that explicit, AI-generated images of …</p>
+<p><a href="https://www.theverge.com/ai-artificial-intelligence/895639/xai-grok-teens-lawsuit-grok-ai-elon-musk">Read the full story at The Verge.</a></p>
+						]]>
+									</content>
+			
+					</entry>
+			<entry>
+			
+			<author>
+				<name>Jess Weatherbed</name>
+			</author>
+			
+			<title type="html"><![CDATA[Benjamin Netanyahu is struggling to prove he&#8217;s not an AI clone]]></title>
+			<link rel="alternate" type="text/html" href="https://www.theverge.com/tech/895453/ai-deepfake-netanyahu-claims-conspiracy" />
+			<id>https://www.theverge.com/?p=895453</id>
+			<updated>2026-03-16T17:34:42-04:00</updated>
+			<published>2026-03-16T16:41:55-04:00</published>
+			<category scheme="https://www.theverge.com" term="AI" /><category scheme="https://www.theverge.com" term="Policy" /><category scheme="https://www.theverge.com" term="Report" /><category scheme="https://www.theverge.com" term="Tech" />
+							<summary type="html"><![CDATA[Social media platforms are currently awash with conspiracy theories claiming that Benjamin Netanyahu has been killed or injured and replaced by AI-generated deepfakes. Between clips that supposedly show the Israeli prime minister sporting extra fingers and drinking from a bottomless, gravity-defying cup of coffee, only one thing is apparent: Reality used to be much easier [&#8230;]]]></summary>
+			
+							<content type="html">
+											<![CDATA[
+
+						
+<figure>
+
+<img alt="A screenshot of Benjamin Netanyahu during a live press conference broadcast." data-caption="Deepfake rumors started after social media users claimed Netanyahu is depicted in this video with six fingers on his right hand (seen left). | Image: Israel Government Press Office" data-portal-copyright="Image: Israel Government Press Office" data-has-syndication-rights="1" src="https://platform.theverge.com/wp-content/uploads/sites/2/2026/03/Benjamin-Netanyahu-alleged-ai-deepfake-hed.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100" />
+	<figcaption>
+	Deepfake rumors started after social media users claimed Netanyahu is depicted in this video with six fingers on his right hand (seen left). | Image: Israel Government Press Office	</figcaption>
+</figure>
+<p class="has-text-align-none">Social media platforms are currently awash with conspiracy theories claiming that Benjamin Netanyahu has been killed or injured and replaced by AI-generated deepfakes. Between clips that supposedly show the Israeli prime minister sporting extra fingers and drinking from a bottomless, gravity-defying cup of coffee, only one thing is apparent: Reality used to be much easier to prove.</p>
+<p class="has-text-align-none">There's very little credible evidence to suggest that Netanyahu <em>isn't</em> alive. But credibility is a rare commodity now that AI can convincingly clone real people across image, video, and audio formats, so it's getting tougher to conclusively dispel the rumors. This …</p>
+<p><a href="https://www.theverge.com/tech/895453/ai-deepfake-netanyahu-claims-conspiracy">Read the full story at The Verge.</a></p>
+						]]>
+									</content>
+			
+					</entry>
+			<entry>
+			
+			<author>
+				<name>Stevie Bonifield</name>
+			</author>
+			
+			<title type="html"><![CDATA[Encyclopedia Britannica is suing OpenAI for allegedly ‘memorizing’ its content with ChatGPT]]></title>
+			<link rel="alternate" type="text/html" href="https://www.theverge.com/ai-artificial-intelligence/895372/encyclopedia-britannica-openai-lawsuit" />
+			<id>https://www.theverge.com/?p=895372</id>
+			<updated>2026-03-16T13:23:50-04:00</updated>
+			<published>2026-03-16T13:04:06-04:00</published>
+			<category scheme="https://www.theverge.com" term="AI" /><category scheme="https://www.theverge.com" term="News" /><category scheme="https://www.theverge.com" term="OpenAI" /><category scheme="https://www.theverge.com" term="Policy" />
+							<summary type="html"><![CDATA[On Friday, Encyclopedia Britannica and dictionary publisher Merriam-Webster filed a lawsuit against OpenAI alleging that it used their copyrighted content to train its AI, then generated responses that were "substantially similar" to their content, as previously reported by Reuters. According to Britannica, OpenAI repeatedly copied its content without permission, stating, "GPT-4 itself has 'memorized' much [&#8230;]]]></summary>
+			
+							<content type="html">
+											<![CDATA[
+
+						
+<figure>
+
+<img alt="" data-caption="" data-portal-copyright="Image: Mario Tama via Getty Images" data-has-syndication-rights="1" src="https://platform.theverge.com/wp-content/uploads/sites/2/2026/03/gettyimages-141320386.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100" />
+	<figcaption>
+		</figcaption>
+</figure>
+<p class="has-text-align-none">On Friday, Encyclopedia Britannica and dictionary publisher Merriam-Webster filed a lawsuit against OpenAI alleging that it used their copyrighted content to train its AI, then generated responses that were "substantially similar" to their content, as previously reported by <a href="https://www.reuters.com/legal/litigation/encyclopedia-britannica-sues-openai-over-ai-training-2026-03-16/"><em>Reuters</em></a>. </p>
+<p class="has-text-align-none">According to Britannica, OpenAI repeatedly copied its content without permission, stating, "GPT-4 itself has 'memorized' much of Britannica's copyrighted content and will output near-verbatim copies of significant portions on demand. The memorized examples are unauthorized copies that [OpenAI] used to train their models, including GPT-4." </p>
+<p class="has-text-align-none">The <a href="https://fingfx.thomsonreuters.com/gfx/legaldocs/klpylzoekvg/BRITTANICA%20OPENAI%20LAWSUIT%20complaint.pdf">lawsuit</a> goes on  …</p>
+<p><a href="https://www.theverge.com/ai-artificial-intelligence/895372/encyclopedia-britannica-openai-lawsuit">Read the full story at The Verge.</a></p>
+						]]>
+									</content>
+			
+					</entry>
+			<entry>
+			
+			<author>
+				<name>Nilay Patel</name>
+			</author>
+			
+			<title type="html"><![CDATA[Yahoo CEO Jim Lanzone on reviving the web&#8217;s homepage]]></title>
+			<link rel="alternate" type="text/html" href="https://www.theverge.com/podcast/895221/yahoo-jim-lanzone-scout-ai-sports-finance-open-web" />
+			<id>https://www.theverge.com/?p=895221</id>
+			<updated>2026-03-16T11:07:13-04:00</updated>
+			<published>2026-03-16T11:00:00-04:00</published>
+			<category scheme="https://www.theverge.com" term="AI" /><category scheme="https://www.theverge.com" term="Business" /><category scheme="https://www.theverge.com" term="Decoder" /><category scheme="https://www.theverge.com" term="Podcasts" /><category scheme="https://www.theverge.com" term="Tech" /><category scheme="https://www.theverge.com" term="Web" />
+							<summary type="html"><![CDATA[Today, I’m talking with Jim Lanzone, who is the CEO of Yahoo. It’s basically impossible to sum up the Yahoo story, but the short version of it is that a long time ago Yahoo paid Google to run the search box on its website, and basically everything has gone sideways since. You’ll hear Jim refer [&#8230;]]]></summary>
+			
+							<content type="html">
+											<![CDATA[
+
+						
+<figure>
+
+<img alt="A stylized portrait of Yahoo CEO Jim Lanzone" data-caption="" data-portal-copyright="Image: The Verge / Photo: Yahoo" data-has-syndication-rights="1" src="https://platform.theverge.com/wp-content/uploads/sites/2/2026/03/DCD-20260316-Lanzone.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100" />
+	<figcaption>
+		</figcaption>
+</figure>
+<p class="has-drop-cap has-text-align-none">Today, I’m talking with Jim Lanzone, who is the CEO of Yahoo.</p>
+
+<p class="has-text-align-none">It’s basically impossible to sum up the Yahoo story, but the short version of it is that a long time ago Yahoo paid Google to run the search box on its website, and basically everything has gone sideways since. You’ll hear Jim refer to that deal as Yahoo’s original sin, actually. After a long series of mergers and spinouts and an extremely odd moment where it was part of Verizon, Yahoo is once again an independent, privately held company. And it has big properties in sports and finance, and, against all odds, email, where it’s growing with young people. Gen Z loves Yahoo Mail, people. You heard it here first.</p>
+
+<p class="has-text-align-none">All of that means Yahoo is profitable and growing, according to Jim, but I still had some big questions about where that growth is going. Yahoo is still the third-place search engine and it just launched a new AI-powered search called Scout, but are they really trying to take market share from Google? Is the big investment in traditional advertising a good bet when creators and influencers are taking up so much attention? And with so much of both sports and finance turning into straight-up gambling, does Jim have any red lines he won’t cross with two of the biggest apps on the internet?</p>
+
+<div class="wp-block-vox-media-highlight vox-media-highlight"><img src="https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/24792604/The_Verge_Decoder_Tileart.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100" alt="" title="" data-has-syndication-rights="1" data-caption="" data-portal-copyright="" />
+
+
+<p><em>Verge</em> subscribers, don&#8217;t forget you get exclusive access to ad-free <em>Decoder</em> wherever you get your podcasts. Head <a href="https://www.theverge.com/account/podcasts">here</a>. Not a subscriber? You can <a href="https://www.theverge.com/subscribe">sign up here</a>. </p>
+</div>
+
+<p class="has-text-align-none">There’s a lot in this one, including some wild <em>Decoder </em>org chart terminology and what amounts to two people with a long history on the internet trying to come up with ever deeper references to old memes. It’s a ride, and Jim was pretty much game.&nbsp;</p>
+
+<p class="has-text-align-none">Jim was also a huge nerd about ad tech, and we used a lot of vocabulary talking about his decision to shut down part of Yahoo’s ad business and invest in the part that’s growing. Here’s a quick rundown — feel free to come back to this if it’s too wonky, I promise you’ll get it, it’s not that hard.</p>
+
+<p class="has-text-align-none">A supply-side platform, or SSP, is tech that an app, site, or platform can use to sell space to advertisers. You’ve got inventory — that’s supply — and advertisers use the SSP to buy that inventory. Yahoo had a big SSP, but Jim shut it down a couple years ago in favor of investing in the demand-side platform, or DSP, which works the other way around: An advertiser says it wants to reach a certain number of people, and then the platform does automated auctions across sites and apps to display the ads. This is the big money — it’s how Google makes so much money on the web, for example.</p>
+
+<p class="has-text-align-none">A big DSP doesn’t just deliver ads on the web or in apps, either. You’ll hear Jim talk about CTV, which stands for connected TVs. All those ads in streaming apps? Delivered by big DSPs, including Yahoo’s, which works with Netflix and Spotify.</p>
+
+<p class="has-text-align-none">Okay: Jim Lanzone, CEO of Yahoo. Here we go.</p>
+
+<iframe frameborder="0" height="200" src="https://playlist.megaphone.fm?e=VMP8687950115" width="100%"></iframe>
+
+<p class="has-text-align-none"><em>This interview has been lightly edited for length and clarity.</em></p>
+
+<p class="has-text-align-none"><strong>Jim Lanzone, you are the CEO of Yahoo. Welcome to </strong><strong><em>Decoder</em></strong><strong>.</strong></p>
+
+<p class="has-text-align-none">Great to be here.</p>
+
+<p class="has-text-align-none"><strong>I&#8217;m excited to talk to you. My personal story is wrapped up in the thing that is now Yahoo that you operate. I once worked for AOL, which got smashed into Yahoo in a series of acquisitions. I know you are thinking a lot about what Yahoo is today and the future of the web and its relationship to the larger networks that we all operate on. So I think there&#8217;s a lot to unpack there.</strong></p>
+
+<p class="has-text-align-none"><strong>I do want to start with my personal history with Yahoo, because I got my start in tech journalism at </strong><strong><em>Engadget</em></strong><strong> at $12 a post when it was owned by AOL. This was a very odd time in media that that was a thing you could do. And just last week, you announced that you are selling </strong><strong><em>Engadget</em></strong><strong> to a thing called Static Media. Take me inside that decision to sell </strong><strong><em>Engadget</em></strong><strong>. You just sold </strong><strong><em>TechCrunch</em></strong><strong>. What&#8217;s going on here?</strong></p>
+
+<p class="has-text-align-none">Really it was the last non-Yahoo brand to be sold. Since we were spun out of Verizon in September of 2021, we&#8217;ve been in the process of rationalizing the portfolio and what makes sense going forward. I&#8217;m sure we&#8217;ll talk about it.&nbsp;</p>
+
+<p class="has-text-align-none">But that goes all the way back to, “Why are we still here after all these years? What&#8217;s our right to exist? What&#8217;s our right to win?” And really the long story short of that goes back to the original mission of the company: being the trusted guide to the internet. In 1995, that meant helping you find websites. In 2026, it can mean all kinds of different things. But that&#8217;s where we&#8217;re strong. That&#8217;s where we&#8217;re still strong after all the things the company went through over the years.&nbsp;</p>
+
+<p class="has-text-align-none">When we got here, there were still just a lot of things going on. We had a content delivery network business. The company had drifted very far into all kinds of media and away from its history as more of an aggregator and place to help you find where to go for that media. And again, we can talk about what we think about that. But between <em>TechCrunch</em>, Rivals, which we sold, <em>Engadget</em>, and a lot of other small properties, ultimately also AOL, we sold back in Q4, so on the one hand, it&#8217;s about focus. And on the other hand, when it comes to properties like <em>TechCrunch</em> and <em>Engadget</em>, if you think about what we do while we do media, it&#8217;s really to provide context for the products that we&#8217;re operating in those categories. We&#8217;re not the place to go for breaking news. And that&#8217;s why <em>Engadget</em> and <em>TechCrunch</em> found homes with, in both cases, families of brands that were either tech-focused or media-focused and really do that kind of journalism, which is really not what Yahoo does.</p>
+
+<p class="has-text-align-none"><strong>I want to dig into that for just one more turn. I think “we&#8217;re not the place for breaking news,” that has a different valence when you talk about that in the context of sports and finance.</strong></p>
+
+<p class="has-text-align-none">Producing that news or enterprising that news, right? Versus being the aggregator for other people who are doing it.</p>
+
+<p class="has-text-align-none"><strong>That&#8217;s the other piece that I&#8217;m really curious about. Yahoo bought Artifact, which was a really great AI-powered news app that was started by the founders of Instagram. I&#8217;ve talked to </strong><a href="https://www.theverge.com/24237562/anthropic-mike-krieger-claude-ai-chatbot-artifact-web-decoder-podcast-interview"><strong>Mike Krieger</strong></a><strong> and Kevin Systrom about that over the years. One of the reasons they got out of that business and sold it to Yahoo was they were like, &#8220;There isn&#8217;t enough web to aggregate anymore. News on the web is a declining thing and actually all the action is on social. And as Artifact, we had no access to all of the other platforms on social.&#8221;&nbsp;</strong></p>
+
+<p class="has-text-align-none"><strong>Yahoo is an aggregator. I&#8217;ve heard you say that before. It&#8217;s what you&#8217;re saying now. The value here is bringing everything together and providing an audience. Are you running out of web to aggregate? Because this is, to me, the defining problem of our moment right now.</strong></p>
+
+<p class="has-text-align-none">We&#8217;re particularly passionate about that. And I&#8217;m sure we&#8217;ll talk about our AI search engine that we launched, but that&#8217;s a big part of the thesis behind that as well. Our core value of that product is doing right by publishers in the open web.&nbsp;</p>
+
+<p class="has-text-align-none">But I actually think that their biggest issue with Artifact was audience, which is the challenge a lot of people have. It&#8217;s really hard, especially in news, to build an audience of scale, whether in 2024 when we bought Artifact or today. And so it was a very small user base for a very awesome product. And that product was an aggregator. I think it actually did hit a lot of sources. We hit a lot more with Yahoo. It&#8217;s thousands of publishers.</p>
+
+<p class="has-text-align-none">Having direct deals with publishers to have their content aggregated with us has actually been part of the history of the company going back two-plus decades. We send them traffic, and in many cases, share revenue. That&#8217;s always been part of the history of Yahoo and what it did well. There are a lot of things that didn&#8217;t happen, that didn&#8217;t go well. But when we walked into the company, where it was still strong was where we were still doing that in categories that mattered.&nbsp;</p>
+
+<p class="has-text-align-none">Artifact was our admission that what we inherited was probably not the best foot forward for being a great product in that space. We were all fans of Artifact; I was, personally. Usually, when you make an acquisition like that, you munge them into the Borg, to the mothership. We did the opposite. We actually just put the Yahoo logo on the Artifact app and started from there and just admitted it.&nbsp;</p>
+
+<p class="has-text-align-none">One of the things that Yahoo does best is we are very large. We have a massive audience. And we can turn that fire hose on great products if we build them. That&#8217;s part of our thesis for how we would grow this business, which admittedly has been a big turnaround.</p>
+
+<p class="has-text-align-none"><strong>This is well before your time, but when we started </strong><strong><em>The Verge</em></strong><strong> in 2011, our first big syndication deal was with Yahoo and our first major traffic fire hose was the yahoo.com homepage. And I would sit around trying to figure out what stories would get placed there. I had all these conversations. Basically, the answer is, “you&#8217;re never going to know.” So then we did all this data analysis and we found out that the Yahoo algorithm loved stories about fish. I&#8217;m not kidding. It was literally fish.</strong></p>
+
+<p class="has-text-align-none">I believe this.</p>
+
+<p class="has-text-align-none"><strong>And on Fridays, because I&#8217;m from Wisconsin, we would have Fish Fridays at </strong><strong><em>The Verge </em></strong><strong>and we would literally search for fish technology stories and collect all this Yahoo traffic. And this probably has more impact on my thinking about how to run a media property, even now in 2026. Like you shouldn&#8217;t do that.</strong></p>
+
+<p class="has-text-align-none">It&#8217;s all about the fish.</p>
+
+<p class="has-text-align-none"><strong>Right. Yeah. </strong><strong><em>The Verge</em></strong><strong> is shockingly about fish under it all. It&#8217;s really just about fish. </strong><strong><em>[laughs]</em></strong></p>
+
+<p class="has-text-align-none"><em>[laughs] </em>Yeah. Yeah.</p>
+
+<p class="has-text-align-none"><strong>The thinking was, “If I play to this algorithm, eventually it will go away. This cannot be sustainable. And so we have to build something that&#8217;s sustainable on its own terms and collect all the algorithmic traffic along the way.” That&#8217;s still my worldview: We can chase SEO, but SEO is going away for people. We could chase whatever Instagram trend and switch from Stories to Reels, back to the carousel, whatever Adam Mosseri wants us to do, but that&#8217;s unsustainable.&nbsp;</strong></p>
+
+<p class="has-text-align-none"><strong>I&#8217;m asking this question about aggregators and selling the newsrooms to you because I&#8217;m wondering if Yahoo as an aggregator of audience can be sustainable for those newsrooms. Because what I&#8217;m seeing is that Google as a source of traffic is going away. Twitter or X doesn&#8217;t send links to anyone anymore, so as a source of traffic, that&#8217;s going away. The referral to the newsrooms is in decline.&nbsp;</strong></p>
+
+<p class="has-text-align-none"><strong>And when you just look at the state of the universe, the tech media is in decline. Media is in decline. Newspapers are getting shut down. In that position as an aggregator, do you think about that dynamic? “If we&#8217;re not sustainable, we will not actually have enough stuff to aggregate”?</strong></p>
+
+<p class="has-text-align-none">Look, Yahoo has clearly gotten something out of being the aggregator over the years, so I&#8217;m not saying it&#8217;s completely selfless. But going all the way back to the beginning, Yahoo&#8217;s role was to help people find websites, right? And then apps, and then stories over the years. But we have taken that really seriously here, that it&#8217;s our job to help send traffic downstream, to help you build that brand. We&#8217;re in the same spot. I mean, we have SEO and we definitely are in the same position. And then thankfully, over 70% of our visits are direct. And we&#8217;ve built that side of the business.&nbsp;</p>
+
+<p class="has-text-align-none">So I understand what you&#8217;re saying, and I do think it&#8217;s under threat. I think that the LLMs are one big reason that they&#8217;re under threat, with AI mode in Google being the biggest challenge. It&#8217;s probably pie in the sky, but I have some history in search and have seen this happen before with some things that my team built.&nbsp;</p>
+
+<p class="has-text-align-none">I&#8217;m okay if the industry copies some of the things that we just did with Yahoo Scout, where we have very purposefully highlighted and linked very explicitly and bent over backwards to try to send more traffic downstream to the people who created the content that was digested by the LLMs to create the answers that they&#8217;ve been giving with chatbots. Ours looks a lot more like traditional search and it is more paragraph-driven. It&#8217;s not a chatbot that&#8217;s trying to act like it&#8217;s a person and be your friend.&nbsp;</p>
+
+<p class="has-text-align-none">Besides the issue of ads, which we can also talk about. That Claude ad, that creepy interface with the chatbot, we don&#8217;t do that. But we do explicitly link a lot to publishers. We&#8217;re hoping that not just for us, but for other engines in the future, that becomes more of the user interface for these things. Those publishers deserve it, and we&#8217;re not going to have the content to consume to give great answers if publishers aren&#8217;t healthy.</p>
+
+<p class="has-text-align-none">I actually think Google would have wound up with a much more similar&nbsp; interface if they&#8217;d been first out of the gate. Once ChatGPT beat them to market, however that happened, they had to play catch-up to avoid people bleeding out over to ChatGPT. I empathize with why they did it, but I&#8217;m hoping that&#8217;s not where the industry winds up.</p>
+
+<p class="has-text-align-none"><strong>You can see Google is walking a complicated line now with their publisher relationships, with how many links are in their results, how they integrate advertising. On the same token, you can see ChatGPT and OpenAI are walking a complicated line as well, right? They haven&#8217;t quite figured out their advertising experience.</strong></p>
+
+<p class="has-text-align-none">But they wound up there, I think, not by accident. They were built by researchers. And so, of course, the first user interface had a bunch of citations. It looked like somebody at a university had written a research paper. We backed into that being the interface for what this should look like by accident. But that&#8217;s not how it has to look and operate in order to give great answers. I think we can do more to send traffic downstream, and we&#8217;ve tried to do that. It&#8217;s still early, so maybe that&#8217;ll wind up in more of the products. It certainly needs to, for advertising to work.</p>
+
+<p class="has-text-align-none"><strong>I think that&#8217;s my other question here. I know you&#8217;ve done a lot on the advertising side of the business. You&#8217;ve sold off some pieces, you&#8217;ve rethought some other pieces. I want to come to that. But let me just ask about that dynamic of sending traffic downstream. That&#8217;s not what any of your competitors are doing. They&#8217;re holding more and more traffic within their walled gardens. They&#8217;re creating more and more formats. They&#8217;re all converging on being scrolling video. You can just see it, right? Everything </strong><a href="https://www.scientificamerican.com/article/why-do-animals-keep-evolving-into-crabs/"><strong>turns into a crab</strong></a><strong> in the end with convergent evolution.</strong></p>
+
+<p class="has-text-align-none"><strong>You haven&#8217;t quite done that. There&#8217;s bits and bobs of it on Yahoo properties, but you haven&#8217;t fully taken the approach of, &#8220;Okay, we&#8217;re going to wall this garden off. We&#8217;ll buy the content. We&#8217;ll put it here. It&#8217;s all one experience and then we can change it however we want.&#8221; You seem committed to sending traffic downstream. Where does that come from? Is that just a personally held belief? Is that idealistic? Or is there a business reason for that as well?</strong></p>
+
+<p class="has-text-align-none">I think it can be all of the above in this case. We could be just being Pollyanna about it or think it&#8217;s a differentiator or whatever. But first of all, we think people want to go downstream to the publishers. Second, we think actually being able to check the sources or follow up and go get more information is an extremely high user need. It&#8217;s core to the user need in search, which is really where we are playing.&nbsp;</p>
+
+<p class="has-text-align-none">We&#8217;re not a large language model. We&#8217;re not going to be the place you come to code. We&#8217;ve really launched Scout as an answer engine. Part of that is the traditional role of a search engine. We’re also launching integrated into our search engine experience. So it is more similar to that from the get-go.&nbsp;</p>
+
+<p class="has-text-align-none">But it is also a core value of our products, for sure. We&#8217;ve had to do a lot of rethinking. The Yahoo homepage that we inherited in 2021 had drifted over the years towards being a more clickbait newsfeed and away from being a portal, and I have a lot of empathy for how that happened. We could dig all the way into the history of the company. I think it goes all the way back to the original sin of giving search to Google, which is what happened. It is a misnomer that it was beaten by Google. Yahoo didn&#8217;t even do search. They did an enterprise deal.</p>
+
+<p class="has-text-align-none"><strong>Right. Powered by Google.</strong></p>
+
+<p class="has-text-align-none">It would almost be like if Google today, on every search results page, linked to ChatGPT with a logo for ChatGPT and paid ChatGPT for the privilege. That&#8217;s what Yahoo gave to Google in June 2000. From that point forward, it was a struggling company against the trends at Google and then Facebook. And then as a struggling public company, it was just hard to make the right choices. But during that time, it drifted from the portal experience, which I think a lot of people really valued — just probably not as many as valued Google. And so there was a lot of fog of war there.</p>
+
+<p class="has-text-align-none">By the time we picked it up, it was really this newsfeed. And we think people want more utility in our homepage. They can go downstream to News or to Sports or Finance, but in that place, so it is more of an aggregator.&nbsp;</p>
+
+<p class="has-text-align-none">That is also one reason why you will see short-form video, because that actually has become a valid way to consume news and information. But we think that aggregation is something people really want from us. And to do that well, we&#8217;re not going to be the ones creating all the content ourselves. We have to partner with publishers and send them traffic.</p>
+
+<p class="has-text-align-none">tThey did not ask permission for the content that went into the original large language models. Even today, everybody still needs Google to get out there. You can ask people to stop crawling you, you can send a cease and desist, but it&#8217;s very hard to prevent it. But in that original version of each large language model, the content was just taken. And yeah, I think that was wrong.</p>
+
+<p class="has-text-align-none"><strong>The reason I&#8217;m pushing on this so hard is, one, I think it&#8217;s refreshing to hear an aggregator talk about supply in this way. It doesn&#8217;t happen very often. And all of your biggest competitors, one, they&#8217;ve all pivoted to video. In whatever way, they&#8217;ve pivoted to video. But if you look at the biggest aggregators, and they look like social platforms for the most part, they pay nothing for their content.&nbsp;</strong></p>
+
+<p class="has-text-align-none"><strong>Instagram pays nothing to Instagram influencers. It&#8217;s all brand deals up and down. X has whatever revenue sharing X is doing, but it&#8217;s so odd and it incentivizes such weird things that I don&#8217;t think it counts for publishers. YouTube rates are falling. If you ask people who make YouTube Shorts, they&#8217;re not making enough money on YouTube. The dynamics of Google, Google never paid for the content. The original sin of the publishing business was Jonah Peretti&#8217;s belief that he could go so viral with BuzzFeed that Facebook would be forced to pay him money in some sort of cable carriage deal situation that never came to pass.&nbsp;</strong></p>
+
+<p class="has-text-align-none"><strong>All of these publishers have hit the rocks in some way. They&#8217;ve all landed on, “the users will make us the stuff for free.” All these companies are differently positioned, they compete in different ways, but if you just look at it and squint, they&#8217;re all like, &#8220;We should pay nothing, because the users will make the videos for free. There&#8217;s an army of teenagers who will show up here no matter what we do.&#8221;</strong></p>
+
+<p class="has-text-align-none"><strong>And you&#8217;re saying, &#8220;No, we should pay some money for content from some of these newsrooms because there&#8217;s some user demand.&#8221; How does that margin work out for you? Where is everybody making money here?</strong></p>
+
+<p class="has-text-align-none">Well, in our case, there are rev shares. So we&#8217;re not writing a check to own the content. It really is our social contract. And remember, search also had a social contract, which is, “you let us crawl you, and then we&#8217;ll have a snippet, and then we&#8217;ll send you traffic.” And in search, that is what we&#8217;re trying to get back to and get the industry back to.&nbsp;</p>
+
+<p class="has-text-align-none">For the rest of Yahoo, I&#8217;d say the difference is that, in every product you just named, publishers are creating bespoke content that is for that platform — a tweet, an Instagram post, a YouTube video — in the hopes that you&#8217;ll either aggregate audience there and/or they&#8217;ll start to build brand to bring it back to your own property.</p>
+
+<p class="has-text-align-none">In our case, you&#8217;re consuming some of that content with your brand there, as you know from the fish days, and then it leads you downstream. So it&#8217;s just a different model. And in our model, it is much more the content of the publisher, versus you creating a product for me, which is really what everyone&#8217;s doing everywhere else.</p>
+
+<p class="has-text-align-none"><strong>Let me just bring this back to </strong><strong><em>Engadget</em></strong><strong> and </strong><strong><em>TechCrunch</em></strong><strong> for one more turn. And then I want to talk about how you&#8217;ve structured Yahoo and, in particular, what you&#8217;re doing on the advertising side, because I&#8217;m very curious there. Do you think as you exit this space where you run newsrooms and editorial teams, that those cost structures are long for this world? It can&#8217;t just be Yahoo syndication deals that support all the newsrooms of the world, right? There has to be some set of other monetization, some set of other revenue, some diversification.</strong></p>
+
+<p class="has-text-align-none"><strong>You were operating these businesses. You chose to be out of it. Is it just because you didn&#8217;t see the business opportunity for them? Or is it you just didn&#8217;t want to attack those problems?</strong></p>
+
+<p class="has-text-align-none">The content you&#8217;re creating and the cost structure of that have to be congruent with the kind of advertising you&#8217;re pulling in. So if it&#8217;s all programmatic, you can&#8217;t staff premium or produce premium. Businesses along the way have gotten on the wrong side of their P&amp;L because of that. They staff premium and monetize at a very low <a href="https://www.publift.com/blog/what-is-cpm">CPM</a>. It&#8217;s wrong to say that we&#8217;re not in content, because it&#8217;s just the kind of content we&#8217;re creating. Our three pillars for product are superior aggregation, proprietary data sets, and what we call anchors for context. So that really is content for context.</p>
+
+<p class="has-text-align-none">We&#8217;re doing a lot of content in sports. We&#8217;re doing 60 hours a week now of original video. Same thing in finance. We&#8217;ve been building that muscle. We have the number-one <a href="https://sports.yahoo.com/videos/shows/kevin-o-connor-show/?guccounter=1&amp;guce_referrer=aHR0cHM6Ly9kb2NzLmdvb2dsZS5jb20v&amp;guce_referrer_sig=AQAAALCrDxgOq4jxNsY_5Xacu0GBlZATTpvPlwTVLv5YDZwFWpe1mwuJEMZtgnn4Ttr-W3tTaGB0vcxwH-PvTox70ne5rmoktkJjUPpHbD0PTO6Gk7SylXS8y_y2-cjBInZhLi1qlrmeujjCbEBHR0UMujDyJbaSA8PTZmIl5NffRu1A">NBA podcast</a> with Kevin O&#8217;Connor. We have the number-one <a href="https://sports.yahoo.com/videos/shows/ariel-helwani-show/?guccounter=1&amp;guce_referrer=aHR0cHM6Ly9kb2NzLmdvb2dsZS5jb20v&amp;guce_referrer_sig=AQAAALCrDxgOq4jxNsY_5Xacu0GBlZATTpvPlwTVLv5YDZwFWpe1mwuJEMZtgnn4Ttr-W3tTaGB0vcxwH-PvTox70ne5rmoktkJjUPpHbD0PTO6Gk7SylXS8y_y2-cjBInZhLi1qlrmeujjCbEBHR0UMujDyJbaSA8PTZmIl5NffRu1A">MMA podcast</a> with Ariel Helwani. We do a lot of content. But it is not breaking news content.&nbsp;</p>
+
+<p class="has-text-align-none">When I got here, we had a White House correspondent. We were competing with the Associated Press, and that is what we really wanted to get out of. If you think about <em>TechCrunch</em>, it said right there in the handle on Twitter. It was like, &#8220;Send us scoops.&#8221; And they were breaking news, sometimes about us, which is fair.</p>
+
+<p class="has-text-align-none">But I remember they were doing that in Tim Armstrong&#8217;s days as well. And that&#8217;s great. But it&#8217;s just not the kind of content we&#8217;re producing. Shams Charania in sports and Adrian Wojnarowski before him in the NBA, they started at Yahoo during that time period. And we just thought, look, that news is going to break and it&#8217;s going to be disseminated very quickly, and you won&#8217;t usually get credit for it on ESPN. They won&#8217;t always say on SportsCenter where that news was broken. And then of course, then they wind up stealing those guys and paying them $10 million a year. So it&#8217;s just like a game that we decided that&#8217;s not what people are really coming to us for. It&#8217;s really more to be the aggregator, and then we can provide great context.&nbsp;</p>
+
+<p class="has-text-align-none">In sports and finance, it&#8217;s also a little bit different in that not only are we aggregating, but we have products that are extremely important, like Fantasy. We&#8217;re one of the top two platforms in the original and Fantasy and Sports. We have all these new Fantasy games that we&#8217;ve been launching. And of course, in finance, we are still the number one for tracking your portfolio and getting research and information about it. Whether it&#8217;s Brian Sozzi and his team on Finance, or it&#8217;s KOC and that stuff on Sports, we&#8217;re providing context to the actions that you&#8217;re going to be taking in those verticals.</p>
+
+<p class="has-text-align-none"><strong>Don&#8217;t worry. We&#8217;re going to come to the collision of sports and finance in one second here.&nbsp;</strong></p>
+
+<p class="has-text-align-none"><strong>This is a great spot for the </strong><strong><em>Decoder </em></strong><strong>questions. I actually want to ask you this. You&#8217;ve been CEO for a minute now. Yahoo has been through all kinds of twists and turns. At one point, it was squished into something with AOL at Verizon called Oath, which was deeply confusing. You became CEO after Apollo Global bought the company. It&#8217;s a private equity firm. Very few people are ever going to think to themselves, &#8220;I should be the CEO of Yahoo,&#8221; and then interview for that job. Walk me through that. What was the pitch? Did you make a deck? How did it work?</strong></p>
+
+<p class="has-text-align-none">It was very different, actually. They bought it in May 2021. It closed in September 2021. And they talked to a lot of different people around the industry, people that you know, that I know, about doing diligence on Yahoo and whether they should buy it. I competed against Yahoo at basically every stop of my career. I knew every executive team. I went head-to-head with them over the years. I&#8217;d partner with them on certain things over the years.&nbsp;</p>
+
+<p class="has-text-align-none">I always thought it was the granddaddy of all turnarounds, and I&#8217;ve been part of a few of them. I&#8217;ve just grown to love doing them. And in my case, I wanted to run towards the fire. I was very much of the mind that it was a great deal to do if you could get it for the right price, .</p>
+
+<p class="has-text-align-none">Once that deal closed, the conversation immediately turned to whether I would be interested in running it. And I definitely was. So there was no pitch deck other than my advice and input along the way to buying it. And then over that summer, before they closed, it wound up being a negotiation of me coming on to run it. I&#8217;d been at other companies where we&#8217;d thought to ourselves like, &#8220;Oh, I wish we could take our executive team over there and compete with them with those assets. Let&#8217;s see how that Olympic race goes.&#8221; We wanted to try that.</p>
+
+<p class="has-text-align-none">It was almost 30 years in the making. I was getting it at a very different time than if I&#8217;d gotten it in 2010 or 2005 or some other time. But the assets were still extremely strong. And yeah, I do also understand the part of your question, which is PE. And do people in my position normally want to go do that?&nbsp;</p>
+
+<p class="has-text-align-none">I&#8217;ve been an entrepreneur. I&#8217;ve started two companies. I&#8217;ve worked for media moguls. I&#8217;ve done all kinds of things. And my view on that is just, you’ve always got to serve somebody; it&#8217;s your board, it&#8217;s the public markets, it&#8217;s a really hard boss, whoever it is. And I felt like Reed Rayman, who was the partner at Apollo who did the deal, was a really smart, really good guy, and that we would be really good partners, whether private equity is behind it or VC or anybody else.</p>
+
+<p class="has-text-align-none"><strong>Well then, actually, let me ask you about the PE piece of it, because you&#8217;re right that I&#8217;m very curious about that. Usually, a PE firm buys a declining asset to just </strong><a href="https://www.theverge.com/23758492/private-equity-brendan-ballou-plunder-finance-doj"><strong>ride it on the way down</strong></a><strong>. Everything you&#8217;ve talked about so far is growth, right?</strong></p>
+
+<p class="has-text-align-none"><strong>Have they provided sufficient capital to reinvest in the business, or are you just moving money around through cuts and reallocations?</strong></p>
+
+<p class="has-text-align-none">I&#8217;d say two things. One is that they actually have been providing capital. In fact, I was in a meeting this morning where they were offering capital to do big things that we were talking about.&nbsp;</p>
+
+<p class="has-text-align-none"><strong>Does the ominous music play when the private equity firm offers you money?</strong></p>
+
+<p class="has-text-align-none">No. If you met Reed, you wouldn&#8217;t think about it like that.</p>
+
+<p class="has-text-align-none"><strong>Is it like the devil&#8217;s advocate?</strong></p>
+
+<p class="has-text-align-none">No. We have a deal team that&#8217;s not like that at all. And I don&#8217;t know about other PE&#8230; I have not worked with other PE firms.</p>
+
+<p class="has-text-align-none"><strong>Sure.</strong></p>
+
+<p class="has-text-align-none">No, they&#8217;ve really always wanted to swing bigger. If you go back to when I started, it was still the heart of Covid and the crypto boom and stonks, and there was one boom period, and then things dried up for a bit, and then the AI boom. We&#8217;ve gone through this. And so what we&#8217;ve looked at doing with that capital has been different. We&#8217;ve wound up buying smaller things along the way instead of bigger things, but they&#8217;ve been very up for the bigger things and trying to make this a much bigger outcome along the way.</p>
+
+<p class="has-text-align-none">We have tended to make our own fuel. So I promise you there&#8217;s not been one reduction here that hasn&#8217;t been strategically decided by my team, gone to Apollo, and said, &#8220;Hey, we&#8217;re going to do this.&#8221; We shut down two really big money-losing ad tech parts of the company, and that was all our team trying to do that. So we are, I&#8217;d say, profitable to very profitable, and we don&#8217;t need to make a dollar more than our budget to satisfy the PE gods. It&#8217;s agreed upon every year in our planning process what that&#8217;s going to be.</p>
+
+<p class="has-text-align-none">And certainly when we made the changes to the revenue engine, it was a little dicey there for a year. That was the “Indiana Jones <a href="https://www.youtube.com/watch?v=-KSz1-ESL74">replaced the gold</a>” situation and they had to take a leap of faith with us on that. But we&#8217;ve not been through any PE-driven cost-reduction exercises or anything yet.</p>
+
+<p class="has-text-align-none"><strong>I&#8217;ve seen a quote from Apollo saying Yahoo is the fastest return on investment that they&#8217;ve ever had. I know you&#8217;re a private company. What is that return? Is it healthily profitable? Is it just a dollar more than they spent?</strong></p>
+
+<p class="has-text-align-none">No, very profitable. And look, we don&#8217;t disclose revenue, but it&#8217;s in the billions. That number&#8217;s moved around as I&#8217;ve moved out a lot of bad revenue with those ad tech companies that are driving a lot of top line but not a lot of bottom line. AOL was a lot of revenue and profit and that went out.&nbsp;</p>
+
+<p class="has-text-align-none">But it is in the billions of revenue. It is very profitable. It&#8217;s not profitable by a dollar. For a company that really paid the price for being a struggling public company for a long time, right into the teeth of some big competitors coming along to eat its lunch, it&#8217;s been good to be private along the way, whether we&#8217;re owned by PE or not, to be able to make a lot of these changes. It&#8217;s in a very healthy spot financially.</p>
+
+<p class="has-text-align-none"><strong>Let&#8217;s talk about those changes. I&#8217;m actually going to ask you the two </strong><strong><em>Decoder</em></strong><strong> questions in reverse order than I usually do. You&#8217;ve made a lot of decisions. It does not sound like you ever sat down and opened up Google Docs and said, &#8220;If I ran Yahoo&#8230;&#8221; and made a bullet list. But you&#8217;ve made a lot of decisions, including the decisions to exit some businesses. How do you make decisions? What&#8217;s your framework?</strong></p>
+
+<p class="has-text-align-none">Having watched your podcast for a long time, I knew that question was coming, and I just didn&#8217;t want to come up with some bullshit answer. Because I&#8217;ve heard some, and they sound like they&#8217;re trying to write a chapter for <a href="https://drucker.institute/about-peter-drucker/">Peter Drucker</a> or something. I&#8217;m just not going to try and do that.&nbsp;</p>
+
+<p class="has-text-align-none">I&#8217;m the wrong CEO for an enterprise software company. I&#8217;m the wrong CEO for a food company. But I&#8217;ve done consumer internet my entire career. I&#8217;ve started them, I&#8217;ve taken over big ones, I&#8217;ve seen everything you could see in this industry. And it&#8217;s very easy to make decisions. I think it&#8217;s harder to get the information for it. I think my team would tell you that I&#8217;m very quick to make decisions. I would rather they have done it themselves, and we can talk about the org structure and why that is. I&#8217;m the editor-in-chief myself for what happens here.&nbsp;</p>
+
+<p class="has-text-align-none">The framework is definitely through the lens of our mission. I don&#8217;t have a set of <a href="https://www.linkedin.com/pulse/values-wall-rise-fall-enron-tom-rankin-z7sce/">Enron values</a> on the wall, like integrity, that mean nothing. We have a view on that as well. So that&#8217;s not really how it happens. But it really is through the lens of why we&#8217;re here, what we&#8217;re trying to do, what our plan is for the year.&nbsp;</p>
+
+<p class="has-text-align-none">My job at the end of the day is growth. You could dress that up any way you want. That is my job. I think that&#8217;s a job of any CEO, even if you&#8217;re a Series A company.</p>
+
+<p class="has-text-align-none">And so that lens for what we&#8217;re trying to do is pretty easy. We know who we are and what we need to be. And we know what the spine of the book is and the pages that are starting to come off of that as we go forward. The first two years I was here, it was the transformation period. It was not only getting us through Covid and all of that and extracted from Verizon, we actually had to stand this company back up. We&#8217;re not the same Yahoo. This is a new company — that, PS, [original Yahoo cofounder] Jerry Yang invested in, he was one of our investors — that we put the name Yahoo back on.&nbsp;</p>
+
+<p class="has-text-align-none">All the transformation work that happened the first couple of years got you to the point where you could earn the right to start improving the products again. Because at the end of the day, we are a product company and these things had to not suck, let alone get to be good.</p>
+
+<p class="has-text-align-none">And now, we&#8217;re in, I&#8217;d say the third phase, which is starting to take shots on goal. And so the decisions are always going to be different as you go through those phases.</p>
+
+<p class="has-text-align-none"><strong>This is the other question. You have talked a lot about restructuring the company, getting rid of pieces you didn&#8217;t need anymore. How is Yahoo structured today and how did you land at the decisions that brought you to that structure?</strong></p>
+
+<p class="has-text-align-none">It is a conglomerate or portfolio structure. I accidentally backed into the structure years ago at another company. This is actually the fourth conglomerate I&#8217;ve been a part of, starting with IAC, which bought Ask Jeeves back in the day.</p>
+
+<p class="has-text-align-none"><strong>You have a thick skin, my friend.</strong></p>
+
+<p class="has-text-align-none">In that case, it was 60 companies that had been brought together by acquisition, most of which had nothing to do with each other. And they went through a period of trying to turn it into an operating company with a common backend with Jack Welch as the advisor,. That just didn&#8217;t work because Ticketmaster had nothing to do with Ask and search had nothing to do with LendingTree or the catalog business. There were just so many different parts of IAC that just weren&#8217;t similar.</p>
+
+<p class="has-text-align-none">But in my CBS days, all the brands were consumer internet companies. At first, because I was always a product leader or founder, I was the pig in slop. I was like, &#8220;Oh, great. These 25 brands all get to report to me, including Fantasy. I started playing Fantasy on SportsLine, and okay, I get to run that now.&#8221;&nbsp;</p>
+
+<p class="has-text-align-none">And within like a year, it just became clear I was holding everything up. I couldn&#8217;t have 25 direct reports. I organized them into groups that were similar, with general managers in charge of each business. That structure worked great. We came to call that federal and state, that there were governors of every state that had their own economies, usually their own location, their own culture, and that was fine. And at the federal level, there&#8217;s no reason to have two IRSs or two FEMAs, across finance and legal and HR and some other things.</p>
+
+<p class="has-text-align-none"><strong>Can I just tell you, you&#8217;re killing me. Do you know what Tim Armstrong&#8217;s reorg at AOL was that basically inspired us to all leave and start</strong><strong><em> The Verge</em></strong><strong>?</strong></p>
+
+<p class="has-text-align-none">No!</p>
+
+<p class="has-text-align-none"><strong>It was cities and towns. He put up a big sign over </strong><strong><em>Engadget</em></strong><strong> that said “Tech Town.” And I was like, &#8220;I’ve got to get out. I can&#8217;t be living in Tech Town, dude. I’ve got to bail.&#8221; But I understand the metaphor.</strong></p>
+
+<p class="has-text-align-none">It&#8217;s funny too, because you say all that, and that is the structure we had here. I inherited this big matrix organization where nobody owned anything. There was one head of content across everything. There was one head of product across everything. And what you lose there is you don&#8217;t have experts who are focused, who you hire them to be the CEO of their own business and they want that. Every one of my general managers has an entrepreneurial background and usually a product background. And then they want to run. You’ve got to let them run and be a little inefficient at the edges by having their own engineering teams, their own design teams, their own content teams.</p>
+
+<p class="has-text-align-none">And then we will assign to them people in sales and marketing and PR who are experts at that area, but who roll up to a central person. And so that model worked amazingly well, because you can get real efficiencies at the center and expertise at the center. I don&#8217;t think efficiency is the name of the game here. It&#8217;s excellence and growth. So you hire great people to do those things, and then I&#8217;m the editor-in-chief at the center of all those.&nbsp;</p>
+
+<p class="has-text-align-none">And we do have patriotism across all the brands. It&#8217;s a lot easier at Yahoo where we have one central brand. But that&#8217;s the structure.</p>
+
+<p class="has-text-align-none">What I&#8217;ll also say though is, structure is not everything. And at these big companies, you could be this big matrix Borg or you could be the GM model that we run. It always comes down to the people. I honestly think that where you see problems, it&#8217;s not just the structure, it&#8217;s not just the culture that you inherited, it really is the people and what they&#8217;re good at. If you don&#8217;t hire real domain experts who have high EQ and are really good teammates to each other, you&#8217;re going to wind up with a cesspool anyway, or people who don&#8217;t know which way to run.</p>
+
+<p class="has-text-align-none">Our people are just awesome. That was true at the last company, and that&#8217;s why we succeeded in doing the turnaround, and then got to the point where we could launch new products that were really groundbreaking. In that case, it was CBS All Access, which turned into Paramount Plus. Who would have thought Yahoo is going to launch an AI search engine? And we have some other bets that we&#8217;re making. People are what it really comes down to at the end of the day.</p>
+
+<p class="has-text-align-none"><strong>I know you have three divisions: News, Sports, and Finance. Tell me about how they operate together. Is it all three of those get to do whatever they want, and at the top, you&#8217;re saying, &#8220;Actually, we need an AI search engine that goes across these things.&#8221; Or do they have harmonized product roadmaps? How does that work?</strong></p>
+
+<p class="has-text-align-none">Believe it or not, those are not the divisions.&nbsp;</p>
+
+<p class="has-text-align-none">Those are also divisions. So we have GMs on each of those. Some roll up to Matt Sanchez, our COO. So he has the home business, the search business, email, which is, in many ways, our most important historical business, and our DSP, as well as monetization that goes across that, loads up to Matt. Ryan Spoon runs what we call the Yahoo Media Group. And that has Today, Sports, Finance. And then I&#8217;ve talked publicly that there&#8217;s a third leg of the stool, which is, we definitely probably have a right to go deeper into video in a nonfiction way across the verticals where we&#8217;re strong. News Today rolls into the home business just because they were so intertwined. But theoretically, it could be one or the other.</p>
+
+<p class="has-text-align-none">And then again, every one of those businesses has a GM who really has the business plan, the P&amp;L, the resources to run their business. And then sidebar to that, we&#8217;ll have a CFO or the chief revenue officer with the sales team, et cetera. So that is how it&#8217;s structured.&nbsp;</p>
+
+<p class="has-text-align-none">If you were to talk internally, there actually is incredible harmony across those businesses. Yeah, they brawl sometimes over traffic from the homepage or something to do with the content management system or the monetization. But for the most part, I actually think you&#8217;d get pretty unanimous feelings about how we operate together.</p>
+
+<p class="has-text-align-none">I think they would all sing from the same playbook. When people interview with us, they always comment about how everyone is speaking off the same playbook. We actually do have a pretty good working structure together.</p>
+
+<p class="has-text-align-none"><strong>Talk to me about the monetization piece. And I want to get into how you invested in your demand side platform for ads. If I&#8217;m looking at news and sports, I would say, &#8220;Well, we&#8217;re just going to do gambling now. That&#8217;s the money.&#8221; This is when I say finance and sports are colliding, right? The feeling that we&#8217;re all just gambling seems to be infecting everything over there. You have a deal with Polymarket and others.&nbsp;</strong></p>
+
+<p class="has-text-align-none"><strong>But then you have this big investment in just what feels like traditional display advertising, which is not an investment that other people are making at scale. Why are you still so invested there? Is that growing? Are you just holding serve? And then how do you think about, well, we should just do casino?</strong></p>
+
+<p class="has-text-align-none">I don&#8217;t want to be long-winded with the answer.&nbsp;</p>
+
+<p class="has-text-align-none"><strong>Go ahead. Take your time.</strong></p>
+
+<p class="has-text-align-none">The entire company we inherited was monetized through this group that was a three-headed monster of <a href="https://www.adobe.com/uk/express/learn/blog/what-is-native-advertising">native advertising</a>, a <a href="https://www.avenga.com/magazine/what-is-supply-side-platform/">supply-side platform</a>, and a <a href="https://blog.hubspot.com/marketing/what-is-dsp">demand-side platform</a>. You had to buy all three, and the Yahoo consumer businesses had to only get revenue from that group. If you think about the SSP, it was the Yahoo SSP, we couldn&#8217;t go out and play the field on an auction from Trade Desk and from Google and from others. So that was part of the decision there; we were leaving a lot of money on the table on our own consumer properties.&nbsp;</p>
+
+<p class="has-text-align-none">The native ad business was just declining over time and something that was taking up a lot of resources. That included an extension of our Microsoft partnership on search advertising, which is another way we make money. We did all of these things. So we extended Microsoft. We shut down the native business. And we took <a href="https://www.taboola.com/press-releases/taboola-yahoo-native-deal/">25% of Taboola</a> and we outsourced it to them, because it was a lot of money. We shut down the SSP. There were people who wanted to buy it, but we would have had to give them preferential treatment and we wanted to be able to play the field on yield on all of our pages.&nbsp;</p>
+
+<p class="has-text-align-none">But the DSP was underinvested in, but was the crown jewel. It was a place where we thought we had a right to win. The vast majority of the impressions through the DSP control center are not Yahoo. It&#8217;s less than 10%. And you can get anything through there. <a href="https://www.nielsen.com/insights/2024/whats-the-difference-ott-vs-ctv/">CTV</a>, Netflix is in there, Spotify is in there.&nbsp;</p>
+
+<p class="has-text-align-none">The differentiator for it is something that&#8217;s a differentiator for the whole company.When we inherited the company, it was like we discovered oil underneath it, which was this data gold mine of first-party data due to these direct relationships; 75% of our DAUs are logged in, so we really do know our users. And you cluster that information and you either target on Yahoo proper or you take it to go across when you buy through the DSP. We are incredible at conversion and outcomes.</p>
+
+<p class="has-text-align-none">That really is why I think Yahoo is still a very underappreciated asset and would be for anybody. We win nine out of 10 head-to-head tests against people on the DSP side. And again, I think on the Yahoo proper side, it&#8217;s even bigger.&nbsp;</p>
+
+<p class="has-text-align-none">So yes, we are selling premium ads for March Madness and World Cup on Sports. Yes, we&#8217;re doing partnerships with Polymarket and others. BetMGM has historically been the gambling partner for the last seven years. It was a deal Verizon did that&#8217;s just coming up at the end of this month finally. Polymarket was just to fill in the blanks of the markets where we didn&#8217;t have that deal, so we&#8217;ll see what the partnerships look like going forward.</p>
+
+<p class="has-text-align-none">The vast majority of our revenue is on the back of our premium properties, either through highly targeted advertising, subscriptions, and then down funnel into search, which we should talk about separately.</p>
+
+<p class="has-text-align-none"><strong>I want to come to search. I just want to unpack the demand side piece of the puzzle, right? This is where advertisers log in to buy ads and then you can go address a bunch of stuff, whether that&#8217;s display advertising on Yahoo and then you&#8217;re saying you can even get to Netflix. I think you have a deal with Netflix to help them sell their inventory because they stood up that business so fast. I&#8217;m legitimately curious about the formats you see growing there, right? Is it display? Like everywhere else, banners and boxes are in decline, and all of the money is moving to influencer brand deals. I get consumer or tech companies on the show all the time.</strong></p>
+
+<p class="has-text-align-none"><strong>The CEO of SharkNinja was </strong><a href="https://www.theverge.com/decoder-podcast-with-nilay-patel/695613/sharkninja-ceo-mark-barrocas-interview-flexflame-grill-home-appliance"><strong>on the show</strong></a><strong> and he&#8217;s like, &#8220;I built my business with influencers. And we had this massive data set of sentiment analysis from the influencers we work with to figure out what blender we should make next.&#8221; And that is a crazy business that only exists because of influencer marketing.&nbsp;</strong></p>
+
+<p class="has-text-align-none"><strong>If you listen to the show, you think that&#8217;s the future. And here you are saying the gold underneath Yahoo, the oil underneath Yahoo, was this dataset that lets us target across to other platforms. But is it targeting on Yahoo that&#8217;s as valuable as being able to sell CTV or Netflix? Because that feels like the risk in this whole approach.</strong></p>
+
+<p class="has-text-align-none">Look, it&#8217;s going to be different for every advertiser. I&#8217;ve worked in the streaming side of things and had an ad business in that, and you&#8217;re going to get premium CPMs for brand advertising. You&#8217;re not trying to drive people downstream for an outcome.&nbsp;</p>
+
+<p class="has-text-align-none">DSP buyers are typically outcome-driven. Definitely Yahoo proper buyers are largely outcome-driven. We will get big brand takeovers. We just sold one yesterday for the World Cup. We&#8217;ve been building deeply into soccer, into motor sports, and some other verticals there. But for the most part, it is performance-based. We have to be top three places to go for really high-performing advertising. And it&#8217;s not always the same buyer.</p>
+
+<p class="has-text-align-none">So I&#8217;ll give an example just because I know he&#8217;d be okay with it. A person who used to work for me runs SurveyMonkey and they were buying through our DSP. He came to me and said, &#8220;Yahoo proper is by far the best-performing part of this. Can we just buy directly from you?&#8221; I introduced them over and they did a deal to buy direct through Yahoo.&nbsp;</p>
+
+<p class="has-text-align-none">So it&#8217;s a different ad format for sure. And again, even native advertising can perform. It&#8217;s going to perform at a different percentage. But I think that the internet is just a much broader and more vast place than people appreciate.&nbsp;</p>
+
+<p class="has-text-align-none">We are growing Yahoo after 30 years. It&#8217;s pretty incredible that with all it&#8217;s been through and what you might assume about it, 50% of Yahoo Mail users are Gen Z or millennial. Nobody would assume that. And it&#8217;s growing, and has had one of its best years ever.&nbsp;</p>
+
+<p class="has-text-align-none">But the size and scale is just very rare. Of course, the surface area for that is mostly not going to be premium video advertising. It&#8217;s going to be display. And that has its place in the ecosystem. It&#8217;s not the hottest thing right now, but it converts and it has a place.</p>
+
+<p class="has-text-align-none"><strong>I&#8217;m asking these questions because it&#8217;s just refreshing to hear people say the basics still have something to say for them.</strong></p>
+
+<p class="has-text-align-none">Yeah, they do. They do.</p>
+
+<p class="has-text-align-none"><strong>We&#8217;re going to send traffic to news publishers and we&#8217;re going to do display advertising.</strong></p>
+
+<p class="has-text-align-none">No, we&#8217;ve got to get search there, dude. Search has to come along for the ride.</p>
+
+<p class="has-text-align-none"><strong>So let me ask you about search. You told my friend and colleague David Pierce that you&#8217;re very proudly number three in search. One of the more famous </strong><strong><em>Decoder </em></strong><strong>back and forths of all time is Satya Nadella at the launch of Bing with ChatGPT said, &#8220;I want to </strong><a href="https://www.theverge.com/23589994/microsoft-ceo-satya-nadella-bing-chatgpt-google-search-ai"><strong>make Google dance</strong></a><strong>. Every point of market share I can take from Google is billions of dollars for our bottom line.&#8221;</strong></p>
+
+<p class="has-text-align-none"><strong>And then Sundar [Pichai, Google CEO], who has a very different personality, </strong><a href="https://www.theverge.com/2023/5/12/23720731/google-io-2023-exclusive-sundar-pichai-search-generative-experience-ai-microsoft-bing-chatgpt"><strong>came on </strong><strong><em>Decoder</em></strong></a><strong><em> </em></strong><strong>and was like, &#8220;Good luck.&#8221; Basically, in his very Sundar way, was like, he wanted to say that get a rise out of you, but like, &#8220;I&#8217;m not reacting to that at all.&#8221; And you can see how that played out. I don&#8217;t think Microsoft took points of share off Google. Maybe ChatGPT did, but they don&#8217;t have the monetization, right? They&#8217;re furiously hiring people from Meta to figure out how to monetize this new search behavior that they&#8217;ve created while Google is just going to roll it out across their products.</strong></p>
+
+<p class="has-text-align-none"><strong>You&#8217;re number three. You&#8217;re sitting there. You&#8217;re watching this dance. You&#8217;re rolling out AI search. Can you take share off of Google and can you monetize it in a way that actually makes sense?</strong></p>
+
+<p class="has-text-align-none">Well, it&#8217;s funny you mentioned&nbsp; Bing. I remember the Bing launch being at the D conference. This is probably before I realized how Twitter was going to work, and I put some snotty tweet up when they announced Bing, that it was essentially a copy of Ask.com, of what we had already built. And Dan Frommer took it and turned it into an article and I was like, &#8220;No, no, no.&#8221;</p>
+
+<p class="has-text-align-none"><strong>Perfect.</strong></p>
+
+<p class="has-text-align-none">I was like, &#8220;Delete.&#8221;</p>
+
+<p class="has-text-align-none">I didn&#8217;t mean for that to get out there. So I&#8217;ve been through the search wars. . I&#8217;m never going to be in a worse position than where the Ask Jeeves brand was in 2001 and 2002. And we did grow market share in search. The way that we did it is that we had a pretty big audience for the time with a completely underperforming product; the original product showed up 85% of the time and was only clicked 25% of the time because it was a hand-coded [natural language processor]. It didn&#8217;t really do it the way NLP works today.</p>
+
+<p class="has-text-align-none">Through a series of things — of improving search and launching what became OneBox on Google and doing all that — what we found is that if somebody was doing 1.5 searches a month on Ask, that if we launched these things, they would just do three searches a month on Ask to start with. That was doubling our search volume. And search advertising was linear in terms of what that would do for revenue. So that&#8217;s how we got profitable and grew that company from the brink to selling to IAC.&nbsp;</p>
+
+<p class="has-text-align-none">Some of the same things are in effect here. Nobody chooses, you will not be surprised, Yahoo over Google or somewhere else to search. The way that we get our search volume is because we have 250 million US users and 700 million global users in the Yahoo network at any given time. There&#8217;s a search box there. And infrequently, they use it.</p>
+
+<p class="has-text-align-none">That search has been under threat of moving to LLMs, so we had to evolve that search engine, which we&#8217;ve been in partnership with Bing since 2009, and outsource that. And we had to do something to make sure that they kept doing those searches that they were already doing on Yahoo. So to do that, we had to have AI search. Our decision as we looked at the landscape was that we were actually the best people to build it, because we actually had the data to build upon to do it, and we could do it, and we could do it affordably.</p>
+
+<p class="has-text-align-none">But are we going to grow in search? I certainly hope so. And if we do, it&#8217;s going to be because people are doing an infrequent number of searches today. When they use it and they see Scout and it&#8217;s awesome and the results are really good compared to what they would get elsewhere, we hope that the next time they&#8217;re on Yahoo for Mail or Fantasy or checking their stocks, they&#8217;ll do another one. And that really is the beginning of the pathway. Wherever we wind up, I can&#8217;t get there without that start. There&#8217;s always going to be the question mark in the middle of <a href="https://youtu.be/WpnM37A4P_8?si=RjDuPkLxWXfjpNad&amp;t=121">Underpants Gnomes</a> before profit.</p>
+
+<p class="has-text-align-none"><strong>That is old school.</strong></p>
+
+<p class="has-text-align-none">Who knows where that goes? But that has to be the starting point and that&#8217;s why we did it.</p>
+
+<p class="has-text-align-none"><strong>That&#8217;s a good point. Let me ask you about that. You said earlier in this conversation that the original sin of Yahoo was giving search to Google, paying Google for the privilege of running the search box on yahoo.com. I am guessing you did not buy 10 million Nvidia GPUs to train your own model. Who is running your search right now?</strong></p>
+
+<p class="has-text-align-none">We are working with Anthropic, with their lightweight model called Haiku. There are a number of these. Actually, ChatGPT used to have one called Nano that they aren&#8217;t really doing anymore. I&#8217;ve heard they might bring it back. But we&#8217;re not displaying results from Claude.&nbsp;</p>
+
+<p class="has-text-align-none">It&#8217;s results from our own data that they are processing, essentially. We send them a payload that is both all this amazing data from our knowledge graph, soon to be our user side because we&#8217;re about to launch personalization, 30 years of search history, all of our vertical content knowledge. And then we also are grounding with Bing. That combines into one payload we send to Haiku. That&#8217;s the large language model that is applied in a small parameter way to Yahoo data that sends it back to our rendering engine in the way that you see that we think is really cool and useful and the way that we render results.&nbsp;</p>
+
+<p class="has-text-align-none">It is definitely a much more affordable, kind of a MacGyver way of doing it. Eric Fang, who&#8217;s the mastermind of this project, who is head of our research group and the head of our search group, would phrase it as “Yahoo data plus Haiku equals very competitive AI answer engine.”&nbsp;</p>
+
+<p class="has-text-align-none">And again, we&#8217;re not going to be doing all the things a large language model can do, but you are very shortly going to see us get into very personalized results. You&#8217;re going to see us get into very agentic actions that you can take.</p>
+
+<p class="has-text-align-none">With that launch, not only do we launch the Scout answer engine at scout.com, but we actually, on the day of launch, have embedded it within all of our other products.Of course, there&#8217;s news summaries. But there&#8217;s a button in Yahoo Finance that does analysis of a given stock on the fly. It is in Yahoo Mail to help summarize and process emails and extract really useful information. There is a whole roadmap that you&#8217;re going to see with a lot of different smaller announcements over the course of the year. It will become very proactive.</p>
+
+<p class="has-text-align-none">If you remember the days of push, it&#8217;s going to be very push-oriented where I think this category is going. People use this for productivity at the core of Yahoo, and this helps us also do that. At the same time, have a kick-ass AI answer engine.</p>
+
+<p class="has-text-align-none"><strong>So you&#8217;ve got Anthropic at the heart of it. I presume that that means you can take them out, right? If there was a better vendor or a better partner or better deal terms, you could replace that little LLM core and your products would still operate. One of the dynamics in AI generally, though, is that the big models are eating more and more of the capabilities that people are building on top of them. So you&#8217;re saying we’ve got a lot of capabilities.&nbsp;</strong></p>
+
+<p class="has-text-align-none">I’m surprised. I didn&#8217;t see that coming in the history of the consumer internet, that each 800-pound gorilla tries to do everything and eat all of its partners.</p>
+
+<p class="has-text-align-none"><strong>Don&#8217;t worry. One day, you&#8217;re going to open Claude and it&#8217;s just going to start serving you vertical social videos, and we&#8217;re going to be like, “how did we arrive here again?”&nbsp;</strong></p>
+
+<p class="has-text-align-none">We&#8217;re all trying to do it. Of course. But Google has started to compete more with all of its providers over the years too. This isn&#8217;t new.</p>
+
+<p class="has-text-align-none"><strong>How are you thinking about that dynamic? You&#8217;ve got this long history, you&#8217;ve got a core vendor in a position that looks a lot like the original sin, right? You&#8217;re paying a vendor to run the search, but maybe you can swap them out later, and then that vendor is just going to keep growing its capability set. And all the other vendors who are similarly positioned are going to keep trying to grow their capability set. How do you avoid the cliff? Because it feels like it rhymes with the past, as you&#8217;re pointing out.</strong></p>
+
+<p class="has-text-align-none">Our biggest challenge from here forward right now, because I think we&#8217;re starting to cook with oil on the product side, is actually brand. We&#8217;ve come a long way. We&#8217;ve climbed the mountain a bit, and we&#8217;ve made a lot of progress, especially in the industry. I think people know what&#8217;s going on here. But if we hope to have a New Balance type comeback, or The Gap, or these places that have been down, but have made this comeback and become really solid brands again, which is my aspiration for the Yahoo brand, we have further to go before we&#8217;re really punching at the weight where I want to be.</p>
+
+<p class="has-text-align-none">The reason why we&#8217;re as good as we are is because, at our core, we do a really good job in these verticals where we play. If we can deliver these products that are much better than what we inherited to a user base this large, I think worst case, we are growing that audience at the core.&nbsp;</p>
+
+<p class="has-text-align-none">I don&#8217;t think we are big enough. I think Anthropic and OpenAI have&#8230; We&#8217;re back to fish, but have much bigger fish to fry than Yahoo. We might be collateral damage in what they try and do. Absolutely. I&#8217;ve known since the start and others have said this, that you are tempting fate by opening up a way for consumers to access your product within a large language model. They certainly, over time, will try to take that on themselves. We&#8217;ve seen that every single time in this industry, going back to AOL, to be honest. That is a danger for everybody.&nbsp;</p>
+
+<p class="has-text-align-none">The same way, I don&#8217;t think publishers would have been okay with people just taking their data and republishing the answers without getting traffic back, I think, on this topic, people should be very careful on how they partner with a large language model going forward. Because the big bad wolf will come to your door and say everything&#8217;s cool. It&#8217;s going to be tough. That being said, Anthropic has been an amazing partner. They were really impressed by the MacGyver move that Eric Feng and his team made and how we use Haiku.</p>
+
+<p class="has-text-align-none">In fact, they&#8217;re part of our press release for the launch of Scout. And we&#8217;re going to be doing something at South by Southwest together. That partnership is really good and I hope that it lasts for a long time.</p>
+
+<p class="has-text-align-none"><strong>The other big bad in all this is Google. We&#8217;ve brought them up several times. Google has a big DSP. They compete in all the areas you&#8217;re competing. They aggregate a bunch of news. Google Discover is the secret referrer to half of my competitors. They will never admit it, but it&#8217;s true. They&#8217;re in a lot of trouble, right? There&#8217;s a bunch of antitrust cases about their ad tech stack, about search in general. I don&#8217;t know how all that&#8217;s going to play out in the end, but they&#8217;re under a particular kind of pressure. Do you see that as an opportunity? Or do you see the way they run their ad tech stack as a particular kind of threat?</strong></p>
+
+<p class="has-text-align-none">To think that we would be able to take advantage of Google at this point, I think we have further to go. They&#8217;re in a very strong position. I think that they really were surprised by the launch of ChatGPT, and that was a generationally important product. I think Google probably had it in their labs working somewhere.</p>
+
+<p class="has-text-align-none"><strong>Oh no, they did. If you mention this, a Google person jumps out of a bush and says, &#8220;We invented Transformers.&#8221; They&#8217;re over it now because they&#8217;ve managed to execute.</strong></p>
+
+<p class="has-text-align-none">That&#8217;s right. And I don&#8217;t know if you remember Danny Sullivan, but in the original search wars—</p>
+
+<p class="has-text-align-none"><strong>Oh, </strong><a href="https://www.theverge.com/2023/11/1/23942564/googles-danny-sullivan-responds-to-our-piece-about-the-culture-of-seo-hustlers"><strong>I know him</strong></a><strong>.</strong></p>
+
+<p class="has-text-align-none">Danny was the figurehead of search and ran the biggest search conference, and all the SEOs who didn&#8217;t have their names on their business cards would be outside smoking and hanging out with Matt Cutts. That whole generation. Danny then ultimately went to work for Google and is like an evangelist for them. I&#8217;ve seen a presentation that he gave where he is singing the praises of the open web and how important it is. I am positive that they would have done more to take that on if they had been able to drive the conversation of the UI of this thing.</p>
+
+<p class="has-text-align-none">If you&#8217;ve looked at it, I mean, a very small percentage of Google users have actually used ChatGPT. I think Similarweb put that stat out on Twitter where I saw it. Much smaller than you would think. So there are opportunities. This is why they look so much like ChatGPT and why AI mode is embedded everywhere. Frankly, I will do something very similar once we&#8217;re through this beta period of distributing Scout through Yahoo. But I do think that it&#8217;s their game to lose.&nbsp;</p>
+
+<p class="has-text-align-none">The one thing that is existential for them is making sure that, however this goes, search advertising crosses the chasm into this new hybrid answer engine world. I do not think that products that take nine steps of agentic whatever to monetize some outcome are going to be anywhere near as efficient as you clicking on links and them getting paid. Obviously, the world is headed towards outcomes over time anyway, but it has to find a way.</p>
+
+<p class="has-text-align-none">I think the UI that we launched lends itself to where that might head, in a way that would not cause Anthropic to do a Super Bowl ad about us. I think you can do it in a way that is very clearly paid and is helpful on commercial queries.&nbsp;</p>
+
+<p class="has-text-align-none">I don&#8217;t know if you remember, but AltaVista tried to launch search advertising and were shut down by the industry and ads and articles and <em>Wired</em> saying, &#8220;How dare you?&#8221; before Overture made it okay, before Google AdWords came along and then really streamlined it. And I think that issue has been asked and answered already. Users are okay with it in commercial categories. It&#8217;s just about how you bring it over.</p>
+
+<p class="has-text-align-none">There&#8217;s a way to do it that&#8217;s keyword-driven, that is rendered in a way that is in this new format that users might prefer. That is where we&#8217;re headed and that&#8217;s the product I would like to launch and see if it gets there. But if Google doesn&#8217;t get that right, it will be difficult.</p>
+
+<p class="has-text-align-none"><strong>I&#8217;m very curious to see how these user interfaces evolve. I&#8217;m watching, every day, ChatGPT has a new riff. And you can tell they haven&#8217;t figured it out, because it&#8217;s hard to make it native. And that&#8217;s really what everybody wants, is for this to feel native. Even the 10 blue links have not been 10 blue links on Google for a long time. There&#8217;s a lot of embedded native experiences along the way.</strong></p>
+
+<p class="has-text-align-none">20 years. It&#8217;s been 20 years.</p>
+
+<p class="has-text-align-none"><strong>So I&#8217;m curious to see how that evolves and I&#8217;m dying to see how you try to solve it, because it doesn&#8217;t seem like anybody knows yet. Search advertising is the most lucrative business in the history of the world. So it feels like that&#8217;s up for grabs.</strong></p>
+
+<p class="has-text-align-none">I like our first draft. We&#8217;ve got a lot of great feedback on the UI of first draft of Scout. We have a lot of things that we want to add to it and improve about it. But I think we came out with a good first attempt and we&#8217;ll tweak it from here.</p>
+
+<p class="has-text-align-none"><strong>And just to be clear, your plan there is you&#8217;re going to grow the overall Yahoo user base. More Gen Z people are going to sign up for Yahoo Mail and you&#8217;re going to capture some of that search activity instead of trying to take direct share from Google search.</strong></p>
+
+<p class="has-text-align-none">That&#8217;s step one.&nbsp;</p>
+
+<p class="has-text-align-none">The dream would be that they then start to prefer us for search and bookmark us and decide to go to us instead of one of the other guys. And for the people already using it, their usage is increasing with more queries per day, per user. I know we&#8217;re onto something with that and I do hope that it gets there.&nbsp;</p>
+
+<p class="has-text-align-none">But part of the thesis of the business plan for this was that we have a huge user base, just like Google does, but in a smaller version, the poor man&#8217;s version of being able to distribute the same way they&#8217;ve done with AI mode and put it on all the different surface areas. That is the homepage and News and Sports and Fantasy Sports and every single version of that.</p>
+
+<p class="has-text-align-none">We have new products coming. We launched three new Fantasy products last year, one of which was a huge traffic driver. And we had the biggest year of Fantasy ever. Every one of those is a surface area to which we can bring an audience that can trial Scout, and hopefully it goes from there.</p>
+
+<p class="has-text-align-none"><strong>I want to end by talking about finance and sports. New Fantasy products are great. The action in sports is, “boy, you should just </strong><a href="https://www.npr.org/2026/01/19/nx-s1-5602138/everybody-loses-chronicles-the-rise-of-americas-sports-betting-boom"><strong>bet on sports now</strong></a><strong>.” You can see it with all these prediction markets. That is their big business. They have a lot of money to throw around. They&#8217;ve captured a bunch of lobbyists. Politics aside, the bipartisan nature of people feeling weird about sports gambling is unprecedented in my lifetime.&nbsp;</strong></p>
+
+<p class="has-text-align-none"><strong>Next to that is, we should just </strong><a href="https://www.theverge.com/policy/889191/polymarket-nuclear-war"><strong>bet on anything</strong></a><strong>. And then next to that, you actually mentioned it earlier. You came to Yahoo with crypto and then stonks and now there&#8217;s just gambling. All of that has always felt like gambling to me.</strong></p>
+
+<p class="has-text-align-none"><strong>Crypto has always felt like one form of gambling. Stonks was like, &#8220;What if we just gamble by doing Reddit threads until GameStop goes to the moon?&#8221; And now we&#8217;re just at, &#8220;What if we just gamble on the outcome of the war?&#8221; There&#8217;s a pretty linear connection between all these ideas and how people feel about gambling.&nbsp;</strong></p>
+
+<p class="has-text-align-none"><strong>You run Finance, which is home of stonks. You run Sports, which could be the home of sports betting. Do you feel like you have an obligation to buffer against everyone&#8217;s worst instincts here?</strong></p>
+
+<p class="has-text-align-none">Somewhat. To the extent everybody does, then yes. And by the way, we do that in all kinds of places. We really try extremely hard to be purple with news. Now, the algorithm may take you left or right over time. It&#8217;s partially our job to help reset that every now and then so you don&#8217;t get too far down the rabbit hole and you can see more neutral sources. I get complaints all the time from both the left and the right, so it probably means we&#8217;re doing that right. I do think that&#8217;s an important responsibility. We take that really seriously. We have a lot of conversations about that.</p>
+
+<p class="has-text-align-none">I don&#8217;t know if you know this, but Apollo historically owns Caesars and currently owns the Venetian and the Palazzo. And the sports book at Venetian Palazzo is the Yahoo Sportsbook. We don&#8217;t operate it. It&#8217;s a branding thing and there&#8217;s our content everywhere. We have had discussions since I got here about, “Should we do what Fanatics has done and get into the bloodbath of gambling and should we do it ourselves?” Because Apollo are experts at it, much more than we are. We decided no. Not only is that a huge cost sink, it&#8217;s already so far along, you&#8217;re battling it out to be eighth in the state of Iowa. We&#8217;ll stay away from that. We&#8217;ll be a distributor and we&#8217;ll be the top of the funnel for all of those.</p>
+
+<p class="has-text-align-none">That&#8217;s historically what we inherited about BetMGM. That&#8217;s where we&#8217;re going to play going forward. In some ways, those are ad deals. If you really think about it, we will incorporate odds and we&#8217;ll incorporate some of the more news-driven things around the betting odds about a certain topic iffhere&#8217;s a news item. But we don&#8217;t operate in either space.</p>
+
+<p class="has-text-align-none"><strong>Sure.</strong></p>
+
+<p class="has-text-align-none">We just announced a deal with Coinbase as well where we are linking to them if you&#8217;re going to be buying stocks or crypto.</p>
+
+<p class="has-text-align-none"><strong>You have a long history here. I&#8217;m just asking, maybe just about vibes, right? Maybe the stock market has always been gambling. Some people would make that argument. But the idea historically is, you should turn on CNBC and look at the fundamentals of a company and invest in a company you think is going to grow for real. And we&#8217;ve just let that be gambling now. That&#8217;s what meme stocks have done to finance, in a very specific way.</strong></p>
+
+<p class="has-text-align-none"><strong>Crypto maybe was just always gambling and we pretended it was going to be bigger than it was. And now crypto is part of finance and now it&#8217;s like even more gambling.&nbsp;</strong></p>
+
+<p class="has-text-align-none"><strong>Sports was not supposed to have any gambling at all. The reason the leagues kept gambling away, and then the money has infected sports and now everyone thinks there&#8217;s an NFL script and all the games are rigged. And you can see players are getting in trouble.</strong></p>
+
+<p class="has-text-align-none">I wish that script would include the 49ers winning Super Bowl.</p>
+
+<p class="has-text-align-none"><strong>I wish it would include the Packers. I’ve got some real issues about the Packers in the second half of games, and I think we should talk to the script writers.</strong></p>
+
+<p class="has-text-align-none">Although Pat Mahomes does get calls that nobody else does. And frankly, maybe the script.</p>
+
+<p class="has-text-align-none"><strong>See what I&#8217;m saying? So everyone thinks it&#8217;s rigged. And Taylor Swift won her first Super Bowl. That makes no sense to me.</strong></p>
+
+<p class="has-text-align-none">Agreed. I agree.</p>
+
+<p class="has-text-align-none"><strong>But it&#8217;s the presence of the gambling that has led to the perception of corruption. And even though the leagues know it, even though the players are starting to get caught up in sting operations, the money is so convincing that that&#8217;s a problem. And now it&#8217;s going to happen to news, right? The prediction markets are coming for the news organizations, for the aggregators, are partnering with Reuters. Something else is going to happen where you have insider trading betting on news at scale right now.</strong></p>
+
+<p class="has-text-align-none"><strong>You operate in these verticals, you&#8217;re talking about your responsibility, you&#8217;re talking about making the algorithm neutral. Here is the pressure. And not just the pressure, the money from your PE owner that runs casinos. There&#8217;s a real back and forth here, and I don&#8217;t know if anybody has really thought about the lines. I&#8217;m asking you, where&#8217;s the line? Because you could turn all of Yahoo into gambling tomorrow, based on the assets you have and the pressures that exist in the world.</strong></p>
+
+<p class="has-text-align-none">Well, working backwards, it would have to be a really big check to turn Yahoo into that, which I don&#8217;t think is out there,. At this point, it really is information and a link.&nbsp;</p>
+
+<p class="has-text-align-none">Sports odds are incredibly fundamental. I&#8217;ve been in a college betting pool with all my friends from UCLA for 20-plus years. It&#8217;s one of my favorite things I do every year. I finally won some this year. You have to have the odds and you have to have the information. If you&#8217;ve looked on these properties, Yahoo Sports, ESPN for years, with numberFire and all the different ways that you can analyze it, Fantasy obviously is a game. It&#8217;s not gambling, but it&#8217;s a game. But it is very much part of the spine of the book for what Yahoo Sports is about. So I do look at it as adjacent to that.&nbsp;</p>
+
+<p class="has-text-align-none">I don&#8217;t want to give a political BS answer. I also don&#8217;t want to act like I&#8217;m the expert. I know one of your <a href="https://www.theverge.com/podcast/889177/prediction-markets-news-gambling-polymarket-kalshi-iran-war-regulation">last episodes</a> was on this topic and I listened to the whole thing and I think every argument you guys were making for why something is gambling is a valid argument. And then I also understand the two-way contract side of it. Even on the insider trading, there&#8217;s somebody on the other side betting the other way. Betting.</p>
+
+<p class="has-text-align-none">I don&#8217;t know where it&#8217;s going to wind up. If it winds up where this is illegal, then obviously we won&#8217;t have it. If it is legal, it&#8217;s incredibly popular.&nbsp;</p>
+
+<p class="has-text-align-none">We always think about the next step somebody&#8217;s going to take to accomplish whatever goal they&#8217;re trying to achieve that day using our products. That actually is a cheesy thing that we talk about and try to build for and are always trying to do a better job at over time. I can&#8217;t think of a more fundamental next step downstream than going to FanDuel or going to Coinbase after what you&#8217;ve learned on Yahoo Sports or Finance. So I do have to have it as a core part of the product. I have to. Where that heads is going to be decided rungs up the ladder from me. But I do get your point for sure on it.</p>
+
+<p class="has-text-align-none"><strong>To me, the comparison is to sugar or, I don&#8217;t know, booze. Both legal, both incredibly popular, and both obviously bad for you in excess, right? We&#8217;ve built a lot of norms around excess for sugar and booze. We&#8217;re just good at it and people still fall off the edge all the time.&nbsp;</strong></p>
+
+<p class="has-text-align-none"><strong>There are no norms for prediction markets really, right? And the insistence that it&#8217;s not gambling actually keeps a lot of the other norms away. You&#8217;ve talked a lot about your values. And I&#8217;m saying it&#8217;s refreshing to hear you talk about brand and sending traffic to the web. This is a place where I think your values will be under pressure because the norms aren&#8217;t there. Is there a line for you?</strong></p>
+
+<p class="has-text-align-none">The line would be something that we’d have to think about more if we were operating in either space. Which, again, we looked at including trading and decided we&#8217;re better as a partner sending traffic downstream. Maybe it&#8217;s similar to,&nbsp; “do we take ads from beverage companies, from Bud Light?”&nbsp;</p>
+
+<p class="has-text-align-none">It&#8217;s funny. Do you know why FDR won the 1932 election? It was in Andrew Ross Sorkin&#8217;s <em>1929</em> book. It wasn&#8217;t the Depression, it was Prohibition. I also don&#8217;t think we&#8217;re going that way. I think these things are, probably at some level, here to stay. And in that way, they&#8217;re a fundamental part of the next steps people are taking from our products. So I do think we&#8217;re a very relevant place for that.&nbsp;</p>
+
+<p class="has-text-align-none">At the same time, we&#8217;re not the right company to operate them ourselves. You won&#8217;t see us going down that pathway, most likely. Maybe one of them will try and buy us and munge us into it. I could see that potentially happening. But otherwise, we&#8217;re back in the aggregation zone.</p>
+
+<p class="has-text-align-none"><strong>So that was my last question actually. You got there.</strong></p>
+
+<p class="has-text-align-none">We made it. We made it.</p>
+
+<p class="has-text-align-none"><strong>Private equity usually wants an exit. That might look like Yahoo going public again. It might look like an acquisition. Do you have a preferred outcome in mind, or do you have a timeline?</strong></p>
+
+<p class="has-text-align-none">Man, I&#8217;ve been getting this question. I know you guys have rules on this, how nothing is off the record in the UK. I was being interviewed by someone in Cannes and made just one wrong turn of phrase, and all of a sudden, there was <a href="https://uk.investing.com/news/stock-market-news/yahoo-eyes-potential-ipo-six-years-after-delisting--ceo-jim-lanzone-says-ready-financially-3072098">an article</a> that we were going public, and it made its way to CNBC. And it was not in any way where we were yet.&nbsp;</p>
+
+<p class="has-text-align-none">It does tend to be a catnip topic about Yahoo that people are like, &#8220;Oh, when&#8217;s the IPO?&#8221; There&#8217;s a lot of people out ahead of us who are trillion-dollar IPOs that are probably first and others that people are wondering about.</p>
+
+<p class="has-text-align-none">I am building this thing so that we can be a healthy public company again, where you&#8217;re not struggling quarter to quarter, which is I think what got Yahoo into trouble in the past. AOL got into trouble in the past. We&#8217;re building towards that, for sure. We have longer to go to get to the point where we are truly ready to be public for five years after we go public, not just the day we go public.</p>
+
+<p class="has-text-align-none">That said, I think the history of PE is that they would probably much rather sell. That really is more their model, because the cash-out is more immediate. They don&#8217;t have to wait, sell down as the majority owner. That just creates its own set of problems.&nbsp;</p>
+
+<p class="has-text-align-none">That said, we talk a lot about IPO in our board meetings, and the board is much more than just Apollo. There have been people trying to kick the tires on us for quite a while. Which also, by the way, winds up with all kinds of weird news. I get calls all the time because the other part of PE is, they kick every tire and they allow every tire to be kicked. They&#8217;re always getting phone calls about different parts of Yahoo.</p>
+
+<p class="has-text-align-none">But the truth is, Yahoo is way stronger together. The thesis originally was maybe you would break these things apart, and you could sell Finance, you could sell Sports, but you would really have to do it on the same day. It all would have to go at once, because it really is an ecosystem. The average Yahoo user uses two or more of our products. And they do, as we&#8217;ve talked about, send traffic to each other. Part of the data goldmine is that we have all of them together. In the context of all the other companies out there, we&#8217;re still incredibly undervalued for what we bring to the table.</p>
+
+<p class="has-text-align-none">In some ways, it&#8217;s part of why we&#8217;re as big as we are. In other ways, it&#8217;s still part of the challenge of where we need to go. That is really how we talk about it and look at it, and the decisions we&#8217;re making are for the future IPO. But if anybody is smart enough, I don&#8217;t know they&#8217;d let us get there.</p>
+
+<p class="has-text-align-none"><strong>Well, Jim, this has been great. I really enjoyed talking to you. It&#8217;s good to talk to another internet OG, both with weird shared histories with AOL. I’ve got to say, there&#8217;s more of that burbling beneath the surface of this episode than anyone can possibly know. But I really appreciate the time. Thank you so much for being on </strong><strong><em>Decoder</em></strong><strong>.</strong></p>
+
+<p class="has-text-align-none">Awesome. I appreciate you having me. Thanks.</p>
+
+<p class="has-text-align-none"><em><sub>Questions or comments about this episode? Hit us up at decoder@theverge.com. We really do read every email!</sub></em></p>
+						]]>
+									</content>
+			
+					</entry>
+			<entry>
+			
+			<author>
+				<name>Robert Hart</name>
+			</author>
+			
+			<title type="html"><![CDATA[This is not a fly uploaded to a computer]]></title>
+			<link rel="alternate" type="text/html" href="https://www.theverge.com/ai-artificial-intelligence/894587/fly-brain-computer-upload" />
+			<id>https://www.theverge.com/?p=894587</id>
+			<updated>2026-03-16T12:28:53-04:00</updated>
+			<published>2026-03-16T08:49:07-04:00</published>
+			<category scheme="https://www.theverge.com" term="AI" /><category scheme="https://www.theverge.com" term="Report" /><category scheme="https://www.theverge.com" term="Science" />
+							<summary type="html"><![CDATA[Last week, a few posts about a so-called virtual "embodied fly" tore through X, boosted by AI hype accounts and excited commenters who didn't seem to understand what it was they were excited about. The videos came from San Francisco-based Eon Systems, which says it's working toward "digital human intelligence" and claims it wants to [&#8230;]]]></summary>
+			
+							<content type="html">
+											<![CDATA[
+
+						
+<figure>
+
+<img alt="" data-caption="" data-portal-copyright="Screenshot: Eon Systems" data-has-syndication-rights="1" src="https://platform.theverge.com/wp-content/uploads/sites/2/2026/03/Screenshot-2026-03-13-at-17.18.37.png?quality=90&#038;strip=all&#038;crop=0,0,100,100" />
+	<figcaption>
+		</figcaption>
+</figure>
+<p class="has-text-align-none">Last week, a few posts about a so-called virtual "embodied fly" tore through X, boosted by AI hype accounts and excited commenters who didn't seem to understand what it was they were excited about.</p>
+<p class="has-text-align-none">The videos came from San Francisco-based Eon Systems, which says it's working toward "digital human intelligence" and claims it wants to build a full digital emulation of a mouse brain within the next two years - a timeline that is, to put it generously, ambitious. Cofounder Alexander Wissner-Gross <a href="https://x.com/alexwg/status/2030217301929132323?s=20">shared</a> the original clip publicly, calling it the "world's first embodiment of a whole-brain emulation that produces multiple behaviors" and hinting a …</p>
+<p><a href="https://www.theverge.com/ai-artificial-intelligence/894587/fly-brain-computer-upload">Read the full story at The Verge.</a></p>
+						]]>
+									</content>
+			
+					</entry>
+	</feed>

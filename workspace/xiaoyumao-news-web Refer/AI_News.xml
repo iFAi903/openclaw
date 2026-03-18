@@ -1,0 +1,1027 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>AI News</title>
+	<atom:link href="https://www.artificialintelligence-news.com/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.artificialintelligence-news.com/</link>
+	<description>Artificial Intelligence News</description>
+	<lastBuildDate>Tue, 17 Mar 2026 12:35:01 +0000</lastBuildDate>
+	<language>en-GB</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.9.4</generator>
+
+<image>
+	<url>https://www.artificialintelligence-news.com/wp-content/uploads/2020/09/cropped-ai-icon-32x32.png</url>
+	<title>AI News</title>
+	<link>https://www.artificialintelligence-news.com/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Trustpilot partners with AI companies as traditional search declines</title>
+		<link>https://www.artificialintelligence-news.com/news/ai-in-ecommerce-trustpilot-partnerships-integration-news-trad-search-declines/</link>
+		
+		<dc:creator><![CDATA[AI News]]></dc:creator>
+		<pubDate>Tue, 17 Mar 2026 12:26:00 +0000</pubDate>
+				<category><![CDATA[Retail & Logistics AI]]></category>
+		<category><![CDATA[Service Industry AI]]></category>
+		<category><![CDATA[consumer]]></category>
+		<category><![CDATA[ecommerce]]></category>
+		<category><![CDATA[payment providers]]></category>
+		<category><![CDATA[retail]]></category>
+		<category><![CDATA[shopify]]></category>
+		<guid isPermaLink="false">https://www.artificialintelligence-news.com/?p=112704</guid>
+
+					<description><![CDATA[<p>Trustpilot is reported to be pursuing partnerships with large eCommerce companies as AI-driven shopping gains traction. In an interview with Bloomberg News [paywall], chief executive Adrian Blair said that AI agents acting on behalf of consumers require lots of information about the businesses they&#8217;re willing to interact with. He said the most effective systems will [&#8230;]</p>
+<p>The post <a href="https://www.artificialintelligence-news.com/news/ai-in-ecommerce-trustpilot-partnerships-integration-news-trad-search-declines/">Trustpilot partners with AI companies as traditional search declines</a> appeared first on <a href="https://www.artificialintelligence-news.com">AI News</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p> Trustpilot is reported to be pursuing partnerships with large eCommerce companies as AI-driven shopping gains traction. </p>
+<p> In an interview with <i><a href="https://www.bloomberg.com/news/articles/2026-03-17/trustpilot-eyes-e-commerce-deals-targets-margin-gain-on-ai-boom">Bloomberg News</a></i> [paywall], chief executive Adrian Blair said that AI agents acting on behalf of consumers require lots of information about the businesses they&#8217;re willing to interact with. He said the most effective systems will rely on datasets like those held by Trustpilot, adding that the company aims to work with major eCommerce sites to make greater use of its data. </p>
+<p> Trustpilot expects its operating margin to reach 30% by 2030, with the improvement linked partly to the use of its content by LLMs. According to <i>Bloomberg</i>, traffic patterns are beginning to reflect this. Click-throughs from AI-based search increased by 1,490% over the past year, thanks in no small part to search giant Google&#8217;s decision to make an AI search the default. </p>
+<p> Data from Promptwatch indicates that Trustpilot ranked as the fifth most cited domain globally in ChatGPT in January this year. </p>
+<p> Blair said that large language models have created a new channel through which Trustpilot content is presented, noting a rise in exposure and referral traffic from LLM-based algorithms. </p>
+<p> In February 2026, <a href="https://press.aboutamazon.com/2026/2/openai-and-amazon-announce-strategic-partnership">Amazon and OpenAI</a> announced an agreement to deploy genAI systems on AWS using customised models intended for Amazon&#8217;s consumer-facing applications. The arrangement is said to cover infrastructure provision and model development. </p>
+<p> Elsewhere, <a href="https://apnews.com/article/f1679240ba93d40b90a97348b73039d3">Walmart&#8217;s partnership with Google</a> lets users purchase goods inside the Gemini chatbot. Google has similar arrangements with Shopify and other retailers. </p>
+<p> Shopify&#8217;s Universal Commerce Protocol lets AI agents access product data and take transactions to checkout, so ensuring potential buyers remain on the AI platform (<a href="https://ecommercepartners.com/2026/02/04/universal-commerce-protocol-shopify-google-ai-ecommerce-guide">in this case Gemini</a>) rather than navigate to the retailer&#8217;s site. Microsoft&#8217;s Copilot Checkout collaboration with PayPal falls into the same pattern. </p>
+<p> Shopify has pursued similar partnerships including with Microsoft so merchants can sell from a chatbot interfaces. Its recent product updates describe &#8220;agentic storefronts&#8221; in which transactions take place inside AI interactions. For marketing professionals, the loss of valuable data when shoppers purchase through a third-party proxy is, to varying degrees, balanced by the income from trade via AI platforms. </p>
+<p> Amazon currently challenges third-party AI agents accessing its platform without authorisation, and is developing its own assistant to retain control over user data and advertising revenue, according to the <i><a href="https://www.wsj.com/business/retail/amazons-win-against-perplexity-kicks-ai-shopping-wars-into-high-gear-b05a3d01">Wall Street Journal</a></i>. </p>
+<p> Trustpilot&#8217;s Adrian Blair argued in the <i>Bloomberg News</i> interview that user-generated reviews retain value regardless of the involvement of AI in the purchasing process. He said  consumers will continue to &#8220;have experiences&#8221; with businesses, describing Trustpilot&#8217;s data set of reviews as a long-term asset whose relevance is increasing. </p>
+<p> The company&#8217;s shares were affected by a broader decline in software stocks last month, sparked by the media imagining the death of SaaS platforms on the back of claims made by Anthropic. </p>
+<p> PYMNTS Intelligence&#8217;s <a href="https://www.pymnts.com/study_posts/how-ai-becomes-the-place-consumers-start-everything/">report</a> [email wall], &#8220;How AI Becomes the Place Consumers Start Everything,&#8221; describes consumers beginning their product research and shopping on AI platforms, refining their prompts iteratively rather than successive &#8216;traditional&#8217; searches. </p>
+<p><em>(Image source: &#8220;E-Commerce Visa (Test tamron 17-50 2.8)&#8221; by Fosforix is licensed under CC BY-ND 2.0.)</em></p>
+<p>&nbsp;</p>
+<p><a href="https://www.ai-expo.net/?utm_source=AI-News&#038;utm_medium=Footer-banner&#038;utm_campaign=world-series"><img decoding="async" src="https://www.artificialintelligence-news.com/wp-content/uploads/2025/08/ai-expo-banner-2025.png"></a></p>
+<p><strong>Want to learn more about AI and big data from industry leaders?</strong> Check out <a href="https://www.ai-expo.net/">AI &amp; Big Data Expo</a> taking place in Amsterdam, California, and London. The comprehensive event is part of <a href="https://techexevent.com/">TechEx</a> and co-located with other leading technology events. Click <a href="https://techexevent.com/">here</a> for more information.</p>
+<p>AI News is powered by <a href="https://techforge.pub/">TechForge Media</a>. Explore other upcoming enterprise technology events and webinars <a href="https://techforge.pub/events/">here</a>.</p>
+<p>The post <a href="https://www.artificialintelligence-news.com/news/ai-in-ecommerce-trustpilot-partnerships-integration-news-trad-search-declines/">Trustpilot partners with AI companies as traditional search declines</a> appeared first on <a href="https://www.artificialintelligence-news.com">AI News</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Goldman Sachs sees AI investment shift to data centres</title>
+		<link>https://www.artificialintelligence-news.com/news/goldman-sachs-sees-ai-investment-shift-to-data-centres/</link>
+		
+		<dc:creator><![CDATA[Muhammad Zulhusni]]></dc:creator>
+		<pubDate>Tue, 17 Mar 2026 10:00:00 +0000</pubDate>
+				<category><![CDATA[AI Business Strategy]]></category>
+		<category><![CDATA[AI Market Trends]]></category>
+		<category><![CDATA[Infrastructure & Hardware]]></category>
+		<category><![CDATA[ai]]></category>
+		<category><![CDATA[data centre]]></category>
+		<category><![CDATA[infrastructure]]></category>
+		<category><![CDATA[investment]]></category>
+		<guid isPermaLink="false">https://www.artificialintelligence-news.com/?p=112700</guid>
+
+					<description><![CDATA[<p>Artificial intelligence investment is entering a more selective phase as companies and investors look beyond early excitement and focus on the data centre infrastructure required to run AI systems. Recent analysis from Goldman Sachs suggests the market is moving toward what the firm describes as a &#8220;flight to quality.&#8221; In practice, investors are paying closer [&#8230;]</p>
+<p>The post <a href="https://www.artificialintelligence-news.com/news/goldman-sachs-sees-ai-investment-shift-to-data-centres/">Goldman Sachs sees AI investment shift to data centres</a> appeared first on <a href="https://www.artificialintelligence-news.com">AI News</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p>Artificial intelligence investment is entering a more selective phase as companies and investors look beyond early excitement and focus on the data centre infrastructure required to run AI systems.</p>
+<p>Recent analysis from Goldman Sachs suggests the market is moving toward what the firm describes as a &#8220;flight to quality.&#8221; In practice, investors are paying closer attention to companies that own and operate large data centres and computing infrastructure. Firms offering narrow AI tools or experimental software are receiving less attention.</p>
+<p>Goldman Sachs expects spending on AI infrastructure to grow rapidly as companies expand computing capacity for model training and deployment. Hyperscale cloud firms are investing tens of billions of dollars each year in new data centres and computing hardware. Networking systems are also expanding to support this growth.</p>
+<h3>AI demand is reshaping the data centre market</h3>
+<p>Goldman Sachs Research estimates that AI workloads could account for about 30% of total data centre capacity in the next two years, as demand for computing power grows in cloud services and enterprise applications. The change reflects how AI tasks differ from traditional cloud workloads. Training large models requires thousands of chips running in parallel for extended periods. Inference, the process of generating responses or predictions, also requires steady computing power when services run.</p>
+<p>Cloud providers and AI developers are now expanding data centre capacity at a pace not seen during earlier phases of cloud computing. Infrastructure demand extends beyond computing hardware. Energy supply is becoming a central issue in the AI race.</p>
+<p>Goldman Sachs Research estimates that global data centre power demand could rise about 175% by 2030 compared with 2023 levels, driven largely by AI workloads. The firm says this increase would be roughly equal to adding the electricity demand of another top-10 power-consuming country to the global grid. Rising power demand is also pushing utilities and governments to consider new investment in energy infrastructure.</p>
+<h3>Infrastructure limits are shaping AI strategy</h3>
+<p>The growing need for power and cooling is influencing where new AI data centres are built. Space requirements are also shaping site selection. Large facilities are often located near stable energy sources and high-capacity fibre networks. Some companies are building AI training clusters in remote areas where land and electricity are easier to secure. The location of data centres can also affect environmental impact. Academic research on AI infrastructure shows that cooling systems and geographic location can influence energy use and water consumption as much as hardware efficiency.</p>
+<p>The limits are starting to affect how technology firms plan their AI strategies. Building new models or software is only part of the challenge. Companies must also ensure they have the infrastructure needed to run those systems reliably. In many cases, building that infrastructure takes years.</p>
+<p>Construction of large data centres involves complex supply chains. Projects often require land acquisition and grid connections. Many also depend on long-term energy agreements. Shortages of electrical equipment and delays in grid expansion can slow new projects. The constraints help explain why investors are paying more attention to companies that already control large data centre networks.</p>
+<h3>A selective phase of the AI market</h3>
+<p>During the first wave of generative AI adoption, many companies saw their market value rise simply by associating themselves with AI. That phase is now beginning to change as investors reassess where AI growth will occur.</p>
+<p>Investors are examining which companies have the infrastructure and revenue models needed to support long-term deployment. Data centre operators and chip manufacturers sit near the base of that ecosystem. Their services are required regardless of which AI applications gain traction.</p>
+<p>During previous waves of computing growth, companies that built the underlying infrastructure often captured stable revenue. Software platforms, in contrast, rose and fell more quickly. A similar dynamic may now be forming in the AI sector.</p>
+<p>Infrastructure expansion also raises new questions. Energy demand and grid capacity are becoming central issues for governments and industry planners. Environmental impact is also drawing closer scrutiny.</p>
+<p>In the coming years, the AI economy may depend as much on power plants and cooling systems as it does on algorithms and software. That reality is shaping the next stage of the AI race.</p>
+<p><em>(Photo by <a href="https://unsplash.com/@lightsabercollection">Lightsaber Collection</a>)</em></p>
+<p><strong>See also: <a href="https://www.artificialintelligence-news.com/news/goldman-sachs-and-deutsche-bank-test-agentic-ai-for-trade-surveillance/">Goldman Sachs and Deutsche Bank test agentic AI for trade surveillance</a></strong></p>
+<p><strong>Want to learn more about AI and big data from industry leaders?</strong> Check out<a href="https://www.ai-expo.net/">AI &amp; Big Data Expo</a> taking place in Amsterdam, California, and London. The comprehensive event is part of <a href="https://techexevent.com/">TechEx</a> and is co-located with other leading technology events, click <a href="https://techexevent.com/">here</a> for more information.</p>
+<p>AI News is powered by <a href="https://techforge.pub/">TechForge Media</a>. Explore other upcoming enterprise technology events and webinars <a href="https://techforge.pub/events/">here</a>.</p>
+<p>The post <a href="https://www.artificialintelligence-news.com/news/goldman-sachs-sees-ai-investment-shift-to-data-centres/">Goldman Sachs sees AI investment shift to data centres</a> appeared first on <a href="https://www.artificialintelligence-news.com">AI News</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>US Treasury publishes AI risk Guidebook for financial institutions</title>
+		<link>https://www.artificialintelligence-news.com/news/us-treasury-publishes-ai-risk-governance-guidebook-for-financial-institutions/</link>
+		
+		<dc:creator><![CDATA[AI News]]></dc:creator>
+		<pubDate>Mon, 16 Mar 2026 16:15:00 +0000</pubDate>
+				<category><![CDATA[Finance AI]]></category>
+		<category><![CDATA[Governance, Regulation & Policy]]></category>
+		<category><![CDATA[financial sector]]></category>
+		<category><![CDATA[fintech]]></category>
+		<category><![CDATA[governance]]></category>
+		<category><![CDATA[risk]]></category>
+		<category><![CDATA[US AI policy]]></category>
+		<guid isPermaLink="false">https://www.artificialintelligence-news.com/?p=112692</guid>
+
+					<description><![CDATA[<p>The US Treasury has published several documents designed for the US financial services sector that suggest a structured approach to managing AI risks in operations and policy (see subheading &#8216;Resources and Downloads&#8217; towards the bottom of the link). The CRI Financial Services AI Risk Management Framework (FS AI RMF) comes with a Guidebook [.docx] which [&#8230;]</p>
+<p>The post <a href="https://www.artificialintelligence-news.com/news/us-treasury-publishes-ai-risk-governance-guidebook-for-financial-institutions/">US Treasury publishes AI risk Guidebook for financial institutions</a> appeared first on <a href="https://www.artificialintelligence-news.com">AI News</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p> The US Treasury has published <a href="https://cyberriskinstitute.org/artificial-intelligence-risk-management/">several documents</a> designed for the US financial services sector that suggest a structured approach to managing AI risks in operations and policy (see subheading &#8216;Resources and Downloads&#8217; towards the bottom of the link). The CRI Financial Services AI Risk Management Framework (FS AI RMF) comes with a <a href="https://cyberriskinstitute.org/wp-content/uploads/2026/02/CRI-FS-AI-RMF-Guidebook_Full_v.1.0-1.docx">Guidebook</a> [.docx] which gives details of the framework, developed by a collaboration among more than 100 financial institutions and industry organisations, with input from regulators and technical bodies. </p>
+<p> The objective of the FS AI RMF is to help financial institutions identify, evaluate, manage, and govern the risks associated with AI systems and let firms continue adopting AI technologies responsibly. </p>
+<h3>Sector-specific framework</h3>
+<p> AI systems introduce risks that existing technology governance frameworks don&#8217;t address. Risks include algorithmic bias, limited transparency in decision processes, cyber vulnerabilities, and complex dependencies between systems and data. LLMs create concerns because their behaviour can be difficult to interpret or predict. Unlike traditional software, which is deterministic, an AI&#8217;s output varies depending on context. </p>
+<p> Financial institutions already operate under extensive regulation and there is a raft of general guidance such as the NIST AI Risk Management Framework. However, applying general frameworks to the operations of financial institutions lacks the detail that reflects sector practices and regulatory expectations. The FS AI RMF is being positioned as an extension to the NIST framework, with additional sector-specific controls and practical implementation guidelines in its pages. </p>
+<p> The Guidebook explains how firms can assess their current AI maturity and implement controls to limit their risk. Its aim is to promote consistent and responsible AI practices and support innovation in the sector. </p>
+<h3>Core structure</h3>
+<p> The FS AI RMF connects AI governance with broader governance, risk, and compliance processes already affecting financial institutions. </p>
+<p> The framework contains four main components. The first is an AI adoption stage questionnaire that lets organisations determine the maturity of their AI use. The second is a risk and control matrix, which contains a set of risk statements and control objectives in alignment with adoption stages. The Guidebook explains how to apply the framework, while a separate control objective reference guide provides examples of controls and supporting evidence. </p>
+<p> The framework defines a total of 230 control objectives organised according to four functions adapted from the broader NIST AI Risk Management Framework: govern, map, measure, and manage. Each function contains categories and subcategories that describe elements of effective AI risk management and governance. </p>
+<h3>Assessing AI maturity</h3>
+<p> The adoption stage questionnaire determines the extent to which an organisation is using AI. Some firms rely on traditional predictive models in limited applications for example, while others deploy AI in core business processes; others just use AI in customer-facing roles. </p>
+<p> The questionnaire helps organisations determine where they sit in the spectrum of AI use currently, evaluating factors like the business impact of AI, governance arrangements, deployment models, use of third-party AI providers, organisational objectives, and data sensitivity. </p>
+<p> Based on this assessment, organisations are classified into four stages of AI adoption: </p>
+<ul class="org-ul">
+<li>initial stage: organisations that have little or no operational AI deployment. AI may be under consideration but is not embedded,</li>
+<li>minimal stage: limited AI use in low-risk areas or isolated systems.</li>
+<li>evolving stage: organisations running more complex AI systems, including applications that involve sensitive data or external services.</li>
+<li>embedded stage: where AI plays a significant role in business operations and decision-making.</li>
+</ul>
+<p> These stages help institutions focus their efforts on controls appropriate to their maturity level. A firm at an early stage does not need to implement every control immediately, but as AI becomes more integrated, the framework introduces additional controls to address growing levels of risk. </p>
+<h3>Risk and control</h3>
+<p> The control objectives for each AI adoption stage address governance and operational topics including data quality management, fairness and bias monitoring, cybersecurity controls, transparency of AI decision processes, and operational resilience. </p>
+<p> The Guidebook provides examples of possible controls and types of evidence institutions can use to demonstrate they&#8217;re compliant. Each firm must determine the controls that fit best. </p>
+<p> The framework recommends maintaining incident response procedures specific to AI systems and creating a central repository for tracking AI incidents, processes that will help organisations detect failures and improve governance over time. </p>
+<h3>Trustworthy AI</h3>
+<p> The framework incorporates principles for trustworthy AI defined as validity and reliability, safety, security and resilience, accountability, transparency, explainability, privacy protection, and fairness. These provide a foundation for evaluating AI systems along their full lifecycle. In simple terms, financial institutions have to ensure AI outputs are reliable, that systems are protected against cyber threats, and that decisions can be explained when they affect customers or have regulatory relevance. </p>
+<h3>Strategic implications</h3>
+<p> For senior leaders in financial institutions of any nation, the FS AI RMF offers a guide to integrating AI into existing risk management frameworks. It states the need for coordination in different business functions in the organisation. Technology teams, risk officers, compliance specialists, and business units all need to participate in the AI governance process. </p>
+<p> Adopting AI without strengthening governance structures may expose institutions to operational failures, regulatory scrutiny, or reputational damage. Conversely, firms that build clear governance processes will be more confident in deploying AI systems. </p>
+<p> The Guidebook frames AI risk management as an evolving entity. As AI technologies develop and regulatory expectations change, institutions will need to update their governance practices and risk assessments accordingly. </p>
+<p> For financial sector decision-makers, the message is that AI adoption must progress in step with risk governance. A structured framework such as the FS AI RMF provides a common language and method to manage the evolution. </p>
+<p><em>(Image source: &#8220;Law Books&#8221; by seychelles88 is licensed under CC BY-NC-SA 2.0.)</em></p>
+<p>&nbsp;</p>
+<p><a href="https://www.ai-expo.net/?utm_source=AI-News&#038;utm_medium=Footer-banner&#038;utm_campaign=world-series"><img decoding="async" src="https://www.artificialintelligence-news.com/wp-content/uploads/2025/08/ai-expo-banner-2025.png"></a></p>
+<p><strong>Want to learn more about AI and big data from industry leaders?</strong> Check out <a href="https://www.ai-expo.net/">AI &amp; Big Data Expo</a> taking place in Amsterdam, California, and London. The comprehensive event is part of <a href="https://techexevent.com/">TechEx</a> and co-located with other leading technology events. Click <a href="https://techexevent.com/">here</a> for more information.</p>
+<p>AI News is powered by <a href="https://techforge.pub/">TechForge Media</a>. Explore other upcoming enterprise technology events and webinars <a href="https://techforge.pub/events/">here</a>.</p>
+<p>The post <a href="https://www.artificialintelligence-news.com/news/us-treasury-publishes-ai-risk-governance-guidebook-for-financial-institutions/">US Treasury publishes AI risk Guidebook for financial institutions</a> appeared first on <a href="https://www.artificialintelligence-news.com">AI News</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>NTT DATA and NVIDIA bring enterprise AI factories to production scale</title>
+		<link>https://www.artificialintelligence-news.com/news/ntt-data-nvidia-enterprise-ai-factories-production/</link>
+		
+		<dc:creator><![CDATA[Dashveenjit Kaur]]></dc:creator>
+		<pubDate>Mon, 16 Mar 2026 12:00:00 +0000</pubDate>
+				<category><![CDATA[AI Business Strategy]]></category>
+		<category><![CDATA[ai]]></category>
+		<category><![CDATA[artificial intelligence]]></category>
+		<guid isPermaLink="false">https://www.artificialintelligence-news.com/?p=112672</guid>
+
+					<description><![CDATA[<p>NTT DATA has announced an initiative to deliver NVIDIA-powered platforms designed to give organisations a repeatable, production-ready model for scaling AI. The offering integrates NVIDIA&#8217;s GPU-accelerated computing and high-performance networking with NVIDIA AI Enterprise software, including NeMo and NIM Microservices, into a full-stack agentic AI platform that can be deployed in cloud and edge environments. [&#8230;]</p>
+<p>The post <a href="https://www.artificialintelligence-news.com/news/ntt-data-nvidia-enterprise-ai-factories-production/">NTT DATA and NVIDIA bring enterprise AI factories to production scale</a> appeared first on <a href="https://www.artificialintelligence-news.com">AI News</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p>NTT DATA has announced an initiative to deliver NVIDIA-powered platforms designed to give organisations a repeatable, production-ready model for scaling AI.</p>
+<p>The <a href="https://www.nttdata.com/global/en/news/press-release/2026/march/031200">offering</a> integrates NVIDIA&#8217;s GPU-accelerated computing and high-performance networking with NVIDIA AI Enterprise software, including NeMo and NIM Microservices, into a full-stack agentic AI platform that can be deployed in cloud and edge environments. The architecture covers the full AI lifecycle of model training and enterprise application development inside a governed framework.</p>
+<p>Abhijit Dubey, CEO of NTT DATA said there is a change in how enterprises approach AI deployment. &#8220;By integrating NVIDIA technologies into our enterprise AI factories, we&#8217;re giving clients a powerful and secure environment to adopt agentic AI with measurable returns from the start.&#8221;</p>
+<p>NTT DATA says the enterprise AI factory model addresses a gap that has stalled many AI programmes: the distance between a successful pilot and a production system that runs. The platform is designed to standardise output and reduce the time and cost of moving from proof-of-concept to operational deployment.</p>
+<h3>Real-world deployments</h3>
+<p>Three early-adopter cases give a clearer picture of enterprise AI factories. A leading cancer-research hospital is using NVIDIA HGX platforms, with NTT DATA and Dell, for advanced radiology analysis and rapid model evaluation to support clinical research workflows.</p>
+<p>In automotive manufacturing, a global supplier has reduced production setup time by validating workloads on bare metal before scaling through an AI factory architecture on NVIDIA infrastructure. A third deployment, in technology manufacturing, involves a US-based company using NVIDIA-accelerated simulation and 3D visualisation to validate a next-generation battery production line before physical deployment.</p>
+<p>NTT DATA is positioning enterprise AI factories as a domain-specific delivery model, with the NVIDIA stack serving as the common infrastructure underneath sector-by-sector customisation.</p>
+<h2>NeMo and NIM in an AI factory stack</h2>
+<p>The technical integration comprises of two NVIDIA components. NVIDIA NeMo is a suite for building agentic AI systems on GPU-accelerated infrastructure. NVIDIA NIM Microservices provide pre-built, GPU-optimised containers with APIs for deploying AI applications. Together, they form what NTT DATA describes as a full-stack, production-ready AI agent platform.</p>
+<p>NTT DATA also offers pre-qualified GenAI prototypes built on this stack, which it says reduces complexity and accelerates time to value for clients building sector-specific applications.</p>
+<p>John Fanelli, Vice President of Enterprise Software at NVIDIA, said: &#8220;Enterprises are now seeking robust, scalable platforms that can successfully transition their AI initiatives from pilot projects to full-scale production.&#8221; He said NTT DATA&#8217;s AI factory offerings provide clients with domain-specific solutions needed to achieve production-grade enterprise AI.</p>
+<p>NTT DATA describes itself as the only global IT services provider active in all three of NVIDIA&#8217;s partner tracks: Solution Provider, Cloud Partner, and Global System Integrator Partner Network.</p>
+<p>The recent announcement comes as enterprises face rising pressure to show financial returns on AI spending. Governance and domain-specific performance are now the criteria by which enterprise AI investments are judged, and the AI factory model is an attempt to make all three more systematic.</p>
+<p><strong>See also: <a href="https://www.artificialintelligence-news.com/news/physical-ai-global-race-robots-manufacturing-2026/">Physical AI is having its moment – and everyone wants a piece of it</a></strong></p>
+<p><strong>Want to learn more about AI and big data from industry leaders?</strong> Check out<a href="https://www.ai-expo.net/"> AI &amp; Big Data Expo</a> taking place in Amsterdam, California, and London. The comprehensive event is part of <a href="https://techexevent.com/">TechEx</a> and is co-located with other leading technology events, click<a href="https://techexevent.com/"> here</a> for more information.</p>
+<p>AI News is powered by <a href="https://techforge.pub/">TechForge Media</a>. Explore other upcoming enterprise technology events and webinars <a href="https://techforge.pub/events/">here</a>.</p>
+<p>The post <a href="https://www.artificialintelligence-news.com/news/ntt-data-nvidia-enterprise-ai-factories-production/">NTT DATA and NVIDIA bring enterprise AI factories to production scale</a> appeared first on <a href="https://www.artificialintelligence-news.com">AI News</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>OpenAI&#8217;s Frontier puts AI agents in a fight SaaS can&#8217;t afford to lose</title>
+		<link>https://www.artificialintelligence-news.com/news/openai-frontier-enterprise-ai-agents-saas/</link>
+		
+		<dc:creator><![CDATA[Dashveenjit Kaur]]></dc:creator>
+		<pubDate>Mon, 16 Mar 2026 10:00:00 +0000</pubDate>
+				<category><![CDATA[AI and Us]]></category>
+		<category><![CDATA[AI Business Strategy]]></category>
+		<category><![CDATA[AI in Action]]></category>
+		<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[Features]]></category>
+		<category><![CDATA[Human-AI Relationships]]></category>
+		<category><![CDATA[Inside AI]]></category>
+		<category><![CDATA[Workforce & HR AI]]></category>
+		<category><![CDATA[ai]]></category>
+		<category><![CDATA[artificial intelligence]]></category>
+		<guid isPermaLink="false">https://www.artificialintelligence-news.com/?p=112675</guid>
+
+					<description><![CDATA[<p>When OpenAI launched Frontier in February, the announcement was described as a platform for enterprise AI agents. What it actually signalled was a challenge to the revenue architecture underpinning the software industry. Frontier is designed to act as a semantic layer in an organisation&#8217;s existing systems, connecting data warehouses, CRM platforms, ticketing tools, and internal [&#8230;]</p>
+<p>The post <a href="https://www.artificialintelligence-news.com/news/openai-frontier-enterprise-ai-agents-saas/">OpenAI&#8217;s Frontier puts AI agents in a fight SaaS can&#8217;t afford to lose</a> appeared first on <a href="https://www.artificialintelligence-news.com">AI News</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p>When OpenAI <a href="https://openai.com/index/introducing-openai-frontier/">launched</a> Frontier in February, the announcement was described as a platform for enterprise AI agents. What it actually signalled was a challenge to the revenue architecture underpinning the software industry.</p>
+<p>Frontier is designed to act as a semantic layer in an organisation&#8217;s existing systems, connecting data warehouses, CRM platforms, ticketing tools, and internal applications so AI agents can operate with the same business context a human employee would have. OpenAI describes these agents as &#8220;AI coworkers&#8221; that can be on-boarded, assigned identities, granted permissions, and reviewed for performance.</p>
+<p>Early customers include Uber, State Farm, Intuit, and Thermo Fisher Scientific. OpenAI CFO Sarah Friar has stated that enterprise customers currently account for roughly 40% of the company&#8217;s revenue, and she aims to increase this figure to closer to 50% by year-end, and claims Frontier is the vehicle.</p>
+<h3>Frontier in enterprise workflows</h3>
+<figure class="wp-block-image size-large"><img fetchpriority="high" decoding="async" width="1024" height="534" src="https://www.artificialintelligence-news.com/wp-content/uploads/2026/03/Screenshot-2026-03-16-at-4.30.22-PM-1024x534.png" alt="" class="wp-image-112677" srcset="https://www.artificialintelligence-news.com/wp-content/uploads/2026/03/Screenshot-2026-03-16-at-4.30.22-PM-1024x534.png 1024w, https://www.artificialintelligence-news.com/wp-content/uploads/2026/03/Screenshot-2026-03-16-at-4.30.22-PM-300x156.png 300w, https://www.artificialintelligence-news.com/wp-content/uploads/2026/03/Screenshot-2026-03-16-at-4.30.22-PM-768x400.png 768w, https://www.artificialintelligence-news.com/wp-content/uploads/2026/03/Screenshot-2026-03-16-at-4.30.22-PM-1536x801.png 1536w, https://www.artificialintelligence-news.com/wp-content/uploads/2026/03/Screenshot-2026-03-16-at-4.30.22-PM.png 2027w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+<p>The case for Frontier is that agents deployed in isolation add complexity not remove it. Each new agent is a point of integration, requiring its own data connections and governance controls, and the result is fragmentation. OpenAI&#8217;s answer is a shared business context. Rather than each agent building its own understanding of how an organisation works, Frontier provides a centralised layer that all agents can reference.</p>
+<p>Fidji Simo, OpenAI&#8217;s CEO of Applications, speaking at the launch briefing, referred to her time running Instacart. &#8220;We spent months integrating each of the ones that we selected. We didn&#8217;t even get what we actually wanted, because each tool was good for one use case, but they weren&#8217;t integrated or talking to one another, so we were just reinforcing silos on silos.&#8221;</p>
+<p>The results OpenAI cites from early deployments include a global investment firm using Frontier agents in its sales process freeing up more than 90% of salesperson time previously spent on administrative tasks. A technology customer reported saving 1,500 hours a month in product development. At a major manufacturer, agents compressed a production optimisation process from six weeks to a single day.</p>
+<p>Frontier manages agents built by OpenAI, in-house enterprise teams, and those from third-party providers. Openness is a design principle and positioning: it makes Frontier harder to dismiss on the grounds of vendor lock-in and expands the surface area it can govern.</p>
+<h3>The seat-licence problem</h3>
+<p>A deep concern for incumbents is structural. The per-seat licence model that has made SaaS enormously profitable assumes that software use maps to headcount. If an AI agent handles the workflow that previously required a human employee logging into Salesforce, the justification for that seat licence weakens. Fortune <a href="https://fortune.com/2026/02/10/ai-agents-anthropic-openai-arent-killing-saas-salesforce-servicenow-microsoft-workday-cant-sleep-easy">described</a> fear in the market of models like Frontier making SaaS software &#8220;invisible&#8221; and consequently less valuable.</p>
+<p>Salesforce&#8217;s stock has declined more than 27% this year, which analysts have attributed more to agentic AI disruption fears than to any weakness in its underlying financials. Revenue reached $11.2 billion in the quarter, Agentforce&#8217;s annual recurring revenue hit $800 million, and the company closed 29,000 Agentforce deals. Stock fell after guidance that came in below Wall Street&#8217;s expectations.</p>
+<p>The incumbents are not standing still. Salesforce has introduced what it calls the Agentic Enterprise License Agreement, a fixed-price, all-you-can-eat model for Agentforce that attempts to make consumption more predictable for enterprise buyers.</p>
+<p>ServiceNow has moved to consumption-based pricing for some of its AI agent offerings, and in January signed a multiyear agreement with OpenAI to embed frontier model abilities directly into its platform. Microsoft has introduced consumption-based pricing with its per-user model for Copilot Studio.</p>
+<p>The pricing pivot signals that companies understand the seat-licence model cannot survive agentic AI unchanged. The question is whether repricing is enough or whether the architecture itself needs to change.</p>
+<h3>Two ideas of where the intelligence layer should sit</h3>
+<p>Should AI agents live inside systems of record, or above them? Salesforce and ServiceNow are betting on the embedded model, arguing that agents are most effective when they sit closest to the data, and that CIOs will trust governance and compliance controls more readily from vendors already managing their workflows.</p>
+<p>Marc Benioff, CEO of Salesforce, has described Agentforce as the &#8220;operating system for the agentic enterprise.&#8221; ServiceNow positions its AI Control Tower as a centralised governance layer for all agents, regardless of origin.</p>
+<p>OpenAI, and to a similar degree, Anthropic with <a href="https://www.anthropic.com/news/claude-partner-network">Claude Cowork</a>, is betting on the overlay model. Frontier sits above existing systems, using open standards to connect them. The pitch is that enterprises should not have to re-platform to get production-grade agents running in their operations.</p>
+<p>Both arguments have merit, and enterprises evaluating these platforms will find genuine trade-offs. The embedded approach offers tighter data control and faster time to value in a known ecosystem. The overlay approach offers flexibility and avoids the problem of agents that can only see one vendor&#8217;s data.</p>
+<p>What the incumbents have that OpenAI does not is decades of institutional trust and existing contracts. What the AI leader has is the model ability advantage and an argument that it can run the intelligence layer across the whole enterprise.</p>
+<p>Frontier is currently available to a limited set of customers, with broader availability expected over the coming months. Pricing has not been disclosed, with OpenAI directing interested organisations to its enterprise sales team.</p>
+<p>Many large enterprises run Salesforce, ServiceNow, and Microsoft infrastructure simultaneously. The immediate question is whether Frontier becomes an orchestration layer that connects systems, or a platform that displaces them.</p>
+<p>OpenAI&#8217;s chief revenue officer, Denise Dresser, said: &#8220;What&#8217;s really missing still for most companies is just a simple way to free the power of agents as teammates that can operate inside the business without the need to rework everything underneath.&#8221;</p>
+<p>Every platform in this space claims to close the gap. SaaS incumbents have a head start on trust and data. Whether that proves sufficient is the central question for enterprise software through to the end of 2026.</p>
+<p><em>(Photo by <a href="https://unsplash.com/@austindistel">Austin Distel</a>)</em></p>
+<p><strong>See also: </strong><a href="https://www.artificialintelligence-news.com/news/openai-ai-consultants-enterprise-adoption-challenges/"><strong>OpenAI&#8217;s enterprise push: The hidden story behind AI&#8217;s sales race</strong></a></p>
+<figure class="wp-block-image aligncentre size-full is-resized"><a href="https://www.ai-expo.net/"><img decoding="async" width="728" height="90" src="https://www.artificialintelligence-news.com/wp-content/uploads/2026/03/image-5.png" alt="Banner for AI &amp; Big Data Expo by TechEx events." class="wp-image-112554" style="width:800px;height:auto" srcset="https://www.artificialintelligence-news.com/wp-content/uploads/2026/03/image-5.png 728w, https://www.artificialintelligence-news.com/wp-content/uploads/2026/03/image-5-300x37.png 300w" sizes="(max-width: 728px) 100vw, 728px" /></a></figure>
+<p><strong>Want to learn more about AI and big data from industry leaders?</strong> Check out <a href="https://www.ai-expo.net/">AI &amp; Big Data Expo</a> taking place in Amsterdam, California, and London. The comprehensive event is part of <a href="https://techexevent.com/">TechEx</a> and is co-located with other leading technology events including the <a href="https://cybersecuritycloudexpo.com/">Cyber Security &amp; Cloud Expo</a>. Click <a href="https://techexevent.com/">here</a> for more information.</p>
+<p>AI News is powered by <a href="https://techforge.pub/">TechForge Media</a>. Explore other upcoming enterprise technology events and webinars <a href="https://techforge.pub/events/">here</a>.</p>
+<p>The post <a href="https://www.artificialintelligence-news.com/news/openai-frontier-enterprise-ai-agents-saas/">OpenAI&#8217;s Frontier puts AI agents in a fight SaaS can&#8217;t afford to lose</a> appeared first on <a href="https://www.artificialintelligence-news.com">AI News</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>E.SUN Bank and IBM build AI governance framework for banking</title>
+		<link>https://www.artificialintelligence-news.com/news/e-sun-bank-and-ibm-build-ai-governance-framework-for-banking/</link>
+		
+		<dc:creator><![CDATA[Muhammad Zulhusni]]></dc:creator>
+		<pubDate>Fri, 13 Mar 2026 10:00:00 +0000</pubDate>
+				<category><![CDATA[AI Business Strategy]]></category>
+		<category><![CDATA[AI in Action]]></category>
+		<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[Features]]></category>
+		<category><![CDATA[Finance AI]]></category>
+		<category><![CDATA[Governance, Regulation & Policy]]></category>
+		<category><![CDATA[ai]]></category>
+		<category><![CDATA[ai act]]></category>
+		<category><![CDATA[banking]]></category>
+		<category><![CDATA[finance]]></category>
+		<category><![CDATA[governance]]></category>
+		<guid isPermaLink="false">https://www.artificialintelligence-news.com/?p=112662</guid>
+
+					<description><![CDATA[<p>E.SUN Bank is working with IBM to build clearer AI governance rules for how artificial intelligence can be used inside a bank. The effort reflects a wider shift in finance. Many firms already use AI for fraud checks and credit scoring, and some also use it to handle customer service queries. The new challenge is [&#8230;]</p>
+<p>The post <a href="https://www.artificialintelligence-news.com/news/e-sun-bank-and-ibm-build-ai-governance-framework-for-banking/">E.SUN Bank and IBM build AI governance framework for banking</a> appeared first on <a href="https://www.artificialintelligence-news.com">AI News</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<p>E.SUN Bank is working with IBM to build clearer AI governance rules for how artificial intelligence can be used inside a bank. The effort reflects a wider shift in finance. Many firms already use AI for fraud checks and credit scoring, and some also use it to handle customer service queries. The new challenge is how to manage these systems in a way that meets legal and risk rules.</p>
+
+
+
+<p>Banks face a growing list of questions as they deploy AI. How should a model be tested before it goes live? Who is responsible if it makes a wrong call? And how can firms prove to regulators that their systems are fair and safe?</p>
+
+
+
+<p>To address those issues, E.SUN Bank and IBM Consulting have created an AI governance framework for banking. The project also includes an AI governance white paper that sets out how financial firms can build internal controls around AI systems. According to the companies’ press release, the work adapts global standards such as the EU AI Act and ISO/IEC 42001 for financial services.</p>
+
+
+
+<p>The framework sets out how banks can review AI models before they are deployed. It also explains how those models should be monitored after they enter production. It includes rules for how data is used and how risk reviews should take place.</p>
+
+
+
+<p>E.SUN Bank said the framework is intended to help financial institutions introduce AI systems while maintaining governance and regulatory oversight. Many firms already run limited AI tools. The next step is to scale those systems across core operations such as lending and payments while staying within regulatory limits.</p>
+
+
+
+<h3 class="wp-block-heading" id="h-banks-try-to-manage-ai-risk">Banks try to manage AI risk</h3>
+
+
+
+<p>Financial firms have strong reasons to place guardrails around AI systems. Banking relies on trust, and regulators require firms to track how decisions are made. AI models often act as “black boxes,” meaning it can be hard to explain how they arrive at a result. That can create problems in areas such as credit decisions or fraud checks. Regulators in many regions have started to focus on these risks.</p>
+
+
+
+<p>The European Union’s AI Act, adopted in 2024, places strict rules on AI systems used in high-risk sectors such as finance. The law requires firms to assess risks and document training data. It also requires them to monitor how AI models behave after deployment.</p>
+
+
+
+<p>Global standards are also taking shape. ISO/IEC 42001, published in 2023, sets out how organisations can build management systems for AI. The standard focuses on oversight and model monitoring. It also addresses how organisations should manage AI data. The aim is to give firms a structured way to manage AI across an entire company rather than treating each model as a separate tool.</p>
+
+
+
+<p>E.SUN Bank’s project with IBM draws from both frameworks. It is meant to show how these rules could work in daily banking operations.</p>
+
+
+
+<h3 class="wp-block-heading" id="h-from-ai-pilots-to-enterprise-systems">From AI pilots to enterprise systems</h3>
+
+
+
+<p>Banks have used machine learning for years, mainly in risk analysis and fraud detection. Newer AI models are expanding how banks use the technology. Many now apply it in customer service and document review. Some also use it in internal knowledge systems. </p>
+
+
+
+<p>That expansion brings new governance needs. A system that suggests answers to customer queries may seem low risk. But a model that helps approve loans or detect fraud can have direct financial effects.</p>
+
+
+
+<p>The governance framework created by E.SUN Bank and IBM sets out a process to track those risks. Models are reviewed before they go live, and teams monitor their output after deployment. The framework also assigns responsibility across teams, from developers to compliance staff. The project also produced a white paper that explains the steps in more detail. It outlines how banks can classify AI systems by risk level and apply different levels of oversight.</p>
+
+
+
+<h3 class="wp-block-heading" id="h-ai-governance-expands-across-financial-services">AI governance expands across financial services</h3>
+
+
+
+<p>The work at E.SUN Bank reflects a trend across global finance. Many banks now see governance as a key step before scaling AI across operations.</p>
+
+
+
+<p>Industry surveys suggest that AI adoption in financial services is already widespread. A 2024 report by NVIDIA found that about 91% of financial services firms were either assessing or already using AI. Common uses include fraud detection and risk modelling. Some banks also use AI to automate customer service tasks.</p>
+
+
+
+<p>Research from Deloitte shows that more than 70% of financial institutions plan to increase investment in AI. Much of that spending is aimed at compliance monitoring and risk analysis. Some banks also expect AI to improve internal operations.</p>
+
+
+
+<p>At the same time, regulators are paying closer attention. Authorities in several regions have warned banks to track how automated systems affect decisions such as credit approval and fraud detection. This pressure has led banks to invest more in internal oversight systems. Instead of focusing only on model accuracy, firms now also track data sources and decision logic. Many also monitor how models behave over time.</p>
+
+
+
+<h3 class="wp-block-heading" id="h-why-governance-may-shape-ai-adoption">Why governance may shape AI adoption</h3>
+
+
+
+<p>The push for AI governance may influence how quickly banks adopt new tools. Without clear rules, many firms hesitate to move beyond small experiments. A structured framework can help them expand AI projects while still meeting regulatory demands.</p>
+
+
+
+<p>That is the idea behind the E.SUN Bank project. By combining global standards with banking workflows, the framework sets out how AI can be deployed under clear oversight. According to the companies’ announcement, IBM said the framework was developed to help financial institutions manage AI risks as they expand their use of AI in banking.</p>
+
+
+
+<p>The effort also reflects the growing role of governance in enterprise AI. Early AI projects focused on building models and improving performance. Today the focus is shifting toward how those systems are managed over time. As more banks bring AI into core operations, that question may become just as important as the technology itself.</p>
+
+
+
+<p><em>(Photo by <a href="https://unsplash.com/@markusspiske?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Markus Spiske</a>)</em></p>
+
+
+
+<p><strong>See also: <a target="_blank" href="https://www.artificialintelligence-news.com/news/manulife-moves-ai-agents-into-core-financial-workflows/" rel="noreferrer noopener">Manulife moves AI agents into core financial workflows</a></strong></p>
+
+
+
+<p><strong>Want to learn more about AI and big data from industry leaders?</strong> Check out<a target="_blank" href="https://www.ai-expo.net/" rel="noreferrer noopener"> AI &amp; Big Data Expo</a> taking place in Amsterdam, California, and London. The comprehensive event is part of <a target="_blank" href="https://techexevent.com/" rel="noreferrer noopener">TechEx</a> and is co-located with other leading technology events, click<a target="_blank" href="https://techexevent.com/" rel="noreferrer noopener"> here</a> for more information.</p>
+
+
+
+<p>AI News is powered by <a target="_blank" href="https://techforge.pub/" rel="noreferrer noopener">TechForge Media</a>. Explore other upcoming enterprise technology events and webinars <a target="_blank" href="https://techforge.pub/events/" rel="noreferrer noopener">here</a>.</p>
+<p>The post <a href="https://www.artificialintelligence-news.com/news/e-sun-bank-and-ibm-build-ai-governance-framework-for-banking/">E.SUN Bank and IBM build AI governance framework for banking</a> appeared first on <a href="https://www.artificialintelligence-news.com">AI News</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>BMW puts humanoid robots to work in Germany–and Europe&#8217;s factories are watching</title>
+		<link>https://www.artificialintelligence-news.com/news/bmw-humanoid-robots-manufacturing-europe-leipzig/</link>
+		
+		<dc:creator><![CDATA[Dashveenjit Kaur]]></dc:creator>
+		<pubDate>Fri, 13 Mar 2026 09:00:00 +0000</pubDate>
+				<category><![CDATA[AI and Us]]></category>
+		<category><![CDATA[AI in Action]]></category>
+		<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[Human-AI Relationships]]></category>
+		<category><![CDATA[Manufacturing & Engineering AI]]></category>
+		<category><![CDATA[ai]]></category>
+		<category><![CDATA[artificial intelligence]]></category>
+		<guid isPermaLink="false">https://www.artificialintelligence-news.com/?p=112665</guid>
+
+					<description><![CDATA[<p>Europe&#8217;s factory floors have a new kind of colleague. BMW Group has deployed humanoid robots in manufacturing in Germany for the first time, launching a pilot project at its Leipzig plant with AEON–a wheeled humanoid built by Hexagon Robotics.&#160; It is the&#160;first automotive deployment&#160;of AEON anywhere in the world, and it marks something of a [&#8230;]</p>
+<p>The post <a href="https://www.artificialintelligence-news.com/news/bmw-humanoid-robots-manufacturing-europe-leipzig/">BMW puts humanoid robots to work in Germany–and Europe&#8217;s factories are watching</a> appeared first on <a href="https://www.artificialintelligence-news.com">AI News</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<p>Europe&#8217;s factory floors have a new kind of colleague. BMW Group has deployed humanoid robots in manufacturing in Germany for the first time, launching a pilot project at its Leipzig plant with AEON–a wheeled humanoid built by Hexagon Robotics.&nbsp;</p>
+
+
+
+<p>It is the&nbsp;<a target="_blank" href="https://www.visit-bmwgroup.com/en/bmw-group-uses-humanoid-robots-in-production-in-germany-for-the-first-time/" rel="noreferrer noopener">first automotive deployment</a>&nbsp;of AEON anywhere in the world, and it marks something of a line in the sand for European industry: physical AI is no longer a North American or East Asian story.</p>
+
+
+
+<p>The <a href="https://www.bmwgroup.com/en/news/general/2026/humanoid-robot-in-leipzig.html">announcement</a>, made on March 9, 2026, comes backed by hard data from a <a href="https://www.press.bmwgroup.com/global/article/detail/T0455864EN/bmw-group-to-deploy-humanoid-robots-in-production-in-germany-for-the-first-time?language=en" target="_blank" rel="noreferrer noopener">prior</a> US trial. In 2025, BMW ran a ten-month pilot at its Spartanburg, South Carolina, plant using Figure AI&#8217;s Figure 02 robot. The humanoid supported production of over 30,000 BMW X3s, working 10-hour shifts and moving a total of over 90,000 components. </p>
+
+
+
+<p>Leipzig is now the direct heir to those lessons.</p>
+
+
+
+<h3 class="wp-block-heading" id="h-a-robot-built-for-work-not-demos">A robot built for work, not demos</h3>
+
+
+
+<p>AEON, developed by Hexagon&#8217;s Zurich-based robotics division, is a deliberately industrial machine. Arnaud Robert, President of Hexagon Robotics, made the philosophy plain at a Munich event earlier this month: &#8220;We&#8217;re not in the dancing business–we&#8217;re in the working business.&#8221; That ethos is visible in every design decision.</p>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" width="1024" height="576" src="https://www.artificialintelligence-news.com/wp-content/uploads/2026/03/humanoide-roboter-leipzig-v3-1280x720-1-1024x576.jpeg" alt="" class="wp-image-112667" srcset="https://www.artificialintelligence-news.com/wp-content/uploads/2026/03/humanoide-roboter-leipzig-v3-1280x720-1-1024x576.jpeg 1024w, https://www.artificialintelligence-news.com/wp-content/uploads/2026/03/humanoide-roboter-leipzig-v3-1280x720-1-300x169.jpeg 300w, https://www.artificialintelligence-news.com/wp-content/uploads/2026/03/humanoide-roboter-leipzig-v3-1280x720-1-768x432.jpeg 768w, https://www.artificialintelligence-news.com/wp-content/uploads/2026/03/humanoide-roboter-leipzig-v3-1280x720-1.jpeg 1280w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>Rather than walking on two legs, AEON moves on wheels–a choice made after extensive testing of locomotion systems, with Hexagon concluding that on factory-grade flat floors, wheels are significantly more efficient in both speed and energy use. It stands 1.65 metres tall, weighs 60 kilograms, reaches 2.5 metres per second, and can autonomously swap its own battery in 23 seconds–enabling around-the-clock operation without human intervention.</p>
+
+
+
+<p>Its 22&nbsp;<a target="_blank" href="https://www.bmwblog.com/2026/03/03/bmw-hexagon-aeon-humanoid-robot-leipzig-pilot/" rel="noreferrer noopener">integrated</a>&nbsp;sensors–peripheral cameras, time-of-flight, infrared, SLAM cameras, and microphones–give it full 360-degree real-time spatial awareness, including the ability to perform quality inspection tasks that conventional stationary robots cannot.&nbsp;</p>
+
+
+
+<p>Its human-like torso allows a wide variety of grippers, hand elements, and scanning tools to be flexibly docked, which is precisely what BMW needs for multifunctional deployment across different production environments</p>
+
+
+
+<h3 class="wp-block-heading" id="h-phased-rollout-deliberate-strategy">Phased rollout, deliberate strategy</h3>
+
+
+
+<p>AEON&#8217;s first test deployment at Leipzig took place in December 2025. A further test run is planned for April 2026, ahead of a full pilot phase launching in summer 2026, where two AEON units will work simultaneously across two use cases–focusing on high-voltage battery assembly and component manufacturing for exterior parts.</p>
+
+
+
+<p>Leipzig was not an arbitrary choice. It is BMW&#8217;s most technologically comprehensive German plant, combining battery production, injection moulding, press shop, body shop, and final assembly under one roof, meaning a successful deployment there effectively validates physical AI across the full production spectrum.</p>
+
+
+
+<p>To anchor this work institutionally, BMW has established a Centre of Competence for Physical AI in Production, consolidating expertise across the group and creating a defined evaluation path for technology partners–from lab testing through to full pilot phases.&nbsp;</p>
+
+
+
+<p>As Felix Haeckel, Team Lead for the centre, put it: &#8220;We are pooling our expertise to make knowledge on AI and robotics widely usable within the company.&#8221;</p>
+
+
+
+<h3 class="wp-block-heading" id="h-the-infrastructure-underneath">The infrastructure underneath</h3>
+
+
+
+<p>What makes BMW&#8217;s approach notable is that AEON is not landing on a blank factory floor. BMW has systematically dismantled data silos across its production network, replacing them with a uniform data platform that ensures all information is consistent, standardised, and accessible at all times–the architecture that allows AI agents to operate autonomously and learn continuously.&nbsp;</p>
+
+
+
+<p>The humanoid robot is, in effect, the physical layer of a system that has been years in the making. AEON runs on NVIDIA Jetson Orin onboard computers and was trained largely through simulation using NVIDIA&#8217;s Isaac platform–a method that allowed Hexagon to develop core locomotion capabilities in weeks rather than months.</p>
+
+
+
+<p>The project also involves Microsoft Azure for scalable model development and Maxon&#8217;s actuators for locomotion.</p>
+
+
+
+<h3 class="wp-block-heading" id="h-why-this-matters-beyond-leipzig">Why this matters beyond Leipzig</h3>
+
+
+
+<p>The broader signal here is one that the enterprise AI world is already tracking closely. Deloitte&#8217;s State of AI in the Enterprise 2026&nbsp;<a target="_blank" href="https://www.deloitte.com/us/en/what-we-do/capabilities/applied-artificial-intelligence/content/state-of-ai-in-the-enterprise.html" rel="noreferrer noopener">report</a>, surveying over 3,200 senior leaders across 24 countries, found that 58% of companies are already using physical AI in some capacity, with that figure set to reach 80% within two years, with&nbsp;Asia&nbsp;Pacific leading in early implementation.</p>
+
+
+
+<p>BMW&#8217;s Leipzig pilot is a proof point in that trajectory: that humanoid robots in manufacturing have moved past the lab and the press release, and are being stress-tested against the unforgiving standards of real industrial production. As Milan Nedeljković, BMW&#8217;s Board Member for Production, put it: &#8220;The symbiosis of engineering expertise and artificial intelligence opens up completely new possibilities in production.&#8221;</p>
+
+
+
+<p>The question now is not whether humanoid robots belong on the factory floor. It is how fast the rest of the European industry follows.</p>
+
+
+
+<p><strong>See also: </strong><a href="https://www.artificialintelligence-news.com/news/ai2-building-physical-ai-with-virtual-simulation-data/"><strong>Ai2: Building physical AI with virtual simulation data</strong></a></p>
+
+
+
+<figure class="wp-block-image aligncenter size-full is-resized"><a href="https://www.ai-expo.net/?utm_source=AI-News&amp;utm_medium=Footer-banner&amp;utm_campaign=world-series"><img decoding="async" width="728" height="90" src="https://www.artificialintelligence-news.com/wp-content/uploads/2026/03/image-5.png" alt="Banner for AI &amp; Big Data Expo by TechEx events." class="wp-image-112554" style="width:800px;height:auto" srcset="https://www.artificialintelligence-news.com/wp-content/uploads/2026/03/image-5.png 728w, https://www.artificialintelligence-news.com/wp-content/uploads/2026/03/image-5-300x37.png 300w" sizes="(max-width: 728px) 100vw, 728px" /></a></figure>
+
+
+
+<p><strong>Want to learn more about AI and big data from industry leaders?</strong> Check out <a href="https://www.ai-expo.net/?utm_source=AI-News&amp;utm_medium=Footer-banner&amp;utm_campaign=world-series">AI &amp; Big Data Expo</a> taking place in Amsterdam, California, and London. The comprehensive event is part of <a href="https://techexevent.com/?utm_source=AI-News&amp;utm_medium=Footer-banner&amp;utm_campaign=world-series">TechEx</a> and is co-located with other leading technology events including the <a href="https://cybersecuritycloudexpo.com/?utm_source=CloudTech-News&amp;utm_medium=Footer-banner&amp;utm_campaign=world-series">Cyber Security &amp; Cloud Expo</a>. Click <a href="https://techexevent.com/?utm_source=AI-News&amp;utm_medium=Footer-banner&amp;utm_campaign=world-series">here</a> for more information.</p>
+
+
+
+<p>AI News is powered by <a href="https://techforge.pub/?utm_source=AI-News&amp;utm_medium=Footer-banner&amp;utm_campaign=world-series">TechForge Media</a>. Explore other upcoming enterprise technology events and webinars <a href="https://techforge.pub/events/?utm_source=AI-News&amp;utm_medium=Footer-banner&amp;utm_campaign=world-series">here</a>.</p>
+<p>The post <a href="https://www.artificialintelligence-news.com/news/bmw-humanoid-robots-manufacturing-europe-leipzig/">BMW puts humanoid robots to work in Germany–and Europe&#8217;s factories are watching</a> appeared first on <a href="https://www.artificialintelligence-news.com">AI News</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>How multi-agent AI economics influence business automation</title>
+		<link>https://www.artificialintelligence-news.com/news/how-multi-agent-ai-economics-business-automation/</link>
+		
+		<dc:creator><![CDATA[Ryan Daws]]></dc:creator>
+		<pubDate>Thu, 12 Mar 2026 15:01:20 +0000</pubDate>
+				<category><![CDATA[AI Business Strategy]]></category>
+		<category><![CDATA[AI Hardware & Chips]]></category>
+		<category><![CDATA[AI in Action]]></category>
+		<category><![CDATA[AI Market Trends]]></category>
+		<category><![CDATA[Cybersecurity AI]]></category>
+		<category><![CDATA[Data Engineering & MLOps]]></category>
+		<category><![CDATA[Features]]></category>
+		<category><![CDATA[Finance AI]]></category>
+		<category><![CDATA[Healthcare & Wellness AI]]></category>
+		<category><![CDATA[How It Works]]></category>
+		<category><![CDATA[Infrastructure & Hardware]]></category>
+		<category><![CDATA[Inside AI]]></category>
+		<category><![CDATA[Manufacturing & Engineering AI]]></category>
+		<category><![CDATA[Open-Source & Democratised AI]]></category>
+		<category><![CDATA[Reinforcement Learning]]></category>
+		<category><![CDATA[World of Work]]></category>
+		<category><![CDATA[agentic ai]]></category>
+		<category><![CDATA[agents]]></category>
+		<category><![CDATA[hardware]]></category>
+		<category><![CDATA[infrastructure]]></category>
+		<category><![CDATA[nvidia]]></category>
+		<category><![CDATA[reinforcement learning]]></category>
+		<category><![CDATA[strategy]]></category>
+		<guid isPermaLink="false">https://www.artificialintelligence-news.com/?p=112642</guid>
+
+					<description><![CDATA[<p>Managing the economics of multi-agent AI now dictates the financial viability of modern business automation workflows. Organisations progressing past standard chat interfaces into multi-agent applications face two primary constraints. The first issue is the thinking tax; complex autonomous agents need to reason at each stage, making the reliance on massive architectures for every subtask too [&#8230;]</p>
+<p>The post <a href="https://www.artificialintelligence-news.com/news/how-multi-agent-ai-economics-business-automation/">How multi-agent AI economics influence business automation</a> appeared first on <a href="https://www.artificialintelligence-news.com">AI News</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<p>Managing the economics of multi-agent AI now dictates the financial viability of modern business automation workflows.</p>
+
+
+
+<p>Organisations progressing past standard chat interfaces into multi-agent applications face two primary constraints. The first issue is the thinking tax; complex autonomous agents need to reason at each stage, making the reliance on massive architectures for every subtask too expensive and slow for practical enterprise use.</p>
+
+
+
+<p>Context explosion acts as the second hurdle; these advanced workflows produce up to 1,500 percent more tokens than standard formats because every interaction demands the resending of full system histories, intermediate reasoning, and tool outputs. Across extended tasks, this token volume drives up expenses and causes goal drift, a scenario where agents diverge from their initial objectives.</p>
+
+
+
+<h3 class="wp-block-heading" id="h-evaluating-architectures-for-multi-agent-ai">Evaluating architectures for multi-agent AI</h3>
+
+
+
+<p>To address these governance and efficiency hurdles, hardware and software developers are releasing highly optimised tools aimed directly at enterprise infrastructure.</p>
+
+
+
+<p><a href="https://www.nvidia.com/">NVIDIA</a> recently introduced Nemotron 3 Super, an open architecture featuring 120 billion parameters (of which 12 billion remain active) that is specifically-engineered to execute complex agentic AI systems.</p>
+
+
+
+<p>Available immediately, NVIDIA’s framework blends advanced reasoning features to help autonomous agents finish tasks efficiently and accurately for improved business automation. The system relies on a hybrid mixture-of-experts architecture combining three major innovations to deliver up to five times higher throughput and twice the accuracy of the preceding Nemotron Super model. During inference, only 12 billion of the 120 billion parameters are active.</p>
+
+
+
+<p>Mamba layers provide four times the memory and compute efficiency, while standard transformer layers manage the complex reasoning requirements. A latent technique boosts accuracy by engaging four expert specialists for the cost of one during token generation. The system also anticipates multiple future words at the same time, accelerating inference speeds threefold.</p>
+
+
+
+<p>Operating on the Blackwell platform, the architecture utilises NVFP4 precision. This setup reduces memory needs and makes inference up to four times faster than FP8 configurations on Hopper systems, all without sacrificing accuracy.</p>
+
+
+
+<h3 class="wp-block-heading" id="h-translating-automation-capability-into-business-outcomes">Translating automation capability into business outcomes</h3>
+
+
+
+<p>The system offers a one-million-token context window, allowing agents to keep the entire workflow state in memory and directly addressing the risk of goal drift. A software development agent can load an entire codebase into context simultaneously, enabling end-to-end code generation and debugging without requiring document segmentation.</p>
+
+
+
+<p>Within financial analysis, the system can load thousands of pages of reports into memory, improving efficiency by removing the need to re-reason across lengthy conversations. High-accuracy tool calling ensures autonomous agents reliably navigate massive function libraries, preventing execution errors in high-stakes environments such as autonomous security orchestration within cybersecurity.</p>
+
+
+
+<p>Industry leaders – including Amdocs, Palantir, Cadence, Dassault Systèmes, and Siemens – are deploying and customising the model to automate workflows across telecom, cybersecurity, semiconductor design, and manufacturing.</p>
+
+
+
+<p>Software development platforms like CodeRabbit, Factory, and Greptile are integrating it alongside proprietary models to achieve higher accuracy at lower costs. Life sciences firms like Edison Scientific and Lila Sciences will use it to power agents for deep literature search, data science, and molecular understanding.</p>
+
+
+
+<p>The architecture also powers the AI-Q agent to the top position on DeepResearch Bench and DeepResearch Bench II leaderboards, highlighting its capacity for multistep research across large document sets while maintaining reasoning coherence.</p>
+
+
+
+<p>Finally, the model claimed the top spot on Artificial Analysis for efficiency and openness, featuring leading accuracy among models of its size.</p>
+
+
+
+<h3 class="wp-block-heading" id="h-implementation-and-infrastructure-alignment">Implementation and infrastructure alignment</h3>
+
+
+
+<p>Built to handle complex subtasks inside multi-agent systems, deployment flexibility remains a priority for leaders driving business automation.</p>
+
+
+
+<p>NVIDIA released the model with open weights under a permissive license, letting developers deploy and customise it across workstations, data centres, or cloud environments. It is packaged as an NVIDIA NIM microservice to aid this broad deployment from on-premises systems to the cloud.</p>
+
+
+
+<p>The architecture was trained on synthetic data generated by frontier reasoning models. NVIDIA published the complete methodology, encompassing over 10 trillion tokens of pre- and post-training datasets, 15 training environments for reinforcement learning, and evaluation recipes. Researchers can further fine-tune the model or build their own using the NeMo platform.</p>
+
+
+
+<p>Any exec planning a digitisation rollout must address context explosion and the thinking tax upfront to prevent goal drift and cost overruns in agentic workflows. Establishing comprehensive architectural oversight ensures these sophisticated agents remain aligned with corporate directives, yielding sustainable efficiency gains and advancing business automation across the organisation.</p>
+
+
+
+<p><strong>See also: </strong><a href="https://www.artificialintelligence-news.com/news/ai2-building-physical-ai-with-virtual-simulation-data/"><strong>Ai2: Building physical AI with virtual simulation data</strong></a></p>
+
+
+
+<figure class="wp-block-image aligncenter size-full is-resized"><a href="https://www.ai-expo.net/?utm_source=AI-News&amp;utm_medium=Footer-banner&amp;utm_campaign=world-series"><img decoding="async" width="728" height="90" src="https://www.artificialintelligence-news.com/wp-content/uploads/2026/03/image-5.png" alt="Banner for AI &amp; Big Data Expo by TechEx events." class="wp-image-112554" style="width:800px;height:auto" srcset="https://www.artificialintelligence-news.com/wp-content/uploads/2026/03/image-5.png 728w, https://www.artificialintelligence-news.com/wp-content/uploads/2026/03/image-5-300x37.png 300w" sizes="(max-width: 728px) 100vw, 728px" /></a></figure>
+
+
+
+<p><strong>Want to learn more about AI and big data from industry leaders?</strong> Check out <a href="https://www.ai-expo.net/?utm_source=AI-News&amp;utm_medium=Footer-banner&amp;utm_campaign=world-series">AI &amp; Big Data Expo</a> taking place in Amsterdam, California, and London. The comprehensive event is part of <a href="https://techexevent.com/?utm_source=AI-News&amp;utm_medium=Footer-banner&amp;utm_campaign=world-series">TechEx</a> and is co-located with other leading technology events including the <a href="https://cybersecuritycloudexpo.com/?utm_source=CloudTech-News&amp;utm_medium=Footer-banner&amp;utm_campaign=world-series">Cyber Security &amp; Cloud Expo</a>. Click <a href="https://techexevent.com/?utm_source=AI-News&amp;utm_medium=Footer-banner&amp;utm_campaign=world-series">here</a> for more information.</p>
+
+
+
+<p>AI News is powered by <a href="https://techforge.pub/?utm_source=AI-News&amp;utm_medium=Footer-banner&amp;utm_campaign=world-series">TechForge Media</a>. Explore other upcoming enterprise technology events and webinars <a href="https://techforge.pub/events/?utm_source=AI-News&amp;utm_medium=Footer-banner&amp;utm_campaign=world-series">here</a>.</p>
+<p>The post <a href="https://www.artificialintelligence-news.com/news/how-multi-agent-ai-economics-business-automation/">How multi-agent AI economics influence business automation</a> appeared first on <a href="https://www.artificialintelligence-news.com">AI News</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>FIFA is rebuilding world football operations on AI. The World Cup is just the first test</title>
+		<link>https://www.artificialintelligence-news.com/news/fifa-ai-world-cup-2026-lenovo/</link>
+		
+		<dc:creator><![CDATA[Dashveenjit Kaur]]></dc:creator>
+		<pubDate>Thu, 12 Mar 2026 08:00:00 +0000</pubDate>
+				<category><![CDATA[AI and Us]]></category>
+		<category><![CDATA[AI in Action]]></category>
+		<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[Entertainment & Media]]></category>
+		<category><![CDATA[Human-AI Relationships]]></category>
+		<category><![CDATA[ai]]></category>
+		<category><![CDATA[artificial intelligence]]></category>
+		<guid isPermaLink="false">https://www.artificialintelligence-news.com/?p=112611</guid>
+
+					<description><![CDATA[<p>When Romy Gai, FIFA&#8217;s chief business officer, described the operational challenge of running a 48-team World Cup across Canada, Mexico and the United States, he was not talking about technology. He was talking about complexity. Previous World Cups relied on local organising committees to absorb much of the logistical load. For 2026, FIFA&#160;is running&#160;operations directly. [&#8230;]</p>
+<p>The post <a href="https://www.artificialintelligence-news.com/news/fifa-ai-world-cup-2026-lenovo/">FIFA is rebuilding world football operations on AI. The World Cup is just the first test</a> appeared first on <a href="https://www.artificialintelligence-news.com">AI News</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<p>When Romy Gai, FIFA&#8217;s chief business officer, described the operational challenge of running a 48-team World Cup across Canada, Mexico and the United States, he was not talking about technology. He was talking about complexity.</p>
+
+
+
+<p>Previous World Cups relied on local organising committees to absorb much of the logistical load. For 2026, FIFA&nbsp;is running&nbsp;operations directly. Six billion people&nbsp;are expected&nbsp;to watch. There are 104 matches, up from 64 in Qatar.&nbsp;There are 48 teams instead of 32,&nbsp;180-plus&nbsp;broadcasters, and no single national infrastructure to&nbsp;lean&nbsp;on.&nbsp;The scale is genuinely new.</p>
+
+
+
+<p>The AI <a href="https://inside.fifa.com/organisation/media-releases/lenovo-tech-world-ai-powered-innovations-world-cup-2026">strategy</a> FIFA unveiled at Lenovo Tech World in Hong Kong this week is best understood against that backdrop. Football AI Pro, AI-enabled 3D player avatars, and a next-generation Referee View are the headline announcements. Butthe product decisions themselves reflect something more structural: an organisation that has decided AI is not an enhancement to how it runs football&#8217;s biggest event, but it is how the event gets run.</p>
+
+
+
+
+
+<h3 class="wp-block-heading" id="h-what-football-ai-pro-actually-does">What Football AI Pro actually does</h3>
+
+
+
+<p>Football AI Pro is a generative AI knowledge assistant that&nbsp;will be made&nbsp;available to all 48 teams competing at the 2026 World Cup.&nbsp;It is built on FIFA&#8217;s Football Language Model and trained on hundreds of millions of&nbsp;FIFA-owned&nbsp;data points.&nbsp;It generates pre- and post-match analysis in text, video, graphs and 3D visualisations, supports prompts in multiple languages, and will not&nbsp;be used&nbsp;during live play.</p>
+
+
+
+<p>The democratisation argument behind it is straightforward. At the highest level of the game, access to sophisticated match analysis depends heavily on a team&#8217;s financial resources. A tier-one footballing nation has a dedicated analytics department. A team competing at its first World Cup does not. Football AI Pro&nbsp;is designed&nbsp;to give every team the same analytical baseline.</p>
+
+
+
+<p>That ambition is real, but it is also worth understanding as an enterprise AI deployment challenge.&nbsp;Delivering consistent, tournament-wide intelligence across 48 teams in three countries, in multiple languages, against a match schedule that&nbsp;runs for&nbsp;weeks, is not a small infrastructure&nbsp;problem.&nbsp;It is the kind of workload that requires exactly the hybrid AI architecture&nbsp;</p>
+
+
+
+<p>Lenovo has been building its enterprise positioning.</p>
+
+
+
+<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
+<blockquote class="twitter-tweet" data-width="550" data-dnt="true"><p lang="en" dir="ltr">We&#39;re making one of the world&#39;s most data-rich organizations more accessible with Football AI Pro, a customized AI assistant that can read vast amounts of <a href="https://twitter.com/fifa?ref_src=twsrc%5Etfw">@FIFA</a> data to deliver information to players, coaches, and fans in seconds. <br><br>Learn more:</p>&mdash; Lenovo (@Lenovo) <a href="https://twitter.com/Lenovo/status/2009852112851874215?ref_src=twsrc%5Etfw">January 10, 2026</a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div></figure>
+
+
+
+<h3 class="wp-block-heading" id="h-the-referee-camera-is-about-transparency-not-television">The referee camera is about transparency, not television</h3>
+
+
+
+<p>The updated Referee View is&nbsp;being framed&nbsp;in broadcast terms, and it will look good on screen.&nbsp;AI-powered stabilisation smooths footage captured from the referee&#8217;s body camera in&nbsp;real time, reducing the motion blur that made the original version&nbsp;hard&nbsp;to watch during fast play.</p>
+
+
+
+<p>The more significant purpose is transparency. VAR has been one of the most contested technologies in football, partly because the decision-making process is difficult for fans to follow and partly because the imagery used to communicate those decisions has often been unclear.&nbsp;Better referee footage, delivered in&nbsp;real time,&nbsp;changes&nbsp;both of those problems.</p>
+
+
+
+<p>The first version of Referee View was trialled&nbsp;at the FIFA Club World Cup last year. The updated version for 2026 is a meaningful technical step forward, but the real test is whether it shifts audience perception of officiating decisions. If it does, it becomes a governance technology as much as a broadcast one.</p>
+
+
+
+<h3 class="wp-block-heading" id="h-3d-avatars-and-the-offside-problem">3D avatars and the offside problem</h3>
+
+
+
+<p>The AI-enabled 3D player avatar system addresses a specific and persistent pain point: semi-automated offside technology. The existing system works, but the imagery it produces to explain offside decisions has not always been convincing.&nbsp;The lines are&nbsp;hard&nbsp;to read, the angles are counterintuitive, and fans&nbsp;routinely&nbsp;dispute calls that the technology correctly&nbsp;identified.</p>
+
+
+
+<p>The new system scans players to create precise 3D models, with each scan taking approximately one second.&nbsp;During matches,&nbsp;those&nbsp;models are used to track players more accurately through fast or obstructed movements.&nbsp;</p>
+
+
+
+<p>When an offside decision&nbsp;is referred&nbsp;to VAR, the 3D model produces imagery that is both more accurate and easier to understand. It was tested at the FIFA Intercontinental Cup last year, where Flamengo and Pyramids FC players&nbsp;were scanned&nbsp;ahead of their match.</p>
+
+
+
+<p>The underlying logic is the same as the referee camera: better data, communicated more clearly, reduces the legitimacy gap between the decision and the audience&#8217;s acceptance of it.</p>
+
+
+
+<p>The intelligent command centre</p>
+
+
+
+<p>The least-discussed element of the FIFA-Lenovo partnership is arguably the most operationally significant. FIFA has built what Gai described as an intelligent command centre that connects real-time data across departments, matches, venues and broadcasters in a single operational view.</p>
+
+
+
+<p>In a tournament running across three countries with over 180 broadcasters and six billion expected viewers, operational coordination is the constraint that everything else depends on. The command centre is effectively the enterprise AI backbone behind the public-facing Football AI announcements.</p>
+
+
+
+<p>Gai&#8217;s point about removing local organising committees is worth sitting with.&nbsp;It means FIFA is&nbsp;taking on&nbsp;operational responsibility for functions that&nbsp;were previously distributed&nbsp;across national bodies with local knowledge and&nbsp;localrelationships.&nbsp;AI is not just supporting that decision; it is what makes the decision viable.</p>
+
+
+
+<h3 class="wp-block-heading" id="h-the-football-language-model-and-what-comes-after-2026">The Football Language Model and what comes after 2026</h3>
+
+
+
+<p>Football AI Pro&nbsp;is built&nbsp;on FIFA&#8217;s Football Language Model, a domain-specific model trained on FIFA&#8217;s own data. That is a significant asset. A general-purpose language model can answer questions about football. A model trained on hundreds of millions of FIFA-owned data points can generate validated, tournament-specific intelligence that a general model cannot replicate.</p>
+
+
+
+<p>The implications extend beyond 2026. FIFA has stated that Football AI Pro will eventually be made available to fans, not just teams. The 211 member federations that make up world football&#8217;s governing structure are also in scope. If the model performs at the World Cup, it becomes the foundation for a much longer democratisation project, one that extends analytical capability to national associations and competitions that currently have almost none.</p>
+
+
+
+<p>That is the larger enterprise AI story behind&nbsp;the announcements&nbsp;this week.&nbsp;The World Cup&nbsp;is the&nbsp;proof of concept. What FIFA builds on top of it is the actual deployment.</p>
+
+
+
+<p><strong>See also: <a href="https://www.artificialintelligence-news.com/news/how-physical-ai-integration-accelerates-vehicle-innovation/">How physical AI integration accelerates vehicle innovation</a></strong></p>
+
+
+
+<figure class="wp-block-image aligncenter size-full is-resized"><a href="https://www.ai-expo.net/?utm_source=AI-News&amp;utm_medium=Footer-banner&amp;utm_campaign=world-series"><img loading="lazy" decoding="async" width="728" height="90" src="https://www.artificialintelligence-news.com/wp-content/uploads/2026/03/image-5.png" alt="Banner for AI &amp; Big Data Expo by TechEx events." class="wp-image-112554" style="aspect-ratio:8.089745615421078;width:800px;height:auto" srcset="https://www.artificialintelligence-news.com/wp-content/uploads/2026/03/image-5.png 728w, https://www.artificialintelligence-news.com/wp-content/uploads/2026/03/image-5-300x37.png 300w" sizes="(max-width: 728px) 100vw, 728px" /></a></figure>
+
+
+
+<p><strong>Want to learn more about AI and big data from industry leaders?</strong> Check out <a href="https://www.ai-expo.net/?utm_source=AI-News&amp;utm_medium=Footer-banner&amp;utm_campaign=world-series">AI &amp; Big Data Expo</a> taking place in Amsterdam, California, and London. The comprehensive event is part of <a href="https://techexevent.com/?utm_source=AI-News&amp;utm_medium=Footer-banner&amp;utm_campaign=world-series">TechEx</a> and is co-located with other leading technology events including the <a href="https://cybersecuritycloudexpo.com/?utm_source=CloudTech-News&amp;utm_medium=Footer-banner&amp;utm_campaign=world-series">Cyber Security &amp; Cloud Expo</a>. Click <a href="https://techexevent.com/?utm_source=AI-News&amp;utm_medium=Footer-banner&amp;utm_campaign=world-series">here</a> for more information.</p>
+
+
+
+<p>AI News is powered by <a href="https://techforge.pub/?utm_source=AI-News&amp;utm_medium=Footer-banner&amp;utm_campaign=world-series">TechForge Media</a>. Explore other upcoming enterprise technology events and webinars <a href="https://techforge.pub/events/?utm_source=AI-News&amp;utm_medium=Footer-banner&amp;utm_campaign=world-series">here</a>.</p>
+
+
+
+<p></p>
+<p>The post <a href="https://www.artificialintelligence-news.com/news/fifa-ai-world-cup-2026-lenovo/">FIFA is rebuilding world football operations on AI. The World Cup is just the first test</a> appeared first on <a href="https://www.artificialintelligence-news.com">AI News</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Ai2: Building physical AI with virtual simulation data</title>
+		<link>https://www.artificialintelligence-news.com/news/ai2-building-physical-ai-with-virtual-simulation-data/</link>
+		
+		<dc:creator><![CDATA[Ryan Daws]]></dc:creator>
+		<pubDate>Wed, 11 Mar 2026 16:50:56 +0000</pubDate>
+				<category><![CDATA[Computer Vision]]></category>
+		<category><![CDATA[Features]]></category>
+		<category><![CDATA[How It Works]]></category>
+		<category><![CDATA[Physical AI]]></category>
+		<category><![CDATA[ai2]]></category>
+		<category><![CDATA[development]]></category>
+		<category><![CDATA[models]]></category>
+		<category><![CDATA[open-source]]></category>
+		<category><![CDATA[physical ai]]></category>
+		<category><![CDATA[robotics]]></category>
+		<category><![CDATA[simulation]]></category>
+		<guid isPermaLink="false">https://www.artificialintelligence-news.com/?p=112603</guid>
+
+					<description><![CDATA[<p>Virtual simulation data is driving the development of physical AI across corporate environments, led by initiatives like Ai2’s MolmoBot. Instructing hardware to interact with the real world has historically relied on highly expensive and manually-collected demonstrations. Technology providers building generalist manipulation agents typically frame extensive real-world training as the basis for these systems. For some [&#8230;]</p>
+<p>The post <a href="https://www.artificialintelligence-news.com/news/ai2-building-physical-ai-with-virtual-simulation-data/">Ai2: Building physical AI with virtual simulation data</a> appeared first on <a href="https://www.artificialintelligence-news.com">AI News</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<p>Virtual simulation data is driving the development of physical AI across corporate environments, led by initiatives like Ai2’s MolmoBot.</p>
+
+
+
+<p>Instructing hardware to interact with the real world has historically relied on highly expensive and manually-collected demonstrations. Technology providers building generalist manipulation agents typically frame extensive real-world training as the basis for these systems.</p>
+
+
+
+<p>For some context, projects like DROID include 76,000 teleoperated trajectories gathered across 13 institutions, representing roughly 350 hours of human effort. Google DeepMind&#8217;s RT-1 required 130,000 episodes collected over 17 months by human operators. This reliance on proprietary, manual data collection inflates research budgets and concentrates capabilities within a small group of well-resourced industrial laboratories.</p>
+
+
+
+<p>“Our mission is to build AI that advances science and expands what humanity can discover,” said Ali Farhadi, CEO of Ai2. “Robotics can become a foundational scientific instrument, helping researchers move faster and explore new questions. To get there, we need systems that generalise in the real world and tools the global research community can build on together. Demonstrating transfer from simulation to reality is a meaningful step in that direction.”</p>
+
+
+
+<p>Researchers from the <a href="https://allenai.org/">Allen Institute for AI</a> (Ai2) offer a different economic model with MolmoBot, an open robotic manipulation model suite trained entirely on synthetic information. By generating trajectories procedurally within a system called MolmoSpaces, the team bypasses the need for human teleoperation.</p>
+
+
+
+<p>The accompanying dataset, MolmoBot-Data, contains 1.8 million expert manipulation trajectories. This collection was produced by combining the MuJoCo physics engine with aggressive domain randomisation, varying objects, viewpoints, lighting, and dynamics.</p>
+
+
+
+<p>“Most approaches try to close the sim-to-real gap by adding more real-world data,” said Ranjay Krishna, Director of the PRIOR team at Ai2. “We took the opposite bet: that the gap shrinks when you dramatically expand the diversity of simulated environments, objects, and camera conditions. Our latest advancement shifts the constraint in robotics from collecting manual demonstrations to designing better virtual worlds, and that’s a problem we can solve.”</p>
+
+
+
+<h3 class="wp-block-heading" id="h-generating-virtual-simulation-data-for-physical-ai">Generating virtual simulation data for physical AI</h3>
+
+
+
+<p>Using 100 Nvidia A100 GPUs, the pipeline created roughly 1,024 episodes per GPU-hour, equating to over 130 hours of robot experience for every hour of wall-clock time.</p>
+
+
+
+<p>Compared to real-world data collection, this represents nearly four times the data throughput, directly impacting project return on investment by accelerating deployment cycles.</p>
+
+
+
+<p>The MolmoBot suite includes three distinct policy classes evaluated on two platforms: the Rainbow Robotics RB-Y1 mobile manipulator, and the Franka FR3 tabletop arm.&nbsp; The primary model, built on a Molmo2 vision-language backbone, processes multiple timesteps of RGB observations and language instructions to dictate actions.</p>
+
+
+
+<h3 class="wp-block-heading" id="h-hardware-flexibility-with-ai2-s-molmobot">Hardware flexibility with Ai2’s MolmoBot</h3>
+
+
+
+<p>For <a href="https://iottechnews.com/news/scaling-edge-ai-deployments-on-industrial-iot-platforms/">edge computing</a> environments where resources are constrained, the researchers provide MolmoBot-SPOC, a lightweight transformer policy with fewer parameters. MolmoBot-Pi0 uses a PaliGemma backbone to match the architecture of Physical Intelligence&#8217;s π0 model, permitting direct performance comparisons.</p>
+
+
+
+<p>During physical testing, these policies demonstrated zero-shot transfer to real-world tasks involving unseen objects and environments without any fine-tuning.</p>
+
+
+
+<p>In tabletop pick-and-place evaluations, the primary MolmoBot model achieved a success rate of 79.2 percent. This outperformed π0.5, a model trained on extensive real-world demonstration data, which achieved a 39.2 percent success rate. For mobile manipulation, the policies successfully executed tasks such as approaching, grasping, and pulling doors through their full range of motion.</p>
+
+
+
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe title="Introducing MolmoBot | Sim-to-real zero shot transfer for robotics" width="800" height="450" src="https://www.youtube.com/embed/UQVX0iq67mo?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<p>Providing these varied architectures allows organisations to integrate capable physical AI systems without being locked into a single proprietary vendor ecosystem or extensive data collection infrastructure.</p>
+
+
+
+<p>The open release of the entire MolmoBot stack – including the training data, generation pipelines, and model architectures – permits internal auditing and adaptation. Anyone exploring physical AI can leverage these open tools for the simulation and building of capable systems while controlling costs.</p>
+
+
+
+<p>“For AI to truly advance science, progress cannot depend on closed data or isolated systems,” continues Ali Farhadi, CEO of Ai2. “It requires shared infrastructure that researchers everywhere can build on, test, and improve together. This is how we believe physical AI will move forward.”</p>
+
+
+
+<p><strong>See also: </strong><a href="https://www.artificialintelligence-news.com/news/new-partnership-to-offer-ai-for-robotics-for-work-in-dangerous-environments/"><strong>New partnership to offer smart robots for dangerous environments</strong></a></p>
+
+
+
+<figure class="wp-block-image aligncenter size-full is-resized"><a href="https://www.ai-expo.net/?utm_source=AI-News&amp;utm_medium=Footer-banner&amp;utm_campaign=world-series"><img loading="lazy" decoding="async" width="728" height="90" src="https://www.artificialintelligence-news.com/wp-content/uploads/2026/03/image-5.png" alt="Banner for AI &amp; Big Data Expo by TechEx events." class="wp-image-112554" style="aspect-ratio:8.089745615421078;width:800px;height:auto" srcset="https://www.artificialintelligence-news.com/wp-content/uploads/2026/03/image-5.png 728w, https://www.artificialintelligence-news.com/wp-content/uploads/2026/03/image-5-300x37.png 300w" sizes="(max-width: 728px) 100vw, 728px" /></a></figure>
+
+
+
+<p><strong>Want to learn more about AI and big data from industry leaders?</strong> Check out <a href="https://www.ai-expo.net/?utm_source=AI-News&amp;utm_medium=Footer-banner&amp;utm_campaign=world-series">AI &amp; Big Data Expo</a> taking place in Amsterdam, California, and London. The comprehensive event is part of <a href="https://techexevent.com/?utm_source=AI-News&amp;utm_medium=Footer-banner&amp;utm_campaign=world-series">TechEx</a> and is co-located with other leading technology events including the <a href="https://cybersecuritycloudexpo.com/?utm_source=CloudTech-News&amp;utm_medium=Footer-banner&amp;utm_campaign=world-series">Cyber Security &amp; Cloud Expo</a>. Click <a href="https://techexevent.com/?utm_source=AI-News&amp;utm_medium=Footer-banner&amp;utm_campaign=world-series">here</a> for more information.</p>
+
+
+
+<p>AI News is powered by <a href="https://techforge.pub/?utm_source=AI-News&amp;utm_medium=Footer-banner&amp;utm_campaign=world-series">TechForge Media</a>. Explore other upcoming enterprise technology events and webinars <a href="https://techforge.pub/events/?utm_source=AI-News&amp;utm_medium=Footer-banner&amp;utm_campaign=world-series">here</a>.</p>
+<p>The post <a href="https://www.artificialintelligence-news.com/news/ai2-building-physical-ai-with-virtual-simulation-data/">Ai2: Building physical AI with virtual simulation data</a> appeared first on <a href="https://www.artificialintelligence-news.com">AI News</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>New partnership to offer smart robots for dangerous environments</title>
+		<link>https://www.artificialintelligence-news.com/news/new-partnership-to-offer-ai-for-robotics-for-work-in-dangerous-environments/</link>
+		
+		<dc:creator><![CDATA[AI News]]></dc:creator>
+		<pubDate>Wed, 11 Mar 2026 11:42:00 +0000</pubDate>
+				<category><![CDATA[Manufacturing & Engineering AI]]></category>
+		<category><![CDATA[Physical AI]]></category>
+		<category><![CDATA[automated systems]]></category>
+		<category><![CDATA[edge ai]]></category>
+		<category><![CDATA[edge computing]]></category>
+		<category><![CDATA[iiot]]></category>
+		<category><![CDATA[robotics]]></category>
+		<guid isPermaLink="false">https://www.artificialintelligence-news.com/?p=112598</guid>
+
+					<description><![CDATA[<p>ADLINK Technology has signed a strategic alliance and joint development agreement with Under Control Robotics, the company behind the robotics startup Noble Machines. The two firms will combine ADLINK’s edge AI platforms with Noble Machines’ autonomy software to create a new generation of general-purpose robots for modern manufactories and engineering plants. The work focuses on [&#8230;]</p>
+<p>The post <a href="https://www.artificialintelligence-news.com/news/new-partnership-to-offer-ai-for-robotics-for-work-in-dangerous-environments/">New partnership to offer smart robots for dangerous environments</a> appeared first on <a href="https://www.artificialintelligence-news.com">AI News</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p> ADLINK Technology has signed a strategic alliance and joint development agreement with Under Control Robotics, the company behind the robotics startup Noble Machines. The two firms will combine ADLINK’s edge AI platforms with Noble Machines’ autonomy software to create a new generation of general-purpose robots for modern manufactories and engineering plants. The work focuses on bi-pedal, bi-manual machines – read, human-like robots – designed to operate in demanding industrial settings. </p>
+<p> The partnership will integrate ADLINK’s DLAP edge AI platform with Noble Machines’ autonomy and whole-body control software. The system is intended to provide reasoning, sensing, and motion control for robots handling heavy loads. Initial target sectors include manufacturing, mining, construction, energy, petrochemicals, and public utilities, industries that currently report labour shortages and often involve risky environments for human workers. </p>
+<p> ADLINK&#8217;s hardware is built on the NVIDIA Jetson Thor platform. In a press release,  the companies state DLAP offers multi-voltage feeds and high-bandwidth sensor interfaces, quoting &#8220;up to eight&#8221; GMSL camera connections, four Ethernet ports, and 5G or Wi-Fi modules. Systems can operate inside a wide temperature range and comply with IEC 60068 standards for shock and vibration. </p>
+<p> ADLINK&#8217;s hardware will combine with Noble Machines’ autonomy software, which manages perception, reasoning, and coordinated whole-body motion in robots. Robots operating in adverse conditions ideally need to replicate the mobility and manipulation abilities of human workers, so they can replace at-risk humans without significant retooling or altering existing working environments. </p>
+<p> Ethan Chen, general manager of ADLINK’s Edge Computing Platforms business unit, said the agreement will extend the company’s edge computing hardware into emerging general-purpose robotic systems, moving from support for the current DLAP platform to a jointly-developed computing platform based on Jetson Thor. </p>
+<p> Wei Ding, chief executive of Under Control Robotics, said ADLINK’s experience in industrial hardware complements Noble Machines’ software, specifically its whole-body control systems. The collaboration addresses hardware durability and supply chain integration issues that can affect industrial robot deployment. The two partners will pursue possible deployments in the construction and energy industries initially, where it&#8217;s common for certain tasks to involve workers tolerating dust, heat, heavy loads, and vibration. Typically, such tasks are difficult to mechanise because they require on-the-spot decision-making, mobility, and manual handling. </p>
+<p> By working with one anothers&#8217; specialisations, the companies may be able to offer a turnkey solution for customers unwilling to invest in what would be experimental technology and hardware deployments. The emphasis on real-time reactions and decision-making means that the AI element would provide the necessary real-time decision-making that humans working in difficult conditions would otherwise provide. Conventional software, as opposed to AI-based algorithms, would need to be constructed with every possible edge-case hard-coded into control systems. </p>
+<p> The success of any systems emanating from the partnership would hinge on whether highly-costly robotics could be able to react correctly in unforeseen situations without compromising itself or human co-workers, or negatively affect wider workflows on site. </p>
+<p><em>(Image source: &#8220;Robot&#8221; by 1lenore is licensed under CC BY 2.0.)</em></p>
+<p>&nbsp;</p>
+<p><a href="https://www.ai-expo.net/?utm_source=AI-News&#038;utm_medium=Footer-banner&#038;utm_campaign=world-series"><img decoding="async" src="https://www.artificialintelligence-news.com/wp-content/uploads/2025/08/ai-expo-banner-2025.png"></a></p>
+<p><strong>Want to learn more about AI and big data from industry leaders?</strong> Check out <a href="https://www.ai-expo.net/">AI &amp; Big Data Expo</a> taking place in Amsterdam, California, and London. The comprehensive event is part of <a href="https://techexevent.com/">TechEx</a> and co-located with other leading technology events. Click <a href="https://techexevent.com/">here</a> for more information.</p>
+<p>AI News is powered by <a href="https://techforge.pub/">TechForge Media</a>. Explore other upcoming enterprise technology events and webinars <a href="https://techforge.pub/events/">here</a>.</p>
+<p>The post <a href="https://www.artificialintelligence-news.com/news/new-partnership-to-offer-ai-for-robotics-for-work-in-dangerous-environments/">New partnership to offer smart robots for dangerous environments</a> appeared first on <a href="https://www.artificialintelligence-news.com">AI News</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Manulife moves AI agents into core financial workflows</title>
+		<link>https://www.artificialintelligence-news.com/news/manulife-moves-ai-agents-into-core-financial-workflows/</link>
+		
+		<dc:creator><![CDATA[Muhammad Zulhusni]]></dc:creator>
+		<pubDate>Wed, 11 Mar 2026 10:00:00 +0000</pubDate>
+				<category><![CDATA[AI Business Strategy]]></category>
+		<category><![CDATA[Finance AI]]></category>
+		<category><![CDATA[agentic ai]]></category>
+		<category><![CDATA[banking]]></category>
+		<category><![CDATA[finance]]></category>
+		<category><![CDATA[fintech]]></category>
+		<category><![CDATA[generative ai]]></category>
+		<guid isPermaLink="false">https://www.artificialintelligence-news.com/?p=112589</guid>
+
+					<description><![CDATA[<p>Large financial firms have spent years testing artificial intelligence in small projects, often limited to data analysis or customer support tools. The next phase appears to involve something more operational: systems that can take action in business workflows. Canadian insurer Manulife is moving in that direction as it works to deploy agent-based AI systems inside [&#8230;]</p>
+<p>The post <a href="https://www.artificialintelligence-news.com/news/manulife-moves-ai-agents-into-core-financial-workflows/">Manulife moves AI agents into core financial workflows</a> appeared first on <a href="https://www.artificialintelligence-news.com">AI News</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p>Large financial firms have spent years testing artificial intelligence in small projects, often limited to data analysis or customer support tools. The next phase appears to involve something more operational: systems that can take action in business workflows. Canadian insurer Manulife is moving in that direction as it works to deploy agent-based AI systems inside its internal operations.</p>
+<p>The company is building these abilities with a runtime platform designed to support agentic AI, the type of system that can carry out tasks in different software tools and datasets. Manulife said the effort is part of a broader plan to automate high-volume work and assist internal decision making in the business.</p>
+<p>In a company statement announcing the project, the company said it expects artificial intelligence initiatives to generate more than US$1 billion in value by 2027 through productivity gains and workflow automation. The insurer has been investing in AI for several years, but the current push focuses on integrating the technology more deeply into day-to-day operations. Manulife has already been expanding its internal use of generative AI tools. The company said it currently has more than 35 generative AI use cases in production and plans to expand that number to about 70 in the coming years. It also reported that around 75% of its global workforce already uses generative AI tools in some form, according to company disclosures.</p>
+<h3>Moving AI to operations</h3>
+<p>Insurance companies handle large amounts of structured data. Policy information, claims records, underwriting assessments, and financial reports often move through several systems and teams before a decision is made. These processes create an environment where automation tools can assist with tasks like document review and internal reporting. Manulife said its new platform will allow teams to deploy AI agents that can interact with internal systems and data. Instead of responding to a single prompt like a chatbot, these agents are designed to complete sequences of tasks in different software tools and workflows.</p>
+<p>For example, an AI agent might collect data from several internal systems and prepare summaries for employees who are reviewing cases or preparing reports. The goal is to reduce the time staff spend gathering information before making a decision.</p>
+<p>Over the past two years, many companies experimented with generative AI tools for tasks like writing, coding, or summarising documents. Analysts say the next challenge is turning those abilities into systems that can support operational work in large organisations.</p>
+<p>A report from McKinsey&#8217;s 2024 Global AI Survey found that about 65% of organisations say they now use generative AI in at least one business function, up from about one-third in the previous year. However, the same research notes that only a small portion of those deployments have reached full production in large parts of the business, with many still remaining limited to pilot projects or specific teams.</p>
+<h3>AI inside regulated financial systems</h3>
+<p>Financial institutions face extra hurdles when they try to move AI into production. The sector operates under strict regulatory oversight, which requires strong controls around data use and decision transparency. Systems used for underwriting, risk analysis, or investment decisions must be auditable and explainable. That environment makes governance and monitoring central to any AI deployment. A study from Deloitte on AI in financial services notes that banks and insurers are increasing investment in model oversight tools, internal AI policies, and risk review processes as they expand automation. Organisations are trying to balance efficiency gains with regulatory expectations around accountability and fairness.</p>
+<p>Manulife said the platform includes governance and security controls intended to manage how AI agents interact with internal systems. The controls help track how decisions are produced, monitor how data is used, and ensure the systems operate in company policies. Such safeguards are important in insurance, where automated systems often support processes tied to claims management and regulatory reporting.</p>
+<h3>The case for AI agents</h3>
+<p>The appeal of AI agents lies in their ability to reduce manual work in large administrative operations. Claims processing, policy management, internal reporting, and customer support involve repetitive tasks that require staff to gather data from different sources. AI systems that can collect and organise information in systems may allow employees to focus elsewhere.</p>
+<p>Other financial firms are exploring similar approaches. Banks in the US and Europe have begun testing AI agents for fraud detection and internal research tasks. In many cases, the goal is to assist employees with time-consuming analysis or data collection.</p>
+<p>Research from Accenture&#8217;s Banking Technology Vision report suggests that AI-driven automation could help financial institutions reduce operational costs by up to 30% over time, depending on the processes involved. Much of the benefit comes from speeding up routine tasks and improving the accuracy of data handling. The move from pilots to operational systems carries risks. AI models can produce errors, and automated workflows can amplify mistakes if they are not monitored. That risk is one reason many financial firms are adopting gradual rollout strategies, starting with internal tools before expanding to customer-facing systems.</p>
+<p>Manulife&#8217;s plan to deploy agent-based AI in its operations shows how large enterprises are testing the next stage of enterprise AI adoption. The important question will be whether these systems can deliver reliable results while meeting regulatory expectations. If they can, AI agents may become a regular part of financial operations, handling routine work that once required large teams of staff.</p>
+<p>As companies push beyond early experiments the focus is on making technology work inside the everyday systems that run large organisations.</p>
+<p><em>(Photo by <a href="https://unsplash.com/@joshuakhor">Joshua</a>)</em></p>
+<p><strong>See also: <a href="https://www.artificialintelligence-news.com/news/agentic-ai-in-finance-speeds-up-operational-automation/">Agentic AI in finance speeds up operational automation</a></strong></p>
+<p><strong>Want to learn more about AI and big data from industry leaders?</strong> Check out<a href="https://www.ai-expo.net/"> AI &amp; Big Data Expo</a> taking place in Amsterdam, California, and London. The comprehensive event is part of <a href="https://techexevent.com/">TechEx</a> and is co-located with other leading technology events, click<a href="https://techexevent.com/"> here</a> for more information.</p>
+<p>AI News is powered by <a href="https://techforge.pub/">TechForge Media</a>. Explore other upcoming enterprise technology events and webinars <a href="https://techforge.pub/events/">here</a>.</p>
+<p>The post <a href="https://www.artificialintelligence-news.com/news/manulife-moves-ai-agents-into-core-financial-workflows/">Manulife moves AI agents into core financial workflows</a> appeared first on <a href="https://www.artificialintelligence-news.com">AI News</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>

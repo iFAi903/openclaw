@@ -21,8 +21,15 @@
         "IDENTITY.md",
         "TOOLS.md"
       ],
+      "contextPruning": {
+        "mode": "cache-ttl",
+        "ttl": "115m"
+      },
       "compaction": {
         "mode": "safeguard"
+      },
+      "heartbeat": {
+        "every": "2h"
       }
     }
   },
@@ -32,7 +39,7 @@
     "bind": "loopback",
     "auth": {
       "mode": "token",
-      "token": "copy-agent-token-2026"
+      "token": "d994033b42daa67a3b437f6bfe436d041d95729718de260b"
     }
   },
   "channels": {

@@ -1,0 +1,39 @@
+{
+  "ts": 1773762000970,
+  "summary": {
+    "critical": 0,
+    "warn": 3,
+    "info": 1
+  },
+  "findings": [
+    {
+      "checkId": "summary.attack_surface",
+      "severity": "info",
+      "title": "Attack surface summary",
+      "detail": "groups: open=0, allowlist=3\ntools.elevated: disabled\nhooks.webhooks: disabled\nhooks.internal: disabled\nbrowser control: enabled\ntrust model: personal assistant (one trusted operator boundary), not hostile multi-tenant on one shared gateway"
+    },
+    {
+      "checkId": "channels.feishu.doc_owner_open_id",
+      "severity": "warn",
+      "title": "Feishu doc create can grant requester permissions",
+      "detail": "channels.feishu tools include \"doc\"; feishu_doc action \"create\" can grant document access to the trusted requesting Feishu user.",
+      "remediation": "Disable channels.feishu.tools.doc when not needed, and restrict tool access for untrusted prompts."
+    },
+    {
+      "checkId": "models.weak_tier",
+      "severity": "warn",
+      "title": "Some configured models are below recommended tiers",
+      "detail": "Smaller/older models are generally more susceptible to prompt injection and tool misuse.\n- anthropic/claude-haiku-4-5 (Haiku tier (smaller model)) @ agents.defaults.model.fallbacks",
+      "remediation": "Use the latest, top-tier model for any bot with tools or untrusted inboxes. Avoid Haiku tiers; prefer GPT-5+ and Claude 4.5+."
+    },
+    {
+      "checkId": "plugins.tools_reachable_permissive_policy",
+      "severity": "warn",
+      "title": "Extension plugin tools may be reachable under permissive tool policy",
+      "detail": "Enabled extension plugins: feishu.\nPermissive tool policy contexts:\n- default\n- agents.list.main\n- agents.list.copy-agent\n- agents.list.product-agent\n- agents.list.cfo-agent",
+      "remediation": "Use restrictive profiles (`minimal`/`coding`) or explicit tool allowlists that exclude plugin tools for agents handling untrusted input."
+    }
+  ],
+  "audit_timestamp": "2026-03-17T23:08:00+08:00",
+  "audited_by": "CTO-SecurityAudit"
+}

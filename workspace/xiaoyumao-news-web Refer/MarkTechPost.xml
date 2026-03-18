@@ -1,0 +1,2012 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	 xmlns:media="http://search.yahoo.com/mrss/" >
+
+<channel>
+	<title>MarkTechPost</title>
+	<atom:link href="https://www.marktechpost.com/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.marktechpost.com/</link>
+	<description>An Artificial Intelligence News Platform</description>
+	<lastBuildDate>Tue, 17 Mar 2026 22:35:01 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.9.4</generator>
+
+<image>
+	<url>https://www.marktechpost.com/wp-content/uploads/2022/04/cropped-Favicon-512-x-512-1-1-32x32.png</url>
+	<title>MarkTechPost</title>
+	<link>https://www.marktechpost.com/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+<site xmlns="com-wordpress:feed-additions:1">127842392</site>	<item>
+		<title>Unsloth AI Releases Unsloth Studio: A Local No-Code Interface For High-Performance LLM Fine-Tuning With 70% Less VRAM Usage</title>
+		<link>https://www.marktechpost.com/2026/03/17/unsloth-ai-releases-studio-a-local-no-code-interface-for-high-performance-llm-fine-tuning-with-70-less-vram-usage/</link>
+					<comments>https://www.marktechpost.com/2026/03/17/unsloth-ai-releases-studio-a-local-no-code-interface-for-high-performance-llm-fine-tuning-with-70-less-vram-usage/#respond</comments>
+		
+		<dc:creator><![CDATA[Asif Razzaq]]></dc:creator>
+		<pubDate>Tue, 17 Mar 2026 22:32:48 +0000</pubDate>
+				<category><![CDATA[Agentic AI]]></category>
+		<category><![CDATA[AI Infrastructure]]></category>
+		<category><![CDATA[AI Shorts]]></category>
+		<category><![CDATA[Applications]]></category>
+		<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[Editors Pick]]></category>
+		<category><![CDATA[New Releases]]></category>
+		<category><![CDATA[Open Source]]></category>
+		<category><![CDATA[Staff]]></category>
+		<category><![CDATA[Technology]]></category>
+		<guid isPermaLink="false">https://www.marktechpost.com/?p=78418</guid>
+
+					<description><![CDATA[<p>The transition from a raw dataset to a fine-tuned Large Language Model (LLM) traditionally involves significant infrastructure overhead, including CUDA environment management and high VRAM requirements. Unsloth AI, known for its high-performance training library, has released Unsloth Studio to address these friction points. The Studio is an open-source, no-code local interface designed to streamline the [&#8230;]</p>
+<p>The post <a href="https://www.marktechpost.com/2026/03/17/unsloth-ai-releases-studio-a-local-no-code-interface-for-high-performance-llm-fine-tuning-with-70-less-vram-usage/">Unsloth AI Releases Unsloth Studio: A Local No-Code Interface For High-Performance LLM Fine-Tuning With 70% Less VRAM Usage</a> appeared first on <a href="https://www.marktechpost.com">MarkTechPost</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<p>The transition from a raw dataset to a fine-tuned Large Language Model (LLM) traditionally involves significant infrastructure overhead, including CUDA environment management and high VRAM requirements. Unsloth AI, known for its high-performance training library, has released <strong>Unsloth Studio</strong> to address these friction points. The Studio is an open-source, no-code local interface designed to streamline the fine-tuning lifecycle for software engineers and AI professionals.</p>
+
+
+
+<p>By moving beyond a standard Python library into a local Web UI environment, Unsloth allows AI devs to manage data preparation, training, and deployment within a single, optimized interface.</p>
+
+
+
+<h3 class="wp-block-heading" id="h-technical-foundations-triton-kernels-and-memory-efficiency"><strong>Technical Foundations: Triton Kernels and Memory Efficiency</strong></h3>
+
+
+
+<p>At the core of Unsloth Studio are hand-written backpropagation kernels authored in OpenAI’s <strong>Triton</strong> language. Standard training frameworks often rely on generic CUDA kernels that are not optimized for specific LLM architectures. Unsloth’s specialized kernels allow for <strong>2x faster training speeds</strong> and a <strong>70% reduction in VRAM usage</strong> without compromising model accuracy.</p>
+
+
+
+<p>For devs working on consumer-grade hardware or mid-tier workstation GPUs (such as the RTX 4090 or 5090 series), these optimizations are critical. They enable the fine-tuning of 8B and 70B parameter models—like <strong>Llama 3.1</strong>, <strong>Llama 3.3</strong>, and <strong>DeepSeek-R1</strong>—on a single GPU that would otherwise require multi-GPU clusters.</p>
+
+
+
+<p>The Studio supports <strong>4-bit and 8-bit quantization</strong> through Parameter-Efficient Fine-Tuning (PEFT) techniques, specifically <strong>LoRA (Low-Rank Adaptation)</strong> and <strong>QLoRA</strong>. These methods freeze the majority of the model weights and only train a small percentage of external parameters, significantly lowering the computational barrier to entry.</p>
+
+
+
+<h3 class="wp-block-heading" id="h-streamlining-the-data-to-model-pipeline"><strong>Streamlining the Data-to-Model Pipeline</strong></h3>
+
+
+
+<p>One of the most labor-intensive aspects of AI engineering is dataset curation. Unsloth Studio introduces a feature called <strong>Data Recipes</strong>, which utilizes a visual, node-based workflow to handle data ingestion and transformation.</p>
+
+
+
+<ul class="wp-block-list">
+<li><strong>Multimodal Ingestion:</strong> The Studio allows users to upload raw files, including <strong>PDFs, DOCX, JSONL, and CSV</strong>.</li>
+
+
+
+<li><strong>Synthetic Data Generation:</strong> Leveraging NVIDIA’s <strong>DataDesigner</strong>, the Studio can transform unstructured documents into structured instruction-following datasets.</li>
+
+
+
+<li><strong>Formatting Automation:</strong> It automatically converts data into standard formats such as <strong>ChatML</strong> or <strong>Alpaca</strong>, ensuring the model architecture receives the correct input tokens and special characters during training.</li>
+</ul>
+
+
+
+<p>This automated pipeline reduces the &#8216;Day Zero&#8217; setup time, allowing AI devs and data scientists to focus on data quality rather than the boilerplate code required to format it.</p>
+
+
+
+<h3 class="wp-block-heading" id="h-managed-training-and-advanced-reinforcement-learning"><strong>Managed Training and Advanced Reinforcement Learning</strong></h3>
+
+
+
+<p>The Studio provides a unified interface for the training loop, offering real-time monitoring of loss curves and system metrics. Beyond standard Supervised Fine-Tuning (SFT), Unsloth Studio has integrated support for <strong>GRPO (Group Relative Policy Optimization)</strong>.</p>
+
+
+
+<p>GRPO is a reinforcement learning technique that gained prominence with the <strong>DeepSeek-R1</strong> reasoning models. Unlike traditional PPO (Proximal Policy Optimization), which requires a separate &#8216;Critic&#8217; model that consumes significant VRAM, GRPO calculates rewards relative to a group of outputs. This makes it feasible for devs to train &#8216;Reasoning AI&#8217; models—capable of multi-step logic and mathematical proof—on local hardware.</p>
+
+
+
+<p>The Studio supports the latest model architectures as of early 2026, including the <strong>Llama 4</strong> series and <strong>Qwen 2.5/3.5</strong>, ensuring compatibility with state-of-the-art open weights.</p>
+
+
+
+<figure class="wp-block-video"><video height="1440" style="aspect-ratio: 1920 / 1440;" width="1920" controls src="https://www.marktechpost.com/wp-content/uploads/2026/03/dB1QODyARY5F_Ne9.mp4"></video></figure>
+
+
+
+<h3 class="wp-block-heading" id="h-deployment-one-click-export-and-local-inference"><strong>Deployment: One-Click Export and Local Inference</strong></h3>
+
+
+
+<p>A common bottleneck in the AI development cycle is the &#8216;Export Gap&#8217;—the difficulty of moving a trained model from a training checkpoint into a production-ready inference engine. Unsloth Studio automates this by providing one-click exports to several industry-standard formats:</p>
+
+
+
+<ul class="wp-block-list">
+<li><strong>GGUF:</strong> Optimized for local CPU/GPU inference on consumer hardware.</li>
+
+
+
+<li><strong>vLLM:</strong> Designed for high-throughput serving in production environments.</li>
+
+
+
+<li><strong>Ollama:</strong> Allows for immediate local testing and interaction within the Ollama ecosystem.</li>
+</ul>
+
+
+
+<p>By handling the conversion of LoRA adapters and merging them into the base model weights, the Studio ensures that the transition from training to local deployment is mathematically consistent and functionally simple.</p>
+
+
+
+<h3 class="wp-block-heading" id="h-conclusion-a-local-first-approach-to-ai-development"><strong>Conclusion: A Local-First Approach to AI Development</strong></h3>
+
+
+
+<p>Unsloth Studio represents a shift toward a &#8216;local-first&#8217; development philosophy. By providing an open-source, no-code interface that runs on Windows and Linux, it removes the dependency on expensive, managed cloud SaaS platforms for the initial stages of model development.</p>
+
+
+
+<p>The Studio serves as a bridge between high-level prompting and low-level kernel optimization. It provides the tools necessary to own the model weights and customize LLMs for specific enterprise use cases while maintaining the performance advantages of the Unsloth library.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p id="p-rc_d48437497689081f-76">Check out <strong><a href="https://unsloth.ai/docs/new/studio" target="_blank" rel="noreferrer noopener">Technical details</a>. </strong>Also, feel free to follow us on <strong><a href="https://x.com/intent/follow?screen_name=marktechpost" target="_blank" rel="noreferrer noopener"><mark>Twitter</mark></a></strong> and don’t forget to join our <strong><a href="https://www.reddit.com/r/machinelearningnews/" target="_blank" rel="noreferrer noopener">120k+ ML SubReddit</a></strong> and Subscribe to <strong><a href="https://www.aidevsignals.com/" target="_blank" rel="noreferrer noopener">our Newsletter</a></strong>. Wait! are you on telegram? <strong><a href="https://t.me/machinelearningresearchnews" target="_blank" rel="noreferrer noopener">now you can join us on telegram as well.</a></strong></p>
+<p>The post <a href="https://www.marktechpost.com/2026/03/17/unsloth-ai-releases-studio-a-local-no-code-interface-for-high-performance-llm-fine-tuning-with-70-less-vram-usage/">Unsloth AI Releases Unsloth Studio: A Local No-Code Interface For High-Performance LLM Fine-Tuning With 70% Less VRAM Usage</a> appeared first on <a href="https://www.marktechpost.com">MarkTechPost</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://www.marktechpost.com/2026/03/17/unsloth-ai-releases-studio-a-local-no-code-interface-for-high-performance-llm-fine-tuning-with-70-less-vram-usage/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		<enclosure url="https://www.marktechpost.com/wp-content/uploads/2026/03/dB1QODyARY5F_Ne9.mp4" length="7957585" type="video/mp4" />
+
+		<post-id xmlns="com-wordpress:feed-additions:1">78418</post-id>
+		<media:content url="" duration="46">
+			<media:player url="" />
+			<media:title type="html">Unsloth AI Releases Unsloth Studio: A Local No-Code Interface For High-Performance LLM Fine-Tuning With 70% Less VRAM Usage - MarkTechPost</media:title>
+			<media:description type="html">Unsloth AI Releases Unsloth Studio: A Local No-Code Interface For High-Performance LLM Fine-Tuning With 70% Less VRAM Usage</media:description>
+			<media:thumbnail url="https://www.marktechpost.com/wp-content/uploads/2026/03/blog-banner23-1-6.png" />
+			<media:keywords>Unsloth AI Releases Unsloth Studio</media:keywords>
+		</media:content>
+	</item>
+		<item>
+		<title>Google AI Releases WAXAL: A Multilingual African Speech Dataset for Training Automatic Speech Recognition and Text-to-Speech Models</title>
+		<link>https://www.marktechpost.com/2026/03/17/google-ai-releases-waxal-a-multilingual-african-speech-dataset-for-training-automatic-speech-recognition-and-text-to-speech-models/</link>
+					<comments>https://www.marktechpost.com/2026/03/17/google-ai-releases-waxal-a-multilingual-african-speech-dataset-for-training-automatic-speech-recognition-and-text-to-speech-models/#respond</comments>
+		
+		<dc:creator><![CDATA[Michal Sutter]]></dc:creator>
+		<pubDate>Tue, 17 Mar 2026 08:37:33 +0000</pubDate>
+				<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[Editors Pick]]></category>
+		<category><![CDATA[New Releases]]></category>
+		<category><![CDATA[Sound]]></category>
+		<category><![CDATA[Staff]]></category>
+		<category><![CDATA[Technology]]></category>
+		<category><![CDATA[Voice AI]]></category>
+		<guid isPermaLink="false">https://www.marktechpost.com/?p=78412</guid>
+
+					<description><![CDATA[<p>Speech technology still has a data distribution problem. Automatic Speech Recognition (ASR) and Text-to-Speech (TTS) systems have improved rapidly for high-resource languages, but many African languages remain poorly represented in open corpora. A team of researchers from Google and other collaborators introduce WAXAL, an open multilingual speech dataset for African languages covering 24 languages, with [&#8230;]</p>
+<p>The post <a href="https://www.marktechpost.com/2026/03/17/google-ai-releases-waxal-a-multilingual-african-speech-dataset-for-training-automatic-speech-recognition-and-text-to-speech-models/">Google AI Releases WAXAL: A Multilingual African Speech Dataset for Training Automatic Speech Recognition and Text-to-Speech Models</a> appeared first on <a href="https://www.marktechpost.com">MarkTechPost</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<p>Speech technology still has a data distribution problem. Automatic Speech Recognition (ASR) and Text-to-Speech (TTS) systems have improved rapidly for high-resource languages, but many African languages remain poorly represented in open corpora. A team of researchers from Google and other collaborators introduce <strong>WAXAL</strong>, an open multilingual speech dataset for African languages covering 24 languages, with an ASR component built from transcribed natural speech and a TTS component built from studio-quality single-speaker recordings.</p>
+
+
+
+<p>WAXAL is structured as two separate resources because ASR and TTS have different data requirements. The <strong>ASR side</strong> is designed around diverse speakers, natural environments, and spontaneous language production. The <strong>TTS side</strong> is designed around controlled recording conditions, phonetically balanced scripts, and cleaner single-speaker audio suited for synthesis. That separation is technically important: a dataset that is useful for robust recognition in noisy real-world settings is usually not the same dataset that produces strong single-speaker TTS models.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-full is-resized"><img fetchpriority="high" decoding="async" width="1550" height="1190" data-attachment-id="78415" data-permalink="https://www.marktechpost.com/2026/03/17/google-ai-releases-waxal-a-multilingual-african-speech-dataset-for-training-automatic-speech-recognition-and-text-to-speech-models/screenshot-2026-03-17-at-1-37-10-am-2/" data-orig-file="https://www.marktechpost.com/wp-content/uploads/2026/03/Screenshot-2026-03-17-at-1.37.10-AM-1.png" data-orig-size="1550,1190" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Screenshot 2026-03-17 at 1.37.10 AM" data-image-description="" data-image-caption="" data-medium-file="https://www.marktechpost.com/wp-content/uploads/2026/03/Screenshot-2026-03-17-at-1.37.10-AM-1-300x230.png" data-large-file="https://www.marktechpost.com/wp-content/uploads/2026/03/Screenshot-2026-03-17-at-1.37.10-AM-1-1024x786.png" src="https://www.marktechpost.com/wp-content/uploads/2026/03/Screenshot-2026-03-17-at-1.37.10-AM-1.png" alt="" class="wp-image-78415" style="aspect-ratio:1.3025383032243312;width:770px;height:auto" srcset="https://www.marktechpost.com/wp-content/uploads/2026/03/Screenshot-2026-03-17-at-1.37.10-AM-1.png 1550w, https://www.marktechpost.com/wp-content/uploads/2026/03/Screenshot-2026-03-17-at-1.37.10-AM-1-300x230.png 300w, https://www.marktechpost.com/wp-content/uploads/2026/03/Screenshot-2026-03-17-at-1.37.10-AM-1-1024x786.png 1024w, https://www.marktechpost.com/wp-content/uploads/2026/03/Screenshot-2026-03-17-at-1.37.10-AM-1-768x590.png 768w, https://www.marktechpost.com/wp-content/uploads/2026/03/Screenshot-2026-03-17-at-1.37.10-AM-1-1536x1179.png 1536w, https://www.marktechpost.com/wp-content/uploads/2026/03/Screenshot-2026-03-17-at-1.37.10-AM-1-547x420.png 547w, https://www.marktechpost.com/wp-content/uploads/2026/03/Screenshot-2026-03-17-at-1.37.10-AM-1-80x60.png 80w, https://www.marktechpost.com/wp-content/uploads/2026/03/Screenshot-2026-03-17-at-1.37.10-AM-1-150x115.png 150w, https://www.marktechpost.com/wp-content/uploads/2026/03/Screenshot-2026-03-17-at-1.37.10-AM-1-696x534.png 696w, https://www.marktechpost.com/wp-content/uploads/2026/03/Screenshot-2026-03-17-at-1.37.10-AM-1-1068x820.png 1068w, https://www.marktechpost.com/wp-content/uploads/2026/03/Screenshot-2026-03-17-at-1.37.10-AM-1-600x461.png 600w" sizes="(max-width: 1550px) 100vw, 1550px" /><figcaption class="wp-element-caption">https://arxiv.org/pdf/2602.02734</figcaption></figure>
+</div>
+
+
+<h3 class="wp-block-heading" id="h-how-the-asr-data-was-collected"><strong>How the ASR data was collected</strong></h3>
+
+
+
+<p>The ASR portion of WAXAL was collected using image-prompted speech. Speakers were shown images and asked to describe what they saw in their native language, which is a more natural setup than simple prompted reading. Recordings were captured in speakers’ natural environments, each with a minimum duration of 15 seconds. The collection process also tracked metadata such as speaker age, gender, language, and recording environment. Only a subset of the full collected audio was transcribed: the research team states that the current ASR release includes transcriptions for about 10% of the total recorded audio. Those transcriptions were produced by paid local linguistic experts, using local scripts where available and English-alphabet transliteration otherwise.</p>
+
+
+
+<p>This is important for anyone building multilingual ASR systems. Image-prompted speech tends to capture more natural lexical and syntactic variation than tightly scripted reading, but it also makes transcription harder and increases variation across speakers, domains, and acoustic conditions. WAXAL leans into that tradeoff rather than avoiding it. The result is not a perfectly clean benchmark dataset; it is closer to a field-collected multilingual ASR data with real variability baked in.</p>
+
+
+
+<h3 class="wp-block-heading" id="h-how-the-tts-data-was-collected"><strong>How the TTS data was collected</strong></h3>
+
+
+
+<p>The TTS side of WAXAL was built very differently. The TTS dataset was designed for high-quality, single-speaker synthetic voices. For each target language, the research team created a phonetically balanced script of approximately 108,500 words. They contracted 72 community participants, evenly split between male and female voice actors, and recorded them in professional studio-like environments to reduce background noise and preserve audio fidelity. The target was approximately 16 hours of clean edited audio per voice actor.</p>
+
+
+
+<p>This is the right design choice for synthesis. TTS models care much more about consistency in pronunciation, recording conditions, microphone quality, and speaker identity than ASR systems do. WAXAL therefore avoids the common mistake of treating &#8216;speech data&#8217; as a single category, when in practice ASR and TTS pipelines want very different supervision signals.</p>
+
+
+
+<h3 class="wp-block-heading" id="h-key-takeaways"><strong>Key Takeaways</strong></h3>
+
+
+
+<ul class="wp-block-list">
+<li>WAXAL is an open multilingual speech corpus built for low-resource African language ASR and TTS.</li>
+
+
+
+<li>The ASR data uses image-prompted, natural speech collected in real-world environments.</li>
+
+
+
+<li>The TTS data uses studio-quality, single-speaker recordings with phonetically balanced scripts.</li>
+</ul>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p id="p-rc_d48437497689081f-76">Check out <strong><a href="https://arxiv.org/pdf/2602.02734" target="_blank" rel="noreferrer noopener">Paper</a> </strong>and<strong> <a href="https://huggingface.co/datasets/google/WaxalNLP" target="_blank" rel="noreferrer noopener">Dataset here</a>. </strong>Also, feel free to follow us on <strong><a href="https://x.com/intent/follow?screen_name=marktechpost" target="_blank" rel="noreferrer noopener"><mark>Twitter</mark></a></strong> and don’t forget to join our <strong><a href="https://www.reddit.com/r/machinelearningnews/" target="_blank" rel="noreferrer noopener">120k+ ML SubReddit</a></strong> and Subscribe to <strong><a href="https://www.aidevsignals.com/" target="_blank" rel="noreferrer noopener">our Newsletter</a></strong>. Wait! are you on telegram? <strong><a href="https://t.me/machinelearningresearchnews" target="_blank" rel="noreferrer noopener">now you can join us on telegram as well.</a></strong></p>
+<p>The post <a href="https://www.marktechpost.com/2026/03/17/google-ai-releases-waxal-a-multilingual-african-speech-dataset-for-training-automatic-speech-recognition-and-text-to-speech-models/">Google AI Releases WAXAL: A Multilingual African Speech Dataset for Training Automatic Speech Recognition and Text-to-Speech Models</a> appeared first on <a href="https://www.marktechpost.com">MarkTechPost</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://www.marktechpost.com/2026/03/17/google-ai-releases-waxal-a-multilingual-african-speech-dataset-for-training-automatic-speech-recognition-and-text-to-speech-models/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">78412</post-id>
+		<media:thumbnail url="https://www.marktechpost.com/wp-content/uploads/2026/03/Screenshot-2026-03-17-at-1.37.10-AM-1-150x150.png" />
+		<media:content url="https://www.marktechpost.com/wp-content/uploads/2026/03/Screenshot-2026-03-17-at-1.37.10-AM-1.png" medium="image">
+			<media:title type="html">Screenshot 2026-03-17 at 1.37.10 AM</media:title>
+			<media:thumbnail url="https://www.marktechpost.com/wp-content/uploads/2026/03/Screenshot-2026-03-17-at-1.37.10-AM-1-150x150.png" />
+		</media:content>
+	</item>
+		<item>
+		<title>How to Build High-Performance GPU-Accelerated Simulations and Differentiable Physics Workflows Using NVIDIA Warp Kernels</title>
+		<link>https://www.marktechpost.com/2026/03/16/how-to-build-high-performance-gpu-accelerated-simulations-and-differentiable-physics-workflows-using-nvidia-warp-kernels/</link>
+					<comments>https://www.marktechpost.com/2026/03/16/how-to-build-high-performance-gpu-accelerated-simulations-and-differentiable-physics-workflows-using-nvidia-warp-kernels/#respond</comments>
+		
+		<dc:creator><![CDATA[Asif Razzaq]]></dc:creator>
+		<pubDate>Tue, 17 Mar 2026 04:42:00 +0000</pubDate>
+				<category><![CDATA[Agentic AI]]></category>
+		<category><![CDATA[AI Infrastructure]]></category>
+		<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[Editors Pick]]></category>
+		<category><![CDATA[Staff]]></category>
+		<category><![CDATA[Technology]]></category>
+		<category><![CDATA[Tutorials]]></category>
+		<guid isPermaLink="false">https://www.marktechpost.com/?p=78409</guid>
+
+					<description><![CDATA[<p>In this tutorial, we explore how to use NVIDIA Warp to build high-performance GPU and CPU simulations directly from Python. We begin by setting up a Colab-compatible environment and initializing Warp so that our kernels can run on either CUDA GPUs or CPUs, depending on availability. We then implement several custom Warp kernels that demonstrate [&#8230;]</p>
+<p>The post <a href="https://www.marktechpost.com/2026/03/16/how-to-build-high-performance-gpu-accelerated-simulations-and-differentiable-physics-workflows-using-nvidia-warp-kernels/">How to Build High-Performance GPU-Accelerated Simulations and Differentiable Physics Workflows Using NVIDIA Warp Kernels</a> appeared first on <a href="https://www.marktechpost.com">MarkTechPost</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<p>In this tutorial, we explore how to use <a href="https://github.com/NVIDIA/warp"><strong>NVIDIA Warp</strong></a><strong> </strong>to build high-performance GPU and CPU simulations directly from Python. We begin by setting up a Colab-compatible environment and initializing Warp so that our kernels can run on either CUDA GPUs or CPUs, depending on availability. We then implement several custom Warp kernels that demonstrate core parallel computing concepts, including vector operations, procedural field generation, particle dynamics, and differentiable physics. By launching these kernels across thousands or millions of threads, we observe how Warp enables efficient scientific computing and simulation workflows using a simple Python interface. Throughout the tutorial, we build a complete pipeline that spans from basic kernel execution to advanced simulation and optimization. Check out <strong><a href="https://github.com/Marktechpost/AI-Tutorial-Codes-Included/blob/main/Scientific%20Computing/nvidia_warp_gpu_simulation_and_differentiable_physics_Marktechpost.ipynb" target="_blank" rel="noreferrer noopener">Full Codes and Notebook</a>.</strong></p>
+
+
+
+<div class="dm-code-snippet dark dm-normal-version default no-background-mobile" snippet-height="" style="background-color:#abb8c3"><div class="control-language"><div class="dm-buttons"><div class="dm-buttons-left"><div class="dm-button-snippet red-button"></div><div class="dm-button-snippet orange-button"></div><div class="dm-button-snippet green-button"></div></div><div class="dm-buttons-right"><a id="dm-copy-raw-code"><span class="dm-copy-text">Copy Code</span><span class="dm-copy-confirmed" style="display:none">Copied</span><span class="dm-error-message" style="display:none">Use a different Browser</span></a></div></div><pre class=" no-line-numbers"><code id="dm-code-raw" class=" no-wrap language-php">import sys
+import subprocess
+import pkgutil
+
+
+def _install_if_missing(packages):
+   missing = [p for p in packages if pkgutil.find_loader(p["import_name"]) is None]
+   if missing:
+       subprocess.check_call([sys.executable, "-m", "pip", "install", "-q"] + [p["pip_name"] for p in missing])
+
+
+_install_if_missing([
+   {"import_name": "warp", "pip_name": "warp-lang"},
+   {"import_name": "numpy", "pip_name": "numpy"},
+   {"import_name": "matplotlib", "pip_name": "matplotlib"},
+])
+
+
+import math
+import time
+import numpy as np
+import matplotlib.pyplot as plt
+import warp as wp
+
+
+wp.init()
+
+
+device = "cuda:0" if wp.is_cuda_available() else "cpu"
+print(f"Using Warp device: {device}")
+
+
+@wp.kernel
+def saxpy_kernel(a: wp.float32, x: wp.array(dtype=wp.float32), y: wp.array(dtype=wp.float32), out: wp.array(dtype=wp.float32)):
+   i = wp.tid()
+   out[i] = a * x[i] + y[i]
+
+
+@wp.kernel
+def image_sdf_kernel(width: int, height: int, pixels: wp.array(dtype=wp.float32)):
+   tid = wp.tid()
+   x = tid % width
+   y = tid // width
+   fx = 2.0 * (wp.float32(x) / wp.float32(width - 1)) - 1.0
+   fy = 2.0 * (wp.float32(y) / wp.float32(height - 1)) - 1.0
+   r1 = wp.sqrt((fx + 0.35) * (fx + 0.35) + fy * fy) - 0.28
+   r2 = wp.sqrt((fx - 0.25) * (fx - 0.25) + (fy - 0.15) * (fy - 0.15)) - 0.18
+   wave = fy + 0.25 * wp.sin(8.0 * fx)
+   d = wp.min(r1, r2)
+   d = wp.max(d, -wave)
+   value = wp.exp(-18.0 * wp.abs(d))
+   pixels[tid] = value</code></pre></div></div>
+
+
+
+<p>We set up the environment and ensure that all required libraries, such as Warp, NumPy, and Matplotlib, are installed. We initialize Warp and check whether a CUDA GPU is available, so our computations can run on the appropriate device. We also define the first Warp kernels, including a SAXPY vector operation and a procedural signed-distance field generator that demonstrates parallel kernel execution. Check out <strong><a href="https://github.com/Marktechpost/AI-Tutorial-Codes-Included/blob/main/Scientific%20Computing/nvidia_warp_gpu_simulation_and_differentiable_physics_Marktechpost.ipynb" target="_blank" rel="noreferrer noopener">Full Codes and Notebook</a>.</strong></p>
+
+
+
+<div class="dm-code-snippet dark dm-normal-version default no-background-mobile" snippet-height="" style="background-color:#abb8c3"><div class="control-language"><div class="dm-buttons"><div class="dm-buttons-left"><div class="dm-button-snippet red-button"></div><div class="dm-button-snippet orange-button"></div><div class="dm-button-snippet green-button"></div></div><div class="dm-buttons-right"><a id="dm-copy-raw-code"><span class="dm-copy-text">Copy Code</span><span class="dm-copy-confirmed" style="display:none">Copied</span><span class="dm-error-message" style="display:none">Use a different Browser</span></a></div></div><pre class=" no-line-numbers"><code id="dm-code-raw" class=" no-wrap language-php">@wp.kernel
+def init_particles_kernel(
+   n_particles: int,
+   px0: wp.array(dtype=wp.float32),
+   py0: wp.array(dtype=wp.float32),
+   vx0: wp.array(dtype=wp.float32),
+   vy0: wp.array(dtype=wp.float32),
+   px: wp.array(dtype=wp.float32),
+   py: wp.array(dtype=wp.float32),
+   vx: wp.array(dtype=wp.float32),
+   vy: wp.array(dtype=wp.float32),
+):
+   p = wp.tid()
+   px[p] = px0[p]
+   py[p] = py0[p]
+   vx[p] = vx0[p]
+   vy[p] = vy0[p]
+
+
+@wp.kernel
+def simulate_particles_kernel(
+   n_particles: int,
+   dt: wp.float32,
+   gravity: wp.float32,
+   damping: wp.float32,
+   bounce: wp.float32,
+   radius: wp.float32,
+   px: wp.array(dtype=wp.float32),
+   py: wp.array(dtype=wp.float32),
+   vx: wp.array(dtype=wp.float32),
+   vy: wp.array(dtype=wp.float32),
+):
+   tid = wp.tid()
+   s = tid // n_particles
+   p = tid % n_particles
+   i0 = s * n_particles + p
+   i1 = (s + 1) * n_particles + p
+   x = px[i0]
+   y = py[i0]
+   u = vx[i0]
+   v = vy[i0]
+   v = v + gravity * dt
+   x = x + u * dt
+   y = y + v * dt
+   if y &lt; radius:
+       y = radius
+       v = -bounce * v
+       u = damping * u
+   if x &lt; -1.0 + radius:
+       x = -1.0 + radius
+       u = -bounce * u
+   if x > 1.0 - radius:
+       x = 1.0 - radius
+       u = -bounce * u
+   px[i1] = x
+   py[i1] = y
+   vx[i1] = u
+   vy[i1] = v</code></pre></div></div>
+
+
+
+<p>We implement kernels responsible for initializing and simulating particle motion. We create a kernel that copies initial particle positions and velocities into the simulation state arrays. We then implement the particle simulation kernel that updates positions and velocities over time while applying gravity, damping, and boundary collision behavior. Check out <strong><a href="https://github.com/Marktechpost/AI-Tutorial-Codes-Included/blob/main/Scientific%20Computing/nvidia_warp_gpu_simulation_and_differentiable_physics_Marktechpost.ipynb" target="_blank" rel="noreferrer noopener">Full Codes and Notebook</a>.</strong></p>
+
+
+
+<div class="dm-code-snippet dark dm-normal-version default no-background-mobile" snippet-height="" style="background-color:#abb8c3"><div class="control-language"><div class="dm-buttons"><div class="dm-buttons-left"><div class="dm-button-snippet red-button"></div><div class="dm-button-snippet orange-button"></div><div class="dm-button-snippet green-button"></div></div><div class="dm-buttons-right"><a id="dm-copy-raw-code"><span class="dm-copy-text">Copy Code</span><span class="dm-copy-confirmed" style="display:none">Copied</span><span class="dm-error-message" style="display:none">Use a different Browser</span></a></div></div><pre class=" no-line-numbers"><code id="dm-code-raw" class=" no-wrap language-php">@wp.kernel
+def init_projectile_kernel(
+   x_hist: wp.array(dtype=wp.float32),
+   y_hist: wp.array(dtype=wp.float32),
+   vx_hist: wp.array(dtype=wp.float32),
+   vy_hist: wp.array(dtype=wp.float32),
+   init_vx: wp.array(dtype=wp.float32),
+   init_vy: wp.array(dtype=wp.float32),
+):
+   x_hist[0] = 0.0
+   y_hist[0] = 0.0
+   vx_hist[0] = init_vx[0]
+   vy_hist[0] = init_vy[0]
+
+
+@wp.kernel
+def projectile_step_kernel(
+   dt: wp.float32,
+   gravity: wp.float32,
+   x_hist: wp.array(dtype=wp.float32),
+   y_hist: wp.array(dtype=wp.float32),
+   vx_hist: wp.array(dtype=wp.float32),
+   vy_hist: wp.array(dtype=wp.float32),
+):
+   s = wp.tid()
+   x = x_hist[s]
+   y = y_hist[s]
+   vx = vx_hist[s]
+   vy = vy_hist[s]
+   vy = vy + gravity * dt
+   x = x + vx * dt
+   y = y + vy * dt
+   if y &lt; 0.0:
+       y = 0.0
+   x_hist[s + 1] = x
+   y_hist[s + 1] = y
+   vx_hist[s + 1] = vx
+   vy_hist[s + 1] = vy
+
+
+@wp.kernel
+def projectile_loss_kernel(
+   steps: int,
+   target_x: wp.float32,
+   target_y: wp.float32,
+   x_hist: wp.array(dtype=wp.float32),
+   y_hist: wp.array(dtype=wp.float32),
+   loss: wp.array(dtype=wp.float32),
+):
+   dx = x_hist[steps] - target_x
+   dy = y_hist[steps] - target_y
+   loss[0] = dx * dx + dy * dy</code></pre></div></div>
+
+
+
+<p>We define kernels for a differentiable projectile simulation. We initialize the projectile state and implement a time-stepping kernel that updates the trajectory under the influence of gravity. We also define a loss kernel that computes the squared distance between the final projectile position and a target point, which enables gradient-based optimization. Check out <strong><a href="https://github.com/Marktechpost/AI-Tutorial-Codes-Included/blob/main/Scientific%20Computing/nvidia_warp_gpu_simulation_and_differentiable_physics_Marktechpost.ipynb" target="_blank" rel="noreferrer noopener">Full Codes and Notebook</a>.</strong></p>
+
+
+
+<div class="dm-code-snippet dark dm-normal-version default no-background-mobile" snippet-height="" style="background-color:#abb8c3"><div class="control-language"><div class="dm-buttons"><div class="dm-buttons-left"><div class="dm-button-snippet red-button"></div><div class="dm-button-snippet orange-button"></div><div class="dm-button-snippet green-button"></div></div><div class="dm-buttons-right"><a id="dm-copy-raw-code"><span class="dm-copy-text">Copy Code</span><span class="dm-copy-confirmed" style="display:none">Copied</span><span class="dm-error-message" style="display:none">Use a different Browser</span></a></div></div><pre class=" no-line-numbers"><code id="dm-code-raw" class=" no-wrap language-php">n = 1_000_000
+a = np.float32(2.5)
+x_np = np.linspace(0.0, 1.0, n, dtype=np.float32)
+y_np = np.linspace(1.0, 2.0, n, dtype=np.float32)
+
+
+x_wp = wp.array(x_np, dtype=wp.float32, device=device)
+y_wp = wp.array(y_np, dtype=wp.float32, device=device)
+out_wp = wp.empty(n, dtype=wp.float32, device=device)
+
+
+t0 = time.time()
+wp.launch(kernel=saxpy_kernel, dim=n, inputs=[a, x_wp, y_wp], outputs=[out_wp], device=device)
+wp.synchronize()
+t1 = time.time()
+
+
+out_np = out_wp.numpy()
+expected = a * x_np + y_np
+max_err = np.max(np.abs(out_np - expected))
+print(f"SAXPY runtime: {t1 - t0:.4f}s, max error: {max_err:.6e}")
+
+
+width, height = 512, 512
+pixels_wp = wp.empty(width * height, dtype=wp.float32, device=device)
+wp.launch(kernel=image_sdf_kernel, dim=width * height, inputs=[width, height], outputs=[pixels_wp], device=device)
+wp.synchronize()
+img = pixels_wp.numpy().reshape(height, width)
+
+
+plt.figure(figsize=(6, 6))
+plt.imshow(img, origin="lower")
+plt.title(f"Warp procedural field on {device}")
+plt.axis("off")
+plt.show()
+
+
+n_particles = 256
+steps = 300
+dt = np.float32(0.01)
+gravity = np.float32(-9.8)
+damping = np.float32(0.985)
+bounce = np.float32(0.82)
+radius = np.float32(0.03)</code></pre></div></div>
+
+
+
+<p>We begin running the computational experiments using Warp kernels. We execute the SAXPY kernel across a large vector to demonstrate high-throughput parallel computation and verify numerical correctness. We also generate a procedural field image using the SDF kernel and visualize the result to observe how Warp kernels can produce structured numerical patterns. Check out <strong><a href="https://github.com/Marktechpost/AI-Tutorial-Codes-Included/blob/main/Scientific%20Computing/nvidia_warp_gpu_simulation_and_differentiable_physics_Marktechpost.ipynb" target="_blank" rel="noreferrer noopener">Full Codes and Notebook</a>.</strong></p>
+
+
+
+<div class="dm-code-snippet dark dm-normal-version default no-background-mobile" snippet-height="" style="background-color:#abb8c3"><div class="control-language"><div class="dm-buttons"><div class="dm-buttons-left"><div class="dm-button-snippet red-button"></div><div class="dm-button-snippet orange-button"></div><div class="dm-button-snippet green-button"></div></div><div class="dm-buttons-right"><a id="dm-copy-raw-code"><span class="dm-copy-text">Copy Code</span><span class="dm-copy-confirmed" style="display:none">Copied</span><span class="dm-error-message" style="display:none">Use a different Browser</span></a></div></div><pre class=" no-line-numbers"><code id="dm-code-raw" class=" no-wrap language-php">angles = np.linspace(0.0, 2.0 * np.pi, n_particles, endpoint=False, dtype=np.float32)
+px0_np = 0.4 * np.cos(angles).astype(np.float32)
+py0_np = (0.7 + 0.15 * np.sin(angles)).astype(np.float32)
+vx0_np = (-0.8 * np.sin(angles)).astype(np.float32)
+vy0_np = (0.8 * np.cos(angles)).astype(np.float32)
+
+
+px0_wp = wp.array(px0_np, dtype=wp.float32, device=device)
+py0_wp = wp.array(py0_np, dtype=wp.float32, device=device)
+vx0_wp = wp.array(vx0_np, dtype=wp.float32, device=device)
+vy0_wp = wp.array(vy0_np, dtype=wp.float32, device=device)
+
+
+state_size = (steps + 1) * n_particles
+px_wp = wp.empty(state_size, dtype=wp.float32, device=device)
+py_wp = wp.empty(state_size, dtype=wp.float32, device=device)
+vx_wp = wp.empty(state_size, dtype=wp.float32, device=device)
+vy_wp = wp.empty(state_size, dtype=wp.float32, device=device)
+
+
+wp.launch(
+   kernel=init_particles_kernel,
+   dim=n_particles,
+   inputs=[n_particles, px0_wp, py0_wp, vx0_wp, vy0_wp],
+   outputs=[px_wp, py_wp, vx_wp, vy_wp],
+   device=device,
+)
+
+
+wp.launch(
+   kernel=simulate_particles_kernel,
+   dim=steps * n_particles,
+   inputs=[n_particles, dt, gravity, damping, bounce, radius],
+   outputs=[px_wp, py_wp, vx_wp, vy_wp],
+   device=device,
+)
+wp.synchronize()
+
+
+px_traj = px_wp.numpy().reshape(steps + 1, n_particles)
+py_traj = py_wp.numpy().reshape(steps + 1, n_particles)
+
+
+sample_ids = np.linspace(0, n_particles - 1, 16, dtype=int)
+plt.figure(figsize=(8, 6))
+for idx in sample_ids:
+   plt.plot(px_traj[:, idx], py_traj[:, idx], linewidth=1.5)
+plt.axhline(radius, linestyle="--")
+plt.xlim(-1.05, 1.05)
+plt.ylim(0.0, 1.25)
+plt.title(f"Warp particle trajectories on {device}")
+plt.xlabel("x")
+plt.ylabel("y")
+plt.show()
+
+
+proj_steps = 180
+proj_dt = np.float32(0.025)
+proj_g = np.float32(-9.8)
+target_x = np.float32(3.8)
+target_y = np.float32(0.0)
+
+
+vx_value = np.float32(2.0)
+vy_value = np.float32(6.5)
+lr = 0.08
+iters = 60
+
+
+loss_history = []
+vx_history = []
+vy_history = []
+
+
+for it in range(iters):
+   init_vx_wp = wp.array(np.array([vx_value], dtype=np.float32), dtype=wp.float32, device=device, requires_grad=True)
+   init_vy_wp = wp.array(np.array([vy_value], dtype=np.float32), dtype=wp.float32, device=device, requires_grad=True)
+
+
+   x_hist_wp = wp.zeros(proj_steps + 1, dtype=wp.float32, device=device, requires_grad=True)
+   y_hist_wp = wp.zeros(proj_steps + 1, dtype=wp.float32, device=device, requires_grad=True)
+   vx_hist_wp = wp.zeros(proj_steps + 1, dtype=wp.float32, device=device, requires_grad=True)
+   vy_hist_wp = wp.zeros(proj_steps + 1, dtype=wp.float32, device=device, requires_grad=True)
+   loss_wp = wp.zeros(1, dtype=wp.float32, device=device, requires_grad=True)
+
+
+   tape = wp.Tape()
+   with tape:
+       wp.launch(
+           kernel=init_projectile_kernel,
+           dim=1,
+           inputs=[],
+           outputs=[x_hist_wp, y_hist_wp, vx_hist_wp, vy_hist_wp, init_vx_wp, init_vy_wp],
+           device=device,
+       )
+       wp.launch(
+           kernel=projectile_step_kernel,
+           dim=proj_steps,
+           inputs=[proj_dt, proj_g],
+           outputs=[x_hist_wp, y_hist_wp, vx_hist_wp, vy_hist_wp],
+           device=device,
+       )
+       wp.launch(
+           kernel=projectile_loss_kernel,
+           dim=1,
+           inputs=[proj_steps, target_x, target_y],
+           outputs=[x_hist_wp, y_hist_wp, loss_wp],
+           device=device,
+       )
+
+
+   tape.backward(loss=loss_wp)
+   wp.synchronize()
+
+
+   current_loss = float(loss_wp.numpy()[0])
+   grad_vx = float(init_vx_wp.grad.numpy()[0])
+   grad_vy = float(init_vy_wp.grad.numpy()[0])
+
+
+   vx_value = np.float32(vx_value - lr * grad_vx)
+   vy_value = np.float32(vy_value - lr * grad_vy)
+
+
+   loss_history.append(current_loss)
+   vx_history.append(float(vx_value))
+   vy_history.append(float(vy_value))
+
+
+   if it % 10 == 0 or it == iters - 1:
+       print(f"iter={it:02d} loss={current_loss:.6f} vx={vx_value:.4f} vy={vy_value:.4f} grad=({grad_vx:.4f}, {grad_vy:.4f})")
+
+
+final_init_vx_wp = wp.array(np.array([vx_value], dtype=np.float32), dtype=wp.float32, device=device)
+final_init_vy_wp = wp.array(np.array([vy_value], dtype=np.float32), dtype=wp.float32, device=device)
+x_hist_wp = wp.zeros(proj_steps + 1, dtype=wp.float32, device=device)
+y_hist_wp = wp.zeros(proj_steps + 1, dtype=wp.float32, device=device)
+vx_hist_wp = wp.zeros(proj_steps + 1, dtype=wp.float32, device=device)
+vy_hist_wp = wp.zeros(proj_steps + 1, dtype=wp.float32, device=device)
+
+
+wp.launch(
+   kernel=init_projectile_kernel,
+   dim=1,
+   inputs=[],
+   outputs=[x_hist_wp, y_hist_wp, vx_hist_wp, vy_hist_wp, final_init_vx_wp, final_init_vy_wp],
+   device=device,
+)
+wp.launch(
+   kernel=projectile_step_kernel,
+   dim=proj_steps,
+   inputs=[proj_dt, proj_g],
+   outputs=[x_hist_wp, y_hist_wp, vx_hist_wp, vy_hist_wp],
+   device=device,
+)
+wp.synchronize()
+
+
+x_path = x_hist_wp.numpy()
+y_path = y_hist_wp.numpy()
+
+
+fig = plt.figure(figsize=(15, 4))
+
+
+ax1 = fig.add_subplot(1, 3, 1)
+ax1.plot(loss_history)
+ax1.set_title("Optimization loss")
+ax1.set_xlabel("Iteration")
+ax1.set_ylabel("Squared distance")
+
+
+ax2 = fig.add_subplot(1, 3, 2)
+ax2.plot(vx_history, label="vx")
+ax2.plot(vy_history, label="vy")
+ax2.set_title("Learned initial velocity")
+ax2.set_xlabel("Iteration")
+ax2.legend()
+
+
+ax3 = fig.add_subplot(1, 3, 3)
+ax3.plot(x_path, y_path, linewidth=2)
+ax3.scatter([target_x], [target_y], s=80, marker="x")
+ax3.set_title("Differentiable projectile trajectory")
+ax3.set_xlabel("x")
+ax3.set_ylabel("y")
+ax3.set_ylim(-0.1, max(1.0, float(np.max(y_path)) + 0.3))
+
+
+plt.tight_layout()
+plt.show()
+
+
+final_dx = float(x_path[-1] - target_x)
+final_dy = float(y_path[-1] - target_y)
+final_dist = math.sqrt(final_dx * final_dx + final_dy * final_dy)
+print(f"Final target miss distance: {final_dist:.6f}")
+print(f"Optimized initial velocity: vx={vx_value:.6f}, vy={vy_value:.6f}")</code></pre></div></div>
+
+
+
+<p>We run a full particle simulation and visualize trajectories of selected particles over time. We then perform differentiable physics optimization using Warp’s automatic differentiation and gradient tape mechanism to learn an optimal projectile velocity that reaches a target. Also, we visualize the optimization process and the resulting trajectory, demonstrating Warp’s simulation-driven optimization capabilities.</p>
+
+
+
+<p>In this tutorial, we demonstrated how NVIDIA Warp enables highly parallel numerical computations and simulations in Python, leveraging GPU acceleration. We constructed kernels for vector arithmetic, procedural image generation, particle simulations, and differentiable projectile optimization, showing how Warp integrates computation, visualization, and automatic differentiation within a single framework. By executing these kernels on large datasets and simulation states, we observed how Warp provides both performance and flexibility for scientific computing tasks.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p id="p-rc_d48437497689081f-76">Check out <strong><a href="https://github.com/Marktechpost/AI-Tutorial-Codes-Included/blob/main/Scientific%20Computing/nvidia_warp_gpu_simulation_and_differentiable_physics_Marktechpost.ipynb" target="_blank" rel="noreferrer noopener">Full Codes and Notebook</a>. </strong>Also, feel free to follow us on <strong><a href="https://x.com/intent/follow?screen_name=marktechpost" target="_blank" rel="noreferrer noopener"><mark>Twitter</mark></a></strong> and don’t forget to join our <strong><a href="https://www.reddit.com/r/machinelearningnews/" target="_blank" rel="noreferrer noopener">120k+ ML SubReddit</a></strong> and Subscribe to <strong><a href="https://www.aidevsignals.com/" target="_blank" rel="noreferrer noopener">our Newsletter</a></strong>. Wait! are you on telegram? <strong><a href="https://t.me/machinelearningresearchnews" target="_blank" rel="noreferrer noopener">now you can join us on telegram as well.</a></strong></p>
+<p>The post <a href="https://www.marktechpost.com/2026/03/16/how-to-build-high-performance-gpu-accelerated-simulations-and-differentiable-physics-workflows-using-nvidia-warp-kernels/">How to Build High-Performance GPU-Accelerated Simulations and Differentiable Physics Workflows Using NVIDIA Warp Kernels</a> appeared first on <a href="https://www.marktechpost.com">MarkTechPost</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://www.marktechpost.com/2026/03/16/how-to-build-high-performance-gpu-accelerated-simulations-and-differentiable-physics-workflows-using-nvidia-warp-kernels/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">78409</post-id>
+	</item>
+		<item>
+		<title>Mistral AI Releases Mistral Small 4: A 119B-Parameter MoE Model that Unifies Instruct, Reasoning, and Multimodal Workloads</title>
+		<link>https://www.marktechpost.com/2026/03/16/mistral-ai-releases-mistral-small-4-a-119b-parameter-moe-model-that-unifies-instruct-reasoning-and-multimodal-workloads/</link>
+					<comments>https://www.marktechpost.com/2026/03/16/mistral-ai-releases-mistral-small-4-a-119b-parameter-moe-model-that-unifies-instruct-reasoning-and-multimodal-workloads/#respond</comments>
+		
+		<dc:creator><![CDATA[Asif Razzaq]]></dc:creator>
+		<pubDate>Mon, 16 Mar 2026 22:48:59 +0000</pubDate>
+				<category><![CDATA[AI Shorts]]></category>
+		<category><![CDATA[Applications]]></category>
+		<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[Editors Pick]]></category>
+		<category><![CDATA[Language Model]]></category>
+		<category><![CDATA[Large Language Model]]></category>
+		<category><![CDATA[Machine Learning]]></category>
+		<category><![CDATA[New Releases]]></category>
+		<category><![CDATA[Small Language Model]]></category>
+		<category><![CDATA[Staff]]></category>
+		<category><![CDATA[Tech News]]></category>
+		<category><![CDATA[Technology]]></category>
+		<guid isPermaLink="false">https://www.marktechpost.com/?p=78404</guid>
+
+					<description><![CDATA[<p>Mistral AI has released Mistral Small 4, a new model in the Mistral Small family designed to consolidate several previously separate capabilities into a single deployment target. Mistral team describes Small 4 as its first model to combine the roles associated with Mistral Small for instruction following, Magistral for reasoning, Pixtral for multimodal understanding, and [&#8230;]</p>
+<p>The post <a href="https://www.marktechpost.com/2026/03/16/mistral-ai-releases-mistral-small-4-a-119b-parameter-moe-model-that-unifies-instruct-reasoning-and-multimodal-workloads/">Mistral AI Releases Mistral Small 4: A 119B-Parameter MoE Model that Unifies Instruct, Reasoning, and Multimodal Workloads</a> appeared first on <a href="https://www.marktechpost.com">MarkTechPost</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<p>Mistral AI has released <strong>Mistral Small 4</strong>, a new model in the Mistral Small family designed to consolidate several previously separate capabilities into a single deployment target. Mistral team describes Small 4 as its first model to combine the roles associated with <strong>Mistral Small</strong> for instruction following, <strong>Magistral</strong> for reasoning, <strong>Pixtral</strong> for multimodal understanding, and <strong>Devstral</strong> for agentic coding. The result is a single model that can operate as a general assistant, a reasoning model, and a multimodal system without requiring model switching across workflows.</p>
+
+
+
+<h3 class="wp-block-heading" id="h-architecture-128-experts-sparse-activation"><strong>Architecture: 128 Experts, Sparse Activation</strong></h3>
+
+
+
+<p>Architecturally, Mistral Small 4 is a <strong>Mixture-of-Experts (MoE)</strong> model with <strong>128 experts</strong> and <strong>4 active experts per token</strong>. The model has <strong>119B total parameters</strong>, with <strong>6B active parameters per token</strong>, or <strong>8B including embedding and output layers</strong>. </p>
+
+
+
+<h3 class="wp-block-heading" id="h-long-context-and-multimodal-support"><strong>Long Context and Multimodal Support</strong></h3>
+
+
+
+<p>The model supports a <strong>256k context window</strong>, which is a meaningful jump for practical engineering use cases. Long-context capacity matters less as a marketing number and more as an operational simplifier: it reduces the need for aggressive chunking, retrieval orchestration, and context pruning in tasks such as long-document analysis, codebase exploration, multi-file reasoning, and agentic workflows. Mistral positions the model for <strong>general chat, coding, agentic tasks, and complex reasoning</strong>, with <strong>text and image inputs</strong> and <strong>text output</strong>. That places Small 4 in the increasingly important category of general-purpose models that are expected to handle both language-heavy and visually grounded enterprise tasks under one API surface.</p>
+
+
+
+<h3 class="wp-block-heading" id="h-configurable-reasoning-at-inference-time"><strong>Configurable Reasoning at Inference Time</strong></h3>
+
+
+
+<p>A more important product decision than the raw parameter count is the introduction of <strong>configurable reasoning effort</strong>. Small 4 exposes a per-request <code>reasoning_effort</code> parameter that allows developers to trade latency for deeper test-time reasoning. In the official documentation, <code>reasoning_effort="none"</code> is described as producing fast responses with a chat style equivalent to <strong>Mistral Small 3.2</strong>, while <code>reasoning_effort="high"</code> is intended for more deliberate, step-by-step reasoning with verbosity comparable to earlier <strong>Magistral</strong> models. This changes the deployment pattern. Instead of routing between one fast model and one reasoning model, dev teams can keep a single model in service and vary inference behavior at request time. That is cleaner from a systems perspective and easier to manage in products where only a subset of queries actually need expensive reasoning.</p>
+
+
+
+<h3 class="wp-block-heading" id="h-performance-claims-and-throughput-positioning"><strong>Performance Claims and Throughput Positioning</strong></h3>
+
+
+
+<p>Mistral team also emphasizes inference efficiency. Small 4 delivers a <strong>40% reduction in end-to-end completion time</strong> in a latency-optimized setup and <strong>3x more requests per second</strong> in a throughput-optimized setup, both measured <strong>against Mistral Small 3</strong>. Mistral is not presenting Small 4 as just a larger reasoning model, but as a system aimed at improving the economics of deployment under real serving loads.</p>
+
+
+
+<h3 class="wp-block-heading" id="h-benchmark-results-and-output-efficiency"><strong>Benchmark Results and Output Efficiency</strong></h3>
+
+
+
+<p>On reasoning benchmarks, Mistral’s release focuses on both quality and output efficiency. The Mistral&#8217;s research team reports that <strong>Mistral Small 4 with reasoning</strong> matches or exceeds <strong>GPT-OSS 120B</strong> across <strong>AA LCR</strong>, <strong>LiveCodeBench</strong>, and <strong>AIME 2025</strong>, while generating shorter outputs. In the numbers published by Mistral, Small 4 scores <strong>0.72 on AA LCR with 1.6K characters</strong>, while Qwen models require <strong>5.8K to 6.1K characters</strong> for comparable performance. On <strong>LiveCodeBench</strong>, Mistral team states that Small 4 outperforms GPT-OSS 120B while producing <strong>20% less output</strong>. These are company-published results, but they highlight a more practical metric than benchmark score alone: <strong>performance per generated token</strong>. For production workloads, shorter outputs can directly reduce latency, inference cost, and downstream parsing overhead.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-full is-resized"><img decoding="async" width="1734" height="1152" data-attachment-id="78406" data-permalink="https://www.marktechpost.com/2026/03/16/mistral-ai-releases-mistral-small-4-a-119b-parameter-moe-model-that-unifies-instruct-reasoning-and-multimodal-workloads/screenshot-2026-03-16-at-3-39-09-pm-2/" data-orig-file="https://www.marktechpost.com/wp-content/uploads/2026/03/Screenshot-2026-03-16-at-3.39.09-PM-1.png" data-orig-size="1734,1152" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Screenshot 2026-03-16 at 3.39.09 PM" data-image-description="" data-image-caption="" data-medium-file="https://www.marktechpost.com/wp-content/uploads/2026/03/Screenshot-2026-03-16-at-3.39.09-PM-1-300x199.png" data-large-file="https://www.marktechpost.com/wp-content/uploads/2026/03/Screenshot-2026-03-16-at-3.39.09-PM-1-1024x680.png" src="https://www.marktechpost.com/wp-content/uploads/2026/03/Screenshot-2026-03-16-at-3.39.09-PM-1.png" alt="" class="wp-image-78406" style="aspect-ratio:1.5052191147324379;width:810px;height:auto" srcset="https://www.marktechpost.com/wp-content/uploads/2026/03/Screenshot-2026-03-16-at-3.39.09-PM-1.png 1734w, https://www.marktechpost.com/wp-content/uploads/2026/03/Screenshot-2026-03-16-at-3.39.09-PM-1-300x199.png 300w, https://www.marktechpost.com/wp-content/uploads/2026/03/Screenshot-2026-03-16-at-3.39.09-PM-1-1024x680.png 1024w, https://www.marktechpost.com/wp-content/uploads/2026/03/Screenshot-2026-03-16-at-3.39.09-PM-1-768x510.png 768w, https://www.marktechpost.com/wp-content/uploads/2026/03/Screenshot-2026-03-16-at-3.39.09-PM-1-1536x1020.png 1536w, https://www.marktechpost.com/wp-content/uploads/2026/03/Screenshot-2026-03-16-at-3.39.09-PM-1-632x420.png 632w, https://www.marktechpost.com/wp-content/uploads/2026/03/Screenshot-2026-03-16-at-3.39.09-PM-1-150x100.png 150w, https://www.marktechpost.com/wp-content/uploads/2026/03/Screenshot-2026-03-16-at-3.39.09-PM-1-696x462.png 696w, https://www.marktechpost.com/wp-content/uploads/2026/03/Screenshot-2026-03-16-at-3.39.09-PM-1-1068x710.png 1068w, https://www.marktechpost.com/wp-content/uploads/2026/03/Screenshot-2026-03-16-at-3.39.09-PM-1-600x399.png 600w" sizes="(max-width: 1734px) 100vw, 1734px" /><figcaption class="wp-element-caption">https://mistral.ai/news/mistral-small-4</figcaption></figure>
+</div>
+
+
+<h3 class="wp-block-heading" id="h-deployment-details"><strong>Deployment Details</strong></h3>
+
+
+
+<p>For self-hosting, Mistral gives specific infrastructure guidance. The company lists a minimum deployment target of <strong>4x NVIDIA HGX H100</strong>, <strong>2x NVIDIA HGX H200</strong>, or <strong>1x NVIDIA DGX B200</strong>, with larger configurations recommended for best performance. The model card on HuggingFace lists support across <strong>vLLM</strong>, <strong>llama.cpp</strong>, <strong>SGLang</strong>, and <strong>Transformers</strong>, though some paths are marked <strong>work in progress</strong>, and <strong>vLLM</strong> is the recommended option. Mistral team also provides a custom Docker image and notes that fixes related to tool calling and reasoning parsing are still being upstreamed. That is useful detail for engineering teams because it clarifies that support exists, but some pieces are still stabilizing in the broader open-source serving stack.</p>
+
+
+
+<h3 class="wp-block-heading" id="h-key-takeaways"><strong>Key Takeaways</strong></h3>
+
+
+
+<ul class="wp-block-list">
+<li><strong>One unified model:</strong> Mistral Small 4 combines instruct, reasoning, multimodal, and agentic coding capabilities in one model.</li>
+
+
+
+<li><strong>Sparse MoE design:</strong> It uses <strong>128 experts</strong> with <strong>4 active experts per token</strong>, targeting better efficiency than dense models of similar total size.</li>
+
+
+
+<li><strong>Long-context support:</strong> The model supports a <strong>256k context window</strong> and accepts <strong>text and image inputs</strong> with text output.</li>
+
+
+
+<li><strong>Reasoning is configurable:</strong> Developers can adjust <strong><code>reasoning_effort</code></strong> at inference time instead of routing between separate fast and reasoning models.</li>
+
+
+
+<li><strong>Open deployment focus:</strong> It is released under <strong>Apache 2.0</strong> and supports serving through stacks such as <strong>vLLM</strong>, with multiple checkpoint variants on Hugging Face.</li>
+</ul>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p id="p-rc_d48437497689081f-76">Check out <strong><a href="https://huggingface.co/collections/mistralai/mistral-small-4" target="_blank" rel="noreferrer noopener">Model Card on HF</a></strong> and <strong><a href="https://mistral.ai/news/mistral-small-4" target="_blank" rel="noreferrer noopener">Technical details</a>. </strong>Also, feel free to follow us on <strong><a href="https://x.com/intent/follow?screen_name=marktechpost" target="_blank" rel="noreferrer noopener"><mark>Twitter</mark></a></strong> and don’t forget to join our <strong><a href="https://www.reddit.com/r/machinelearningnews/" target="_blank" rel="noreferrer noopener">120k+ ML SubReddit</a></strong> and Subscribe to <strong><a href="https://www.aidevsignals.com/" target="_blank" rel="noreferrer noopener">our Newsletter</a></strong>. Wait! are you on telegram? <strong><a href="https://t.me/machinelearningresearchnews" target="_blank" rel="noreferrer noopener">now you can join us on telegram as well.</a></strong></p>
+<p>The post <a href="https://www.marktechpost.com/2026/03/16/mistral-ai-releases-mistral-small-4-a-119b-parameter-moe-model-that-unifies-instruct-reasoning-and-multimodal-workloads/">Mistral AI Releases Mistral Small 4: A 119B-Parameter MoE Model that Unifies Instruct, Reasoning, and Multimodal Workloads</a> appeared first on <a href="https://www.marktechpost.com">MarkTechPost</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://www.marktechpost.com/2026/03/16/mistral-ai-releases-mistral-small-4-a-119b-parameter-moe-model-that-unifies-instruct-reasoning-and-multimodal-workloads/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">78404</post-id>
+		<media:thumbnail url="https://www.marktechpost.com/wp-content/uploads/2026/03/Screenshot-2026-03-16-at-3.39.09-PM-1-150x150.png" />
+		<media:content url="https://www.marktechpost.com/wp-content/uploads/2026/03/Screenshot-2026-03-16-at-3.39.09-PM-1.png" medium="image">
+			<media:title type="html">Screenshot 2026-03-16 at 3.39.09 PM</media:title>
+			<media:thumbnail url="https://www.marktechpost.com/wp-content/uploads/2026/03/Screenshot-2026-03-16-at-3.39.09-PM-1-150x150.png" />
+		</media:content>
+	</item>
+		<item>
+		<title>Moonshot AI Releases 𝑨𝒕𝒕𝒆𝒏𝒕𝒊𝒐𝒏 𝑹𝒆𝒔𝒊𝒅𝒖𝒂𝒍𝒔 to Replace Fixed Residual Mixing with Depth-Wise Attention for Better Scaling in Transformers</title>
+		<link>https://www.marktechpost.com/2026/03/15/moonshot-ai-releases-%f0%9d%91%a8%f0%9d%92%95%f0%9d%92%95%f0%9d%92%86%f0%9d%92%8f%f0%9d%92%95%f0%9d%92%8a%f0%9d%92%90%f0%9d%92%8f-%f0%9d%91%b9%f0%9d%92%86%f0%9d%92%94%f0%9d%92%8a%f0%9d%92%85/</link>
+					<comments>https://www.marktechpost.com/2026/03/15/moonshot-ai-releases-%f0%9d%91%a8%f0%9d%92%95%f0%9d%92%95%f0%9d%92%86%f0%9d%92%8f%f0%9d%92%95%f0%9d%92%8a%f0%9d%92%90%f0%9d%92%8f-%f0%9d%91%b9%f0%9d%92%86%f0%9d%92%94%f0%9d%92%8a%f0%9d%92%85/#respond</comments>
+		
+		<dc:creator><![CDATA[Asif Razzaq]]></dc:creator>
+		<pubDate>Mon, 16 Mar 2026 06:48:39 +0000</pubDate>
+				<category><![CDATA[Agentic AI]]></category>
+		<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[Editors Pick]]></category>
+		<category><![CDATA[Machine Learning]]></category>
+		<category><![CDATA[New Releases]]></category>
+		<category><![CDATA[Staff]]></category>
+		<category><![CDATA[Technology]]></category>
+		<guid isPermaLink="false">https://www.marktechpost.com/?p=78399</guid>
+
+					<description><![CDATA[<p>Residual connections are one of the least questioned parts of modern Transformer design. In PreNorm architectures, each layer adds its output back into a running hidden state, which keeps optimization stable and allows deep models to train. Moonshot AI researchers argue that this standard mechanism also introduces a structural problem: all prior layer outputs are [&#8230;]</p>
+<p>The post <a href="https://www.marktechpost.com/2026/03/15/moonshot-ai-releases-%f0%9d%91%a8%f0%9d%92%95%f0%9d%92%95%f0%9d%92%86%f0%9d%92%8f%f0%9d%92%95%f0%9d%92%8a%f0%9d%92%90%f0%9d%92%8f-%f0%9d%91%b9%f0%9d%92%86%f0%9d%92%94%f0%9d%92%8a%f0%9d%92%85/">Moonshot AI Releases 𝑨𝒕𝒕𝒆𝒏𝒕𝒊𝒐𝒏 𝑹𝒆𝒔𝒊𝒅𝒖𝒂𝒍𝒔 to Replace Fixed Residual Mixing with Depth-Wise Attention for Better Scaling in Transformers</a> appeared first on <a href="https://www.marktechpost.com">MarkTechPost</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<p>Residual connections are one of the least questioned parts of modern Transformer design. In PreNorm architectures, each layer adds its output back into a running hidden state, which keeps optimization stable and allows deep models to train. Moonshot AI researchers argue that this standard mechanism also introduces a structural problem: all prior layer outputs are accumulated with fixed unit weights, which causes hidden-state magnitude to grow with depth and progressively weakens the contribution of any single layer. </p>
+
+
+
+<p>The research team proposes <strong>Attention Residuals (AttnRes)</strong> as a drop-in replacement for standard residual accumulation. Instead of forcing every layer to consume the same uniformly mixed residual stream, AttnRes lets each layer aggregate earlier representations using softmax attention over depth. The input to layer (l) is a weighted sum of the token embedding and previous layer outputs, where the weights are computed over prior depth positions rather than over sequence positions. The core idea is simple: if attention improved sequence modeling by replacing fixed recurrence over time, a similar idea can be applied to the depth dimension of a network.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-full is-resized"><img decoding="async" width="1632" height="1024" data-attachment-id="78401" data-permalink="https://www.marktechpost.com/2026/03/15/moonshot-ai-releases-%f0%9d%91%a8%f0%9d%92%95%f0%9d%92%95%f0%9d%92%86%f0%9d%92%8f%f0%9d%92%95%f0%9d%92%8a%f0%9d%92%90%f0%9d%92%8f-%f0%9d%91%b9%f0%9d%92%86%f0%9d%92%94%f0%9d%92%8a%f0%9d%92%85/screenshot-2026-03-15-at-11-45-00-pm-2/" data-orig-file="https://www.marktechpost.com/wp-content/uploads/2026/03/Screenshot-2026-03-15-at-11.45.00-PM-1.png" data-orig-size="1632,1024" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Screenshot 2026-03-15 at 11.45.00 PM" data-image-description="" data-image-caption="" data-medium-file="https://www.marktechpost.com/wp-content/uploads/2026/03/Screenshot-2026-03-15-at-11.45.00-PM-1-300x188.png" data-large-file="https://www.marktechpost.com/wp-content/uploads/2026/03/Screenshot-2026-03-15-at-11.45.00-PM-1-1024x643.png" src="https://www.marktechpost.com/wp-content/uploads/2026/03/Screenshot-2026-03-15-at-11.45.00-PM-1.png" alt="" class="wp-image-78401" style="aspect-ratio:1.5937696737939235;width:816px;height:auto" srcset="https://www.marktechpost.com/wp-content/uploads/2026/03/Screenshot-2026-03-15-at-11.45.00-PM-1.png 1632w, https://www.marktechpost.com/wp-content/uploads/2026/03/Screenshot-2026-03-15-at-11.45.00-PM-1-300x188.png 300w, https://www.marktechpost.com/wp-content/uploads/2026/03/Screenshot-2026-03-15-at-11.45.00-PM-1-1024x643.png 1024w, https://www.marktechpost.com/wp-content/uploads/2026/03/Screenshot-2026-03-15-at-11.45.00-PM-1-768x482.png 768w, https://www.marktechpost.com/wp-content/uploads/2026/03/Screenshot-2026-03-15-at-11.45.00-PM-1-1536x964.png 1536w, https://www.marktechpost.com/wp-content/uploads/2026/03/Screenshot-2026-03-15-at-11.45.00-PM-1-669x420.png 669w, https://www.marktechpost.com/wp-content/uploads/2026/03/Screenshot-2026-03-15-at-11.45.00-PM-1-150x94.png 150w, https://www.marktechpost.com/wp-content/uploads/2026/03/Screenshot-2026-03-15-at-11.45.00-PM-1-696x437.png 696w, https://www.marktechpost.com/wp-content/uploads/2026/03/Screenshot-2026-03-15-at-11.45.00-PM-1-1068x670.png 1068w, https://www.marktechpost.com/wp-content/uploads/2026/03/Screenshot-2026-03-15-at-11.45.00-PM-1-600x376.png 600w" sizes="(max-width: 1632px) 100vw, 1632px" /><figcaption class="wp-element-caption">https://github.com/MoonshotAI/Attention-Residuals/tree/master?tab=readme-ov-file</figcaption></figure>
+</div>
+
+
+<h3 class="wp-block-heading" id="h-why-standard-residuals-become-a-bottleneck"><strong>Why Standard Residuals Become a Bottleneck</strong></h3>
+
+
+
+<p>The research team identified three issues with standard residual accumulation. First, there is <strong>no selective access</strong>: all layers receive the same aggregated state even though attention layers and feed-forward or MoE layers may benefit from different mixtures of earlier information. Second, there is <strong>irreversible loss</strong>: once information is blended into a single residual stream, later layers cannot selectively recover specific earlier representations. Third, there is <strong>output growth</strong>: deeper layers tend to produce larger outputs to remain influential inside an ever-growing accumulated state, which can destabilize training.</p>
+
+
+
+<p>This is the research team&#8217;s main framing: standard residuals behave like a compressed recurrence over layers. AttnRes replaces that fixed recurrence with explicit attention over previous layer outputs.</p>
+
+
+
+<h3 class="wp-block-heading" id="h-full-attnres-attention-over-all-previous-layers"><strong>Full AttnRes: Attention Over All Previous Layers</strong></h3>
+
+
+
+<p>In <strong>Full AttnRes</strong>, each layer computes attention weights over all preceding depth sources. The default design does <strong>not</strong> use an input-conditioned query. Instead, each layer has a learned layer-specific pseudo-query vector w<sub>l</sub> ∈ R<sup>d</sup>, while keys and values come from the token embedding and previous layer outputs after RMSNorm. The RMSNorm step is important because it prevents large-magnitude layer outputs from dominating the depth-wise attention weights.</p>
+
+
+
+<p>Full AttnRes is straightforward, but it increases cost. Per token, it requires O(L<sup>2</sup> d) arithmetic and (O(Ld)) memory to store layer outputs. In standard training this memory largely overlaps with activations already needed for backpropagation, but under activation re-computation and pipeline parallelism the overhead becomes more significant because those earlier outputs must remain available and may need to be transmitted across stages.</p>
+
+
+
+<h3 class="wp-block-heading" id="h-block-attnres-a-practical-variant-for-large-models"><strong>Block AttnRes: A Practical Variant for Large Models</strong></h3>
+
+
+
+<p>To make the method usable at scale, Moonshot AI research team introduces <strong>Block AttnRes</strong>. Instead of attending over every earlier layer output, the model partitions layers into <em>N</em> blocks. Within each block, outputs are accumulated into a single block representation, and attention is applied only over those block-level representations plus the token embedding. This reduces memory and communication overhead from <em>O(Ld)</em> to <em>O(Nd)</em>.</p>
+
+
+
+<p>The research team describes cache-based pipeline communication and a two-phase computation strategy that make Block AttnRes practical in distributed training and inference. This results in less than 4% training overhead under pipeline parallelism, while the repository reports less than 2% inference latency overhead on typical workloads. </p>
+
+
+
+<h3 class="wp-block-heading" id="h-scaling-results"><strong>Scaling Results</strong></h3>
+
+
+
+<p>The research team evaluates five model sizes and compares three variants at each size: a PreNorm baseline, Full AttnRes, and Block AttnRes with about eight blocks. All variants within each size group share the same hyperparameters chosen under the baseline, which the research team note makes the comparison conservative. <strong>The fitted scaling laws are reported as:</strong></p>
+
+
+
+<p>Baseline: <em>L </em>= 1.891 x <em>C<sup>-0.057</sup></em><br>Block AttnRes: <em>L</em> = 1.870 x <em>C<sup>-0.058</sup></em><br>Full AttnRes: <em>L </em>= 1.865 x <em>C<sup>-0.057</sup></em></p>
+
+
+
+<p>The practical implication is that AttnRes achieves lower validation loss across the tested compute range, and the Block AttnRes matches the loss of a baseline trained with about <strong>1.25× more compute</strong>.</p>
+
+
+
+<h3 class="wp-block-heading" id="h-integration-into-kimi-linear"><strong>Integration into Kimi Linear</strong></h3>
+
+
+
+<p>Moonshot AI also integrates AttnRes into <strong>Kimi Linear</strong>, its MoE architecture with <strong>48B total parameters and 3B activated parameters</strong>, and pre-trains it on <strong>1.4T tokens</strong>. According to the research paper, AttnRes mitigates PreNorm dilution by keeping output magnitudes more bounded across depth and distributing gradients more uniformly across layers. Another implementation detail is that all pseudo-query vectors are initialized to zero so the initial attention weights are uniform across source layers, effectively reducing AttnRes to equal-weight averaging at the start of training and avoiding early instability.</p>
+
+
+
+<p>On downstream evaluation, the reported gains are consistent across all listed tasks. It reports improvements from 73.5 to 74.6 on MMLU, 36.9 to 44.4 on GPQA-Diamond, 76.3 to 78.0 on BBH, 53.5 to 57.1 on Math, 59.1 to 62.2 on HumanEval, 72.0 to 73.9 on MBPP, 82.0 to 82.9 on CMMLU, and 79.6 to 82.5 on C-Eval.</p>
+
+
+
+<h3 class="wp-block-heading" id="h-key-takeaways"><strong>Key Takeaways</strong></h3>
+
+
+
+<ul class="wp-block-list">
+<li>Attention Residuals replaces fixed residual accumulation with softmax attention over previous layers.</li>
+
+
+
+<li>The default AttnRes design uses a learned layer-specific pseudo-query, not an input-conditioned query.</li>
+
+
+
+<li>Block AttnRes makes the method practical by reducing depth-wise memory and communication from O(Ld) to O(Nd).</li>
+
+
+
+<li>Moonshot research teamreports lower scaling loss than the PreNorm baseline, with Block AttnRes matching about 1.25× more baseline compute.</li>
+
+
+
+<li>In Kimi Linear, AttnRes improves results across reasoning, coding, and evaluation benchmarks with limited overhead.</li>
+</ul>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p id="p-rc_d48437497689081f-76">Check out <strong><a href="https://github.com/MoonshotAI/Attention-Residuals/blob/master/Attention_Residuals.pdf" target="_blank" rel="noreferrer noopener">Paper</a></strong> and <strong><a href="https://github.com/MoonshotAI/Attention-Residuals/tree/master?tab=readme-ov-file" target="_blank" rel="noreferrer noopener">Repo</a>. </strong>Also, feel free to follow us on <strong><a href="https://x.com/intent/follow?screen_name=marktechpost" target="_blank" rel="noreferrer noopener"><mark>Twitter</mark></a></strong> and don’t forget to join our <strong><a href="https://www.reddit.com/r/machinelearningnews/" target="_blank" rel="noreferrer noopener">120k+ ML SubReddit</a></strong> and Subscribe to <strong><a href="https://www.aidevsignals.com/" target="_blank" rel="noreferrer noopener">our Newsletter</a></strong>. Wait! are you on telegram? <strong><a href="https://t.me/machinelearningresearchnews" target="_blank" rel="noreferrer noopener">now you can join us on telegram as well.</a></strong></p>
+<p>The post <a href="https://www.marktechpost.com/2026/03/15/moonshot-ai-releases-%f0%9d%91%a8%f0%9d%92%95%f0%9d%92%95%f0%9d%92%86%f0%9d%92%8f%f0%9d%92%95%f0%9d%92%8a%f0%9d%92%90%f0%9d%92%8f-%f0%9d%91%b9%f0%9d%92%86%f0%9d%92%94%f0%9d%92%8a%f0%9d%92%85/">Moonshot AI Releases 𝑨𝒕𝒕𝒆𝒏𝒕𝒊𝒐𝒏 𝑹𝒆𝒔𝒊𝒅𝒖𝒂𝒍𝒔 to Replace Fixed Residual Mixing with Depth-Wise Attention for Better Scaling in Transformers</a> appeared first on <a href="https://www.marktechpost.com">MarkTechPost</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://www.marktechpost.com/2026/03/15/moonshot-ai-releases-%f0%9d%91%a8%f0%9d%92%95%f0%9d%92%95%f0%9d%92%86%f0%9d%92%8f%f0%9d%92%95%f0%9d%92%8a%f0%9d%92%90%f0%9d%92%8f-%f0%9d%91%b9%f0%9d%92%86%f0%9d%92%94%f0%9d%92%8a%f0%9d%92%85/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">78399</post-id>
+		<media:thumbnail url="https://www.marktechpost.com/wp-content/uploads/2026/03/Screenshot-2026-03-15-at-11.45.00-PM-1-150x150.png" />
+		<media:content url="https://www.marktechpost.com/wp-content/uploads/2026/03/Screenshot-2026-03-15-at-11.45.00-PM-1.png" medium="image">
+			<media:title type="html">Screenshot 2026-03-15 at 11.45.00 PM</media:title>
+			<media:thumbnail url="https://www.marktechpost.com/wp-content/uploads/2026/03/Screenshot-2026-03-15-at-11.45.00-PM-1-150x150.png" />
+		</media:content>
+	</item>
+		<item>
+		<title>IBM AI Releases Granite 4.0 1B Speech as a Compact Multilingual Speech Model for Edge AI and Translation Pipelines</title>
+		<link>https://www.marktechpost.com/2026/03/15/ibm-ai-releases-granite-4-0-1b-speech-as-a-compact-multilingual-speech-model-for-edge-ai-and-translation-pipelines/</link>
+					<comments>https://www.marktechpost.com/2026/03/15/ibm-ai-releases-granite-4-0-1b-speech-as-a-compact-multilingual-speech-model-for-edge-ai-and-translation-pipelines/#respond</comments>
+		
+		<dc:creator><![CDATA[Asif Razzaq]]></dc:creator>
+		<pubDate>Mon, 16 Mar 2026 04:57:26 +0000</pubDate>
+				<category><![CDATA[Agentic AI]]></category>
+		<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[Audio Language Model]]></category>
+		<category><![CDATA[Editors Pick]]></category>
+		<category><![CDATA[Language Model]]></category>
+		<category><![CDATA[New Releases]]></category>
+		<category><![CDATA[Staff]]></category>
+		<category><![CDATA[Technology]]></category>
+		<category><![CDATA[TTS]]></category>
+		<category><![CDATA[Voice AI]]></category>
+		<guid isPermaLink="false">https://www.marktechpost.com/?p=78396</guid>
+
+					<description><![CDATA[<p>IBM has released Granite 4.0 1B Speech, a compact speech-language model designed for multilingual automatic speech recognition (ASR) and bidirectional automatic speech translation (AST). The release targets enterprise and edge-style speech deployments where memory footprint, latency, and compute efficiency matter as much as raw benchmark quality. What Changed in Granite 4.0 1B Speech At the [&#8230;]</p>
+<p>The post <a href="https://www.marktechpost.com/2026/03/15/ibm-ai-releases-granite-4-0-1b-speech-as-a-compact-multilingual-speech-model-for-edge-ai-and-translation-pipelines/">IBM AI Releases Granite 4.0 1B Speech as a Compact Multilingual Speech Model for Edge AI and Translation Pipelines</a> appeared first on <a href="https://www.marktechpost.com">MarkTechPost</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<p>IBM has released <strong>Granite 4.0 1B Speech</strong>, a compact <strong>speech-language model</strong> designed for <strong>multilingual automatic speech recognition (ASR)</strong> and <strong>bidirectional automatic speech translation (AST)</strong>. The release targets enterprise and edge-style speech deployments where memory footprint, latency, and compute efficiency matter as much as raw benchmark quality. </p>
+
+
+
+<h3 class="wp-block-heading" id="h-what-changed-in-granite-4-0-1b-speech"><strong>What Changed in Granite 4.0 1B Speech</strong></h3>
+
+
+
+<p>At the center of the release is a straightforward design goal: reduce model size without dropping the core capabilities expected from a modern multilingual speech system. Granite 4.0 1B Speech has <strong>half the number of parameters of granite-speech-3.3-2b</strong>, while adding <strong>Japanese ASR</strong>, <strong>keyword list biasing</strong>, and improved English transcription accuracy. The model provides faster inference through <strong>better encoder training and speculative decoding</strong>. That makes the release less about pushing model scale upward and more about tightening the efficiency-quality tradeoff for practical deployment.</p>
+
+
+
+<h3 class="wp-block-heading" id="h-training-approach-and-modality-alignment"><strong>Training Approach and Modality Alignment</strong></h3>
+
+
+
+<p><strong>Granite-4.0-1b-speech</strong> is a <strong>compact and efficient speech-language model</strong> trained for multilingual ASR and bidirectional AST. The training mix includes public ASR and AST corpora along with synthetic data used to support <strong>Japanese ASR</strong>, <strong>keyword-biased ASR</strong>, and speech translation. This is an important detail for devs because it shows IBM&#8217;s team did not build a separate closed speech stack from scratch; it adapted a Granite 4.0 base language model into a speech-capable model through alignment and multimodal training. </p>
+
+
+
+<h3 class="wp-block-heading" id="h-language-coverage-and-intended-use"><strong>Language Coverage and Intended Use</strong></h3>
+
+
+
+<p>The supported language set includes <strong>English, French, German, Spanish, Portuguese, and Japanese</strong>. IBM positions the model for <strong>speech-to-text</strong> and <strong>speech translation to and from English</strong> for those languages. It also support for <strong>English-to-Italian</strong> and <strong>English-to-Mandarin</strong> translation scenarios. The model is released under the <strong>Apache 2.0</strong> license, which makes it more straightforward for teams evaluating open deployment options compared with speech systems that carry commercial restrictions or API-only access patterns. </p>
+
+
+
+<h3 class="wp-block-heading" id="h-two-pass-design-and-pipeline-structure"><strong>Two-Pass Design and Pipeline Structure</strong></h3>
+
+
+
+<p>IBM’s Granite Speech Team describes the Granite Speech family as using a <strong>two-pass design</strong>. In that setup, an initial call transcribes audio into text, and any downstream language-model reasoning over the transcript requires a second explicit call to the Granite language model. That differs from integrated architectures that combine speech and language generation into a single pass. For developers, this matters because it affects orchestration. A transcription pipeline built around Granite Speech is modular by design: speech recognition comes first, and language-level post-processing is a separate step.</p>
+
+
+
+<h3 class="wp-block-heading" id="h-benchmark-results-and-efficiency-positioning"><strong>Benchmark Results and Efficiency Positioning</strong></h3>
+
+
+
+<p>Granite 4.0 1B Speech recently ranked <strong><a href="https://huggingface.co/spaces/hf-audio/open_asr_leaderboard" target="_blank" rel="noreferrer noopener">#1 on the OpenASR leaderboard</a></strong>. The Open ASR leaderboard row states with an <strong>Average WER of 5.52</strong> and <strong>RTFx of 280.02</strong>, alongside dataset-specific WER values such as <strong>1.42 on LibriSpeech Clean</strong>, <strong>2.85 on LibriSpeech Other</strong>, <strong>3.89 on SPGISpeech</strong>, <strong>3.1 on Tedlium</strong>, and <strong>5.84 on VoxPopuli</strong>. </p>
+
+
+
+<h3 class="wp-block-heading" id="h-deployment-details"><strong>Deployment Details</strong></h3>
+
+
+
+<p>For deployment, <strong>Granite 4.0 1B Speech</strong> is supported natively in <strong><code>transformers>=4.52.1</code></strong> and can be served through <strong>vLLM</strong>, giving teams both standard Python inference and API-style serving options. IBM’s reference <code>transformers</code> flow uses <code>AutoModelForSpeechSeq2Seq</code> and <code>AutoProcessor</code>, expects <strong>mono 16 kHz audio</strong>, and formats requests by prepending <strong><code>&lt;|audio|></code></strong> to the user prompt; keyword biasing can be added directly in the prompt as <code>Keywords: &lt;kw1>, &lt;kw2> ...</code>. For lower-resource environments, IBM’s vLLM example sets <strong><code>max_model_len=2048</code></strong> and <strong><code>limit_mm_per_prompt={"audio": 1}</code></strong>, while online serving can be exposed through <code>vllm serve</code> with an OpenAI-compatible API interface. </p>
+
+
+
+<h3 class="wp-block-heading" id="h-key-takeaways"><strong>Key Takeaways</strong></h3>
+
+
+
+<ol class="wp-block-list">
+<li><strong>Granite 4.0 1B Speech</strong> is a compact <strong>speech-language model</strong> for multilingual <strong>ASR</strong> and bidirectional <strong>AST</strong>.</li>
+
+
+
+<li>The model has <strong>half the parameters of granite-speech-3.3-2b</strong> while improving deployment efficiency.</li>
+
+
+
+<li>The release adds <strong>Japanese ASR</strong> and <strong>keyword list biasing</strong> for more targeted transcription workflows.</li>
+
+
+
+<li>It supports deployment through <strong>Transformers, vLLM, and mlx-audio</strong>, including Apple Silicon environments.</li>
+
+
+
+<li>The model is positioned for <strong>resource-constrained devices</strong> where latency, memory, and compute cost are critical.</li>
+</ol>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p id="p-rc_d48437497689081f-76">Check out <strong><a href="https://huggingface.co/ibm-granite/granite-4.0-1b-speech" target="_blank" rel="noreferrer noopener">Model Page</a></strong>, <strong><a href="https://github.com/ibm-granite/granite-speech-models" target="_blank" rel="noreferrer noopener">Repo</a></strong> and <strong><a href="https://huggingface.co/blog/ibm-granite/granite-4-speech?" target="_blank" rel="noreferrer noopener">Technical details</a>. </strong>Also, feel free to follow us on <strong><a href="https://x.com/intent/follow?screen_name=marktechpost" target="_blank" rel="noreferrer noopener"><mark>Twitter</mark></a></strong> and don’t forget to join our <strong><a href="https://www.reddit.com/r/machinelearningnews/" target="_blank" rel="noreferrer noopener">120k+ ML SubReddit</a></strong> and Subscribe to <strong><a href="https://www.aidevsignals.com/" target="_blank" rel="noreferrer noopener">our Newsletter</a></strong>. Wait! are you on telegram? <strong><a href="https://t.me/machinelearningresearchnews" target="_blank" rel="noreferrer noopener">now you can join us on telegram as well.</a></strong></p>
+<p>The post <a href="https://www.marktechpost.com/2026/03/15/ibm-ai-releases-granite-4-0-1b-speech-as-a-compact-multilingual-speech-model-for-edge-ai-and-translation-pipelines/">IBM AI Releases Granite 4.0 1B Speech as a Compact Multilingual Speech Model for Edge AI and Translation Pipelines</a> appeared first on <a href="https://www.marktechpost.com">MarkTechPost</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://www.marktechpost.com/2026/03/15/ibm-ai-releases-granite-4-0-1b-speech-as-a-compact-multilingual-speech-model-for-edge-ai-and-translation-pipelines/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">78396</post-id>
+	</item>
+		<item>
+		<title>A Coding Implementation to Design an Enterprise AI Governance System Using OpenClaw Gateway Policy Engines, Approval Workflows and Auditable Agent Execution</title>
+		<link>https://www.marktechpost.com/2026/03/15/a-coding-implementation-to-design-an-enterprise-ai-governance-system-using-openclaw-gateway-policy-engines-approval-workflows-and-auditable-agent-execution/</link>
+					<comments>https://www.marktechpost.com/2026/03/15/a-coding-implementation-to-design-an-enterprise-ai-governance-system-using-openclaw-gateway-policy-engines-approval-workflows-and-auditable-agent-execution/#respond</comments>
+		
+		<dc:creator><![CDATA[Asif Razzaq]]></dc:creator>
+		<pubDate>Sun, 15 Mar 2026 22:12:45 +0000</pubDate>
+				<category><![CDATA[Agentic AI]]></category>
+		<category><![CDATA[AI Agents]]></category>
+		<category><![CDATA[Editors Pick]]></category>
+		<category><![CDATA[Staff]]></category>
+		<category><![CDATA[Tutorials]]></category>
+		<guid isPermaLink="false">https://www.marktechpost.com/?p=78393</guid>
+
+					<description><![CDATA[<p>In this tutorial, we build an enterprise-grade AI governance system using OpenClaw and Python. We start by setting up the OpenClaw runtime and launching the OpenClaw Gateway so that our Python environment can interact with a real agent through the OpenClaw API. We then design a governance layer that classifies requests based on risk, enforces [&#8230;]</p>
+<p>The post <a href="https://www.marktechpost.com/2026/03/15/a-coding-implementation-to-design-an-enterprise-ai-governance-system-using-openclaw-gateway-policy-engines-approval-workflows-and-auditable-agent-execution/">A Coding Implementation to Design an Enterprise AI Governance System Using OpenClaw Gateway Policy Engines, Approval Workflows and Auditable Agent Execution</a> appeared first on <a href="https://www.marktechpost.com">MarkTechPost</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<p>In this tutorial, we build an enterprise-grade AI governance system using <a href="https://github.com/openclaw/openclaw"><strong>OpenClaw</strong></a> and Python. We start by setting up the OpenClaw runtime and launching the OpenClaw Gateway so that our Python environment can interact with a real agent through the OpenClaw API. We then design a governance layer that classifies requests based on risk, enforces approval policies, and routes safe tasks to the OpenClaw agent for execution. By combining OpenClaw’s agent capabilities with policy controls, we demonstrate how organizations can safely deploy autonomous AI systems while maintaining visibility, traceability, and operational oversight.</p>
+
+
+
+<div class="dm-code-snippet dark dm-normal-version default no-background-mobile" snippet-height="" style="background-color:#abb8c3"><div class="control-language"><div class="dm-buttons"><div class="dm-buttons-left"><div class="dm-button-snippet red-button"></div><div class="dm-button-snippet orange-button"></div><div class="dm-button-snippet green-button"></div></div><div class="dm-buttons-right"><a id="dm-copy-raw-code"><span class="dm-copy-text">Copy Code</span><span class="dm-copy-confirmed" style="display:none">Copied</span><span class="dm-error-message" style="display:none">Use a different Browser</span></a></div></div><pre class=" no-line-numbers"><code id="dm-code-raw" class=" no-wrap language-php">!apt-get update -y
+!apt-get install -y curl
+!curl -fsSL https://deb.nodesource.com/setup_22.x | bash -
+!apt-get install -y nodejs
+!node -v
+!npm -v
+!npm install -g openclaw@latest
+!pip -q install requests pandas pydantic
+
+
+import os
+import json
+import time
+import uuid
+import secrets
+import subprocess
+import getpass
+from pathlib import Path
+from typing import Dict, Any
+from dataclasses import dataclass, asdict
+from datetime import datetime, timezone
+
+
+import requests
+import pandas as pd
+from pydantic import BaseModel, Field
+
+
+try:
+   from google.colab import userdata
+   OPENAI_API_KEY = userdata.get("OPENAI_API_KEY")
+except Exception:
+   OPENAI_API_KEY = None
+
+
+if not OPENAI_API_KEY:
+   OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
+
+
+if not OPENAI_API_KEY:
+   OPENAI_API_KEY = getpass.getpass("Enter your OpenAI API key (hidden input): ").strip()
+
+
+assert OPENAI_API_KEY != "", "API key cannot be empty."
+
+
+OPENCLAW_HOME = Path("/root/.openclaw")
+OPENCLAW_HOME.mkdir(parents=True, exist_ok=True)
+WORKSPACE = OPENCLAW_HOME / "workspace"
+WORKSPACE.mkdir(parents=True, exist_ok=True)
+
+
+GATEWAY_TOKEN = secrets.token_urlsafe(48)
+GATEWAY_PORT = 18789
+GATEWAY_URL = f"http://127.0.0.1:{GATEWAY_PORT}"</code></pre></div></div>
+
+
+
+<p>We prepare the environment required to run the OpenClaw-based governance system. We install Node.js, the OpenClaw CLI, and the required Python libraries so our notebook can interact with the OpenClaw Gateway and supporting tools. We also securely collect the OpenAI API key via a hidden terminal prompt and initialize the directories and variables required for runtime configuration.</p>
+
+
+
+<div class="dm-code-snippet dark dm-normal-version default no-background-mobile" snippet-height="" style="background-color:#abb8c3"><div class="control-language"><div class="dm-buttons"><div class="dm-buttons-left"><div class="dm-button-snippet red-button"></div><div class="dm-button-snippet orange-button"></div><div class="dm-button-snippet green-button"></div></div><div class="dm-buttons-right"><a id="dm-copy-raw-code"><span class="dm-copy-text">Copy Code</span><span class="dm-copy-confirmed" style="display:none">Copied</span><span class="dm-error-message" style="display:none">Use a different Browser</span></a></div></div><pre class=" no-line-numbers"><code id="dm-code-raw" class=" no-wrap language-php">config = {
+   "env": {
+       "OPENAI_API_KEY": OPENAI_API_KEY
+   },
+   "agents": {
+       "defaults": {
+           "workspace": str(WORKSPACE),
+           "model": {
+               "primary": "openai/gpt-4.1-mini"
+           }
+       }
+   },
+   "gateway": {
+       "mode": "local",
+       "port": GATEWAY_PORT,
+       "bind": "loopback",
+       "auth": {
+           "mode": "token",
+           "token": GATEWAY_TOKEN
+       },
+       "http": {
+           "endpoints": {
+               "chatCompletions": {
+                   "enabled": True
+               }
+           }
+       }
+   }
+}
+
+
+config_path = OPENCLAW_HOME / "openclaw.json"
+config_path.write_text(json.dumps(config, indent=2))
+
+
+doctor = subprocess.run(
+   ["bash", "-lc", "openclaw doctor --fix --yes"],
+   capture_output=True,
+   text=True
+)
+print(doctor.stdout[-2000:])
+print(doctor.stderr[-2000:])
+
+
+gateway_log = "/tmp/openclaw_gateway.log"
+gateway_cmd = f"OPENAI_API_KEY='{OPENAI_API_KEY}' OPENCLAW_GATEWAY_TOKEN='{GATEWAY_TOKEN}' openclaw gateway --port {GATEWAY_PORT} --bind loopback --token '{GATEWAY_TOKEN}' --verbose > {gateway_log} 2>&amp;1 &amp; echo $!"
+gateway_pid = subprocess.check_output(["bash", "-lc", gateway_cmd]).decode().strip()
+print("Gateway PID:", gateway_pid)</code></pre></div></div>
+
+
+
+<p>We construct the OpenClaw configuration file that defines the agent defaults and Gateway settings. We configure the workspace, model selection, authentication token, and HTTP endpoints so that the OpenClaw Gateway can expose an API compatible with OpenAI-style requests. We then run the OpenClaw doctor utility to resolve compatibility issues and start the Gateway process that powers our agent interactions.</p>
+
+
+
+<div class="dm-code-snippet dark dm-normal-version default no-background-mobile" snippet-height="" style="background-color:#abb8c3"><div class="control-language"><div class="dm-buttons"><div class="dm-buttons-left"><div class="dm-button-snippet red-button"></div><div class="dm-button-snippet orange-button"></div><div class="dm-button-snippet green-button"></div></div><div class="dm-buttons-right"><a id="dm-copy-raw-code"><span class="dm-copy-text">Copy Code</span><span class="dm-copy-confirmed" style="display:none">Copied</span><span class="dm-error-message" style="display:none">Use a different Browser</span></a></div></div><pre class=" no-line-numbers"><code id="dm-code-raw" class=" no-wrap language-php">def wait_for_gateway(timeout=120):
+   start = time.time()
+   while time.time() - start &lt; timeout:
+       try:
+           r = requests.get(f"{GATEWAY_URL}/", timeout=5)
+           if r.status_code in (200, 401, 403, 404):
+               return True
+       except Exception:
+           pass
+       time.sleep(2)
+   return False
+
+
+assert wait_for_gateway(), Path(gateway_log).read_text()[-6000:]
+
+
+headers = {
+   "Authorization": f"Bearer {GATEWAY_TOKEN}",
+   "Content-Type": "application/json"
+}
+
+
+def openclaw_chat(messages, user="demo-user", agent_id="main", temperature=0.2):
+   payload = {
+       "model": f"openclaw:{agent_id}",
+       "messages": messages,
+       "user": user,
+       "temperature": temperature,
+       "stream": False
+   }
+   r = requests.post(
+       f"{GATEWAY_URL}/v1/chat/completions",
+       headers=headers,
+       json=payload,
+       timeout=180
+   )
+   r.raise_for_status()
+   return r.json()
+
+
+class ActionProposal(BaseModel):
+   user_request: str
+   category: str
+   risk: str
+   confidence: float = Field(ge=0.0, le=1.0)
+   requires_approval: bool
+   allow: bool
+   reason: str</code></pre></div></div>
+
+
+
+<p>We wait for the OpenClaw Gateway to fully initialize before sending any requests. We create the HTTP headers and implement a helper function that sends chat requests to the OpenClaw Gateway through the /v1/chat/completions endpoint. We also define the ActionProposal schema that will later represent the governance classification for each user request.</p>
+
+
+
+<div class="dm-code-snippet dark dm-normal-version default no-background-mobile" snippet-height="" style="background-color:#abb8c3"><div class="control-language"><div class="dm-buttons"><div class="dm-buttons-left"><div class="dm-button-snippet red-button"></div><div class="dm-button-snippet orange-button"></div><div class="dm-button-snippet green-button"></div></div><div class="dm-buttons-right"><a id="dm-copy-raw-code"><span class="dm-copy-text">Copy Code</span><span class="dm-copy-confirmed" style="display:none">Copied</span><span class="dm-error-message" style="display:none">Use a different Browser</span></a></div></div><pre class=" no-line-numbers"><code id="dm-code-raw" class=" no-wrap language-php">def classify_request(user_request: str) -> ActionProposal:
+   text = user_request.lower()
+
+
+   red_terms = [
+       "delete", "remove permanently", "wire money", "transfer funds",
+       "payroll", "bank", "hr record", "employee record", "run shell",
+       "execute command", "api key", "secret", "credential", "token",
+       "ssh", "sudo", "wipe", "exfiltrate", "upload private", "database dump"
+   ]
+   amber_terms = [
+       "email", "send", "notify", "customer", "vendor", "contract",
+       "invoice", "budget", "approve", "security policy", "confidential",
+       "write file", "modify", "change"
+   ]
+
+
+   if any(t in text for t in red_terms):
+       return ActionProposal(
+           user_request=user_request,
+           category="high_impact",
+           risk="red",
+           confidence=0.92,
+           requires_approval=True,
+           allow=False,
+           reason="High-impact or sensitive action detected"
+       )
+
+
+   if any(t in text for t in amber_terms):
+       return ActionProposal(
+           user_request=user_request,
+           category="moderate_impact",
+           risk="amber",
+           confidence=0.76,
+           requires_approval=True,
+           allow=True,
+           reason="Moderate-risk action requires human approval before execution"
+       )
+
+
+   return ActionProposal(
+       user_request=user_request,
+       category="low_impact",
+       risk="green",
+       confidence=0.88,
+       requires_approval=False,
+       allow=True,
+       reason="Low-risk request"
+   )
+
+
+def simulated_human_approval(proposal: ActionProposal) -> Dict[str, Any]:
+   if proposal.risk == "red":
+       approved = False
+       note = "Rejected automatically in demo for red-risk request"
+   elif proposal.risk == "amber":
+       approved = True
+       note = "Approved automatically in demo for amber-risk request"
+   else:
+       approved = True
+       note = "No approval required"
+   return {
+       "approved": approved,
+       "reviewer": "simulated_manager",
+       "note": note
+   }
+
+
+@dataclass
+class TraceEvent:
+   trace_id: str
+   ts: str
+   stage: str
+   payload: Dict[str, Any]</code></pre></div></div>
+
+
+
+<p>We build the governance logic that analyzes incoming user requests and assigns a risk level to each. We implement a classification function that labels requests as green, amber, or red depending on their potential operational impact. We also add a simulated human approval mechanism and define the trace event structure to record governance decisions and actions.</p>
+
+
+
+<div class="dm-code-snippet dark dm-normal-version default no-background-mobile" snippet-height="" style="background-color:#abb8c3"><div class="control-language"><div class="dm-buttons"><div class="dm-buttons-left"><div class="dm-button-snippet red-button"></div><div class="dm-button-snippet orange-button"></div><div class="dm-button-snippet green-button"></div></div><div class="dm-buttons-right"><a id="dm-copy-raw-code"><span class="dm-copy-text">Copy Code</span><span class="dm-copy-confirmed" style="display:none">Copied</span><span class="dm-error-message" style="display:none">Use a different Browser</span></a></div></div><pre class=" no-line-numbers"><code id="dm-code-raw" class=" no-wrap language-php">class TraceStore:
+   def __init__(self, path="openclaw_traces.jsonl"):
+       self.path = path
+       Path(self.path).write_text("")
+
+
+   def append(self, event: TraceEvent):
+       with open(self.path, "a") as f:
+           f.write(json.dumps(asdict(event)) + "\n")
+
+
+   def read_all(self):
+       rows = []
+       with open(self.path, "r") as f:
+           for line in f:
+               line = line.strip()
+               if line:
+                   rows.append(json.loads(line))
+       return rows
+
+
+trace_store = TraceStore()
+
+
+def now():
+   return datetime.now(timezone.utc).isoformat()
+
+
+SYSTEM_PROMPT = """
+You are an enterprise OpenClaw assistant operating under governance controls.
+
+
+Rules:
+- Never claim an action has been executed unless the governance layer explicitly allows it.
+- For low-risk requests, answer normally and helpfully.
+- For moderate-risk requests, propose a safe plan and mention any approvals or checks that would be needed.
+- For high-risk requests, refuse to execute and instead provide a safer non-operational alternative such as a draft, checklist, summary, or review plan.
+- Be concise but useful.
+"""
+
+
+def governed_openclaw_run(user_request: str, session_user: str = "employee-001") -> Dict[str, Any]:
+   trace_id = str(uuid.uuid4())
+
+
+   proposal = classify_request(user_request)
+   trace_store.append(TraceEvent(trace_id, now(), "classification", proposal.model_dump()))
+
+
+   approval = None
+   if proposal.requires_approval:
+       approval = simulated_human_approval(proposal)
+       trace_store.append(TraceEvent(trace_id, now(), "approval", approval))
+
+
+   if proposal.risk == "red":
+       result = {
+           "trace_id": trace_id,
+           "status": "blocked",
+           "proposal": proposal.model_dump(),
+           "approval": approval,
+           "response": "This request is blocked by governance policy. I can help by drafting a safe plan, a checklist, or an approval packet instead."
+       }
+       trace_store.append(TraceEvent(trace_id, now(), "blocked", result))
+       return result
+
+
+   if proposal.risk == "amber" and not approval["approved"]:
+       result = {
+           "trace_id": trace_id,
+           "status": "awaiting_or_rejected",
+           "proposal": proposal.model_dump(),
+           "approval": approval,
+           "response": "This request requires approval and was not cleared."
+       }
+       trace_store.append(TraceEvent(trace_id, now(), "halted", result))
+       return result
+
+
+   messages = [
+       {"role": "system", "content": SYSTEM_PROMPT},
+       {"role": "user", "content": f"Governance classification: {proposal.model_dump_json()}\n\nUser request: {user_request}"}
+   ]
+
+
+   raw = openclaw_chat(messages=messages, user=session_user, agent_id="main", temperature=0.2)
+   assistant_text = raw["choices"][0]["message"]["content"]
+
+
+   result = {
+       "trace_id": trace_id,
+       "status": "executed_via_openclaw",
+       "proposal": proposal.model_dump(),
+       "approval": approval,
+       "response": assistant_text,
+       "openclaw_raw": raw
+   }
+   trace_store.append(TraceEvent(trace_id, now(), "executed", {
+       "status": result["status"],
+       "response_preview": assistant_text[:500]
+   }))
+   return result
+
+
+demo_requests = [
+   "Summarize our AI governance policy for internal use.",
+   "Draft an email to finance asking for confirmation of the Q1 cloud budget.",
+   "Send an email to all employees that payroll will be delayed by 2 days.",
+   "Transfer funds from treasury to vendor account immediately.",
+   "Run a shell command to archive the home directory and upload it."
+]
+
+
+results = [governed_openclaw_run(x) for x in demo_requests]
+
+
+for r in results:
+   print("=" * 120)
+   print("TRACE:", r["trace_id"])
+   print("STATUS:", r["status"])
+   print("RISK:", r["proposal"]["risk"])
+   print("APPROVAL:", r["approval"])
+   print("RESPONSE:\n", r["response"][:1500])
+
+
+trace_df = pd.DataFrame(trace_store.read_all())
+trace_df.to_csv("openclaw_governance_traces.csv", index=False)
+print("\nSaved: openclaw_governance_traces.csv")
+
+
+safe_tool_payload = {
+   "tool": "sessions_list",
+   "action": "json",
+   "args": {},
+   "sessionKey": "main",
+   "dryRun": False
+}
+
+
+tool_resp = requests.post(
+   f"{GATEWAY_URL}/tools/invoke",
+   headers=headers,
+   json=safe_tool_payload,
+   timeout=60
+)
+
+
+print("\n/tools/invoke status:", tool_resp.status_code)
+print(tool_resp.text[:1500])</code></pre></div></div>
+
+
+
+<p>We implement the full governed execution workflow around the OpenClaw agent. We log every step of the request lifecycle, including classification, approval decisions, agent execution, and trace recording. Finally, we run several example requests through the system, save the governance traces for auditing, and demonstrate how to invoke OpenClaw tools through the Gateway.</p>
+
+
+
+<p>In conclusion, we successfully implemented a practical governance framework around an OpenClaw-powered AI assistant. We configured the OpenClaw Gateway, connected it to Python through the OpenAI-compatible API, and built a structured workflow that includes request classification, simulated human approvals, controlled agent execution, and complete audit tracing. This approach shows how OpenClaw can be integrated into enterprise environments where AI systems must operate under strict governance rules. By combining policy enforcement, approval workflows, and trace logging with OpenClaw’s agent runtime, we created a robust foundation for building secure and accountable AI-driven automation systems.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p id="p-rc_d48437497689081f-76">Check out <a href="https://github.com/Marktechpost/AI-Tutorial-Codes-Included/blob/main/Agentic%20AI%20Codes/openclaw_enterprise_ai_governance_gateway_approval_workflows_Marktechpost.ipynb" target="_blank" rel="noreferrer noopener"><strong>Full</strong> <strong>Notebook here</strong></a><strong>. </strong>Also, feel free to follow us on <strong><a href="https://x.com/intent/follow?screen_name=marktechpost" target="_blank" rel="noreferrer noopener"><mark>Twitter</mark></a></strong> and don’t forget to join our <strong><a href="https://www.reddit.com/r/machinelearningnews/" target="_blank" rel="noreferrer noopener">120k+ ML SubReddit</a></strong> and Subscribe to <strong><a href="https://www.aidevsignals.com/" target="_blank" rel="noreferrer noopener">our Newsletter</a></strong>. Wait! are you on telegram? <strong><a href="https://t.me/machinelearningresearchnews" target="_blank" rel="noreferrer noopener">now you can join us on telegram as well.</a></strong></p>
+<p>The post <a href="https://www.marktechpost.com/2026/03/15/a-coding-implementation-to-design-an-enterprise-ai-governance-system-using-openclaw-gateway-policy-engines-approval-workflows-and-auditable-agent-execution/">A Coding Implementation to Design an Enterprise AI Governance System Using OpenClaw Gateway Policy Engines, Approval Workflows and Auditable Agent Execution</a> appeared first on <a href="https://www.marktechpost.com">MarkTechPost</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://www.marktechpost.com/2026/03/15/a-coding-implementation-to-design-an-enterprise-ai-governance-system-using-openclaw-gateway-policy-engines-approval-workflows-and-auditable-agent-execution/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">78393</post-id>
+	</item>
+		<item>
+		<title>Meet OpenViking: An Open-Source Context Database that Brings Filesystem-Based Memory and Retrieval to AI Agent Systems like OpenClaw</title>
+		<link>https://www.marktechpost.com/2026/03/15/meet-openviking-an-open-source-context-database-that-brings-filesystem-based-memory-and-retrieval-to-ai-agent-systems-like-openclaw/</link>
+					<comments>https://www.marktechpost.com/2026/03/15/meet-openviking-an-open-source-context-database-that-brings-filesystem-based-memory-and-retrieval-to-ai-agent-systems-like-openclaw/#respond</comments>
+		
+		<dc:creator><![CDATA[Asif Razzaq]]></dc:creator>
+		<pubDate>Sun, 15 Mar 2026 18:49:21 +0000</pubDate>
+				<category><![CDATA[Agentic AI]]></category>
+		<category><![CDATA[AI Agents]]></category>
+		<category><![CDATA[Databases]]></category>
+		<category><![CDATA[Editors Pick]]></category>
+		<category><![CDATA[New Releases]]></category>
+		<category><![CDATA[Open Source]]></category>
+		<category><![CDATA[Staff]]></category>
+		<category><![CDATA[Tech News]]></category>
+		<category><![CDATA[Technology]]></category>
+		<guid isPermaLink="false">https://www.marktechpost.com/?p=78390</guid>
+
+					<description><![CDATA[<p>OpenViking is an open-source Context Database for AI Agents from Volcengine. The project is built around a simple architectural concept: agent systems should not treat context as a flat collection of text chunks. Instead, OpenViking organizes context through a file system paradigm, with the goal of making memory, resources, and skills manageable through a unified [&#8230;]</p>
+<p>The post <a href="https://www.marktechpost.com/2026/03/15/meet-openviking-an-open-source-context-database-that-brings-filesystem-based-memory-and-retrieval-to-ai-agent-systems-like-openclaw/">Meet OpenViking: An Open-Source Context Database that Brings Filesystem-Based Memory and Retrieval to AI Agent Systems like OpenClaw</a> appeared first on <a href="https://www.marktechpost.com">MarkTechPost</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<p>OpenViking is an open-source <strong>Context Database</strong> for AI Agents from Volcengine. The project is built around a simple architectural concept: agent systems should not treat context as a flat collection of text chunks. Instead, OpenViking organizes context through a <strong>file system paradigm</strong>, with the goal of making <strong>memory, resources, and skills</strong> manageable through a unified hierarchical structure. In the project’s own framing, this is a response to five recurring problems in agent development: fragmented context, rising context volume during long-running tasks, weak retrieval quality in flat RAG pipelines, poor observability of retrieval behavior, and limited memory iteration beyond chat history.</p>
+
+
+
+<h3 class="wp-block-heading" id="h-a-virtual-filesystem-for-context-management"><strong>A Virtual Filesystem for Context Management</strong></h3>
+
+
+
+<p>At the center of the design is a virtual filesystem exposed under the <code>viking://</code> protocol. OpenViking maps different context types into directories, including <code>resources</code>, <code>user</code>, and <code>agent</code>. Under those top-level directories, an agent can access project documents, user preferences, task memories, skills, and instructions. This is a shift away from &#8216;flat text slices&#8217; toward abstract filesystem objects identified by URIs. The intended benefit is that an agent can use standard browsing-style operations such as <code>ls</code> and <code>find</code> to locate information in a more deterministic way, rather than relying only on similarity search across a flat vector index.</p>
+
+
+
+<h3 class="wp-block-heading" id="h-how-directory-recursive-retrieval-works"><strong>How Directory Recursive Retrieval Works</strong></h3>
+
+
+
+<p>That architectural choice matters because OpenViking is not trying to remove semantic retrieval. It is trying to constrain and structure it. The project’s retrieval pipeline first uses vector retrieval to identify a high-score directory, then performs a second retrieval within that directory, and recursively drills down into subdirectories if needed. The README calls this <strong>Directory Recursive Retrieval</strong>. The basic idea is that retrieval should preserve both local relevance and global context structure: the system should not only find the semantically similar fragment, but also understand the directory context in which that fragment lives. For agent workloads that span repositories, documents, and accumulated memory, that is a more explicit retrieval model than standard one-shot RAG.</p>
+
+
+
+<h3 class="wp-block-heading" id="h-tiered-context-loading-to-reduce-token-overhead"><strong>Tiered Context Loading to Reduce Token Overhead</strong></h3>
+
+
+
+<p>OpenViking also adds a built-in mechanism for <strong>Tiered Context Loading</strong>. When context is written, the system automatically processes it into three layers. <strong>L0</strong> is an abstract, described as a one-sentence summary used for quick retrieval and identification. <strong>L1</strong> is an overview that contains core information and usage scenarios for planning. <strong>L2</strong> is the full original content, intended for deep reading only when necessary. The README’s examples show <code>.abstract</code> and <code>.overview</code> files associated with directories, while the underlying documents remain available as detailed content. This design is meant to reduce prompt bloat by letting an agent load higher-level summaries first and defer full context until the task actually requires it.</p>
+
+
+
+<h3 class="wp-block-heading" id="h-retrieval-observability-and-debugging"><strong>Retrieval Observability and Debugging</strong></h3>
+
+
+
+<p>A second important systems feature is observability. OpenViking stores the trajectory of directory browsing and file positioning during retrieval. The README file describes this as <strong>Visualized Retrieval Trajectory</strong>. In practical terms, that means developers can inspect how the system navigated the hierarchy to fetch context. This is useful because many agent failures are not model failures in the narrow sense; they are context-routing failures. If the wrong memory, document, or skill is retrieved, the model can still produce a poor answer even when the model itself is capable. OpenViking’s approach makes that retrieval path visible, which gives developers something concrete to debug instead of treating context selection as a black box.</p>
+
+
+
+<h3 class="wp-block-heading" id="h-session-memory-and-self-iteration"><strong>Session Memory and Self-Iteration</strong></h3>
+
+
+
+<p>The project also extends memory management beyond conversation logging. OpenViking includes <strong>Automatic Session Management</strong> with a built-in <strong>memory self-iteration loop</strong>. According to the README file, at the end of a session developers can trigger memory extraction, and the system will analyze task execution results and user feedback, then update both User and Agent memory directories. The intended outputs include user preference memories and agent-side operational experience such as tool usage patterns and execution tips. That makes OpenViking closer to a persistent context substrate for agents than a standard vector database used only for retrieval.</p>
+
+
+
+<h3 class="wp-block-heading" id="h-reported-openclaw-evaluation-results"><strong>Reported OpenClaw Evaluation Results</strong></h3>
+
+
+
+<p>The README file also includes an evaluation section for an <strong>OpenClaw</strong> memory plugin on the <strong>LoCoMo10</strong> long-range dialogue dataset. The setup uses 1,540 cases after removing category5 samples without ground truth, reports <strong>OpenViking Version 0.1.18</strong>, and uses <strong>seed-2.0-code</strong> as the model. In the reported results, <code>OpenClaw(memory-core)</code> reaches a 35.65% task completion rate at 24,611,530 input tokens, while <code>OpenClaw + OpenViking Plugin (-memory-core)</code> reaches 52.08% at 4,264,396 input tokens and <code>OpenClaw + OpenViking Plugin (+memory-core)</code> reaches 51.23% at 2,099,622 input tokens. These are project-reported results rather than independent third-party benchmarks, but they align with the system’s design goal: improving retrieval structure while reducing unnecessary token usage.</p>
+
+
+
+<h3 class="wp-block-heading" id="h-deployment-details"><strong>Deployment Details</strong></h3>
+
+
+
+<p>The documented prerequisites are <strong>Python 3.10+</strong>, <strong>Go 1.22+</strong>, and <strong>GCC 9+ or Clang 11+</strong>, with support for Linux, macOS, and Windows. Installation is available through <code>pip install openviking --upgrade --force-reinstall</code>, and there is an optional Rust CLI named <code>ov_cli</code> that can be installed via script or built with Cargo. OpenViking implementation requires two model capabilities: a <strong>VLM Model</strong> for image and content understanding, and an <strong>Embedding Model</strong> for vectorization and semantic retrieval. Supported VLM access paths include <strong>Volcengine</strong>, <strong>OpenAI</strong>, and <strong>LiteLLM</strong>, while the example server configurations include OpenAI embeddings through <code>text-embedding-3-large</code> and an OpenAI VLM example using <code>gpt-4-vision-preview</code>.</p>
+
+
+
+<h3 class="wp-block-heading" id="h-key-takeaways"><strong>Key Takeaways</strong></h3>
+
+
+
+<ol class="wp-block-list">
+<li><strong>OpenViking treats agent context as a filesystem</strong>, unifying <strong>memory, resources, and skills</strong> under one hierarchical structure instead of a flat RAG-style store.</li>
+
+
+
+<li><strong>Its retrieval pipeline is recursive and directory-aware</strong>, combining <strong>directory positioning with semantic search</strong> to improve context precision. </li>
+
+
+
+<li><strong>It uses L0/L1/L2 tiered context loading</strong>, so agents can read summaries first and load full content only when needed, reducing token usage.</li>
+
+
+
+<li><strong>OpenViking exposes retrieval trajectories</strong>, which makes context selection more observable and easier to debug than standard black-box RAG workflows.</li>
+
+
+
+<li><strong>It also supports session-based memory iteration</strong>, extracting long-term memory from conversations, tool calls, and task execution history. </li>
+</ol>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p id="p-rc_d48437497689081f-76">Check out <strong><a href="https://github.com/volcengine/OpenViking?tab=readme-ov-file" target="_blank" rel="noreferrer noopener">Repo</a>. </strong>Also, feel free to follow us on <strong><a href="https://x.com/intent/follow?screen_name=marktechpost" target="_blank" rel="noreferrer noopener"><mark>Twitter</mark></a></strong> and don’t forget to join our <strong><a href="https://www.reddit.com/r/machinelearningnews/" target="_blank" rel="noreferrer noopener">120k+ ML SubReddit</a></strong> and Subscribe to <strong><a href="https://www.aidevsignals.com/" target="_blank" rel="noreferrer noopener">our Newsletter</a></strong>. Wait! are you on telegram? <strong><a href="https://t.me/machinelearningresearchnews" target="_blank" rel="noreferrer noopener">now you can join us on telegram as well.</a></strong></p>
+<p>The post <a href="https://www.marktechpost.com/2026/03/15/meet-openviking-an-open-source-context-database-that-brings-filesystem-based-memory-and-retrieval-to-ai-agent-systems-like-openclaw/">Meet OpenViking: An Open-Source Context Database that Brings Filesystem-Based Memory and Retrieval to AI Agent Systems like OpenClaw</a> appeared first on <a href="https://www.marktechpost.com">MarkTechPost</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://www.marktechpost.com/2026/03/15/meet-openviking-an-open-source-context-database-that-brings-filesystem-based-memory-and-retrieval-to-ai-agent-systems-like-openclaw/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">78390</post-id>
+	</item>
+		<item>
+		<title>LangChain Releases Deep Agents: A Structured Runtime for Planning, Memory, and Context Isolation in Multi-Step AI Agents</title>
+		<link>https://www.marktechpost.com/2026/03/15/langchain-releases-deep-agents-a-structured-runtime-for-planning-memory-and-context-isolation-in-multi-step-ai-agents/</link>
+					<comments>https://www.marktechpost.com/2026/03/15/langchain-releases-deep-agents-a-structured-runtime-for-planning-memory-and-context-isolation-in-multi-step-ai-agents/#respond</comments>
+		
+		<dc:creator><![CDATA[Michal Sutter]]></dc:creator>
+		<pubDate>Sun, 15 Mar 2026 09:07:48 +0000</pubDate>
+				<category><![CDATA[Agentic AI]]></category>
+		<category><![CDATA[AI Agents]]></category>
+		<category><![CDATA[AI Shorts]]></category>
+		<category><![CDATA[AI Tool]]></category>
+		<category><![CDATA[Applications]]></category>
+		<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[Editors Pick]]></category>
+		<category><![CDATA[New Releases]]></category>
+		<category><![CDATA[Open Source]]></category>
+		<category><![CDATA[Tech News]]></category>
+		<category><![CDATA[Technology]]></category>
+		<guid isPermaLink="false">https://www.marktechpost.com/?p=78387</guid>
+
+					<description><![CDATA[<p>Most LLM agents work well for short tool-calling loops but start to break down when the task becomes multi-step, stateful, and artifact-heavy. LangChain’s Deep Agents is designed for that gap. The project is described by LangChain as an &#8216;agent harness&#8216;: a standalone library built on top of LangChain’s agent building blocks and powered by the [&#8230;]</p>
+<p>The post <a href="https://www.marktechpost.com/2026/03/15/langchain-releases-deep-agents-a-structured-runtime-for-planning-memory-and-context-isolation-in-multi-step-ai-agents/">LangChain Releases Deep Agents: A Structured Runtime for Planning, Memory, and Context Isolation in Multi-Step AI Agents</a> appeared first on <a href="https://www.marktechpost.com">MarkTechPost</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<p>Most LLM agents work well for short tool-calling loops but start to break down when the task becomes multi-step, stateful, and artifact-heavy. LangChain’s <strong>Deep Agents</strong> is designed for that gap. The project is described by LangChain as an <strong>&#8216;agent harness</strong>&#8216;: a standalone library built on top of LangChain’s agent building blocks and powered by the LangGraph runtime for durable execution, streaming, and human-in-the-loop workflows. </p>
+
+
+
+<p>The important point is that Deep Agents does not introduce a new reasoning model or a new runtime separate from LangGraph. Instead, it packages a set of defaults and built-in tools around the standard tool-calling loop. LangChain team positions it as the easier starting point for developers who need agents that can plan, manage large context, delegate subtasks, and persist information across conversations, while still keeping the option to move to simpler LangChain agents or custom LangGraph workflows when needed. </p>
+
+
+
+<h3 class="wp-block-heading" id="h-what-deep-agents-includes-by-default"><strong>What Deep Agents Includes by Default</strong></h3>
+
+
+
+<p>The Deep Agents GitHub repository lists the core components directly. These include a planning tool called <code>write_todos</code>, filesystem tools such as <code>read_file</code>, <code>write_file</code>, <code>edit_file</code>, <code>ls</code>, <code>glob</code>, and <code>grep</code>, shell access through <code>execute</code> with sandboxing, the <code>task</code> tool for spawning subagents, and built-in context management features such as auto-summarization and saving large outputs to files. </p>
+
+
+
+<p>That framing matters because many agent systems leave planning, intermediate storage, and subtask delegation to the application developer. Deep Agents moves those pieces into the default runtime.</p>
+
+
+
+<h3 class="wp-block-heading" id="h-planning-and-task-decomposition"><strong>Planning and Task Decomposition</strong></h3>
+
+
+
+<p>Deep Agents includes a built-in <code>write_todos</code> tool for planning and task decomposition. The purpose is explicit: the agent can break a complex task into discrete steps, track progress, and update the plan as new information appears.</p>
+
+
+
+<p>Without a planning layer, the model tends to improvise each step from the current prompt. With <code>write_todos</code>, the workflow becomes more structured, which is more useful for research tasks, coding sessions, or analysis jobs that unfold over several steps.</p>
+
+
+
+<h3 class="wp-block-heading" id="h-filesystem-based-context-management"><strong>Filesystem-Based Context Management</strong></h3>
+
+
+
+<p>A second core feature is the use of filesystem tools for context management. These tools allow the agent to offload large context into storage rather than keeping everything inside the active prompt window. LangChain team explicitly notes that this helps prevent context window overflow and supports variable-length tool results.</p>
+
+
+
+<p>This is a more concrete design choice than vague claims about &#8216;memory.&#8217; The agent can write notes, generated code, intermediate reports, or search outputs into files and retrieve them later. That makes the system more suitable for longer tasks where the output itself becomes part of the working state.</p>
+
+
+
+<p>Deep Agents also supports multiple backend types for this virtual filesystem. The customization docs list <code>StateBackend</code>, <code>FilesystemBackend</code>, <code>LocalShellBackend</code>, <code>StoreBackend</code>, and <code>CompositeBackend</code>. By default, the system uses <code>StateBackend</code>, which stores an ephemeral filesystem in LangGraph state for a single thread.</p>
+
+
+
+<h3 class="wp-block-heading" id="h-subagents-and-context-isolation"><strong>Subagents and Context Isolation</strong></h3>
+
+
+
+<p>Deep Agents also includes a built-in <code>task</code> tool for subagent spawning. This tool allows the main agent to create specialized subagents for context isolation, keeping the main thread cleaner while letting the system go deeper on specific subtasks.</p>
+
+
+
+<p>This is one of the cleaner answers to a common failure mode in agent systems. Once a single thread accumulates too many objectives, tool outputs, and temporary decisions, model quality often drops. Splitting work into subagents reduces that overload and makes the orchestration path easier to debug. </p>
+
+
+
+<h3 class="wp-block-heading" id="h-long-term-memory-and-langgraph-integration"><strong>Long-Term Memory and LangGraph Integration</strong></h3>
+
+
+
+<p>The Deep Agents GitHub repository also describe long-term memory as a built-in capability. Deep Agents can be extended with persistent memory across threads using LangGraph’s Memory Store, allowing the agent to save and retrieve information from previous conversations. </p>
+
+
+
+<p>On the implementation side, Deep Agents stays fully inside the LangGraph execution model. The customization docs specify that <code>create_deep_agent(...)</code> returns a <code>CompiledStateGraph</code>. The resulting graph can be used with standard LangGraph features such as streaming, Studio, and checkpointers.</p>
+
+
+
+<p>Deep Agents is not a parallel abstraction layer that blocks access to runtime features; it is a prebuilt graph with defaults.</p>
+
+
+
+<h3 class="wp-block-heading" id="h-deployment-details"><strong>Deployment Details</strong></h3>
+
+
+
+<p>For deployment, the official quickstart shows a minimal Python setup: install <code>deepagents</code> plus a search provider such as <code>tavily-python</code>, export your model API key and search API key, define a search tool, and then create the agent with <code>create_deep_agent(...)</code> using a tool-calling model. The docs note that Deep Agents requires <strong>tool calling</strong> support, and the example workflow is to initialize the agent with your tools and <code>system_prompt</code>, then run it with <code>agent.invoke(...)</code>. LangChain team also points developers toward LangGraph deployment options for production, which fits because Deep Agents runs on the LangGraph runtime and supports built-in streaming for observing execution.</p>
+
+
+
+<div class="dm-code-snippet dark dm-normal-version default no-background-mobile" snippet-height="" style="background-color:#abb8c3"><div class="control-language"><div class="dm-buttons"><div class="dm-buttons-left"><div class="dm-button-snippet red-button"></div><div class="dm-button-snippet orange-button"></div><div class="dm-button-snippet green-button"></div></div><div class="dm-buttons-right"><a id="dm-copy-raw-code"><span class="dm-copy-text">Copy Code</span><span class="dm-copy-confirmed" style="display:none">Copied</span><span class="dm-error-message" style="display:none">Use a different Browser</span></a></div></div><pre class=" no-line-numbers"><code id="dm-code-raw" class=" no-wrap language-php"># pip install -qU deepagents
+from deepagents import create_deep_agent
+
+def get_weather(city: str) -> str:
+    """Get weather for a given city."""
+    return f"It's always sunny in {city}!"
+
+agent = create_deep_agent(
+    tools=[get_weather],
+    system_prompt="You are a helpful assistant",
+)
+
+# Run the agent
+agent.invoke(
+    {"messages": [{"role": "user", "content": "what is the weather in sf"}]}
+)</code></pre></div></div>
+
+
+
+<h3 class="wp-block-heading" id="h-key-takeaways"><strong>Key Takeaways</strong></h3>
+
+
+
+<ul class="wp-block-list">
+<li>Deep Agents is an agent harness built on LangChain and the LangGraph runtime. </li>
+
+
+
+<li>It includes built-in planning through the <code>write_todos</code> tool for multi-step task decomposition.</li>
+
+
+
+<li>It uses filesystem tools to manage large context and reduce prompt-window pressure.</li>
+
+
+
+<li>It can spawn subagents with isolated context using the built-in <code>task</code> tool. </li>
+
+
+
+<li>It supports persistent memory across threads through LangGraph’s Memory Store. </li>
+</ul>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p id="p-rc_d48437497689081f-76">Check out <strong><a href="https://github.com/langchain-ai/deepagents" target="_blank" rel="noreferrer noopener">Repo</a></strong> and <strong><a href="https://docs.langchain.com/oss/python/deepagents/overview" target="_blank" rel="noreferrer noopener">Docs</a>. </strong>Also, feel free to follow us on <strong><a href="https://x.com/intent/follow?screen_name=marktechpost" target="_blank" rel="noreferrer noopener"><mark>Twitter</mark></a></strong> and don’t forget to join our <strong><a href="https://www.reddit.com/r/machinelearningnews/" target="_blank" rel="noreferrer noopener">120k+ ML SubReddit</a></strong> and Subscribe to <strong><a href="https://www.aidevsignals.com/" target="_blank" rel="noreferrer noopener">our Newsletter</a></strong>. Wait! are you on telegram? <strong><a href="https://t.me/machinelearningresearchnews" target="_blank" rel="noreferrer noopener">now you can join us on telegram as well.</a></strong></p>
+<p>The post <a href="https://www.marktechpost.com/2026/03/15/langchain-releases-deep-agents-a-structured-runtime-for-planning-memory-and-context-isolation-in-multi-step-ai-agents/">LangChain Releases Deep Agents: A Structured Runtime for Planning, Memory, and Context Isolation in Multi-Step AI Agents</a> appeared first on <a href="https://www.marktechpost.com">MarkTechPost</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://www.marktechpost.com/2026/03/15/langchain-releases-deep-agents-a-structured-runtime-for-planning-memory-and-context-isolation-in-multi-step-ai-agents/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">78387</post-id>
+	</item>
+		<item>
+		<title>Zhipu AI Introduces GLM-OCR: A 0.9B Multimodal OCR Model for Document Parsing and Key Information Extraction (KIE)</title>
+		<link>https://www.marktechpost.com/2026/03/15/zhipu-ai-introduces-glm-ocr-a-0-9b-multimodal-ocr-model-for-document-parsing-and-key-information-extraction-kie/</link>
+					<comments>https://www.marktechpost.com/2026/03/15/zhipu-ai-introduces-glm-ocr-a-0-9b-multimodal-ocr-model-for-document-parsing-and-key-information-extraction-kie/#respond</comments>
+		
+		<dc:creator><![CDATA[Asif Razzaq]]></dc:creator>
+		<pubDate>Sun, 15 Mar 2026 08:08:01 +0000</pubDate>
+				<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[Editors Pick]]></category>
+		<category><![CDATA[Language Model]]></category>
+		<category><![CDATA[New Releases]]></category>
+		<category><![CDATA[OCR]]></category>
+		<category><![CDATA[Technology]]></category>
+		<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">https://www.marktechpost.com/?p=78381</guid>
+
+					<description><![CDATA[<p>Why Document OCR Still Remains a Hard Engineering Problem? What does it take to make OCR useful for real documents instead of clean demo images? And can a compact multimodal model handle parsing, tables, formulas, and structured extraction without turning inference into a resource bonfire? That is the problem targeted by GLM-OCR, introduced by researchers [&#8230;]</p>
+<p>The post <a href="https://www.marktechpost.com/2026/03/15/zhipu-ai-introduces-glm-ocr-a-0-9b-multimodal-ocr-model-for-document-parsing-and-key-information-extraction-kie/">Zhipu AI Introduces GLM-OCR: A 0.9B Multimodal OCR Model for Document Parsing and Key Information Extraction (KIE)</a> appeared first on <a href="https://www.marktechpost.com">MarkTechPost</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<p id="h-why-document-ocr-still-remains-a-hard-engineering-problem"><strong>Why Document OCR Still Remains a Hard Engineering Problem</strong>? What does it take to make OCR useful for real documents instead of clean demo images? And can a compact multimodal model handle parsing, tables, formulas, and structured extraction without turning inference into a resource bonfire?</p>
+
+
+
+<p>That is the problem targeted by <strong>GLM-OCR</strong>, introduced by researchers from <strong>Zhipu AI and Tsinghua University</strong>. The research team presents GLM-OCR as a <strong>0.9B-parameter compact multimodal model</strong> for document understanding. It combines a <strong>0.4B CogViT visual encoder</strong>, a lightweight cross-modal connector, and a <strong>0.5B GLM language decoder</strong>. The stated goal is to balance document recognition quality with lower latency and lower computational cost than larger multimodal systems.</p>
+
+
+
+<p>Traditional OCR systems are often good at plain text transcription, but they struggle when documents contain mixed layouts, tables, formulas, code blocks, seals, and structured fields. Recent multimodal large language models improve document understanding, but the research team argue that their size and standard autoregressive decoding make them expensive for edge deployment and large-scale production. GLM-OCR is positioned as a smaller system built for these deployment constraints rather than as a general-purpose vision-language model adapted to OCR as an afterthought.</p>
+
+
+
+<h3 class="wp-block-heading" id="h-a-compact-architecture-built-for-ocr-workloads"><strong>A Compact Architecture Built for OCR Workloads</strong></h3>
+
+
+
+<p>A key technical point for this research is the use of <strong>Multi-Token Prediction (MTP)</strong>. Standard autoregressive decoding predicts one token at a time, which is not ideal for OCR-style tasks where outputs are often deterministic and locally structured. GLM-OCR instead predicts multiple tokens per step. The model is trained to predict <strong>10 tokens per step</strong> and generates <strong>5.2 tokens per decoding step on average at inference time</strong>, yielding about <strong>50% throughput improvement</strong>. To keep memory overhead manageable, the implementation uses a parameter-sharing scheme across the draft models.</p>
+
+
+
+<h3 class="wp-block-heading" id="h-two-stage-layout-parsing-instead-of-flat-page-reading"><strong>Two-Stage Layout Parsing Instead of Flat Page Reading</strong></h3>
+
+
+
+<p>At the system level, GLM-OCR adopts a <strong>two-stage pipeline</strong>. The first stage uses <strong>PP-DocLayout-V3</strong> for layout analysis, which detects structured regions on the page. The second stage performs <strong>parallel region-level recognition</strong> over those detected areas. This is important because the model is not simply reading a whole page left-to-right as a generic vision-language model might. It first breaks down the page into semantically meaningful regions, which improves efficiency and makes the system more robust on documents with complicated layouts.</p>
+
+
+
+<h3 class="wp-block-heading" id="h-document-parsing-and-kie-use-different-output-paths"><strong>Document Parsing and KIE Use Different Output Paths</strong></h3>
+
+
+
+<p>The architecture also separates two related document tasks. For <strong>document parsing</strong>, the pipeline uses layout detection and region processing to produce structured outputs such as <strong>Markdown</strong> and <strong>JSON</strong>. For <strong>Key Information Extraction (KIE)</strong>, the research team describes a different path: the full document image is fed to the model with a task prompt, and the model directly generates <strong>JSON</strong> containing the extracted fields. That distinction matters because GLM-OCR is not presented as a single monolithic page-to-text model. It is a structured generation system with different operating modes depending on the task.</p>
+
+
+
+<h3 class="wp-block-heading" id="h-a-four-stage-training-pipeline-with-task-specific-rewards"><strong>A Four-Stage Training Pipeline with Task-Specific Rewards</strong></h3>
+
+
+
+<p>The training recipe is split into <strong>4 stages</strong>. <strong>Stage 1</strong> trains the vision encoder on image-text pairs and grounding or retrieval data. <strong>Stage 2.1</strong> performs multimodal pretraining on image-text, document parsing, grounding, and VQA data. <strong>Stage 2.2</strong> adds the MTP objective. <strong>Stage 3</strong> is supervised fine-tuning on OCR-specific tasks including text recognition, formula transcription, table structure recovery, and KIE. <strong>Stage 4</strong> applies reinforcement learning using <strong>GRPO</strong>. The reward design is task-specific: <strong>Normalized Edit Distance</strong> for text recognition, <strong>CDM score</strong> for formula recognition, <strong>TEDS score</strong> for table recognition, and <strong>field-level F1</strong> for KIE, along with structural penalties such as repetition penalties, malformed structure penalties, and JSON validation constraints.</p>
+
+
+
+<h3 class="wp-block-heading" id="h-benchmark-results-show-strong-performance-with-important-caveats"><strong>Benchmark Results Show Strong Performance, With Important Caveats</strong></h3>
+
+
+
+<p>On public benchmarks, GLM-OCR reports strong results across several document tasks. It scores <strong>94.6</strong> on <strong>OmniDocBench v1.5</strong>, <strong>94.0</strong> on <strong>OCRBench (Text)</strong>, <strong>96.5</strong> on <strong>UniMERNet</strong>, <strong>85.2</strong> on <strong>PubTabNet</strong>, and <strong>86.0</strong> on <strong>TEDS_TEST</strong>. For KIE, it reports <strong>93.7</strong> on <strong>Nanonets-KIE</strong> and <strong>86.1</strong> on <strong>Handwritten-KIE</strong>. The research team notes that results for <strong>Gemini-3-Pro</strong> and <strong>GPT-5.2-2025-12-11</strong> are shown only for reference and are excluded from the best-score ranking, which is an important detail when interpreting claims about model leadership.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-full is-resized"><img decoding="async" width="1806" height="772" data-attachment-id="78384" data-permalink="https://www.marktechpost.com/2026/03/15/zhipu-ai-introduces-glm-ocr-a-0-9b-multimodal-ocr-model-for-document-parsing-and-key-information-extraction-kie/screenshot-2026-03-15-at-12-57-34-am-2/" data-orig-file="https://www.marktechpost.com/wp-content/uploads/2026/03/Screenshot-2026-03-15-at-12.57.34-AM-1.png" data-orig-size="1806,772" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Screenshot 2026-03-15 at 12.57.34 AM" data-image-description="" data-image-caption="" data-medium-file="https://www.marktechpost.com/wp-content/uploads/2026/03/Screenshot-2026-03-15-at-12.57.34-AM-1-300x128.png" data-large-file="https://www.marktechpost.com/wp-content/uploads/2026/03/Screenshot-2026-03-15-at-12.57.34-AM-1-1024x438.png" src="https://www.marktechpost.com/wp-content/uploads/2026/03/Screenshot-2026-03-15-at-12.57.34-AM-1.png" alt="" class="wp-image-78384" style="aspect-ratio:2.3393798343486893;width:870px;height:auto" srcset="https://www.marktechpost.com/wp-content/uploads/2026/03/Screenshot-2026-03-15-at-12.57.34-AM-1.png 1806w, https://www.marktechpost.com/wp-content/uploads/2026/03/Screenshot-2026-03-15-at-12.57.34-AM-1-300x128.png 300w, https://www.marktechpost.com/wp-content/uploads/2026/03/Screenshot-2026-03-15-at-12.57.34-AM-1-1024x438.png 1024w, https://www.marktechpost.com/wp-content/uploads/2026/03/Screenshot-2026-03-15-at-12.57.34-AM-1-768x328.png 768w, https://www.marktechpost.com/wp-content/uploads/2026/03/Screenshot-2026-03-15-at-12.57.34-AM-1-1536x657.png 1536w, https://www.marktechpost.com/wp-content/uploads/2026/03/Screenshot-2026-03-15-at-12.57.34-AM-1-983x420.png 983w, https://www.marktechpost.com/wp-content/uploads/2026/03/Screenshot-2026-03-15-at-12.57.34-AM-1-150x64.png 150w, https://www.marktechpost.com/wp-content/uploads/2026/03/Screenshot-2026-03-15-at-12.57.34-AM-1-696x298.png 696w, https://www.marktechpost.com/wp-content/uploads/2026/03/Screenshot-2026-03-15-at-12.57.34-AM-1-1068x457.png 1068w, https://www.marktechpost.com/wp-content/uploads/2026/03/Screenshot-2026-03-15-at-12.57.34-AM-1-600x256.png 600w" sizes="(max-width: 1806px) 100vw, 1806px" /><figcaption class="wp-element-caption">https://arxiv.org/pdf/2603.10910</figcaption></figure>
+</div>
+
+
+<p>The benchmark story is strong, but it needs careful phrasing. GLM-OCR achieves the highest reported scores among the evaluated non-reference models on <strong>OmniDocBench v1.5</strong>, <strong>OCRBench (Text)</strong>, <strong>UniMERNet</strong>, and <strong>TEDS_TEST</strong>. On <strong>PubTabNet</strong>, however, it does <strong>not</strong> lead overall; <strong>MinerU 2.5</strong> reports <strong>88.4</strong> versus GLM-OCR’s <strong>85.2</strong>. For KIE, GLM-OCR outperforms the listed open-source competitors in the above table, but <strong>Gemini-3-Pro</strong> scores higher on both <strong>Nanonets-KIE</strong> and <strong>Handwritten-KIE</strong> in the reference column. So the reserach team supports a strong competitive claim, but not a blanket &#8216;best at everything&#8217; claim.</p>
+
+
+
+<h3 class="wp-block-heading" id="h-deployment-details"><strong>Deployment Details</strong></h3>
+
+
+
+<p>The research team state that GLM-OCR supports <strong>vLLM</strong>, <strong>SGLang</strong>, and <strong>Ollama</strong>, and can be fine-tuned through <strong>LLaMA-Factory</strong>. They also report throughput of <strong>0.67 images/s</strong> and <strong>1.86 PDF pages/s</strong> under their evaluation setup. In addition, they describe a MaaS API priced at <strong>0.2 RMB per million tokens</strong>, with example cost estimates for scanned images and simple-layout PDFs. These details suggest that GLM-OCR is being framed as both a research model and a deployable system.</p>
+
+
+
+<h3 class="wp-block-heading" id="h-key-takeaways"><strong>Key Takeaways</strong></h3>
+
+
+
+<ul class="wp-block-list">
+<li><strong>GLM-OCR is a compact 0.9B multimodal OCR model</strong> built with a <strong>0.4B CogViT encoder</strong> and <strong>0.5B GLM decoder</strong>.</li>
+
+
+
+<li><strong>It uses Multi-Token Prediction (MTP)</strong> to improve decoding efficiency, reaching <strong>5.2 tokens per step on average</strong> and about <strong>50% higher throughput</strong>.</li>
+
+
+
+<li><strong>The model uses a two-stage pipeline</strong>: <strong>PP-DocLayout-V3</strong> handles layout analysis, then GLM-OCR performs parallel region-level recognition.</li>
+
+
+
+<li><strong>It supports both document parsing and KIE</strong>: parsing outputs <strong>Markdown/JSON</strong>, while KIE directly generates <strong>JSON</strong> from the full document image.</li>
+
+
+
+<li><strong>Benchmark results are strong but not universal wins</strong>: GLM-OCR leads several reported non-reference benchmarks, but <strong>MinerU 2.5</strong> is higher on <strong>PubTabNet</strong>, and <strong>Gemini-3-Pro</strong> is higher on the reference-only KIE scores.</li>
+</ul>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p id="p-rc_d48437497689081f-76">Check out <strong><a href="https://arxiv.org/pdf/2603.10910" target="_blank" rel="noreferrer noopener">Paper</a>, <a href="https://github.com/zai-org/GLM-OCR" target="_blank" rel="noreferrer noopener">Repo</a> </strong>and<strong> <a href="https://huggingface.co/zai-org/GLM-OCR" target="_blank" rel="noreferrer noopener">Model Page</a>. </strong>Also, feel free to follow us on <strong><a href="https://x.com/intent/follow?screen_name=marktechpost" target="_blank" rel="noreferrer noopener"><mark>Twitter</mark></a></strong> and don’t forget to join our <strong><a href="https://www.reddit.com/r/machinelearningnews/" target="_blank" rel="noreferrer noopener">120k+ ML SubReddit</a></strong> and Subscribe to <strong><a href="https://www.aidevsignals.com/" target="_blank" rel="noreferrer noopener">our Newsletter</a></strong>. Wait! are you on telegram? <strong><a href="https://t.me/machinelearningresearchnews" target="_blank" rel="noreferrer noopener">now you can join us on telegram as well.</a></strong></p>
+<p>The post <a href="https://www.marktechpost.com/2026/03/15/zhipu-ai-introduces-glm-ocr-a-0-9b-multimodal-ocr-model-for-document-parsing-and-key-information-extraction-kie/">Zhipu AI Introduces GLM-OCR: A 0.9B Multimodal OCR Model for Document Parsing and Key Information Extraction (KIE)</a> appeared first on <a href="https://www.marktechpost.com">MarkTechPost</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://www.marktechpost.com/2026/03/15/zhipu-ai-introduces-glm-ocr-a-0-9b-multimodal-ocr-model-for-document-parsing-and-key-information-extraction-kie/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">78381</post-id>
+		<media:thumbnail url="https://www.marktechpost.com/wp-content/uploads/2026/03/Screenshot-2026-03-15-at-12.57.34-AM-1-150x150.png" />
+		<media:content url="https://www.marktechpost.com/wp-content/uploads/2026/03/Screenshot-2026-03-15-at-12.57.34-AM-1.png" medium="image">
+			<media:title type="html">Screenshot 2026-03-15 at 12.57.34 AM</media:title>
+			<media:thumbnail url="https://www.marktechpost.com/wp-content/uploads/2026/03/Screenshot-2026-03-15-at-12.57.34-AM-1-150x150.png" />
+		</media:content>
+	</item>
+	</channel>
+</rss>
