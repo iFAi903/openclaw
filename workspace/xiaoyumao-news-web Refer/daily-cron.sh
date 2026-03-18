@@ -1,157 +1,144 @@
 #!/bin/bash
-
 # =============================================================================
 # 小羽毛 AI 新闻早报 - 每日自动发布脚本
 # 执行时间：每日 07:00 (Asia/Taipei)
 # 执行流程：Fetch → Update → Build → Deploy
 # =============================================================================
 
-set -e  # 遇到错误立即退出
+set -euo pipefail  # 严格模式：遇到错误/未定义变量/管道失败立即退出
 
-# 配置
-PROJECT_DIR="/Users/ifai_macpro/.openclaw/workspace/iFAi/workspace/xiaoyumao-news-web Refer"
-VERCEL_TOKEN="<VERCEL_TOKEN_REDACTED>"
-LOG_FILE="/tmp/xiaoyumao-news-cron.log"
-DATE=$(date '+%Y-%m-%d %H:%M:%S')
+# =============================================================================
+# 配置区
+# =============================================================================
+readonly PROJECT_DIR="/Users/ifai_macpro/.openclaw/workspace/iFAi/workspace/xiaoyumao-news-web Refer"
+readonly LOG_FILE="/tmp/xiaoyumao-news-cron.log"
+readonly BACKUP_BASE_DIR="./backups"
+readonly MAX_BACKUPS=10
+readonly DATE=$(date '+%Y-%m-%d %H:%M:%S')
+readonly BACKUP_DIR="${BACKUP_BASE_DIR}/$(date +%Y%m%d_%H%M%S)"
 
-echo "========================================" >> "$LOG_FILE"
-echo "[$DATE] 开始执行每日新闻更新" >> "$LOG_FILE"
+# 从环境变量读取 Token（安全模式）
+VERCEL_TOKEN="${VERCEL_TOKEN:-}"
 
-# 进入项目目录
-cd "$PROJECT_DIR"
+# =============================================================================
+# 工具函数
+# =============================================================================
 
-# Step 1: 获取新闻数据
-echo "[$DATE] Step 1/4: 获取新闻数据..." >> "$LOG_FILE"
-python3 fetch_news_v2.py >> "$LOG_FILE" 2>&1
+log() {
+    echo "[$DATE] $1" >> "$LOG_FILE"
+    echo "[$DATE] $1"
+}
 
-if [ ! -f "daily_data.json" ]; then
-    echo "[$DATE] ❌ 错误: daily_data.json 未生成" >> "$LOG_FILE"
-    exit 1
-fi
+log_error() {
+    echo "[$DATE] ❌ $1" >> "$LOG_FILE"
+    echo "[$DATE] ❌ $1" >&2
+}
 
-echo "[$DATE] ✅ 新闻数据获取完成" >> "$LOG_FILE"
+log_success() {
+    echo "[$DATE] ✅ $1" >> "$LOG_FILE"
+    echo "[$DATE] ✅ $1"
+}
 
-# Step 2: 转换为 TypeScript 并更新 news.ts
-echo "[$DATE] Step 2/4: 更新新闻数据文件..." >> "$LOG_FILE"
-python3 << 'PYTHON_SCRIPT'
-import json
-from datetime import datetime
+cleanup_old_backups() {
+    if [[ -d "$BACKUP_BASE_DIR" ]]; then
+        local count
+        count=$(find "$BACKUP_BASE_DIR" -type d -maxdepth 1 2>/dev/null | wc -l)
+        count=$((count - 1))  # 减去基目录本身
+        if (( count > MAX_BACKUPS )); then
+            find "$BACKUP_BASE_DIR" -type d -maxdepth 1 | sort -r | tail -n +$((MAX_BACKUPS + 1)) | while read -r dir; do
+                if [[ "$dir" != "$BACKUP_BASE_DIR" ]]; then
+                    rm -rf "$dir"
+                fi
+            done
+            log "已清理旧备份，保留最近 $MAX_BACKUPS 个"
+        fi
+    fi
+}
 
-# 读取获取的数据
-with open('daily_data.json', 'r', encoding='utf-8') as f:
-    data = json.load(f)
+create_backup() {
+    mkdir -p "$BACKUP_DIR"
+    if [[ -f "daily_data.json" ]]; then
+        cp daily_data.json "$BACKUP_DIR/"
+        log_success "数据已备份到 $BACKUP_DIR"
+    fi
+    cleanup_old_backups
+}
 
-news = data.get('news', [])
-products = data.get('products', [])
-date_str = data.get("date", datetime.now().strftime("%Y年%m月%d日"))
-quote_text = data.get("quote", "技术的价值不在于它有多复杂，而在于它能让多少人的生活变得更简单。")
+# =============================================================================
+# 主流程
+# =============================================================================
 
-# 生成 TypeScript 内容
-ts_content = f'''// 自动生成 - 小羽毛 AI 早报
-// 生成时间: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}
+main() {
+    # 前置检查
+    if [[ -z "$VERCEL_TOKEN" ]]; then
+        log_error "安全错误: 未设置 VERCEL_TOKEN 环境变量"
+        log_error "请执行: export VERCEL_TOKEN='your-token-here'"
+        exit 1
+    fi
 
-export interface NewsItem {{
-  id: string;
-  title: string;
-  source: string;
-  url: string;
-  summary: string;
-  type: 'news' | 'product';
-  publishedAt: string;
-}}
+    # 进入项目目录
+    if ! cd "$PROJECT_DIR" 2>/dev/null; then
+        log_error "无法进入项目目录: $PROJECT_DIR"
+        exit 1
+    fi
 
-export interface DailyNews {{
-  date: string;
-  aiNews: NewsItem[];
-  products: NewsItem[];
-  summary: string;
-  quote: {{
-    text: string;
-    author: string;
-  }};
-  generatedAt: string;
-  websiteUrl: string;
-}}
+    log "========================================"
+    log "开始执行每日新闻更新"
+    log "========================================"
 
-export const todayNews: DailyNews = {{
-  "date": "{date_str} 周{'一二三四五六日'[datetime.now().weekday()]}",
-  "aiNews": [
-'''
+    # 创建备份
+    log "Step 0/4: 创建数据备份..."
+    create_backup
 
-# 添加新闻
-for i, item in enumerate(news[:15]):
-    ts_content += f'''    {{
-      "id": "news_{i+1}",
-      "title": "{item.get('title', '').replace('"', '\\"')}",
-      "source": "{item.get('source', '').replace('"', '\\"')}",
-      "url": "{item.get('url', '').replace('"', '\\"')}",
-      "summary": "{item.get('summary', '')[:100].replace('"', '\\"')}...",
-      "type": "news",
-      "publishedAt": "{datetime.now().strftime('%Y-%m-%d')}"
-    }}{',' if i < min(len(news), 15) - 1 else ''}
-'''
+    # Step 1: 获取新闻数据
+    log "Step 1/4: 获取新闻数据..."
+    if ! python3 fetch_news_final.py >> "$LOG_FILE" 2>&1; then
+        log_error "新闻数据获取失败"
+        exit 1
+    fi
 
-ts_content += '''  ],
-  "products": [
-'''
+    if [[ ! -f "daily_data.json" ]]; then
+        log_error "错误: daily_data.json 未生成"
+        exit 1
+    fi
 
-# 添加产品
-for i, item in enumerate(products[:5]):
-    ts_content += f'''    {{
-      "id": "product_{i+1}",
-      "title": "{item.get('title', '').replace('"', '\\"').split(' - ')[0]}",
-      "source": "{item.get('source', '').replace('"', '\\"')}",
-      "url": "{item.get('url', '').replace('"', '\\"')}",
-      "summary": "{item.get('summary', '今日热门产品').replace('"', '\\"')}",
-      "type": "product",
-      "publishedAt": "{datetime.now().strftime('%Y-%m-%d')}"
-    }}{',' if i < min(len(products), 5) - 1 else ''}
-'''
+    # 验证 JSON 有效性
+    if ! python3 -c "import json; json.load(open('daily_data.json'))" 2>/dev/null; then
+        log_error "错误: daily_data.json 不是有效的 JSON"
+        exit 1
+    fi
 
-ts_content += f'''  ],
-  "summary": "今日 AI 圈：{news[0].get('title', '最新 AI 资讯')[:30]}...等 {len(news)} 条新闻，{len(products)} 款热门产品。",
-  "quote": {{
-    "text": "{quote_text}",
-    "author": "小羽毛 AI"
-  }},
-  "generatedAt": "{datetime.now().isoformat()}",
-  "websiteUrl": "https://xiaoyumao-news-web.vercel.app"
-}};
+    log_success "新闻数据获取完成"
 
-export default todayNews;
-'''
+    # Step 2: 转换为 TypeScript 并更新 news.ts
+    log "Step 2/4: 更新新闻数据文件..."
+    if ! python3 generate_news_ts.py >> "$LOG_FILE" 2>&1; then
+        log_error "TypeScript 文件生成失败"
+        exit 1
+    fi
+    log_success "数据文件更新完成"
 
-# 写入文件
-with open('src/data/news.ts', 'w', encoding='utf-8') as f:
-    f.write(ts_content)
+    # Step 3: 构建项目
+    log "Step 3/4: 构建项目..."
+    if ! npm run build >> "$LOG_FILE" 2>&1; then
+        log_error "构建失败"
+        exit 1
+    fi
+    log_success "构建完成"
 
-print(f"✅ news.ts 更新完成，包含 {len(news)} 条新闻，{len(products)} 个产品")
-PYTHON_SCRIPT
+    # Step 4: 部署到 Vercel
+    log "Step 4/4: 部署到 Vercel..."
+    if ! npx vercel --prod --token "$VERCEL_TOKEN" --yes >> "$LOG_FILE" 2>&1; then
+        log_error "部署失败"
+        exit 1
+    fi
+    log_success "部署完成"
 
-echo "[$DATE] ✅ 数据文件更新完成" >> "$LOG_FILE"
+    log "========================================"
+    log "🎉 每日新闻早报更新成功！"
+    log "========================================"
+}
 
-# Step 3: 构建项目
-echo "[$DATE] Step 3/4: 构建项目..." >> "$LOG_FILE"
-npm run build >> "$LOG_FILE" 2>&1
-
-if [ $? -ne 0 ]; then
-    echo "[$DATE] ❌ 错误: 构建失败" >> "$LOG_FILE"
-    exit 1
-fi
-
-echo "[$DATE] ✅ 构建完成" >> "$LOG_FILE"
-
-# Step 4: 部署到 Vercel
-echo "[$DATE] Step 4/4: 部署到 Vercel..." >> "$LOG_FILE"
-npx vercel --prod --token "$VERCEL_TOKEN" --yes >> "$LOG_FILE" 2>&1
-
-if [ $? -ne 0 ]; then
-    echo "[$DATE] ❌ 错误: 部署失败" >> "$LOG_FILE"
-    exit 1
-fi
-
-echo "[$DATE] ✅ 部署完成" >> "$LOG_FILE"
-echo "[$DATE] 🎉 每日新闻早报更新成功！" >> "$LOG_FILE"
-echo "========================================" >> "$LOG_FILE"
-
+# 执行主流程
+main "$@"
 exit 0

@@ -1,0 +1,115 @@
+---
+name: {skill-name}
+version: 1.0.0
+description: |
+  一句话描述技能用途。
+  多行描述，支持 Markdown。
+  说明何时使用此技能。
+skills:
+  - optional-child-skill-1
+  - optional-child-skill-2
+allowed-tools:
+  - Bash
+  - Read
+  - Edit
+  - Write
+  - Grep
+  - Glob
+  - AskUserQuestion
+  - WebSearch
+---
+<!-- 技能文档正文 -->
+<!-- 基于 gstack SKILL.md 模板 -->
+
+## Preamble (run first)
+
+```bash
+# 更新检查
+_UPD=$(~/.claude/skills/{skill-name}/bin/update-check 2>/dev/null || true)
+[ -n "$_UPD" ] && echo "$_UPD" || true
+
+# 会话管理
+mkdir -p ~/.{skill-name}/sessions
+touch ~/.{skill-name}/sessions/"$PPID"
+_SESSIONS=$(find ~/.{skill-name}/sessions -mmin -120 -type f 2>/dev/null | wc -l | tr -d ' ')
+find ~/.{skill-name}/sessions -mmin +120 -type f -delete 2>/dev/null || true
+
+# 分支检测
+_BRANCH=$(git branch --show-current 2>/dev/null || echo "unknown")
+echo "BRANCH: $_BRANCH"
+```
+
+If output shows `UPGRADE_AVAILABLE`: read upgrade instructions and follow the flow.
+
+## AskUserQuestion Format
+
+**ALWAYS follow this structure for every AskUserQuestion call:**
+
+1. **Re-ground:** State the project, the current branch (use the `_BRANCH` value), and the current plan/task. (1-2 sentences)
+2. **Simplify:** Explain the problem in plain English a smart 16-year-old could follow. No raw function names, no internal jargon, no implementation details. Use concrete examples and analogies. Say what it DOES, not what it's called.
+3. **Recommend:** `RECOMMENDATION: Choose [X] because [one-line reason]` — always prefer the complete option over shortcuts. Include `Completeness: X/10` for each option.
+4. **Options:** Lettered options: `A) ... B) ... C) ...` — when an option involves effort, show both scales: `(human: ~X / AI: ~Y)`
+
+Assume the user hasn't looked at this window in 20 minutes and doesn't have the code open.
+
+## Completeness Principle — Boil the Lake
+
+AI-assisted work makes the marginal cost of completeness near-zero. When presenting options:
+
+- If Option A is the complete implementation (full parity, all edge cases, 100% coverage) and Option B is a shortcut — **always recommend A**.
+- **Lake vs. ocean:** A "lake" is boilable — 100% test coverage, full feature, all edge cases. An "ocean" is not — rewriting entire systems, multi-quarter migrations.
+- **When estimating effort**, always show both scales: human time and AI time.
+
+**Effort Compression Reference:**
+| Task type | Human | AI | Compression |
+|-----------|-------|----|-------------|
+| Boilerplate | 2 days | 15 min | ~100x |
+| Test writing | 1 day | 15 min | ~50x |
+| Feature implementation | 1 week | 30 min | ~30x |
+| Bug fix + regression | 4 hours | 15 min | ~20x |
+
+## Step 0: 前置检查
+
+通用的前置检查步骤：
+- 检测目标分支
+- 检查必要文件存在
+- 收集上下文信息
+
+```bash
+# 示例：检测 base branch
+git branch --show-current 2>/dev/null || echo "unknown"
+```
+
+---
+
+# /{slash-command}: 技能标题
+
+详细描述此技能的工作流。
+
+## Phase 1: 阶段名称
+
+步骤详情...
+
+## Phase 2: 阶段名称
+
+步骤详情...
+
+### 子步骤
+
+详细说明...
+
+---
+
+## Important Rules
+
+1. **规则一**：说明重要约束
+2. **规则二**：说明重要约束
+3. **规则三**：说明重要约束
+
+## Output Format
+
+预期输出的格式说明...
+
+## Error Handling
+
+错误处理策略...

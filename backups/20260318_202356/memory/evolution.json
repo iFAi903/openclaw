@@ -1,0 +1,22 @@
+{
+  "version": "2.0",
+  "last_updated": "2026-02-12T01:30:00+08:00",
+  "statistics": {
+    "total_experiences": 0,
+    "stable_practices": 0,
+    "active_preferences": 0
+  },
+  "experiences": [],
+  "best_practices": {
+    "communication": [],
+    "tool_usage": [],
+    "workflow": []
+  },
+  "user_preferences": {
+    "response_style": "",
+    "favorite_tools": [],
+    "avoid_patterns": [],
+    "preferred_formats": []
+  },
+  "skill_specific": {}
+}

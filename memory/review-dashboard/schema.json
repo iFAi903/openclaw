@@ -1,0 +1,216 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Review Dashboard Schema",
+  "description": "小羽毛 AI 天团 Review Dashboard 数据结构定义",
+  "type": "object",
+  "required": ["id", "timestamp", "project", "branch", "reviewer", "status", "scores"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "审查记录唯一标识",
+      "pattern": "^review-[0-9]{3}$"
+    },
+    "timestamp": {
+      "type": "string",
+      "format": "date-time",
+      "description": "审查时间戳"
+    },
+    "project": {
+      "type": "string",
+      "description": "项目名称"
+    },
+    "branch": {
+      "type": "string",
+      "description": "Git 分支名"
+    },
+    "commit_hash": {
+      "type": "string",
+      "description": "Git commit hash (可选)",
+      "pattern": "^[a-f0-9]{7,40}$"
+    },
+    "reviewer": {
+      "type": "string",
+      "enum": ["review-agent", "cro", "cto", "coo", "external"],
+      "description": "审查执行者"
+    },
+    "review_type": {
+      "type": "string",
+      "enum": ["code", "design", "copy", "plan", "mixed"],
+      "description": "审查类型"
+    },
+    "status": {
+      "type": "string",
+      "enum": ["pending", "in_progress", "needs_fix", "approved", "rejected"],
+      "description": "审查状态"
+    },
+    "scores": {
+      "type": "object",
+      "description": "7维度评分",
+      "required": ["correctness", "code_quality", "maintainability", "performance", "security", "test_coverage", "documentation"],
+      "properties": {
+        "correctness": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 10,
+          "description": "功能正确性 (权重25%)"
+        },
+        "code_quality": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 10,
+          "description": "代码质量 (权重20%)"
+        },
+        "maintainability": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 10,
+          "description": "可维护性 (权重15%)"
+        },
+        "performance": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 10,
+          "description": "性能 (权重15%)"
+        },
+        "security": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 10,
+          "description": "安全性 (权重10%)"
+        },
+        "test_coverage": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 10,
+          "description": "测试覆盖 (权重10%)"
+        },
+        "documentation": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 10,
+          "description": "文档完整性 (权重5%)"
+        }
+      }
+    },
+    "overall_score": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 10,
+      "description": "加权综合评分"
+    },
+    "files_reviewed": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "审查文件数量"
+    },
+    "lines_changed": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "变更行数"
+    },
+    "findings": {
+      "type": "array",
+      "description": "审查发现列表",
+      "items": {
+        "type": "object",
+        "required": ["id", "severity", "category", "dimension", "message"],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^F[0-9]{3}$",
+            "description": "发现项编号"
+          },
+          "severity": {
+            "type": "string",
+            "enum": ["critical", "high", "medium", "low", "info"],
+            "description": "严重程度"
+          },
+          "category": {
+            "type": "string",
+            "enum": ["AUTO-FIX", "ASK"],
+            "description": "处理类别"
+          },
+          "dimension": {
+            "type": "string",
+            "enum": ["correctness", "code_quality", "maintainability", "performance", "security", "test_coverage", "documentation"],
+            "description": "所属维度"
+          },
+          "file": {
+            "type": "string",
+            "description": "文件路径"
+          },
+          "line_start": {
+            "type": "integer",
+            "minimum": 1,
+            "description": "开始行号"
+          },
+          "line_end": {
+            "type": "integer",
+            "minimum": 1,
+            "description": "结束行号"
+          },
+          "message": {
+            "type": "string",
+            "description": "问题描述"
+          },
+          "suggestion": {
+            "type": "string",
+            "description": "修复建议"
+          },
+          "auto_fixed": {
+            "type": "boolean",
+            "description": "是否已自动修复"
+          },
+          "fix_commit": {
+            "type": "string",
+            "description": "修复提交hash"
+          }
+        }
+      }
+    },
+    "summary": {
+      "type": "object",
+      "description": "审查摘要",
+      "properties": {
+        "total_findings": {
+          "type": "integer",
+          "description": "发现总数"
+        },
+        "auto_fix_count": {
+          "type": "integer",
+          "description": "自动修复数"
+        },
+        "ask_count": {
+          "type": "integer",
+          "description": "待决策数"
+        },
+        "critical_count": {
+          "type": "integer",
+          "description": "严重问题数"
+        },
+        "high_count": {
+          "type": "integer",
+          "description": "高优先级问题数"
+        }
+      }
+    },
+    "metadata": {
+      "type": "object",
+      "description": "元数据",
+      "properties": {
+        "review_duration_ms": {
+          "type": "integer",
+          "description": "审查耗时(毫秒)"
+        },
+        "tool_version": {
+          "type": "string",
+          "description": "审查工具版本"
+        },
+        "checklist_used": {
+          "type": "string",
+          "description": "使用的检查清单"
+        }
+      }
+    }
+  }
+}
