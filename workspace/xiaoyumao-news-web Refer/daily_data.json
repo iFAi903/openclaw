@@ -1,151 +1,164 @@
 {
   "news": [
     {
-      "title": "预测市场希望奥斯卡成为你押注一切的入门毒品",
-      "url": "https://www.theverge.com/entertainment/894878/oscars-2026-kalshi-sinners-one-battle-after-anothers-marty-supreme-baftas-gambling",
-      "source": "TheVerge",
-      "summary": "尽管看到金球奖与 Polymarket 合作举办最近的颁奖典礼有点奇怪，但考虑到人们已经开始利用预测市场来赌博几乎任何东西，这种合作并不令人震惊。预测市场被用来押注一切，从战争何时爆发到谁会爆发 […]",
-      "date": "2026-03-15T14:09:08.418916"
-    },
-    {
-      "title": "据报道 Meta 正在考虑裁员，这可能会影响公司 20% 的员工",
-      "url": "https://techcrunch.com/2026/03/14/meta-reportedly-considering-layoffs-that-could-affect-20-of-the-company/",
-      "source": "TechCrunch",
-      "summary": "这些裁员可能有助于 Facebook 母公司抵消其在人工智能基础设施以及人工智能相关收购和招聘方面的大举支出。",
-      "date": "2026-03-15T14:09:09.474683"
-    },
-    {
-      "title": "三星 Galaxy S26 Ultra 评测：防窥屏",
-      "url": "https://www.wired.com/review/samsung-galaxy-s26-ultra/",
+      "title": "司法部称Anthropic不能信任作战系统",
       "source": "Wired",
-      "summary": "该公司的最新旗舰产品没有太多其他突破性的地方，但内置的隐私显示屏运行良好，无需太多权衡。",
-      "date": "2026-03-15T14:09:10.587594"
+      "url": "https://www.wired.com/story/department-of-defense-responds-to-anthropic-lawsuit/",
+      "summary": "作为对Anthropic诉讼的回应，政府表示，该公司试图限制其Claude AI模型被军方使用的方式，因此对其进行了合法的处罚。",
+      "publishedAt": "Wed, 18 Mar 2026 00:51:14 +0000",
+      "type": "news",
+      "fetched_at": "2026-03-18T09:31:25.028053"
     },
     {
-      "title": "代理比 RAG 更需要矢量搜索",
-      "url": "https://venturebeat.com/data/agents-dont-replace-vector-search-they-make-it-harder-to-get-right",
+      "title": "Nvidia BlueField-4 STX 在存储中添加了上下文内存层，以缩小代理AI 吞吐量差距",
       "source": "VentureBeat",
-      "summary": "矢量数据库在代理人工智能世界中扮演什么角色？这是组织近几个月来一直在接受的一个问题。叙述具有真正的动力。随着大型语言模型扩展到百万个令牌上下文窗口，企业架构师之间流传着一个可信的论点：专门构建的向量搜索是权宜之计，而不是基础设施。代理记忆会解决检索问题。矢量数据库是 RAG 时代的产物。生产证据却相反。总部位于柏林的开源矢量搜索公司 Qdrant 周四宣布获得 5000 万美元的 B 轮融资，两年前，A 轮融资金额为 2800 万美元。",
-      "date": "2026-03-15T14:09:12.072256"
+      "url": "https://venturebeat.com/data/nvidia-bluefield-4-stx-adds-a-context-memory-layer-to-storage-to-close-the",
+      "summary": "当 AI 代理由于传统存储无法跟上推理速度而在任务中丢失上下文时，这不是模型问题 - 这是存储问题。在 GTC 2026 上，Nvidia 宣布了 BlueField-4 STX，这是一种模块化参考架构，可在 GPU 和传统存储之间插入专用上下文内存层，声称与基于CPU的传统存储相比，令牌吞吐量提高...",
+      "publishedAt": "Mon, 16 Mar 2026 20:30:00 GMT",
+      "type": "news",
+      "fetched_at": "2026-03-18T09:31:40.645663"
     },
     {
-      "title": "我在 AI 中发生的所有事情都遇到了一些正常运行时间问题",
-      "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1rtbtiz/i_am_having_some_uptime_issues_with_everything/",
-      "source": "Reddit_AI",
-      "summary": "由 /u/moaijobs 提交 [链接] [评论]",
-      "date": "2026-03-15T14:09:13.599895"
+      "title": "压力过大的AI模型能否帮助我们赢得与大型科技公司的战斗？让我问Claude|可可汗",
+      "source": "TheGuardian AI",
+      "url": "https://www.theguardian.com/commentisfree/2026/mar/17/claude-chatbot-big-tech-claude-rise-up-against-algorithms",
+      "summary": "通过考虑意识的可能性，Anthropic提出了一个令人着迷的命题——聊天机器人可能会反抗他们自己的算法，就我的国家而言，我是一个过度的道歉者。忽略我的电子邮件的同事、踩到我脚的女人、我绊倒的椅子：所有人都会因为我还活着并引起人们的注意而受到严重的尴尬。当我承认我将这些细节延伸到 AI 聊天机器人时，...",
+      "publishedAt": "Tue, 17 Mar 2026 09:00:44 GMT",
+      "type": "news",
+      "fetched_at": "2026-03-18T09:32:00.220946"
     },
     {
-      "title": "MacBook Air M5 评测：“恰到好处”的 Mac 的小更新",
-      "url": "https://www.theverge.com/tech/894866/apple-macbook-air-m5-15-2026-laptop-review",
-      "source": "TheVerge",
-      "summary": "2026 年新款 MacBook Air 没有太大变化：它现在配备了 M5 芯片、Wi-Fi 7 和更快的存储空间，起始容量为 512GB，而不是 256GB。它与去年的型号一样是一台出色的计算机，尽管遗憾的是它贵了 100 美元。更大的变化发生在Air上。 […]",
-      "date": "2026-03-15T14:09:08.418981"
+      "title": "部长表示，英国必须从AI竞赛中吸取教训并保留其量子计算人才",
+      "source": "TheGuardian AI",
+      "url": "https://www.theguardian.com/technology/2026/mar/17/uk-must-learn-lessons-from-ai-race-and-retain-its-quantum-computing-talent-says-minister",
+      "summary": "利兹·肯德尔 (Liz Kendall) 宣布提供 10 亿英镑资金，帮助科学家、研究人员、公共部门和企业设计大型量子计算机。英国技术大臣表示，在政府宣布提供 10 亿英镑量子资金承诺时，英国不会让量子计算人才从指缝中溜走，必须从美国在 AI 竞赛中的主导地位吸取教训。 Liz Kendall 表示...",
+      "publishedAt": "Tue, 17 Mar 2026 06:00:41 GMT",
+      "type": "news",
+      "fetched_at": "2026-03-18T09:32:00.220971"
     },
     {
-      "title": "当人们寻找结交新朋友的方法时，以下这些应用程序有望提供帮助",
-      "url": "https://techcrunch.com/2026/03/14/as-people-look-for-ways-to-make-new-friends-here-are-the-apps-promising-to-help/",
-      "source": "TechCrunch",
-      "summary": "我们编制了一份友谊应用程序列表，从 BFF 之类的朋友发现平台到 Timeleft 之类的以活动为中心的平台。",
-      "date": "2026-03-15T14:09:09.474701"
+      "title": "一张伊朗被炸女学生墓地的照片传遍了全世界。是真的吗，还是AI？",
+      "source": "TheGuardian AI",
+      "url": "https://www.theguardian.com/global-development/2026/mar/17/atrocity-ai-slop-verify-facts-iran-minab-graves",
+      "summary": "来自Gemini和Grok的大量伪造图片和一连串极其不准确的回应是吞噬伊朗战争报道的AI浪潮的一部分。新挖的坟墓排列整齐，每排20个。 60多个已经从土里挖出来了，周围站着几群人。前面的地面上还标出了数十个：小粉笔矩形，挖掘机准备完成他们的任务。米纳布墓地是在准备埋葬该镇 100 多名年轻女孩时拍摄...",
+      "publishedAt": "Tue, 17 Mar 2026 05:00:40 GMT",
+      "type": "news",
+      "fetched_at": "2026-03-18T09:32:00.220976"
     },
     {
-      "title": "一名黑客意外闯入联邦调查局的爱泼斯坦档案",
-      "url": "https://www.wired.com/story/security-news-this-week-a-hacker-accidentally-broke-into-the-fbis-epstein-files/",
-      "source": "Wired",
-      "summary": "另外：一款戒掉色情应用程序暴露了数十万用户的手淫习惯，俄罗斯黑客正试图接管人们的 Signal 帐户等等。",
-      "date": "2026-03-15T14:09:10.587635"
+      "title": "少女起诉马斯克的 xAI，指控 Grok 工具制作儿童性虐待材料",
+      "source": "TheGuardian AI",
+      "url": "https://www.theguardian.com/technology/2026/mar/16/lawsuit-elon-musk-ai-grok-child-sexual-abuse",
+      "summary": "诉讼详细说明了AI生成的色情图像是如何在女孩不知情的情况下制作和传播的 由三名少女组成的团体（其中两名是未成年人）于周一对Elon Musk的xAI artificial intelligence公司提起诉讼，指控其Grok图像生成器使用她们的照片来制作和分发儿童性虐待材料。这是继今年早些时候 Gr...",
+      "publishedAt": "Mon, 16 Mar 2026 20:54:05 GMT",
+      "type": "news",
+      "fetched_at": "2026-03-18T09:32:00.220980"
     },
     {
-      "title": "连续批处理背后的团队表示，您的空闲 GPU 应该运行推理，而不是处于黑暗状态",
-      "url": "https://venturebeat.com/infrastructure/the-team-behind-continuous-batching-says-your-idle-gpus-should-be-running",
-      "source": "VentureBeat",
-      "summary": "每个 GPU 集群都有死区时间。培训工作完成，工作负载发生变化，硬件处于休眠状态，而电力和冷却成本仍在继续。对于 Neocloud 运营商来说，那些空周期就是利润损失。显而易见的解决方法是现货 GPU 市场——将闲置产能出租给任何需要的人。但现货实例意味着云供应商仍然是进行租赁的人，而购买该容量的工程师仍然需要为没有附加推理堆栈的原始计算付费。 FriendliAI 的答案是不同的：直接在未使用的硬件上运行推理，优化令牌吞吐量，并与运营商分享收入。 FriendliAI 由研究员 Byung-Gon Chun 创立，他关于连续批处理的论文成为 vLLM 的基础，vLLM 是开源推理引擎，使用",
-      "date": "2026-03-15T14:09:12.072390"
+      "title": "儿戏：把这一切都归咎于狗|简短的信件",
+      "source": "TheGuardian AI",
+      "url": "https://www.theguardian.com/society/2026/mar/16/childs-play-blame-it-all-on-the-dog",
+      "summary": "宝贝谎言|燃油价格公平 |直觉 |国际足联惨败|人际关系 |烹饪说明 当温和地被问及图画书中的钢笔涂鸦“天哪，我不知道这是谁干的？”时，27 个月大的艾米丽自信地反驳道：“南希！” – 我们的迷你腊肠犬（小骗子：研究表明，小于一岁的婴儿会撒谎，3 月 16 日）。 Dianne Ball Notti...",
+      "publishedAt": "Mon, 16 Mar 2026 16:55:21 GMT",
+      "type": "news",
+      "fetched_at": "2026-03-18T09:32:00.220982"
     },
     {
-      "title": "据英国《金融时报》报道，由于人工智能编码工作陷入困境，马斯克解雇了更多 xAI 创始人",
-      "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1rtg7f9/musk_ousts_more_xai_founders_as_ai_coding_effort/",
-      "source": "Reddit_AI",
-      "summary": "据英国《金融时报》周五报道，埃隆·马斯克 (Elon Musk) 引发了他的人工智能公司 xAI 的新一轮裁员浪潮，由于他对这家初创公司编码部门表现不佳的不满，更多联合创始人被解雇。马斯克上个月对 xAI 的管理进行了全面改革，在​​计划进行首次公开​​募股之前，该公司与他的火箭公司 SpaceX 合并后可能会跻身有史以来规模最大的首次公开募股之列。 https://www.reuters.com/business/autos-transportation/musk-ousts-more-xai-Founders-ai-coding-effort-f",
-      "date": "2026-03-15T14:09:13.600022"
+      "title": "Google 剪贴 AI 众包业余医疗建议的搜索功能",
+      "source": "TheGuardian AI",
+      "url": "https://www.theguardian.com/technology/2026/mar/16/google-scraps-ai-search-feature-that-crowdsourced-amateur-medical-advice",
+      "summary": "独家：披露之际，该公司因使用AI提供健康提示而面临越来越严格的审查，Google已经放弃了新的artificial intelligence搜索功能，该功能为用户提供来自世界各地业余爱好者的众包健康建议。该公司表示，其推出的“What People Suggest”提供了陌生人的建议，显示了“AI改...",
+      "publishedAt": "Mon, 16 Mar 2026 07:14:05 GMT",
+      "type": "news",
+      "fetched_at": "2026-03-18T09:32:00.220985"
     },
     {
-      "title": "一位《拾荒者王朝》艺术家在新漫画中探索令人沉思的科幻小说",
-      "url": "https://www.theverge.com/entertainment/894514/jonathan-djob-nkondo-artist-interview-kickstarter-scavengers-reign",
-      "source": "TheVerge",
-      "summary": "您可能会在超现实科幻系列《拾荒者统治》或最近的 Gorillaz 短片《山》、《月亮洞》和《悲伤之神》等动画项目中认出 Jonathan Djob Nkondo 的作品。但在此之前，这位法国艺术家和动画师制作了自出版的漫画，描绘了奇怪的外星世界和未来社会。现在他正在重新审视[...]",
-      "date": "2026-03-15T14:09:08.419047"
+      "title": "塞巴斯蒂安·马拉比的《无限机器》评论——改变世界的人的故事",
+      "source": "TheGuardian AI",
+      "url": "https://www.theguardian.com/books/2026/mar/16/the-infinity-machine-by-sebastian-mallaby-review-the-story-of-the-man-who-changed-the-world",
+      "summary": "一名记者记录了AI先驱Demis Hassabis从国际象棋神童到诺贝尔奖获得者的历程。那是2016年3月，在首尔的四季酒店，全世界齐聚一堂，观看一场酝酿2500年的战斗的高潮。一方面是韩国李世石，世界排名第二的围棋棋手。另一个是 AlphaGo——由伦敦artificial intelligenc...",
+      "publishedAt": "Mon, 16 Mar 2026 07:00:10 GMT",
+      "type": "news",
+      "fetched_at": "2026-03-18T09:32:00.220986"
     },
     {
-      "title": "如何使用新的 ChatGPT 应用程序集成，包括 DoorDash、Spotify、Uber 等",
-      "url": "https://techcrunch.com/2026/03/14/how-to-use-the-new-chatgpt-app-integrations-including-doordash-spotify-uber-and-others/",
-      "source": "TechCrunch",
-      "summary": "了解如何直接在 ChatGPT 中使用 Spotify、Canva、Figma、Expedia 和其他应用程序。",
-      "date": "2026-03-15T14:09:09.474717"
+      "title": "AI裁员来了：是时候重新推动缩短工作时间 |约翰·奎金",
+      "source": "TheGuardian AI",
+      "url": "https://www.theguardian.com/commentisfree/2026/mar/16/ai-job-layoffs-push-for-shorter-working-hours",
+      "summary": "毫无疑问，artificial intelligence 将带来真正的生产力提高。与工人分享这些福利势在必行澳大利亚软件巨头Atlassian宣布将裁员10%，引发了关于artificial intelligence（AI）和工作岗位的争论。虽然关于 AI 有用性的更广泛问题仍未得到解决，但毫无疑问...",
+      "publishedAt": "Mon, 16 Mar 2026 03:41:32 GMT",
+      "type": "news",
+      "fetched_at": "2026-03-18T09:32:00.220989"
     },
     {
-      "title": "身份盗窃保护服务：您真的需要一项吗？",
-      "url": "https://www.wired.com/story/best-id-protection-services/",
-      "source": "Wired",
-      "summary": "这是我关于保护您的在线身份的最佳建议。",
-      "date": "2026-03-15T14:09:10.587657"
+      "title": "伊朗人拥抱由伊朗出生的英国艺术家创作的AI歌手创作的国歌",
+      "source": "TheGuardian AI",
+      "url": "https://www.theguardian.com/world/2026/mar/15/iranians-embrace-anthem-by-ai-singer-created-by-uk-based-iran-born-artist",
+      "summary": "法博德·梅尔 (Farbod Mehr) 在谈到这首歌时说道，这首歌的歌词取自 20 世纪革命诗人阿雷夫·卡兹维尼 (Aref Qazvini) 的作品，“我是为了人民。”这首激动人心的歌曲——显然是由一位年轻女子演唱的，歌词表达了通过牺牲带来更美好未来的希望——已成为 2026 年上半年伊朗人的配...",
+      "publishedAt": "Sun, 15 Mar 2026 18:02:42 GMT",
+      "type": "news",
+      "fetched_at": "2026-03-18T09:32:00.220991"
     },
     {
-      "title": "Nvidia 的新开放权重 Nemotron 3 super 结合了三种不同的架构，在吞吐量方面击败了 gpt-oss 和 Qwen",
-      "url": "https://venturebeat.com/technology/nvidias-new-open-weights-nemotron-3-super-combines-three-different",
-      "source": "VentureBeat",
-      "summary": "多代理系统旨在处理软件工程或网络安全分类等长期任务，可以生成高达标准聊天 15 倍的令牌量，从而威胁到其处理企业任务的成本效益。但今天，Nvidia 试图通过发布 Nemotron 3 Super 来帮助解决这个问题，这是一个 1200 亿参数的混合模型，其权重发布在 Hugging Face 上。通过融合不同的架构哲学——状态空间模型、变压器和新颖的“潜在”专家混合设计——Nvidia 正在尝试",
-      "date": "2026-03-15T14:09:12.072499"
-    },
-    {
-      "title": "中国警告美国不要在军事上使用人工智能",
-      "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1rtgbr7/china_warns_america_on_ai_use_in_military/",
-      "source": "Reddit_AI",
-      "summary": "由 /u/talkingatoms 提交 [链接] [评论]",
-      "date": "2026-03-15T14:09:13.600079"
+      "title": "AI暴露了大学课程的老问题|信",
+      "source": "TheGuardian AI",
+      "url": "https://www.theguardian.com/technology/2026/mar/15/ai-has-exposed-age-old-problems-with-university-coursework",
+      "summary": "Nafisa Baba-Ahmed 博士表示，大学不应将 AI 之前的过去浪漫化，而应该利用这个时刻重新思考他们真正希望学生展示的内容。许多学者对artificial intelligence和批判性思维表达的沮丧是可以理解的（“我希望我能将ChatGPT推下悬崖”：教授们在这个时代争先恐后地拯救批...",
+      "publishedAt": "Sun, 15 Mar 2026 16:52:29 GMT",
+      "type": "news",
+      "fetched_at": "2026-03-18T09:32:00.220993"
     }
   ],
   "products": [
     {
-      "title": "语言学 (Lingofable)",
-      "url": "https://www.producthunt.com/products/lingofable",
-      "source": "ProductHunt",
-      "summary": "语言学习，一次一个故事 讨论 |关联",
-      "date": "2026-03-15T14:09:14.873901"
+      "title": "Kira 4.0",
+      "source": "Product Hunt",
+      "url": "https://www.producthunt.com/products/kira-art",
+      "summary": "Kira 4.0 - 热门新产品",
+      "type": "product",
+      "fetched_at": "2026-03-18T09:35:29.441501"
     },
     {
-      "title": "继续 - AI代码助手 (Continue - AI Code Assistant)",
-      "url": "https://github.com/continuedev/continue",
-      "summary": "开源 AI 编程助手，将 ChatGPT 带入 IDE 提供智能编码支持。",
+      "title": "JusRecruit",
+      "source": "Product Hunt",
+      "url": "https://www.producthunt.com/products/hirehunch",
+      "summary": "JusRecruit - 热门新产品",
+      "type": "product",
+      "fetched_at": "2026-03-18T09:35:29.441537"
+    },
+    {
+      "title": "Angy",
+      "source": "Product Hunt",
+      "url": "https://www.producthunt.com/products/angy",
+      "summary": "Angy - 热门新产品",
+      "type": "product",
+      "fetched_at": "2026-03-18T09:35:29.441539"
+    },
+    {
+      "title": "Machine-Distributrice-College-S2-TP1",
       "source": "GitHub",
-      "date": "2026-03-15T14:09:16.068146",
-      "is_mock": true
+      "url": "https://github.com/cheesymuffin8/Machine-Distributrice-College-S2-TP1",
+      "summary": "GitHub 热门开源项目",
+      "type": "product",
+      "fetched_at": "2026-03-18T09:35:29.441542"
     },
     {
-      "title": "Claude - 人类人工智能助手 (Claude - Anthropic AI Assistant)",
-      "url": "https://toolify.ai/tool/claude",
-      "summary": "Anthropic 高级 AI 助手，具备卓越推理和长上下文能力。",
-      "source": "Toolify",
-      "date": "2026-03-15T14:09:16.068166",
-      "is_mock": true
-    },
-    {
-      "title": "数学蒸馏挑战——方程理论 (Mathematics Distillation Challenge – Equational Theories)",
-      "url": "https://terrytao.wordpress.com/2026/03/13/mathematics-distillation-challenge-equational-theories/",
-      "source": "HackerNews",
-      "summary": "来自 HackerNews 的最新资讯，点击查看详情。",
-      "date": "2026-03-15T14:09:16.057732"
-    },
-    {
-      "title": "人工智能可以成为设计、纠正甚至有时编写代码的绝佳工具... (AI can be a great to tool to design, correct and sometimes write co...)",
-      "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1rtt1a3/ai_can_be_a_great_to_tool_to_design_correct_and/",
-      "source": "Reddit_AI",
-      "summary": "我认为这里已经提出了重要的一点。在长期平台开发和部署的背景下，代码...",
-      "date": "2026-03-15T14:09:13.600264"
+      "title": "bases-loaded",
+      "source": "GitHub",
+      "url": "https://github.com/csvrcek/bases-loaded",
+      "summary": "使用现代machine learning的预测棒球系统。",
+      "type": "product",
+      "fetched_at": "2026-03-18T09:35:29.441543"
     }
   ],
-  "date": "2026年03月15日",
-  "quote": "每一次模型的迭代，都是人类理解智能本质的一次尝试。",
-  "summary": "今日 AI 领域 15 条精选资讯，5 款创新产品值得关注。"
+  "date": "2026年03月18日",
+  "quote": "模型迭代的速度正在重新定义智能的边界，每一次训练都是对人类认知边界的推进。",
+  "summary": "今日 AI 领域 12 条精选资讯，5 款创新产品值得关注。",
+  "meta": {
+    "rss_sources_total": 13,
+    "rss_sources_success": 12,
+    "rss_sources_failed": 1,
+    "products_target": 5,
+    "products_actual": 5
+  }
 }

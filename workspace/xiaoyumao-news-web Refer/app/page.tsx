@@ -19,6 +19,11 @@ const cleanText = (text: string = ''): string => {
       };
       return map[entity] ?? entity;
     })
+    // 清理零宽空格和 KEYWORD 占位符（修复翻译引入的占位符问题）
+    .replace(/\u200b/g, '')
+    .replace(/\u200c/g, '')
+    .replace(/\u200d/g, '')
+    .replace(/__KEYWORD_\d+_\d+__/g, 'OpenAI')
     .replace(/\s+/g, ' ')
     .trim();
 };
@@ -115,7 +120,7 @@ export default function Home() {
               每日观察
             </h2>
             <p className="text-xl md:text-2xl font-medium leading-relaxed text-blue-50">
-              {quote || summary}
+              {quote?.text || summary}
             </p>
           </div>
         </section>

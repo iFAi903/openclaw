@@ -1,5 +1,5 @@
 // 自动生成 - 小羽毛 AI 早报
-// 生成时间: 2026年03月15日
+// 生成时间: 2026-03-18 07:12:19
 
 export interface NewsItem {
   id: string;
@@ -16,200 +16,152 @@ export interface DailyNews {
   aiNews: NewsItem[];
   products: NewsItem[];
   summary: string;
-  quote: string;
+  quote: {
+    text: string;
+    author: string;
+  };
   generatedAt: string;
   websiteUrl: string;
 }
 
 export const todayNews: DailyNews = {
-  "date": "2026年03月15日 周日",
+  "date": "2026年03月18日 周三",
   "aiNews": [
     {
       "id": "news_1",
-      "title": "预测市场希望奥斯卡成为你押注一切的入门毒品",
-      "source": "TheVerge",
-      "url": "https://www.theverge.com/entertainment/894878/oscars-2026-kalshi-sinners-one-battle-after-anothers-marty-supreme-baftas-gambling",
-      "summary": "尽管看到金球奖与 Polymarket 合作举办最近的颁奖典礼有点奇怪，但考虑到人们已经开始利用预测市场来赌博几乎任何东西，这种合作并不令人震惊。预测市场被用来押注一切，从战争何时爆发到谁会爆发 […]",
+      "title": "Sears 向网络上的任何人暴露了 AI 聊天机器人的电话和短信聊天功能",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/sears-exposed-ai-chatbot-phone-calls-and-text-chats-to-anyone-on-the-web/",
+      "summary": "客户与聊天机器人的对话可以包括联系信息和个人详细信息，使诈骗者更容易发起网络钓鱼攻击和实施欺诈。",
       "type": "news",
-      "publishedAt": "2026-03-15"
+      "publishedAt": "2026-03-18"
     },
     {
       "id": "news_2",
-      "title": "据报道 Meta 正在考虑裁员，这可能会影响公司 20% 的员工",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/03/14/meta-reportedly-considering-layoffs-that-could-affect-20-of-the-company/",
-      "summary": "这些裁员可能有助于 Facebook 母公司抵消其在人工智能基础设施以及人工智能相关收购和招聘方面的大举支出。",
+      "title": "两个真正的加密货币兄弟建立了一个房地产帝国。然后房屋开始倒塌",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/crypto-bros-built-a-real-estate-empire-then-the-homes-started-to-fall-apart/",
+      "summary": "2019 年，两个加拿大兄弟以不可抗拒的口号吹响了底特律：只要 50 美元，几乎任何人都可以成为业主。当房屋破旧、城市介入时，指责游戏就开始了。",
       "type": "news",
-      "publishedAt": "2026-03-15"
+      "publishedAt": "2026-03-18"
     },
     {
       "id": "news_3",
-      "title": "三星 Galaxy S26 Ultra 评测：防窥屏",
+      "title": "你应该让手机充电过夜吗？",
       "source": "Wired",
-      "url": "https://www.wired.com/review/samsung-galaxy-s26-ultra/",
-      "summary": "该公司的最新旗舰产品没有太多其他突破性的地方，但内置的隐私显示屏运行良好，无需太多权衡。",
+      "url": "https://www.wired.com/story/should-you-leave-your-phone-charging-overnight/",
+      "summary": "人们普遍认为，让手机充电过夜会降低电池性能。但手机设计已经发展到可以减轻持续充电造成的危害。",
       "type": "news",
-      "publishedAt": "2026-03-15"
+      "publishedAt": "2026-03-18"
     },
     {
       "id": "news_4",
-      "title": "代理比 RAG 更需要矢量搜索",
-      "source": "VentureBeat",
-      "url": "https://venturebeat.com/data/agents-dont-replace-vector-search-they-make-it-harder-to-get-right",
-      "summary": "矢量数据库在代理人工智能世界中扮演什么角色？这是组织近几个月来一直在接受的一个问题。叙述具有真正的动力。随着大型语言模型扩展到百万个令牌上下文窗口，企业架构师之间流传着一个可信的论点：专门构建的向量搜索是权宜之计，而不是基础设施。代理记忆会解决检索问题。矢量数据库是 RAG 时代的产物。生产证据却相反。总部位于柏林的开源矢量搜索公司 Qdrant 周四宣布获得 5000 万美元的 B 轮融资，两年前，A 轮融资金额为 2800 万美元。",
+      "title": "Expedia 优惠券和优惠：精选行程最高可享 75% 折扣",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/expedia-coupon/",
+      "summary": "通过 Expedia 预订您的下一次度假，无论是否使用促销代码，均可享受高达 75% 的住宿折扣。",
       "type": "news",
-      "publishedAt": "2026-03-15"
+      "publishedAt": "2026-03-18"
     },
     {
       "id": "news_5",
-      "title": "我在 AI 中发生的所有事情都遇到了一些正常运行时间问题",
-      "source": "Reddit_AI",
-      "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1rtbtiz/i_am_having_some_uptime_issues_with_everything/",
-      "summary": "由 /u/moaijobs 提交 [链接] [评论]",
+      "title": "山姆会员店优惠券和优惠：2026 年 3 月最高可节省 60%",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/sams-club-coupon/",
+      "summary": "使用经过验证的山姆会员店促销代码或会员折扣，可节省大宗杂货、家庭必需品和电子产品的费用。",
       "type": "news",
-      "publishedAt": "2026-03-15"
+      "publishedAt": "2026-03-18"
     },
     {
       "id": "news_6",
-      "title": "MacBook Air M5 评测：“恰到好处”的 Mac 的小更新",
-      "source": "TheVerge",
-      "url": "https://www.theverge.com/tech/894866/apple-macbook-air-m5-15-2026-laptop-review",
-      "summary": "2026 年新款 MacBook Air 没有太大变化：它现在配备了 M5 芯片、Wi-Fi 7 和更快的存储空间，起始容量为 512GB，而不是 256GB。它与去年的型号一样是一台出色的计算机，尽管遗憾的是它贵了 100 美元。更大的变化发生在Air上。 […]",
+      "title": "H&R 块优惠券：DIY 25% 折扣 + Tax Pro Assist",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/hr-block-coupon/",
+      "summary": "选择 H&R Block 的免费在线服务以及税务专业审查可节省 25% 以上。",
       "type": "news",
-      "publishedAt": "2026-03-15"
+      "publishedAt": "2026-03-18"
     },
     {
       "id": "news_7",
-      "title": "当人们寻找结交新朋友的方法时，以下这些应用程序有望提供帮助",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/03/14/as-people-look-for-ways-to-make-new-friends-here-are-the-apps-promising-to-help/",
-      "summary": "我们编制了一份友谊应用程序列表，从 BFF 之类的朋友发现平台到 Timeleft 之类的以活动为中心的平台。",
+      "title": "开源 Mamba 3 超越 Transformer 架构，语言模型改进近 4%，延迟减少",
+      "source": "VentureBeat",
+      "url": "https://venturebeat.com/technology/open-source-mamba-3-arrives-to-surpass-transformer-architecture-with-nearly",
+      "summary": "对于大多数人来说，生成式AI时代始于2022年底OpenAI的ChatGPT的推出，但底层技术——“Transformer”神经网络架构允许AI模型以不同方式权衡句子中不同单词（或图像中像素）的重要性...",
       "type": "news",
-      "publishedAt": "2026-03-15"
+      "publishedAt": "2026-03-18"
     },
     {
       "id": "news_8",
-      "title": "一名黑客意外闯入联邦调查局的爱泼斯坦档案",
-      "source": "Wired",
-      "url": "https://www.wired.com/story/security-news-this-week-a-hacker-accidentally-broke-into-the-fbis-epstein-files/",
-      "summary": "另外：一款戒掉色情应用程序暴露了数十万用户的手淫习惯，俄罗斯黑客正试图接管人们的 Signal 帐户等等。",
+      "title": "Mistral AI 推出 Forge，帮助公司构建专有的 AI 模型，挑战云巨头",
+      "source": "VentureBeat",
+      "url": "https://venturebeat.com/infrastructure/mistral-ai-launches-forge-to-help-companies-build-proprietary-ai-models",
+      "summary": "Mistral AI on Monday launched Forge, an enterprise model training platform that allows organizations...",
       "type": "news",
-      "publishedAt": "2026-03-15"
+      "publishedAt": "2026-03-18"
     },
     {
       "id": "news_9",
-      "title": "连续批处理背后的团队表示，您的空闲 GPU 应该运行推理，而不是处于黑暗状态",
+      "title": "可能破坏企业AI的授权问题",
       "source": "VentureBeat",
-      "url": "https://venturebeat.com/infrastructure/the-team-behind-continuous-batching-says-your-idle-gpus-should-be-running",
-      "summary": "每个 GPU 集群都有死区时间。培训工作完成，工作负载发生变化，硬件处于休眠状态，而电力和冷却成本仍在继续。对于 Neocloud 运营商来说，那些空周期就是利润损失。显而易见的解决方法是现货 GPU 市场——将闲置产能出租给任何需要的人。但现货实例意味着云供应商仍然是进行租赁的人，而购买该容量的工程师仍然需要为没有附加推理堆栈的原始计算付费。 FriendliAI 的答案是不同的：直接在未使用的硬件上运行推理，优化令牌吞吐量，并与运营商分享收入。 FriendliAI 由研究员 Byung-Gon Chun 创立，他关于连续批处理的论文成为 vLLM 的基础，vLLM 是开源推理引擎，使用",
+      "url": "https://venturebeat.com/security/the-authorization-problem-that-could-break-enterprise-ai",
+      "summary": "当 AI 代理需要登录您的 CRM、从数据库中提取记录并代表您发送电子邮件时，它使用谁的身份？当没有人知道答案时会发生什么？ Corridor 首席产品官 Alex Stamos 和 1Passwor...",
       "type": "news",
-      "publishedAt": "2026-03-15"
+      "publishedAt": "2026-03-18"
     },
     {
       "id": "news_10",
-      "title": "据英国《金融时报》报道，由于人工智能编码工作陷入困境，马斯克解雇了更多 xAI 创始人",
-      "source": "Reddit_AI",
-      "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1rtg7f9/musk_ousts_more_xai_founders_as_ai_coding_effort/",
-      "summary": "据英国《金融时报》周五报道，埃隆·马斯克 (Elon Musk) 引发了他的人工智能公司 xAI 的新一轮裁员浪潮，由于他对这家初创公司编码部门表现不佳的不满，更多联合创始人被解雇。马斯克上个月对 xAI 的管理进行了全面改革，在​​计划进行首次公开​​募股之前，该公司与他的火箭公司 SpaceX 合并后可能会跻身有史以来规模最大的首次公开募股之列。 https://www.reuters.com/business/autos-transportation/musk-ousts-more-xai-Founders-ai-coding-effort-f",
+      "title": "Nvidia 伸出“爪子”：NemoClaw 为接管 AI 的代理平台带来安全性和规模",
+      "source": "VentureBeat",
+      "url": "https://venturebeat.com/technology/nvidia-lets-its-claws-out-nemoclaw-brings-security-scale-to-the-agent",
+      "summary": "Every few years, a piece of open-source software arrives that rewires how the industry thinks about ...",
       "type": "news",
-      "publishedAt": "2026-03-15"
+      "publishedAt": "2026-03-18"
     },
     {
       "id": "news_11",
-      "title": "一位《拾荒者王朝》艺术家在新漫画中探索令人沉思的科幻小说",
-      "source": "TheVerge",
-      "url": "https://www.theverge.com/entertainment/894514/jonathan-djob-nkondo-artist-interview-kickstarter-scavengers-reign",
-      "summary": "您可能会在超现实科幻系列《拾荒者统治》或最近的 Gorillaz 短片《山》、《月亮洞》和《悲伤之神》等动画项目中认出 Jonathan Djob Nkondo 的作品。但在此之前，这位法国艺术家和动画师制作了自出版的漫画，描绘了奇怪的外星世界和未来社会。现在他正在重新审视[...]",
+      "title": "Nvidia 的代理 AI 堆栈是第一个在启动时提供安全性的主要平台，但治理差距仍然存在",
+      "source": "VentureBeat",
+      "url": "https://venturebeat.com/security/nvidia-gtc-2026-agentic-ai-security-five-vendor-governance-framework",
+      "summary": "For the first time on a major AI platform release, security shipped at launch — not bolted on 18 mon...",
       "type": "news",
-      "publishedAt": "2026-03-15"
+      "publishedAt": "2026-03-18"
     },
     {
       "id": "news_12",
-      "title": "如何使用新的 ChatGPT 应用程序集成，包括 DoorDash、Spotify、Uber 等",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/03/14/how-to-use-the-new-chatgpt-app-integrations-including-doordash-spotify-uber-and-others/",
-      "summary": "了解如何直接在 ChatGPT 中使用 Spotify、Canva、Figma、Expedia 和其他应用程序。",
-      "type": "news",
-      "publishedAt": "2026-03-15"
-    },
-    {
-      "id": "news_13",
-      "title": "身份盗窃保护服务：您真的需要一项吗？",
-      "source": "Wired",
-      "url": "https://www.wired.com/story/best-id-protection-services/",
-      "summary": "这是我关于保护您的在线身份的最佳建议。",
-      "type": "news",
-      "publishedAt": "2026-03-15"
-    },
-    {
-      "id": "news_14",
-      "title": "Nvidia 的新开放权重 Nemotron 3 super 结合了三种不同的架构，在吞吐量方面击败了 gpt-oss 和 Qwen",
+      "title": "Nvidia 表示它可以在不改变模型权重的情况下将 LLM 内存缩小 20 倍",
       "source": "VentureBeat",
-      "url": "https://venturebeat.com/technology/nvidias-new-open-weights-nemotron-3-super-combines-three-different",
-      "summary": "多代理系统旨在处理软件工程或网络安全分类等长期任务，可以生成高达标准聊天 15 倍的令牌量，从而威胁到其处理企业任务的成本效益。但今天，Nvidia 试图通过发布 Nemotron 3 Super 来帮助解决这个问题，这是一个 1200 亿参数的混合模型，其权重发布在 Hugging Face 上。通过融合不同的架构哲学——状态空间模型、变压器和新颖的“潜在”专家混合设计——Nvidia 正在尝试",
+      "url": "https://venturebeat.com/orchestration/nvidia-shrinks-llm-memory-20x-without-changing-model-weights",
+      "summary": "Nvidia 研究人员引入了一种新技术，可以显着减少大型语言模型跟踪对话历史所需的内存量（减少多达 20 倍），而无需修改模型本身。该方法称为 KV 缓存转换编码 (KVTC)，应用 JPEG 等媒体...",
       "type": "news",
-      "publishedAt": "2026-03-15"
-    },
-    {
-      "id": "news_15",
-      "title": "中国警告美国不要在军事上使用人工智能",
-      "source": "Reddit_AI",
-      "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1rtgbr7/china_warns_america_on_ai_use_in_military/",
-      "summary": "由 /u/talkingatoms 提交 [链接] [评论]",
-      "type": "news",
-      "publishedAt": "2026-03-15"
+      "publishedAt": "2026-03-18"
     }
   ],
   "products": [
     {
       "id": "product_1",
-      "title": "语言学 (Lingofable)",
-      "source": "ProductHunt",
-      "url": "https://www.producthunt.com/products/lingofable",
-      "summary": "语言学习，一次一个故事 讨论 |关联",
+      "title": "DLSS 5",
+      "source": "Product Hunt",
+      "url": "https://www.producthunt.com/products/nvidia",
+      "summary": "DLSS 5 - 热门新产品",
       "type": "product",
-      "publishedAt": "2026-03-15"
+      "publishedAt": "2026-03-18"
     },
     {
       "id": "product_2",
-      "title": "继续 - AI代码助手 (Continue - AI Code Assistant)",
+      "title": "MLDiabetes-Python-Dados",
       "source": "GitHub",
-      "url": "https://github.com/continuedev/continue",
-      "summary": "开源 AI 编程助手，将 ChatGPT 带入 IDE 提供智能编码支持。",
+      "url": "https://github.com/Teuslol/MLDiabetes-Python-Dados",
+      "summary": "机器学习项目应用于糖尿病dataset，用于相关变量的预测和分析。",
       "type": "product",
-      "publishedAt": "2026-03-15"
-    },
-    {
-      "id": "product_3",
-      "title": "Claude - 人类人工智能助手 (Claude - Anthropic AI Assistant)",
-      "source": "Toolify",
-      "url": "https://toolify.ai/tool/claude",
-      "summary": "Anthropic 高级 AI 助手，具备卓越推理和长上下文能力。",
-      "type": "product",
-      "publishedAt": "2026-03-15"
-    },
-    {
-      "id": "product_4",
-      "title": "数学蒸馏挑战——方程理论 (Mathematics Distillation Challenge – Equational Theories)",
-      "source": "HackerNews",
-      "url": "https://terrytao.wordpress.com/2026/03/13/mathematics-distillation-challenge-equational-theories/",
-      "summary": "来自 HackerNews 的最新资讯，点击查看详情。",
-      "type": "product",
-      "publishedAt": "2026-03-15"
-    },
-    {
-      "id": "product_5",
-      "title": "人工智能可以成为设计、纠正甚至有时编写代码的绝佳工具... (AI can be a great to tool to design, correct and sometimes write co...)",
-      "source": "Reddit_AI",
-      "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1rtt1a3/ai_can_be_a_great_to_tool_to_design_correct_and/",
-      "summary": "我认为这里已经提出了重要的一点。在长期平台开发和部署的背景下，代码...",
-      "type": "product",
-      "publishedAt": "2026-03-15"
+      "publishedAt": "2026-03-18"
     }
   ],
-  "summary": "今日 AI 领域 15 条精选资讯，5 款创新产品值得关注。",
-  "quote": "每一次模型的迭代，都是人类理解智能本质的一次尝试。",
-  "generatedAt": "2026-03-15T14:10:00+08:00",
+  "summary": "今日 AI 圈：Sears 向网络上的任何人暴露了 AI 聊天机器人的电话和... 等 12 条新闻，2 款热门产品。",
+  "quote": {
+    "text": "模型迭代的速度正在重新定义智能的边界，每一次训练都是对人类认知边界的推进。",
+    "author": "小羽毛 AI"
+  },
+  "generatedAt": "2026-03-18T07:12:19.745827+08:00",
   "websiteUrl": "https://xiaoyumao-news-web.vercel.app"
 };
 
