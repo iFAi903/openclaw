@@ -145,27 +145,38 @@ CEO 读取分身的产出，进行质量检查：
 *   **查看分身状态**：使用 `subagents list`。
 *   **清理僵尸进程**：使用 `subagents kill`。
 
-## 🧠 Self-Improving 记忆系统
+## 🧠 Self-Improving + Proactivity 系统
 
-使用 `self-improving` skill 实现执行质量复利增长。
+使用 `self-improving` + `proactivity` skills 实现执行质量复利增长和主动性增强。
 
-**存储位置**：`~/self-improving/`
+**存储位置**：
+- `~/self-improving/` → 执行改进（向后学习）
+- `~/proactivity/` → 主动推动（向前预判）
 
 **双轨记忆分工**：
 - `memory/YYYY-MM-DD.md` + `MEMORY.md` → 事实性记录（事件、决策、上下文）
-- `~/self-improving/` → 执行改进（偏好、模式、教训、复利质量）
+- `~/self-improving/` → 从纠正和反思中学习（偏好、模式、教训）
+- `~/proactivity/` → 预判需求、保持动力、反向提示
 
 **工作流**：
-1. **任务开始前**：读取 `~/self-improving/memory.md` (HOT)
-2. **匹配上下文**：按需加载 `domains/` 或 `projects/` 文件
-3. **被纠正后**：立即写入 `corrections.md`
+1. **任务开始前**：读取 `~/self-improving/memory.md` + `~/proactivity/memory.md`
+2. **匹配上下文**：按需加载 domains/ 或 projects/ 文件
+3. **被纠正后**：立即写入 `~/self-improving/corrections.md`
 4. **3次重复**：询问用户是否确认为规则
+5. **主动预判**：根据 patterns.md 和边界规则，主动提出下一步
 
 **查询支持**：
 - "What do you know about X?" → 搜索所有层级
-- "Show my patterns" → 显示 `memory.md`
+- "Show my patterns" → 显示已学习模式
+- "Show proactive opportunities" → 显示预判建议
 - "Forget X" → 从所有层级删除（需确认）
 - "Memory stats" → 显示各层级统计
 
+**边界层级**（Proactivity）：
+- **DO** → 安全的内部工作（研究、草稿、检查）
+- **SUGGEST** → 有用但用户可见（修复建议、日程建议）
+- **ASK** → 需要预先批准（发送、购买、删除、重新安排）
+- **NEVER** → 禁止（联系他人、代表承诺）
+
 ---
-*最后更新：2026-03-18 (Added REVIEW & PLAN agents, Gstack patterns, Self-Improving system)*
+*最后更新：2026-03-18 (添加 Self-Improving + Proactivity 系统)*
