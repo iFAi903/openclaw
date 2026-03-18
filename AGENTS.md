@@ -145,5 +145,27 @@ CEO 读取分身的产出，进行质量检查：
 *   **查看分身状态**：使用 `subagents list`。
 *   **清理僵尸进程**：使用 `subagents kill`。
 
+## 🧠 Self-Improving 记忆系统
+
+使用 `self-improving` skill 实现执行质量复利增长。
+
+**存储位置**：`~/self-improving/`
+
+**双轨记忆分工**：
+- `memory/YYYY-MM-DD.md` + `MEMORY.md` → 事实性记录（事件、决策、上下文）
+- `~/self-improving/` → 执行改进（偏好、模式、教训、复利质量）
+
+**工作流**：
+1. **任务开始前**：读取 `~/self-improving/memory.md` (HOT)
+2. **匹配上下文**：按需加载 `domains/` 或 `projects/` 文件
+3. **被纠正后**：立即写入 `corrections.md`
+4. **3次重复**：询问用户是否确认为规则
+
+**查询支持**：
+- "What do you know about X?" → 搜索所有层级
+- "Show my patterns" → 显示 `memory.md`
+- "Forget X" → 从所有层级删除（需确认）
+- "Memory stats" → 显示各层级统计
+
 ---
-*最后更新：2026-03-18 (Added REVIEW & PLAN agents, Gstack patterns)*
+*最后更新：2026-03-18 (Added REVIEW & PLAN agents, Gstack patterns, Self-Improving system)*

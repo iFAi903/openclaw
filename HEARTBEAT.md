@@ -155,3 +155,22 @@
 *守护进程版本: Jarvis Daemon v1.1*  
 *启动时间: 2026-03-08 03:56*  
 *系统状态: 全功能运行*
+
+---
+
+## 🧠 Self-Improving Check
+
+**Heartbeat 自检**：
+- 读取 `~/self-improving/memory.md` (HOT tier)
+- 检查 `~/self-improving/heartbeat-state.md` 上次运行标记
+- 若无更新，返回 `HEARTBEAT_OK`
+- 若有新的 corrections 或 patterns，执行 Weekly Maintenance
+
+**Weekly Maintenance**（每7天）：
+- 扫描 decay candidates（30天未使用 → WARM，90天 → COLD）
+- 如有文件超限，执行 compaction
+- 更新 `index.md` 行数统计
+- 可选：生成 weekly digest
+
+---
+*最后更新: 2026-03-18 (添加 Self-Improving 系统)*
