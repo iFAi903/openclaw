@@ -111,8 +111,9 @@ main() {
     log_success "新闻数据获取完成"
 
     # Step 2: 转换为 TypeScript 并更新 news.ts
+    # 统一走 update_news_ts.py，避免与 fetch_news_final.py / generate_news_ts.py 出现双入口漂移
     log "Step 2/4: 更新新闻数据文件..."
-    if ! python3 generate_news_ts.py >> "$LOG_FILE" 2>&1; then
+    if ! python3 update_news_ts.py >> "$LOG_FILE" 2>&1; then
         log_error "TypeScript 文件生成失败"
         exit 1
     fi

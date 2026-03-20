@@ -1,5 +1,5 @@
 // 自动生成 - 小羽毛 AI 早报
-// 生成时间: 2026-03-18 17:36:45
+// 生成时间: 2026-03-20 08:11:15
 
 export interface NewsItem {
   id: string;
@@ -25,115 +25,115 @@ export interface DailyNews {
 }
 
 export const todayNews: DailyNews = {
-  "date": "2026年03月18日 周三",
+  "date": "2026年03月20日 周五",
   "aiNews": [
     {
       "id": "news_1",
+      "title": "流氓人工智能导致 Meta 发生严重安全事件",
+      "source": "TheVerge",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/897528/meta-rogue-ai-agent-security-incident",
+      "summary": "",
+      "type": "news",
+      "publishedAt": "2026-03-20"
+    },
+    {
+      "id": "news_2",
+      "title": "Adobe 的 AI 图像生成器现在可以根据您自己的艺术进行训练",
+      "source": "TheVerge",
+      "url": "https://www.theverge.com/tech/897243/adobe-firefly-ai-custom-models-image-public-beta",
+      "summary": "",
+      "type": "news",
+      "publishedAt": "2026-03-20"
+    },
+    {
+      "id": "news_3",
+      "title": "Fitbit 的人工智能健康教练很快就能读取你的医疗记录",
+      "source": "TheVerge",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/897250/fitbits-ai-health-coach-reads-medical-records",
+      "summary": "",
+      "type": "news",
+      "publishedAt": "2026-03-20"
+    },
+    {
+      "id": "news_4",
+      "title": "大卫·萨克斯对伊朗的重大警告被严重忽视",
+      "source": "TheVerge",
+      "url": "https://www.theverge.com/column/896949/regulator-david-sacks-iran-polymarket",
+      "summary": "",
+      "type": "news",
+      "publishedAt": "2026-03-20"
+    },
+    {
+      "id": "news_5",
+      "title": "ChatGPT 无法治愈狗的癌症",
+      "source": "TheVerge",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/896878/ai-did-not-cure-this-dogs-cancer",
+      "summary": "",
+      "type": "news",
+      "publishedAt": "2026-03-20"
+    },
+    {
+      "id": "news_6",
+      "title": "DLSS 5：Nvidia的AI图形技术是否已经走得太远了？",
+      "source": "TheVerge",
+      "url": "https://www.theverge.com/games/896518/nvidia-dlss-5-ai-3d-rendering",
+      "summary": "",
+      "type": "news",
+      "publishedAt": "2026-03-20"
+    },
+    {
+      "id": "news_7",
       "title": "Nvidia 的 DLSS 5 就像视频游戏的运动平滑，但更糟糕",
       "source": "TheVerge",
       "url": "https://www.theverge.com/entertainment/896213/nvidia-dlss-5-ai-faces-motion-smoothing",
       "summary": "",
       "type": "news",
-      "publishedAt": "2026-03-18"
+      "publishedAt": "2026-03-20"
     },
     {
-      "id": "news_2",
+      "id": "news_8",
       "title": "现在美国的每个人都在使用谷歌的个性化 Gemini AI",
       "source": "TheVerge",
       "url": "https://www.theverge.com/ai-artificial-intelligence/896107/google-expands-personal-intelligence",
       "summary": "",
       "type": "news",
-      "publishedAt": "2026-03-18"
+      "publishedAt": "2026-03-20"
     },
     {
-      "id": "news_3",
+      "id": "news_9",
       "title": "微软在人工智能领导层改组后任命了一位新的副驾驶老板",
       "source": "TheVerge",
       "url": "https://www.theverge.com/news/895963/microsoft-copilot-leadership-changes-consumer-commercial",
       "summary": "",
       "type": "news",
-      "publishedAt": "2026-03-18"
+      "publishedAt": "2026-03-20"
     },
     {
-      "id": "news_4",
+      "id": "news_10",
       "title": "代码的未来既令人兴奋又令人恐惧",
       "source": "TheVerge",
       "url": "https://www.theverge.com/podcast/895910/claude-code-future-developers-vergecast",
       "summary": "",
       "type": "news",
-      "publishedAt": "2026-03-18"
-    },
-    {
-      "id": "news_5",
-      "title": "DLSS 5 看起来像是视频游戏的实时生成 AI 过滤器",
-      "source": "TheVerge",
-      "url": "https://www.theverge.com/news/895472/nvidia-dlss5-generative-ai-pc-graphics",
-      "summary": "",
-      "type": "news",
-      "publishedAt": "2026-03-18"
-    },
-    {
-      "id": "news_6",
-      "title": "青少年起诉埃隆·马斯克 (Elon Musk) 的 xAI，指控 Grok 的人工智能生成的 CSAM",
-      "source": "TheVerge",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/895639/xai-grok-teens-lawsuit-grok-ai-elon-musk",
-      "summary": "",
-      "type": "news",
-      "publishedAt": "2026-03-18"
-    },
-    {
-      "id": "news_7",
-      "title": "本杰明·内塔尼亚胡正在努力证明他不是人工智能克隆人",
-      "source": "TheVerge",
-      "url": "https://www.theverge.com/tech/895453/ai-deepfake-netanyahu-claims-conspiracy",
-      "summary": "",
-      "type": "news",
-      "publishedAt": "2026-03-18"
-    },
-    {
-      "id": "news_8",
-      "title": "大英百科全书起诉 OpenAI 涉嫌使用 ChatGPT“记忆”其内容",
-      "source": "TheVerge",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/895372/encyclopedia-britannica-openai-lawsuit",
-      "summary": "",
-      "type": "news",
-      "publishedAt": "2026-03-18"
-    },
-    {
-      "id": "news_9",
-      "title": "雅虎首席执行官吉姆·兰佐尼 (Jim Lanzone) 谈重振网络主页",
-      "source": "TheVerge",
-      "url": "https://www.theverge.com/podcast/895221/yahoo-jim-lanzone-scout-ai-sports-finance-open-web",
-      "summary": "",
-      "type": "news",
-      "publishedAt": "2026-03-18"
-    },
-    {
-      "id": "news_10",
-      "title": "这不是上传到电脑的苍蝇",
-      "source": "TheVerge",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/894587/fly-brain-computer-upload",
-      "summary": "",
-      "type": "news",
-      "publishedAt": "2026-03-18"
+      "publishedAt": "2026-03-20"
     },
     {
       "id": "news_11",
-      "title": "Mistral 押注于“构建自己的人工智能”，与企业中的 OpenAI、Anthropic 展开竞争",
+      "title": "据报道，杰夫·贝索斯 (Jeff Bezos) 希望斥资 1000 亿美元收购老牌制造企业，并利用人工智能改造它们",
       "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/03/17/mistral-forge-nvidia-gtc-build-your-own-ai-enterprise/",
-      "summary": "Mistral Forge 让企业可以根据自己的数据从头开始训练自定义人工智能模型，从而挑战依赖微调和基于检索的方法的竞争对手。",
+      "url": "https://techcrunch.com/2026/03/19/jeff-bezos-reportedly-wants-100-billion-to-buy-and-transform-old-manufacturing-firms-with-ai/",
+      "summary": "这位亚马逊巨头有一个新项目，重点是收购工业公司并利用人工智能技术对其进行改造。",
       "type": "news",
-      "publishedAt": "2026-03-18"
+      "publishedAt": "2026-03-20"
     },
     {
       "id": "news_12",
-      "title": "为什么 Garry Tan 的 Claude Code 设置让人又爱又恨",
+      "title": "Cloudflare 首席执行官表示，到 2027 年，在线机器人流量将超过人类流量",
       "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/03/17/why-garry-tans-claude-code-setup-has-gotten-so-much-love-and-hate/",
-      "summary": "成千上万的人正在尝试 Garry Tan 的 Claude Code 设置，该设置已在 GitHub 上共享。每个人都有自己的观点：甚至包括 Claude、ChatGPT 和 Gemini。",
+      "url": "https://techcrunch.com/2026/03/19/online-bot-traffic-will-exceed-human-traffic-by-2027-cloudflare-ceo-says/",
+      "summary": "Cloudflare 首席执行官 Matthew Prince 表示，到 2027 年，人工智能机器人的数量可能会超过在线人类数量，因为生成式人工智能代理极大地增加了网络流量和基础设施需求。",
       "type": "news",
-      "publishedAt": "2026-03-18"
+      "publishedAt": "2026-03-20"
     }
   ],
   "products": [
@@ -144,15 +144,15 @@ export const todayNews: DailyNews = {
       "url": "https://www.producthunt.com",
       "summary": "查看今日最热门的AI产品和工具",
       "type": "product",
-      "publishedAt": "2026-03-18"
+      "publishedAt": "2026-03-20"
     }
   ],
-  "summary": "今日 AI 圈：Nvidia 的 DLSS 5 就像视频游戏的运动平滑，但更... 等 12 条新闻，1 款热门产品。",
+  "summary": "今日 AI 圈：流氓人工智能导致 Meta 发生严重安全事件 等 12 条新闻，1 款热门产品。",
   "quote": {
-    "text": "技术的价值不在于它有多复杂，而在于它能让多少人的生活变得更简单。",
+    "text": "AI 不是替代人类，而是放大人类的可能性。",
     "author": "小羽毛 AI"
   },
-  "generatedAt": "2026-03-18T17:36:45.510658+08:00",
+  "generatedAt": "2026-03-20T08:11:15.573051+08:00",
   "websiteUrl": "https://xiaoyumao-news-web.vercel.app"
 };
 
