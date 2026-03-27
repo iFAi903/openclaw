@@ -29,39 +29,54 @@ PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/homebrew/bin:$HOME/.npm-g
 
 | 文件 | 说明 |
 |------|------|
-| `daily-cron.sh` | 主执行脚本（Fetch → Update → Build → Deploy） |
+| `daily-cron.sh` | 主执行脚本（Fetch → Update → Build → Deploy → Verify） |
 | `install-cron.sh` | 一键安装脚本 |
 | `crontab.config` | Crontab 配置参考 |
-| `fetch_news_v2.py` | 新闻抓取脚本 |
+| `run-news-pipeline.sh` | 内容生成流水线 |
+| `logs/` | 持久日志目录 |
+| `status/last_run_status.json` | 最近一次运行状态 |
 
 ## 📊 执行流程
 
 ```
 每天 07:00
     │
-    ├─→ 1. 执行 fetch_news_v2.py 抓取新闻
-    │
-    ├─→ 2. 转换数据为 TypeScript，更新 src/data/news.ts
-    │
+    ├─→ 1. 执行内容生成流水线
+    ├─→ 2. 更新 TypeScript 数据
     ├─→ 3. 执行 npm run build 构建项目
-    │
-    └─→ 4. 执行 vercel --prod 部署到生产环境
+    ├─→ 4. 执行 vercel --prod 部署到生产环境
+    └─→ 5. 验证主域名日期是否切到当天版本
 ```
 
 ## 📜 日志查看
 
 ```bash
-# 实时查看日志
-tail -f /tmp/xiaoyumao-news-cron.log
-
-# 查看历史日志
+# 临时运行日志
 cat /tmp/xiaoyumao-news-cron.log
+
+# 持久日志（推荐）
+ls logs/
+tail -f logs/cron-$(date +%F).log
 ```
+
+## 📦 状态查看
+
+```bash
+cat status/last_run_status.json
+```
+
+字段包含：
+- `status`: success / failed / running
+- `step`: 当前或失败阶段
+- `generatedDate`: 本次生成的数据日期
+- `onlineDate`: 主域名实际显示日期
+- `newsCount` / `productsCount`
+- `deployUrl`
+- `persistentLog`
 
 ## 🧪 手动测试
 
 ```bash
-# 手动执行一次更新
 ./daily-cron.sh
 ```
 
