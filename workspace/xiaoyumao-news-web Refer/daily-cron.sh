@@ -7,6 +7,9 @@
 
 set -euo pipefail
 
+# 防重入锁：避免 cron / scheduler 重复触发导致同一时刻并发执行
+readonly LOCK_DIR="/tmp/xiaoyumao-news-cron.lock"
+
 # =============================================================================
 # 配置区
 # =============================================================================
@@ -172,6 +175,12 @@ PY
 # =============================================================================
 
 main() {
+    if ! mkdir "$LOCK_DIR" 2>/dev/null; then
+        log "⚠️ 检测到已有运行中的实例，跳过本次执行（lock: $LOCK_DIR）"
+        exit 0
+    fi
+    trap 'rm -rf "$LOCK_DIR"' EXIT
+
     write_status
 
     if [[ -z "$VERCEL_TOKEN" ]]; then
