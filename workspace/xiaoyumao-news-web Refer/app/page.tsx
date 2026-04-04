@@ -1,274 +1,242 @@
-import { todayNews, NewsItem } from '@/src/data/news';
-import { Calendar, ExternalLink, Zap, Terminal, Globe, DollarSign, Cpu, ArrowRight, Activity, Layers, Sparkles } from 'lucide-react';
 import Link from 'next/link';
+import { todayNews, NewsCard } from '@/src/data/news';
+import { siteRuntimeStatus } from '@/src/data/siteRuntimeStatus';
+import { ArrowUpRight, BadgeCheck, Boxes, Flame, Orbit, Radar, Sparkles } from 'lucide-react';
 
-const cleanText = (text: string = ''): string => {
-  return text
-    .replace(/<[^>]*>/g, ' ')
-    .replace(/&#(\d+);/g, (_, code) => String.fromCharCode(Number(code)))
-    .replace(/&#x([0-9a-fA-F]+);/g, (_, code) => String.fromCharCode(parseInt(code, 16)))
-    .replace(/&(nbsp|amp|quot|lt|gt|apos|#39);/g, (entity) => {
-      const map: Record<string, string> = {
-        '&nbsp;': ' ',
-        '&amp;': '&',
-        '&quot;': '"',
-        '&lt;': '<',
-        '&gt;': '>',
-        '&apos;': "'",
-        '&#39;': "'",
-      };
-      return map[entity] ?? entity;
-    })
-    // 清理零宽空格和 KEYWORD 占位符（修复翻译引入的占位符问题）
-    .replace(/\u200b/g, '')
-    .replace(/\u200c/g, '')
-    .replace(/\u200d/g, '')
-    .replace(/__KEYWORD_\d+_\d+__/g, 'OpenAI')
-    .replace(/\s+/g, ' ')
-    .trim();
-};
+const cn = (...values: Array<string | false | null | undefined>) => values.filter(Boolean).join(' ');
 
-// 模拟分类（因为主数据结构没有category字段）
-const getCategoryForNews = (index: number, total: number): string => {
-  if (index < 2) return 'headline';
-  if (index < 5) return 'tech';
-  if (index < 8) return 'product';
-  if (index < 11) return 'capital';
-  return 'global';
-};
+function CardLink({ item, mode = 'news' }: { item: NewsCard; mode?: 'news' | 'product' }) {
+  return (
+    <Link
+      href={item.url}
+      target="_blank"
+      className={cn(
+        'group block rounded-[28px] border border-white/10 bg-[rgba(8,13,30,0.72)] backdrop-blur-xl',
+        'transition duration-300 hover:-translate-y-0.5 hover:border-cyan-300/40 hover:shadow-[0_24px_80px_rgba(38,208,255,0.14)]'
+      )}
+    >
+      <div className="flex h-full flex-col gap-4 p-6 md:p-7">
+        <div className="flex items-start justify-between gap-3">
+          <div className="flex items-center gap-2 text-[11px] uppercase tracking-[0.22em] text-white/45">
+            <span className="inline-flex h-7 min-w-7 items-center justify-center rounded-full border border-white/10 bg-white/5 px-2 text-white/80">
+              {item.rank}
+            </span>
+            <span>{mode === 'news' ? item.source : item.platform || item.source}</span>
+          </div>
+          <ArrowUpRight className="h-4 w-4 text-cyan-300/70 transition group-hover:text-cyan-200" />
+        </div>
 
-const getCategoryStyle = (category: string) => {
-  switch (category) {
-    case 'headline': return { 
-      icon: <Sparkles className="w-4 h-4" />, 
-      bg: 'bg-gradient-to-r from-sky-500 to-blue-600 text-white',
-      label: '头条'
-    };
-    case 'product': return { 
-      icon: <Cpu className="w-4 h-4" />, 
-      bg: 'bg-blue-50 text-blue-700 border border-blue-100',
-      label: '产品'
-    };
-    case 'tech': return { 
-      icon: <Terminal className="w-4 h-4" />, 
-      bg: 'bg-slate-100 text-slate-700 border border-slate-200',
-      label: '技术'
-    };
-    case 'industry': return { 
-      icon: <Layers className="w-4 h-4" />, 
-      bg: 'bg-slate-100 text-slate-700 border border-slate-200',
-      label: '行业'
-    };
-    case 'capital': return { 
-      icon: <DollarSign className="w-4 h-4" />, 
-      bg: 'bg-violet-50 text-violet-700 border border-violet-100',
-      label: '资本'
-    };
-    default: return { 
-      icon: <Globe className="w-4 h-4" />, 
-      bg: 'bg-sky-50 text-sky-700 border border-sky-100',
-      label: '全球'
-    };
-  }
-};
+        <h3 className="text-lg font-semibold leading-7 text-white md:text-[21px] md:leading-8">
+          {item.title}
+        </h3>
+
+        <p className="flex-1 text-sm leading-7 text-white/72 md:text-[15px]">
+          {item.summary}
+        </p>
+
+        <div className="flex items-center justify-between gap-3 border-t border-white/8 pt-4 text-xs text-white/38">
+          <span>{mode === 'news' ? item.source : `${item.platform} / ${item.source}`}</span>
+          <span className="truncate text-right">{item.reason}</span>
+        </div>
+      </div>
+    </Link>
+  );
+}
 
 export default function Home() {
-  const { date, aiNews, products, summary, quote, websiteUrl } = todayNews;
-  
-  // 分离头条和普通新闻
-  const headlines = aiNews.slice(0, 2);
-  const regularNews = aiNews.slice(2);
+  const top = todayNews.aiNews[0];
+  const lead = todayNews.aiNews.slice(1, 5);
+  const grid = todayNews.aiNews.slice(5, 15);
+  const isDegraded = siteRuntimeStatus.runStatus === 'degraded_success';
+  const statusText = isDegraded
+    ? `当前为降级交付：内容日期 ${siteRuntimeStatus.contentDate || todayNews.date}`
+    : siteRuntimeStatus.runStatus === 'full_success'
+      ? '当前为完整成功版本'
+      : siteRuntimeStatus.statusLabel;
 
   return (
-    <main className="min-h-screen bg-[#F8FAFC] text-slate-900 font-sans selection:bg-blue-100 selection:text-blue-900">
-      
-      {/* 顶部装饰条 - 羽毛渐变 */}
-      <div className="h-1.5 w-full bg-gradient-to-r from-sky-400 via-blue-500 to-violet-500"></div>
+    <main className="min-h-screen bg-[#060816] text-white">
+      <div className="feather-mesh pointer-events-none fixed inset-0 opacity-90" />
+      <div className="pointer-events-none fixed inset-x-0 top-0 h-[280px] feather-glow" />
 
-      <div className="max-w-7xl mx-auto px-6 md:px-12 py-16 md:py-24 space-y-20">
-
-        {/* Header Section - 宽松间距 */}
-        <header className="space-y-8">
-          <div className="flex items-center space-x-3">
-            <span className="inline-flex items-center gap-2 px-4 py-2 bg-white rounded-full text-sm font-medium text-slate-500 shadow-sm border border-slate-100">
-              <Calendar className="w-4 h-4 text-blue-500" />
-              {date}
+      <div className="relative mx-auto flex max-w-[1460px] flex-col gap-10 px-5 pb-16 pt-6 md:px-8 lg:px-10">
+        <header className="rounded-[32px] border border-white/10 bg-[linear-gradient(135deg,rgba(14,20,44,0.94),rgba(7,10,25,0.82))] p-6 shadow-[0_40px_120px_rgba(0,0,0,0.35)] md:p-10">
+          <div className="mb-8 flex flex-wrap items-center gap-3 text-[11px] uppercase tracking-[0.22em] text-white/55">
+            <span className="inline-flex items-center gap-2 rounded-full border border-cyan-300/20 bg-cyan-300/10 px-4 py-2 text-cyan-100/90">
+              <Sparkles className="h-3.5 w-3.5" />
+              XiaoYuMao AI Briefing
+            </span>
+            <span className="inline-flex rounded-full border border-white/10 bg-white/5 px-4 py-2">{todayNews.date}</span>
+            <span className="inline-flex rounded-full border border-white/10 bg-white/5 px-4 py-2">
+              {todayNews.aiNews.length} NEWS / {todayNews.products.length} PRODUCTS
+            </span>
+            <span
+              className={cn(
+                'inline-flex rounded-full border px-4 py-2',
+                isDegraded
+                  ? 'border-amber-300/30 bg-amber-300/10 text-amber-100'
+                  : 'border-emerald-300/20 bg-emerald-300/10 text-emerald-100/90'
+              )}
+            >
+              {siteRuntimeStatus.statusLabel}
             </span>
           </div>
-          
-          <div className="space-y-6">
-            <h1 className="text-5xl md:text-7xl font-black tracking-tight text-slate-900">
-              <span className="bg-clip-text text-transparent bg-gradient-to-r from-sky-500 via-blue-600 to-violet-500">
-                小羽毛🪶
-              </span>
-              <span className="text-slate-800"> AI 新闻早报</span>
-            </h1>
-            
-            <p className="text-xl md:text-2xl text-slate-600 font-light leading-relaxed max-w-3xl border-l-4 border-blue-500 pl-6 italic">
-              每日 AI 资讯精选，追踪全球科技动态与创新产品
-            </p>
+
+          {isDegraded && (
+            <div className="mb-8 rounded-[24px] border border-amber-300/25 bg-amber-300/10 px-5 py-4 text-sm leading-7 text-amber-50/92">
+              <div className="font-semibold text-amber-100">降级兜底已生效</div>
+              <div>{statusText}</div>
+              {siteRuntimeStatus.failureSummary && (
+                <div className="mt-2 text-amber-50/80">失败摘要：{siteRuntimeStatus.failureSummary}</div>
+              )}
+            </div>
+          )}
+
+          <div className="grid gap-10 lg:grid-cols-[1.2fr_0.8fr] lg:items-end">
+            <div className="space-y-6">
+              <div className="space-y-4">
+                <h1 className="max-w-4xl text-4xl font-semibold leading-tight tracking-[-0.04em] md:text-6xl md:leading-[1.02]">
+                  小羽毛 <span className="feather-text">AI 新闻早报</span>
+                </h1>
+                <p className="max-w-3xl text-base leading-8 text-white/70 md:text-xl">
+                  国际 AI 创新新闻每日定版。只留关键事件，不留空洞总结；只保留值得你花时间点开的那 20 条。
+                </p>
+              </div>
+
+              <div className="grid gap-3 md:grid-cols-3">
+                <div className="stat-panel">
+                  <div className="stat-label">今日摘要</div>
+                  <div className="stat-value">{todayNews.summary}</div>
+                </div>
+                <div className="stat-panel">
+                  <div className="stat-label">验收门禁</div>
+                  <div className="stat-value">
+                    {todayNews.aiNews.length} 新闻 / {todayNews.products.length} 平台产品 / 近 3 天去重
+                  </div>
+                </div>
+                <div className="stat-panel">
+                  <div className="stat-label">每日寄语</div>
+                  <div className="stat-value">{todayNews.quote.text}</div>
+                </div>
+              </div>
+            </div>
+
+            <div className="glass-grid rounded-[28px] border border-white/10 p-5 md:p-7">
+              <div className="mb-5 flex items-center gap-3 text-sm text-white/80">
+                <BadgeCheck className="h-4 w-4 text-cyan-300" />
+                自动验收上线门禁
+              </div>
+              <div className="grid gap-3 text-sm text-white/65">
+                {[
+                  '标题必须是具体事件，不允许“新动态 / 新能力”',
+                  '摘要必须补充标题之外的信息',
+                  '产品平台严格一日五源各一条',
+                  '当日与前三天双重去重',
+                ].map((rule) => (
+                  <div key={rule} className="inline-flex items-start gap-3 rounded-2xl border border-white/8 bg-white/5 px-4 py-3">
+                    <span className="mt-1 h-2 w-2 rounded-full bg-gradient-to-r from-cyan-300 to-violet-400" />
+                    <span>{rule}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
           </div>
         </header>
 
-        {/* 每日寄语 - 深蓝卡片 */}
-        <section className="bg-gradient-to-br from-slate-900 to-blue-900 rounded-2xl p-8 md:p-10 shadow-xl text-white relative overflow-hidden">
-          <div className="absolute top-0 right-0 w-96 h-96 bg-blue-500 rounded-full blur-[120px] opacity-20 pointer-events-none"></div>
-          
-          <div className="relative z-10">
-            <h2 className="text-xs font-bold uppercase tracking-widest text-blue-300 mb-4 flex items-center gap-2">
-              <Activity className="w-4 h-4" />
-              每日观察
-            </h2>
-            <p className="text-xl md:text-2xl font-medium leading-relaxed text-blue-50">
-              {quote?.text || summary}
-            </p>
-          </div>
-        </section>
+        {top && (
+          <section className="grid gap-6 xl:grid-cols-[1.2fr_0.8fr]">
+            <Link
+              href={top.url}
+              target="_blank"
+              className="group overflow-hidden rounded-[34px] border border-cyan-300/20 bg-[linear-gradient(135deg,rgba(17,28,58,0.98),rgba(8,12,30,0.92))] p-7 shadow-[0_28px_120px_rgba(20,120,255,0.18)] md:p-10"
+            >
+              <div className="mb-5 inline-flex items-center gap-2 rounded-full border border-cyan-300/15 bg-cyan-300/10 px-4 py-2 text-xs uppercase tracking-[0.22em] text-cyan-100">
+                <Flame className="h-4 w-4" />
+                Lead Story
+              </div>
+              <h2 className="max-w-4xl text-3xl font-semibold leading-tight tracking-[-0.03em] text-white md:text-5xl md:leading-[1.06]">
+                {top.title}
+              </h2>
+              <p className="mt-6 max-w-3xl text-base leading-8 text-white/72 md:text-lg">
+                {top.summary}
+              </p>
+              <div className="mt-8 flex items-center justify-between gap-4 border-t border-white/10 pt-5 text-sm text-white/45">
+                <span>{top.source}</span>
+                <span className="inline-flex items-center gap-2 text-cyan-200/90">
+                  查看原文 <ArrowUpRight className="h-4 w-4 transition group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
+                </span>
+              </div>
+            </Link>
 
-        {/* 双头条 - 一行两个 */}
-        {headlines.length > 0 && (
-          <section className="space-y-8">
-            <div className="flex items-center gap-2 px-1">
-              <Zap className="w-6 h-6 text-sky-500" />
-              <h2 className="text-2xl font-bold text-slate-800">重点头条</h2>
-            </div>
-
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              {headlines.map((item, index) => {
-                const style = getCategoryStyle('headline');
-                return (
-                  <article key={item.id} className="group bg-white rounded-2xl p-8 shadow-sm hover:shadow-xl transition-all duration-300 border border-slate-100 hover:border-sky-200 relative overflow-hidden h-full flex flex-col">
-                    <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-sky-400 via-blue-500 to-violet-500"></div>
-                    
-                    <div className="flex items-center justify-between mb-4">
-                      <span className={`px-3 py-1.5 rounded-full text-sm font-bold flex items-center gap-1.5 ${style.bg}`}>
-                        {style.icon}
-                        {style.label}
-                      </span>
-                      <span className="text-sm text-slate-400">来源：{cleanText(item.source)}</span>
-                    </div>
-
-                    <h3 className="text-2xl font-bold text-slate-900 mb-3 group-hover:text-blue-600 transition-colors leading-tight">
-                      <Link href={item.url} target="_blank" className="hover:underline decoration-2 decoration-blue-200 underline-offset-4">
-                        {cleanText(item.title)}
-                      </Link>
-                    </h3>
-                    
-                    <p className="text-slate-600 leading-relaxed flex-1">
-                      {cleanText(item.summary)}
-                    </p>
-
-                    <div className="mt-6 pt-4 border-t border-slate-100 flex justify-end items-end min-h-12">
-                      <Link href={item.url} target="_blank" className="text-blue-600 font-semibold flex items-center gap-1 group-hover:gap-2 transition-all">
-                        阅读全文 <ArrowRight className="w-4 h-4" />
-                      </Link>
-                    </div>
-                  </article>
-                );
-              })}
+            <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-1">
+              {lead.map((item) => (
+                <CardLink key={item.id} item={item} />
+              ))}
             </div>
           </section>
         )}
 
-        {/* 普通新闻 - 三列网格 */}
-        <section className="space-y-8">
-          <div className="flex items-center justify-between px-1">
-            <div className="flex items-center gap-2">
-              <Globe className="w-6 h-6 text-blue-500" />
-              <h2 className="text-2xl font-bold text-slate-800">全球动态</h2>
-            </div>
-            <span className="text-slate-400 text-sm">{regularNews.length} 条动态</span>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-            {regularNews.map((item, index) => {
-              const category = getCategoryForNews(index + 2, regularNews.length);
-              const style = getCategoryStyle(category);
-              return (
-                <article key={item.id} className="group bg-white p-6 rounded-xl border border-slate-100 hover:shadow-lg hover:border-blue-200 transition-all duration-200 flex flex-col">
-                  <div className="flex items-center gap-2 mb-3">
-                    <span className="text-slate-300 font-mono text-xs">#{index + 3}</span>
-                    <span className={`px-2 py-0.5 rounded text-xs font-semibold flex items-center gap-1 ${style.bg}`}>
-                      {style.icon}
-                      {style.label}
-                    </span>
-                  </div>
-
-                  <h3 className="text-lg font-bold text-slate-900 mb-2 group-hover:text-blue-600 transition-colors leading-snug">
-                    <Link href={item.url} target="_blank" className="hover:underline decoration-2 decoration-blue-100">
-                      {cleanText(item.title)}
-                    </Link>
-                  </h3>
-                  
-                  <p className="text-slate-500 text-sm leading-relaxed line-clamp-3 flex-1">
-                    {cleanText(item.summary)}
-                  </p>
-                  
-                  <div className="mt-4 pt-3 border-t border-slate-50 flex items-center justify-between">
-                    <span className="text-xs text-slate-400">{cleanText(item.source)}</span>
-                    <ExternalLink className="w-4 h-4 text-slate-300 group-hover:text-blue-400 transition-colors" />
-                  </div>
-                </article>
-              );
-            })}
-          </div>
-        </section>
-
-        {/* 创新产品追踪 - 底部通栏 */}
-        <section className="bg-gradient-to-br from-slate-900 via-violet-900 to-slate-900 py-16 -mx-6 md:-mx-12 rounded-3xl">
-          <div className="max-w-7xl mx-auto px-6 md:px-12 space-y-8">
-            <div className="flex items-center gap-3">
-              <div className="w-10 h-10 bg-violet-500 rounded-xl flex items-center justify-center shadow-lg shadow-violet-500/30">
-                <Zap className="w-5 h-5 text-white" />
+        <section className="rounded-[32px] border border-white/10 bg-[rgba(7,11,28,0.78)] p-5 backdrop-blur-xl md:p-8">
+          <div className="mb-6 flex flex-wrap items-center justify-between gap-3">
+            <div>
+              <div className="mb-2 inline-flex items-center gap-2 text-[11px] uppercase tracking-[0.22em] text-white/45">
+                <Radar className="h-3.5 w-3.5 text-cyan-300" />
+                Global AI Signals
               </div>
-              <h2 className="text-2xl font-bold text-white">创新产品追踪</h2>
-              <span className="ml-auto text-violet-300 text-sm">{products.length} 款今日热门</span>
+              <h2 className="text-2xl font-semibold tracking-[-0.03em] text-white md:text-3xl">15 条新闻固定版面</h2>
             </div>
-            
-            {/* 响应式网格：超宽屏5列，宽屏自适应，窄屏1列 */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-4">
-              {products.map((product, index) => (
-                <Link 
-                  key={product.id} 
-                  href={product.url} 
-                  target="_blank" 
-                  className="group block"
-                >
-                  <div className="bg-white/10 backdrop-blur-sm p-5 rounded-xl border border-white/10 hover:bg-white/20 hover:border-violet-400/50 hover:shadow-xl hover:shadow-violet-500/20 transition-all duration-200 h-full">
-                    <div className="flex items-center gap-3 mb-3">
-                      <div className="w-10 h-10 flex-shrink-0 bg-violet-500 rounded-lg flex items-center justify-center text-white font-bold shadow-lg shadow-violet-500/30 group-hover:scale-105 transition-transform">
-                        {index + 1}
-                      </div>
-                      <div className="flex-1 min-w-0">
-                        <h4 className="font-bold text-white group-hover:text-violet-200 line-clamp-2 min-h-[3rem] transition-colors">{cleanText(product.title)}</h4>
-                        <span className="text-xs text-violet-300">{cleanText(product.source)}</span>
-                      </div>
-                    </div>
-                    
-                    <p className="text-sm text-violet-100/80 leading-relaxed break-words whitespace-normal line-clamp-4 min-h-[5.5rem]">{cleanText(product.summary)}</p>
-                  </div>
-                </Link>
-              ))}
+            <div className="rounded-full border border-white/10 bg-white/5 px-4 py-2 text-xs uppercase tracking-[0.2em] text-white/50">
+              热度 × 影响力 × 行业权重
             </div>
+          </div>
+
+          <div className="grid gap-4 md:grid-cols-2 2xl:grid-cols-3">
+            {grid.map((item) => (
+              <CardLink key={item.id} item={item} />
+            ))}
           </div>
         </section>
 
-        {/* Footer */}
-        <footer className="text-center pt-16 border-t border-slate-200">
-          <div className="flex items-center justify-center gap-2 mb-4">
-            <div className="w-8 h-8 bg-gradient-to-r from-sky-400 via-blue-500 to-violet-500 rounded-lg flex items-center justify-center">
-              <span className="text-white text-xs font-bold">🪶</span>
+        <section className="rounded-[32px] border border-violet-300/15 bg-[linear-gradient(135deg,rgba(18,10,40,0.9),rgba(8,10,28,0.95))] p-5 shadow-[0_26px_100px_rgba(128,92,255,0.16)] md:p-8">
+          <div className="mb-6 flex flex-wrap items-center justify-between gap-3">
+            <div>
+              <div className="mb-2 inline-flex items-center gap-2 text-[11px] uppercase tracking-[0.22em] text-violet-200/70">
+                <Orbit className="h-3.5 w-3.5 text-violet-300" />
+                Product Radar
+              </div>
+              <h2 className="text-2xl font-semibold tracking-[-0.03em] text-white md:text-3xl">5 平台产品雷达</h2>
             </div>
-            <span className="text-slate-400 text-sm">小羽毛 AI 天团</span>
+            <div className="rounded-full border border-violet-200/15 bg-white/5 px-4 py-2 text-xs uppercase tracking-[0.2em] text-violet-100/55">
+              Product Hunt / GitHub / Toolify / Hacker News / Trustmrr
+            </div>
           </div>
-          <p className="text-slate-400 text-sm">
-            © 2026 · Design by CEO + CTO Collaboration
-          </p>
-          <p className="text-slate-300 text-xs mt-2">
-            生成时间：{todayNews.generatedAt.split('T')[0]}
-          </p>
+
+          <div className="grid gap-4 xl:grid-cols-5">
+            {todayNews.products.map((item) => (
+              <CardLink key={item.id} item={item} mode="product" />
+            ))}
+          </div>
+        </section>
+
+        <footer className="flex flex-col gap-4 rounded-[28px] border border-white/8 bg-white/5 px-6 py-5 text-sm text-white/45 md:flex-row md:items-center md:justify-between">
+          <div className="inline-flex items-center gap-2">
+            <Boxes className="h-4 w-4 text-cyan-300" />
+            小羽毛 AI 天团 · 科技简洁前卫版面
+          </div>
+          <div className="flex flex-col gap-1 text-right">
+            <span>生成时间：{todayNews.generatedAt}</span>
+            <span>运行状态：{statusText}</span>
+          </div>
         </footer>
 
+        <div
+          id="site-run-status-marker"
+          className="hidden"
+          data-run-status={siteRuntimeStatus.runStatus}
+          data-content-date={siteRuntimeStatus.contentDate || todayNews.date}
+          data-status-updated-at={siteRuntimeStatus.statusUpdatedAt}
+          data-failure-summary={siteRuntimeStatus.failureSummary}
+        />
       </div>
     </main>
   );
