@@ -11,3 +11,8 @@
   - ingest / query / lint 三类操作；
   - index / log / registry 三类治理入口；
   - CEO/CRO/CTO/PLAN/REVIEW 的知识职责分工。
+- Wiki OS 骨架的 MVP 至少应包含：
+  - `knowledge/raw/` 资料入口；
+  - `knowledge/wiki/index.md` 与 `knowledge/wiki/log.md`；
+  - `knowledge/schema/WIKI-SCHEMA.md` 及三个流程规则文件；
+  - 一个可复用页面模板。

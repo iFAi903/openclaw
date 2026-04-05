@@ -1,18 +1,19 @@
 # Task Plan
 
 ## Goal
-产出《小羽毛 Wiki OS 设计草案》第一版，明确目标、架构、目录、流程、角色分工、治理规则与落地路径，便于后续直接落地到 workspace。
+完成《小羽毛 Wiki OS》最小可运行骨架：创建 knowledge 目录结构、wiki 基础文件、schema 基础规则文件，并让系统具备可继续迭代的入口。
 
 ## Phases
-- [x] Phase 1 — 明确任务边界与输出形式
-- [x] Phase 2 — 提炼 Karpathy LLM Wiki 思路并映射到小羽毛天团
-- [x] Phase 3 — 编写设计草案文档
-- [x] Phase 4 — 记录进度并提交到 git
+- [x] Phase 1 — 明确骨架范围与最小交付物
+- [x] Phase 2 — 创建 knowledge 目录结构
+- [x] Phase 3 — 编写 wiki 基础文件（index / log / dashboards）
+- [x] Phase 4 — 编写 schema 基础规则文件
+- [ ] Phase 5 — 更新进度并提交到 git
 
 ## Decisions
-- 输出为中文 Markdown 设计文档
-- 文档强调“小羽毛天团”协作场景，而非通用知识库模板
-- 采用轻量、渐进式落地路线，优先可执行，不追求大而全
+- 先做最小可运行版本，不引入额外工具链
+- 先把 schema 写清楚，再决定自动化细节
+- 首批目录以 projects / concepts / syntheses 为核心，保留扩展位
 
 ## Errors Encountered
 - 暂无
