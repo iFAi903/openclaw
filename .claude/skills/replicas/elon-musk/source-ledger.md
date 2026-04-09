@@ -6,7 +6,9 @@
 | public_web | Elon Musk summary | https://en.wikipedia.org/api/rest_v1/page/summary/Elon_Musk | 2026-04-08 抓取 | medium | 人物概况、领域范围、公开角色定位 |
 | user_text | 你整理的马斯克简介与思维方式摘要 | Telegram 对话内文本 | 2026-04-09 接收 | medium | 补强你最关心的观察框架，尤其是第一性原理、极限时间表、垂直整合、使命驱动、争议面 |
 | user_text | 你补充的马斯克长摘要（成就、思维方式、强项与局限） | Telegram 对话内文本 | 2026-04-09 接收 | medium | 强化“工程驱动型老板”“把未来概念变成产业议程”“工程、资本、品牌、传播一体推进”这几条核心判断 |
+| user_text | 你补充的马斯克金句与中英对照摘要 | Telegram 对话内文本 | 2026-04-09 接收 | medium | 补强表达风格、价值取向、对失败/强度/反馈循环/信号噪音/使命感的语言锚点 |
 | public_web | Elon Musk - Wikipedia | https://en.wikipedia.org/wiki/Elon_Musk | 2026-04-08 抓取 | medium | 事业轨迹、公司范围、长期主题画像 |
 | public_web | A future worth getting excited about (TED transcript) | https://www.ted.com/talks/elon_musk_a_future_worth_getting_excited_about/transcript | 2026-04-08 抓取 | high | 终局导向、未来叙事、表达风格、问题定义方式 |
 | public_web | Elon Musk Series: Introduction (Wait But Why) | https://waitbutwhy.com/2015/05/elon-musk-the-worlds-raddest-man.html | 2026-04-08 抓取 | medium | 外部对其跨行业驱动方式的整理与采访入口 |
 | public_web | What is First Principles Thinking?（含 Musk 引述） | https://fs.blog/first-principles/ | 2026-04-08 抓取 | medium | 第一性原理、判断框架、推理风格 |
+| public_web | Quote.org / CBS 2012 interview / Fast Company 2005 / USC 2014 等转引线索（待逐条原始核验） | 由用户提供线索，待补原始链接 | 2026-04-09 记录 | low-medium | 作为金句核验线索，不单独支撑事实判断，但可辅助表达风格与价值偏好归纳 |
