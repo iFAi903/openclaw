@@ -1,0 +1,52 @@
+{
+  "version": "1.0",
+  "lastUpdated": "2026-04-19T00:02:30+08:00",
+  "recurrenceMap": {
+    "infrastructure-candidate-failed": {
+      "title": "OpenAI provider auth fallback loop",
+      "category": "infrastructure",
+      "severity": "medium",
+      "firstSeen": "2026-04-16T00:05:00Z",
+      "lastSeen": "2026-04-19T00:02:30+08:00",
+      "count": 241364,
+      "file": "infrastructure/2026-04-19-openai-provider-auth-fallbacks.md",
+      "status": "suggested"
+    },
+    "infrastructure-embedded-run-failover": {
+      "title": "Failover timeouts and embedded fallback churn",
+      "category": "infrastructure",
+      "severity": "high",
+      "firstSeen": "2026-04-16T00:05:00Z",
+      "lastSeen": "2026-04-19T00:02:30+08:00",
+      "count": 987986,
+      "file": "infrastructure/2026-04-19-failover-timeouts-and-embedded-fallbacks.md",
+      "status": "suggested"
+    },
+    "infrastructure-failover-timed-out": {
+      "title": "Failover timeouts and embedded fallback churn",
+      "category": "infrastructure",
+      "severity": "high",
+      "firstSeen": "2026-04-16T00:05:00Z",
+      "lastSeen": "2026-04-19T00:02:30+08:00",
+      "count": 868,
+      "file": "infrastructure/2026-04-19-failover-timeouts-and-embedded-fallbacks.md",
+      "status": "suggested"
+    },
+    "infrastructure-slow-request-bursts": {
+      "title": "Gateway slow request bursts",
+      "category": "infrastructure",
+      "severity": "medium",
+      "firstSeen": "2026-04-19T00:02:30+08:00",
+      "lastSeen": "2026-04-19T00:02:30+08:00",
+      "count": 10,
+      "file": "infrastructure/2026-04-19-gateway-slow-request-bursts.md",
+      "status": "suggested"
+    }
+  },
+  "promoteCandidates": [
+    "infrastructure-candidate-failed",
+    "infrastructure-embedded-run-failover",
+    "infrastructure-failover-timed-out",
+    "infrastructure-slow-request-bursts"
+  ]
+}
