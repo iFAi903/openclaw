@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-04-19T00:02:30+08:00",
+  "lastUpdated": "2026-04-25T00:05:00+08:00",
   "recurrenceMap": {
     "infrastructure-candidate-failed": {
       "title": "OpenAI provider auth fallback loop",
@@ -41,12 +41,44 @@
       "count": 10,
       "file": "infrastructure/2026-04-19-gateway-slow-request-bursts.md",
       "status": "suggested"
+    },
+    "infrastructure-skipping-skill-path": {
+      "title": "Escaped skill path skips during skill discovery",
+      "category": "infrastructure",
+      "severity": "low",
+      "firstSeen": "2026-04-25T00:05:00+08:00",
+      "lastSeen": "2026-04-25T00:05:00+08:00",
+      "count": 150,
+      "file": "infrastructure/2026-04-25-escaped-skill-path-skips.md",
+      "status": "suggested"
+    },
+    "infrastructure-model-not-allowed-fallback": {
+      "title": "Cron requested disallowed models and fell back to agent defaults",
+      "category": "infrastructure",
+      "severity": "medium",
+      "firstSeen": "2026-04-25T00:05:00+08:00",
+      "lastSeen": "2026-04-25T00:05:00+08:00",
+      "count": 4,
+      "file": "infrastructure/2026-04-25-cron-model-fallbacks.md",
+      "status": "suggested"
+    },
+    "infrastructure-plugin-tool-name-conflict": {
+      "title": "Plugin tool name conflicts during plugin load",
+      "category": "infrastructure",
+      "severity": "low",
+      "firstSeen": "2026-04-25T00:05:00+08:00",
+      "lastSeen": "2026-04-25T00:05:00+08:00",
+      "count": 20,
+      "file": "infrastructure/2026-04-25-plugin-tool-name-conflicts.md",
+      "status": "suggested"
     }
   },
   "promoteCandidates": [
     "infrastructure-candidate-failed",
     "infrastructure-embedded-run-failover",
     "infrastructure-failover-timed-out",
+    "infrastructure-plugin-tool-name-conflict",
+    "infrastructure-skipping-skill-path",
     "infrastructure-slow-request-bursts"
   ]
 }
