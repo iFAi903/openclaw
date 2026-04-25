@@ -1,14 +1,14 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-04-25T00:05:00+08:00",
+  "lastUpdated": "2026-04-26T00:03:00+08:00",
   "recurrenceMap": {
     "infrastructure-candidate-failed": {
       "title": "OpenAI provider auth fallback loop",
       "category": "infrastructure",
       "severity": "medium",
       "firstSeen": "2026-04-16T00:05:00Z",
-      "lastSeen": "2026-04-19T00:02:30+08:00",
-      "count": 241364,
+      "lastSeen": "2026-04-26T00:03:00+08:00",
+      "count": 241404,
       "file": "infrastructure/2026-04-19-openai-provider-auth-fallbacks.md",
       "status": "suggested"
     },
@@ -17,8 +17,8 @@
       "category": "infrastructure",
       "severity": "high",
       "firstSeen": "2026-04-16T00:05:00Z",
-      "lastSeen": "2026-04-19T00:02:30+08:00",
-      "count": 987986,
+      "lastSeen": "2026-04-26T00:03:00+08:00",
+      "count": 988042,
       "file": "infrastructure/2026-04-19-failover-timeouts-and-embedded-fallbacks.md",
       "status": "suggested"
     },
@@ -27,8 +27,8 @@
       "category": "infrastructure",
       "severity": "high",
       "firstSeen": "2026-04-16T00:05:00Z",
-      "lastSeen": "2026-04-19T00:02:30+08:00",
-      "count": 868,
+      "lastSeen": "2026-04-26T00:03:00+08:00",
+      "count": 914,
       "file": "infrastructure/2026-04-19-failover-timeouts-and-embedded-fallbacks.md",
       "status": "suggested"
     },
@@ -37,8 +37,8 @@
       "category": "infrastructure",
       "severity": "medium",
       "firstSeen": "2026-04-19T00:02:30+08:00",
-      "lastSeen": "2026-04-19T00:02:30+08:00",
-      "count": 10,
+      "lastSeen": "2026-04-26T00:03:00+08:00",
+      "count": 14,
       "file": "infrastructure/2026-04-19-gateway-slow-request-bursts.md",
       "status": "suggested"
     },

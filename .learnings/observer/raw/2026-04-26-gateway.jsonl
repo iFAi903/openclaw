@@ -1,0 +1,92 @@
+{
+  "gateway.err.log": {
+    "counts": {
+      "plugins-fetch-failed": 0,
+      "gateway-fetch-failed": 0,
+      "failover-timeout": 46,
+      "no-available-token": 0,
+      "skipping-skill-path": 0,
+      "candidate-failed": 40,
+      "embedded-run-failover": 56
+    },
+    "sampleContexts": {
+      "failover-timeout": [
+        {
+          "line": 1984294,
+          "context": [
+            "2026-04-25T02:11:40.992+08:00 [cron] payload.model 'gemma-4-31b-it' not allowed, falling back to agent defaults",
+            "2026-04-25T02:11:41.137+08:00 [agent/embedded] embedded run failover decision: runId=2c94ea5d-88fc-4ad5-ad75-1b0af9e0d619 stage=assistant decision=fallback_model reason=timeout from=custom-192-168-71-88-11434/qwen3.6:35b-a3b-q4_K_M profile=-",
+            "2026-04-25T02:11:41.138+08:00 [diagnostic] lane task error: lane=main durationMs=969653 error=\"FailoverError: LLM request timed out.\""
+          ]
+        }
+      ],
+      "candidate-failed": [
+        {
+          "line": 1984296,
+          "context": [
+            "2026-04-25T02:11:41.138+08:00 [diagnostic] lane task error: lane=main durationMs=969653 error=\"FailoverError: LLM request timed out.\"",
+            "2026-04-25T02:11:41.138+08:00 [diagnostic] lane task error: lane=session:agent:main:main durationMs=969653 error=\"FailoverError: LLM request timed out.\"",
+            "2026-04-25T02:11:41.140+08:00 [model-fallback/decision] model fallback decision: decision=candidate_failed requested=custom-192-168-71-88-11434/qwen3.6:35b-a3b-q4_K_M candidate=custom-192-168-71-88-11434/qwen3.6:35b-a3b-q4_K_M reason=timeout next=custom-192-168-71-88-11434/qwen3.5:27b detail=LLM request timed out."
+          ]
+        }
+      ],
+      "embedded-run-failover": [
+        {
+          "line": 1984293,
+          "context": [
+            "2026-04-25T02:11:40.742+08:00 [skills] Skipping escaped skill path outside its configured root: source=openclaw-managed root=~/.openclaw/skills reason=symlink-escape requested=~/.openclaw/skills/smart-search resolved=~/.agents/skills/smart-search",
+            "2026-04-25T02:11:40.992+08:00 [cron] payload.model 'gemma-4-31b-it' not allowed, falling back to agent defaults",
+            "2026-04-25T02:11:41.137+08:00 [agent/embedded] embedded run failover decision: runId=2c94ea5d-88fc-4ad5-ad75-1b0af9e0d619 stage=assistant decision=fallback_model reason=timeout from=custom-192-168-71-88-11434/qwen3.6:35b-a3b-q4_K_M profile=-"
+          ]
+        }
+      ]
+    },
+    "slowRequests": [],
+    "commandLines": []
+  },
+  "gateway.log": {
+    "counts": {
+      "plugins-fetch-failed": 0,
+      "gateway-fetch-failed": 0,
+      "failover-timeout": 0,
+      "no-available-token": 0,
+      "skipping-skill-path": 0,
+      "candidate-failed": 0,
+      "embedded-run-failover": 0
+    },
+    "sampleContexts": {},
+    "slowRequests": [
+      {
+        "line": 2253678,
+        "text": "2026-04-25T07:06:31.590+08:00 [error]: [ '[ws]', 'timeout of 15000ms exceeded' ]"
+      },
+      {
+        "line": 2253737,
+        "text": "2026-04-25T07:34:03.583+08:00 [error]: [ '[ws]', 'timeout of 15000ms exceeded' ]"
+      },
+      {
+        "line": 2253755,
+        "text": "2026-04-25T08:33:12.019+08:00 [error]: [ '[ws]', 'timeout of 15000ms exceeded' ]"
+      },
+      {
+        "line": 2253856,
+        "text": "2026-04-25T10:30:35.730+08:00 [error]: [ '[ws]', 'timeout of 15000ms exceeded' ]"
+      }
+    ],
+    "commandLines": []
+  },
+  "commands.log": {
+    "counts": {
+      "plugins-fetch-failed": 0,
+      "gateway-fetch-failed": 0,
+      "failover-timeout": 0,
+      "no-available-token": 0,
+      "skipping-skill-path": 0,
+      "candidate-failed": 0,
+      "embedded-run-failover": 0
+    },
+    "sampleContexts": {},
+    "slowRequests": [],
+    "commandLines": []
+  }
+}
