@@ -5,7 +5,7 @@
 - **运行时段**: 24/7 (Always Active)
 - **自动重启**: 已启用 ✅
 - **崩溃恢复**: 已启用 ✅
-- **最后更新**: 2026-04-23 14:50 Asia/Taipei
+- **最后更新**: 2026-04-28 01:52 Asia/Taipei
 
 ## 🎙️ 语音唤醒监听
 - **监听状态**: ACTIVE ✅
@@ -21,13 +21,21 @@
 
 ## 🔄 定时任务 - 每日三节拍机制
 
-> **核心节律**：00:00 进化、23:30 复盘、08:30 简报，形成“进化-复盘-计划”的闭环
+> **核心节律**：00:00 进化、08:30 简报、23:30 复盘，形成"进化-计划-复盘"的闭环
 
 ### 🧬 节拍零：每日进化 (00:00)
 **代号**：DAILY-EVOLUTION
 **触发**：每日 00:00 (Asia/Taipei)
 **输出**：`reports/evolution-YYYY-MM-DD.md`
-**状态**: ✅ 正常 (last run 19h ago, status=ok)
+**状态**: ✅ **OK** — 2026-04-28 01:45 手动实跑成功，已生成 `reports/evolution-2026-04-28.md`。已切换为 gpt-5.5、light-context、轻量守护 prompt、no-deliver。
+
+---
+
+### 🌅 节拍二：晨间简报 (08:30)
+**代号**：MORNING-BRIEF
+**触发**：每日 08:30 (Asia/Taipei)
+**输出**：飞书主动消息
+**状态**: ✅ **OK** — 2026-04-28 01:47 手动实跑成功；测试时临时 no-deliver，随后已恢复为 `announce -> feishu:user:ou_f804aeb5aa82fc47dca4830476a6e75d`。
 
 ---
 
@@ -35,21 +43,14 @@
 **代号**：NIGHTLY-REVIEW
 **触发**：每日 23:30 (Asia/Taipei)
 **输出**：`memory/📅 YYYY-MM-DD.md`
-**状态**: ⏳ 今日 23:30 触发（尚未到达）
-
----
-
-### 🌅 节拍二：晨间简报 (08:30)
-**代号**：MORNING-BRIEF
-**触发**：每日 08:30 (Asia/Taipei)
-**输出**：飞书/Telegram 主动消息
-**状态**: ✅ 正常 (last run 10h ago, status=ok)
+**状态**: ✅ **OK** — 2026-04-28 01:43 手动实跑成功，已生成/更新 `memory/📅 2026-04-28.md`。已切换为 gpt-5.5、light-context、轻量守护 prompt、no-deliver。
 
 ---
 
 ## 🧠 Self-Improving + Proactivity Check
-- **Last Check**: 2026-04-23 14:50
-- **Status**: All 3 beats recovered. No failures today.
+- **Last Check**: 2026-04-28 01:52
+- **Status**: ✅ **OK** — 三节拍 cron 均存在、启用、实跑成功；OpenClaw heartbeat 已启用，状态显示 `1h (main)`。
+- **Action Needed**: 🟡 **WATCH** — Gateway service 仍提示旧式 embedded token，后续可安排 `openclaw gateway install --force` / doctor repair；不影响当前 cron 三节拍运行。
 
 ---
-*最后更新: 2026-04-23 (all 3 beats OK)*
+*最后更新: 2026-04-28 01:52 (✅ 三节拍 cron 与自动守护已恢复；保留 gateway service 配置现代化为后续维护项)*
