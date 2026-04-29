@@ -48,7 +48,8 @@
       "web_search",
       "web_fetch",
       "image",
-      "sessions_spawn"
+      "sessions_spawn",
+      "wechat-public-account-ops"
     ]
   },
   "plugins": {
