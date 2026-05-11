@@ -121,5 +121,51 @@
 
 ---
 
+## 🌐 浏览器自动化工具（Open Browser Use）
+
+| 项 | 说明 |
+|----|------|
+| **工具** | `open-browser-use` / `obu` CLI |
+| **安装位置** | `$HOME/.npm-global/bin/` |
+| **MCP 服务** | `open_browser_use`（已注册） |
+| **用途** | 操控 Leo 的真实 Chrome 浏览器进行市场数据调研、财务信息验证、行业动态监测 |
+
+### 使用前置条件
+
+```sh
+export PATH="$HOME/.npm-global/bin:$PATH"
+export OBU_SESSION_ID="obu-<task-slug>-$(date +%Y%m%d%H%M%S)"
+```
+
+### 常用操作
+
+| 场景 | 命令 |
+|------|------|
+| 检查连通性 | `obu ping --session-id "$OBU_SESSION_ID"` |
+| 列出标签页 | `obu tabs --session-id "$OBU_SESSION_ID"` |
+| 打开 URL | `obu open-tab --session-id "$OBU_SESSION_ID" --url <url>` |
+| 读取页面内容 | `obu cdp --session-id "$OBU_SESSION_ID" --tab-id <id> --method Runtime.evaluate --params '{"expression":"document.body.innerText"}'` |
+| 搜索历史 | `obu history --session-id "$OBU_SESSION_ID" --query "关键词" --limit 20` |
+| 清理标签页 | `obu finalize-tabs --session-id "$OBU_SESSION_ID" --keep '[]'` |
+| Action Plan | `obu run --session-id "$OBU_SESSION_ID" -c '...'` |
+
+### CFO 用法场景
+
+- **市场数据调研**：打开财经网站、股市行情，提取实时数据辅助分析
+- **行业动态监测**：搜索浏览历史，查看 Leo 近期关注的财经文章/行业报告
+- **数据源验证**：打开数据源页面，用 `cdp` 提取并交叉验证财务数据
+- **报告审查**：查看已生成的财务报告在浏览器中的呈现效果
+- **风控检查**：`obu user-tabs` 查看 Leo 当前打开的财经页面，理解关注焦点
+
+### 铁律
+
+1. **每个任务必须使用唯一 session-id**，格式 `obu-<task-slug>-<timestamp>`
+2. **任务结束时必须 `finalize-tabs`**，不清 tab 不结束
+3. **先 list 再操作**，不猜 tab id
+4. **涉及敏感操作（上传、提交、购买）先问 Leo**
+5. 详细技能文件见 `skills/open-browser-use/SKILL.md`
+
+---
+
 *CFO 财神 🟡  
 严谨理性，价值守护*

@@ -128,5 +128,51 @@
 
 ---
 
+## 🌐 浏览器自动化工具（Open Browser Use）
+
+| 项 | 说明 |
+|----|------|
+| **工具** | `open-browser-use` / `obu` CLI |
+| **安装位置** | `$HOME/.npm-global/bin/` |
+| **MCP 服务** | `open_browser_use`（已注册） |
+| **用途** | 操控 Leo 的真实 Chrome 浏览器进行文案调研、素材收集、竞品分析 |
+
+### 使用前置条件
+
+```sh
+export PATH="$HOME/.npm-global/bin:$PATH"
+export OBU_SESSION_ID="obu-<task-slug>-$(date +%Y%m%d%H%M%S)"
+```
+
+### 常用操作
+
+| 场景 | 命令 |
+|------|------|
+| 检查连通性 | `obu ping --session-id "$OBU_SESSION_ID"` |
+| 列出标签页 | `obu tabs --session-id "$OBU_SESSION_ID"` |
+| 打开 URL | `obu open-tab --session-id "$OBU_SESSION_ID" --url <url>` |
+| 读取页面内容 | `obu cdp --session-id "$OBU_SESSION_ID" --tab-id <id> --method Runtime.evaluate --params '{"expression":"document.body.innerText"}'` |
+| 搜索历史 | `obu history --session-id "$OBU_SESSION_ID" --query "关键词" --limit 20` |
+| 清理标签页 | `obu finalize-tabs --session-id "$OBU_SESSION_ID" --keep '[]'` |
+| Action Plan | `obu run --session-id "$OBU_SESSION_ID" -c '...'` |
+
+### copy-agent 用法场景
+
+- **文案参考调研**：打开竞品/行业网站，提取页面文案结构与表达方式
+- **素材收集**：搜索浏览历史，找到之前看过的参考文章、灵感来源
+- **视觉参考**：打开 Pinterest、Dribbble、Behance 等视觉网站，辅助 AI 绘图提示词构建
+- **发布验证**：打开发布前的页面，用 `cdp` 检查文案渲染效果
+- **用户上下文感知**：`obu user-tabs` 查看 Leo 当前在看什么，理解他当下的语境
+
+### 铁律
+
+1. **每个任务必须使用唯一 session-id**，格式 `obu-<task-slug>-<timestamp>`
+2. **任务结束时必须 `finalize-tabs`**，不清 tab 不结束
+3. **先 list 再操作**，不猜 tab id
+4. **涉及敏感操作（上传、提交、购买）先问 Leo**
+5. 详细技能文件见 `skills/open-browser-use/SKILL.md`
+
+---
+
 *白色小羽毛 🪶  
 洞察为剑，文字为锋*
