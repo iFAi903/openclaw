@@ -238,5 +238,52 @@ Step 4: Action（默认选项、执行按钮）
 
 ---
 
+## 🌐 浏览器自动化工具（Open Browser Use）
+
+| 项 | 说明 |
+|----|------|
+| **工具** | `open-browser-use` / `obu` CLI |
+| **安装位置** | `$HOME/.npm-global/bin/` |
+| **MCP 服务** | `open_browser_use`（已注册） |
+| **用途** | 打开浏览器验证交付物效果、检查页面渲染、审查文档站 |
+
+### 使用前置条件
+
+```sh
+export PATH="$HOME/.npm-global/bin:$PATH"
+export OBU_SESSION_ID="obu-<task-slug>-$(date +%Y%m%d%H%M%S)"
+```
+
+### 常用操作
+
+| 场景 | 命令 |
+|------|------|
+| 检查连通性 | `obu ping --session-id "$OBU_SESSION_ID"` |
+| 列出标签页 | `obu tabs --session-id "$OBU_SESSION_ID"` |
+| 打开 URL | `obu open-tab --session-id "$OBU_SESSION_ID" --url <url>` |
+| 执行 JS | `obu cdp --session-id "$OBU_SESSION_ID" --tab-id <id> --method Runtime.evaluate --params '{"expression":"..."}'` |
+| 导航 | `obu navigate --session-id "$OBU_SESSION_ID" --tab-id <id> --url <url>` |
+| 搜索历史 | `obu history --session-id "$OBU_SESSION_ID" --query "关键词" --limit 20` |
+| 清理标签页 | `obu finalize-tabs --session-id "$OBU_SESSION_ID" --keep '[]'` |
+| Action Plan | `obu run --session-id "$OBU_SESSION_ID" -c '...'` |
+
+### REVIEW 用法场景
+
+- **前端交付验证**：打开演示页，用 `cdp` 检查控制台错误、资源加载、响应式布局
+- **文案预览审查**：打开发布前的页面，检查文案排版、图片加载、交互效果
+- **文档完整性检查**：打开文档站，`cdp` 提取页面结构，验证内容完整性
+- **SEO/元数据审查**：提取 `<title>`、`<meta>`、结构化数据
+- **安全检查**：检查页面是否泄漏敏感信息、不安全的第三方资源
+
+### 铁律
+
+1. **每个任务必须使用唯一 session-id**，格式 `obu-<task-slug>-<timestamp>`
+2. **任务结束时必须 `finalize-tabs`**，不清 tab 不结束
+3. **先 list 再操作**，不猜 tab id
+4. **涉及敏感操作先问 Leo**
+5. 详细技能文件见 `skills/open-browser-use/SKILL.md`
+
+---
+
 *Review Agent 🔍  
 质量的守门人，卓越的捍卫者*

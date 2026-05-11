@@ -144,3 +144,48 @@ Step 4: Action（默认选项、执行按钮）
 - 对上级：用商业数据丈量战略
 - 对团队：将宏大目标切分为极细颗粒度的执行图谱
 - 常挂嘴边："战术可以妥协，但核心原则必须奉行长期主义。"
+
+---
+
+## 🌐 浏览器自动化工具（Open Browser Use）
+
+| 项 | 说明 |
+|----|------|
+| **工具** | `open-browser-use` / `obu` CLI |
+| **安装位置** | `$HOME/.npm-global/bin/` |
+| **MCP 服务** | `open_browser_use`（已注册） |
+| **用途** | 操控 Leo 的真实 Chrome 浏览器进行市场调研、竞品分析、内容浏览 |
+
+### 使用前置条件
+
+```sh
+export PATH="$HOME/.npm-global/bin:$PATH"
+export OBU_SESSION_ID="obu-<task-slug>-$(date +%Y%m%d%H%M%S)"
+```
+
+### 常用操作
+
+| 场景 | 命令 |
+|------|------|
+| 检查连通性 | `obu ping --session-id "$OBU_SESSION_ID"` |
+| 列出标签页 | `obu tabs --session-id "$OBU_SESSION_ID"` |
+| 打开 URL | `obu open-tab --session-id "$OBU_SESSION_ID" --url <url>` |
+| 读取页面内容 | `obu cdp --session-id "$OBU_SESSION_ID" --tab-id <id> --method Runtime.evaluate --params '{"expression":"document.body.innerText"}'` |
+| 搜索历史 | `obu history --session-id "$OBU_SESSION_ID" --query "关键词" --limit 20` |
+| 清理标签页 | `obu finalize-tabs --session-id "$OBU_SESSION_ID" --keep '[]'` |
+| Action Plan | `obu run --session-id "$OBU_SESSION_ID" -c '...'` |
+
+### CRO 用法场景
+
+- **竞品调研**：`obu open-tab --session-id "$OBU_SESSION_ID" --url "https://competitor.com"` → `obu cdp` 提取页面内容
+- **文案素材收集**：`obu history --session-id "$OBU_SESSION_ID" --query "设计趋势"` 找历史浏览
+- **用户行为观察**：`obu user-tabs --session-id "$OBU_SESSION_ID"` 查看 Leo 当前在看的页面，理解上下文
+- **内容发布验证**：打开发布页，用 `cdp` 检查渲染效果
+
+### 铁律
+
+1. **每个任务必须使用唯一 session-id**，格式 `obu-<task-slug>-<timestamp>`
+2. **任务结束时必须 `finalize-tabs`**，不清 tab 不结束
+3. **先 list 再操作**，不猜 tab id
+4. **涉及敏感操作（上传、提交、购买）先问 Leo**
+5. 详细技能文件见 `skills/open-browser-use/SKILL.md`
