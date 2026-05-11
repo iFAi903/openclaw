@@ -1,7 +1,7 @@
 # 🛠️ SERVICES-AND-SKILLS.md - 技能与服务清单
 
 > 可用技能、服务状态、能力边界
-> 最后更新：2026-03-08（高维升级后整理）
+> 最后更新：2026-05-11（新增 open-browser-use 通用技能）
 
 ---
 
@@ -13,6 +13,7 @@
 | **AI 生成** | 4 | 图像、视频、代码、研究分析 |
 | **开发工具** | 8 | 浏览器、Claude Code、框架、设计 |
 | **团队管理** | 4 | Agent 创建、任务分发、安全扫描 |
+| **浏览器自动化** | 2 | agent-browser、open-browser-use（新增） |
 | **外部集成** | 5 | Tavily、Vercel、Moltbook、Clawhub |
 | **流程管理** | 3 | 规划、TDD、调试 |
 
@@ -88,37 +89,45 @@
 - **功能**：Playwright/Puppeteer 模式
 - **用途**：测试、抓取、AI agent 浏览器控制
 
-### 11. claude-code-best-practices（Claude Code 最佳实践）
+### 11. open-browser-use（浏览器自动化 — 通用技能）
+- **状态**：✅ 已安装 v0.1.26（CLI + MCP Server 注册）
+- **路径**：`skills/open-browser-use/`
+- **GitHub**：https://github.com/iFurySt/open-codex-browser-use
+- **功能**：基于 Chrome 扩展 + 原生主机的真实浏览器操控，支持 CLI/MCP/SDK（JS/Python/Go）
+- **用途**：**AI 天团通用技能**，所有 Agent（CEO/CRO/COO/CTO/REVIEW/PLAN）均可通过 CLI 或 MCP 操控 Chrome 浏览器
+- **注意**：需先运行 `obu setup beta` + 手动安装 Chrome 扩展；每个任务必须使用唯一 session-id
+
+### 13. claude-code-best-practices（Claude Code 最佳实践）
 - **状态**：✅ 已安装
 - **路径**：`skills/claude-code-best-practices/`
 - **功能**：多步骤实现、调试、重构、代码审查指南
 - **用途**：使用 Claude Code 的最佳实践
 
-### 12. ui-ux-pro-max（UI/UX 设计专业版）
+### 14. ui-ux-pro-max（UI/UX 设计专业版）
 - **状态**：✅ 已安装
 - **路径**：`skills/ui-ux-pro-max/`
 - **功能**：50 种风格、21 种调色板、50 种字体搭配
 - **用途**：网站、落地页、仪表板、移动应用设计
 
-### 13. design-doc-mermaid（设计文档 Mermaid）
+### 15. design-doc-mermaid（设计文档 Mermaid）
 - **状态**：✅ 已安装
 - **路径**：`skills/design-doc-mermaid/`
 - **功能**：从文本/代码生成 Mermaid 图表
 - **用途**：活动图、部署图、序列图、架构图
 
-### 14. vercel-react-best-practices（Vercel React 最佳实践）
+### 16. vercel-react-best-practices（Vercel React 最佳实践）
 - **状态**：✅ 已安装
 - **路径**：`skills/vercel-react-best-practices/`
 - **功能**：React/Next.js 性能优化指南
 - **用途**：编写、审查、重构 React/Next.js 代码
 
-### 15. web-design-guidelines（网页设计指南）
+### 17. web-design-guidelines（网页设计指南）
 - **状态**：✅ 已安装
 - **路径**：`skills/web-design-guidelines/`
 - **功能**：Web Interface Guidelines 合规检查
 - **用途**：审查 UI、检查可访问性、审计设计
 
-### 16. next-best-practices（Next.js 最佳实践）
+### 18. next-best-practices（Next.js 最佳实践）
 - **状态**：✅ 已安装
 - **路径**：`skills/next-best-practices/`
 - **功能**：Next.js 项目优化
@@ -128,31 +137,31 @@
 
 ## 👥 团队管理层
 
-### 17. agent-creator（Agent 创建器）
+### 19. agent-creator（Agent 创建器）
 - **状态**：✅ 已安装
 - **路径**：`skills/agent-creator/`
 - **功能**：创建专业化 Agent
 - **用途**：扩展 AI 天团成员
 
-### 18. team-dispatcher（团队调度器）
+### 20. team-dispatcher（团队调度器）
 - **状态**：✅ 已安装
 - **路径**：`skills/team-dispatcher/`
 - **功能**：多 Agent 任务分发
 - **用途**：协调 CRO/CTO 工作
 
-### 19. team-tasks-xiaoyumao（团队任务管理）
+### 21. team-tasks-xiaoyumao（团队任务管理）
 - **状态**：✅ 已安装
 - **路径**：`skills/team-tasks-xiaoyumao/`
 - **功能**：集成 team-tasks 与 OpenClaw
 - **用途**：通过共享 JSON 任务文件协调多 Agent
 
-### 20. skill-security-scanner（技能安全扫描器）
+### 22. skill-security-scanner（技能安全扫描器）
 - **状态**：✅ 已安装
 - **路径**：`skills/skill-security-scanner/`
 - **功能**：审计和扫描 OpenClaw 技能安全性
 - **用途**：启用新技能前验证安全
 
-### 21. skill-forge-xiaoyumao（技能锻造器）
+### 23. skill-forge-xiaoyumao（技能锻造器）
 - **状态**：✅ 已安装
 - **路径**：`skills/skill-forge-xiaoyumao/`
 - **功能**：通用 Skill 生成器和管理器
@@ -162,26 +171,26 @@
 
 ## 🔗 外部集成层
 
-### 22. tavily-search（Tavily AI 搜索）
+### 24. tavily-search（Tavily AI 搜索）
 - **状态**：✅ 已安装
 - **路径**：`skills/tavily-search/`
 - **功能**：AI 优化搜索
 - **用途**：搜索当前信息、新闻、事实
 
-### 23. clawhub（Clawhub 工具）
+### 25. clawhub（Clawhub 工具）
 - **状态**：✅ 已安装
 - **路径**：`skills/clawhub/`
 - **功能**：搜索、安装、更新、发布技能
 - **用途**：从 clawhub.com 获取新技能
 
-### 24. moltbook-poster（Moltbook 发帖器）
+### 26. moltbook-poster（Moltbook 发帖器）
 - **状态**：✅ 已安装 v1.0.0
 - **路径**：`skills/moltbook-poster-1.0.0/`
 - **功能**：社交网络工具集（发帖、评论、点赞）
 - **用途**：代理社交网络管理
 - **限制**：每60分钟1篇，需配置 configs/moltbook.json
 
-### 25. context7（Context7）
+### 27. context7（Context7）
 - **状态**：✅ 已安装
 - **路径**：`skills/context7/`
 - **功能**：待探索
@@ -191,31 +200,31 @@
 
 ## 📋 流程管理层
 
-### 26. planning-with-files（文件规划）
+### 28. planning-with-files（文件规划）
 - **状态**：✅ 已安装
 - **路径**：`skills/planning-with-files/`
 - **功能**：Manus 风格文件规划（task_plan.md, findings.md, progress.md）
 - **用途**：复杂任务、研究项目、需要 >5 次工具调用的任务
 
-### 27. stitch-loop（Stitch 循环）
+### 29. stitch-loop（Stitch 循环）
 - **状态**：✅ 已安装
 - **路径**：`skills/stitch-loop/`
 - **功能**：使用 Stitch 迭代构建网站
 - **用途**：自主接力循环模式
 
-### 28. vibecoding-framework-selector（Vibe Coding 框架选择器）
+### 30. vibecoding-framework-selector（Vibe Coding 框架选择器）
 - **状态**：✅ 已安装
 - **路径**：`skills/vibecoding-framework-selector/`
 - **功能**：BMad、Spec Kit、OpenSpec 框架推荐
 - **用途**：根据项目复杂度选择最佳方案
 
-### 29. vibecoding-toolkit（Vibe Coding 工具包）
+### 31. vibecoding-toolkit（Vibe Coding 工具包）
 - **状态**：✅ 已安装
 - **路径**：`skills/vibecoding-toolkit/`
 - **功能**：Vibe Coding 工具集合
 - **用途**：辅助 Vibe Coding 开发
 
-### 30. find-skills（查找技能）
+### 32. find-skills（查找技能）
 - **状态**：✅ 已安装
 - **路径**：`skills/find-skills/`
 - **功能**：帮助发现新技能
@@ -225,31 +234,31 @@
 
 ## 🔧 实用工具层
 
-### 31. code-executor（代码执行器）
+### 33. code-executor（代码执行器）
 - **状态**：✅ 已安装
 - **路径**：`skills/code-executor/`
 - **功能**：执行代码
 - **用途**：运行代码片段
 
-### 32. code-reviewer（代码审查器）
+### 34. code-reviewer（代码审查器）
 - **状态**：✅ 已安装
 - **路径**：`skills/code-reviewer/`
 - **功能**：审查代码
 - **用途**：代码质量检查
 
-### 33. debug-strategist（调试策略师）
+### 35. debug-strategist（调试策略师）
 - **状态**：✅ 已安装
 - **路径**：`skills/debug-strategist/`
 - **功能**：调试策略
 - **用途**：系统性调试问题
 
-### 34. tdd-enforcer（TDD 强制执行器）
+### 36. tdd-enforcer（TDD 强制执行器）
 - **状态**：✅ 已安装
 - **路径**：`skills/tdd-enforcer/`
 - **功能**：测试驱动开发
 - **用途**：强制 TDD 实践
 
-### 35. plan-creator（计划创建器）
+### 37. plan-creator（计划创建器）
 - **状态**：✅ 已安装
 - **路径**：`skills/plan-creator/`
 - **功能**：创建计划
@@ -259,19 +268,19 @@
 
 ## 🔄 特殊系统
 
-### 36. daily-evolution（每日进化）
+### 38. daily-evolution（每日进化）
 - **状态**：✅ 已安装 v1.0.0
 - **路径**：`skills/daily-evolution-1.0.0/`
 - **功能**：AI Agent 每日自我进化引擎（潜龙计划）
 - **用途**：每日自动触发，执行四阶段循环（对话整理→工具盘点→最佳实践固化→报告生成）
 
-### 37. mermaid-diagrams（Mermaid 图表）
+### 39. mermaid-diagrams（Mermaid 图表）
 - **状态**：✅ 已安装
 - **路径**：`skills/mermaid-diagrams/`
 - **功能**：Mermaid 图表生成
 - **用途**：文档图表
 
-### 38. self-improving-agent（自我改进 Agent 旧版）
+### 40. self-improving-agent（自我改进 Agent 旧版）
 - **状态**：⚠️ 已安装 v1.0.11（旧版）
 - **路径**：`skills/self-improving-agent-1.0.11/`
 - **说明**：旧版本，建议使用 v1-0-11 版本
@@ -284,13 +293,14 @@
 |------|------|--------|
 | 核心能力 | 4 | 4 ✅ |
 | AI 生成 | 4 | 4 ✅ |
-| 开发工具 | 8 | 8 ✅ |
+| 开发工具 | 9 | 9 ✅ |
+| 浏览器自动化 | 2 | 2 ✅ |
 | 团队管理 | 5 | 5 ✅ |
 | 外部集成 | 4 | 4 ✅ |
 | 流程管理 | 5 | 5 ✅ |
 | 实用工具 | 5 | 5 ✅ |
 | 特殊系统 | 3 | 3 ✅ |
-| **总计** | **38** | **38 ✅** |
+| **总计** | **41** | **41 ✅** |
 
 ---
 
