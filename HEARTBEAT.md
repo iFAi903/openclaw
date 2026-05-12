@@ -55,13 +55,13 @@
 ### 📰 ai-news-roundup（每日 07:00）
 **代号**：AI-NEWS-ROUNDUP
 **触发**：每日 07:00 (Asia/Taipei)
-**执行体**：cron → `agentId: main` 🟡 待切换到 `product-agent`
+**执行体**：cron → `agentId: product-agent` ✅ 已切换
 **质量参数（5/12 对齐）**：
 - 选文：18 条（非 15），product-agent 自主决定
 - 标题：英文原题可保留，不限 20 字硬截断
 - Quote：要求有当日具体洞察，禁用"关键词"模板
 - 产品雷达：与 AI 应用相关即合格
-**状态**: 🟡 审计完成，待 product-agent 切换 agentId 并优化 quote 质量
+**状态**: ✅ **OK** — cron agentId 已切换为 product-agent，SKILL.md 5/12 08:08 已升级（金句退化检测 + 18条选文 + 产品雷达门禁加固）
 
 ---
-*最后更新: 2026-05-12 08:20*
+*最后更新: 2026-05-12 09:09*
