@@ -5,7 +5,7 @@
 - **运行时段**: 24/7 (Always Active)
 - **自动重启**: 已启用 ✅
 - **崩溃恢复**: 已启用 ✅
-- **最后更新**: 2026-04-28 01:52 Asia/Taipei
+- **最后更新**: 2026-05-12 08:20 Asia/Taipei
 
 ## 🎙️ 语音唤醒监听
 - **监听状态**: ACTIVE ✅
@@ -52,5 +52,16 @@
 - **Status**: ✅ **OK** — 三节拍 cron 均存在、启用、实跑成功；OpenClaw heartbeat 已启用，状态显示 `1h (main)`。
 - **Action Needed**: 🟡 **WATCH** — Gateway service 仍提示旧式 embedded token，后续可安排 `openclaw gateway install --force` / doctor repair；不影响当前 cron 三节拍运行。
 
+### 📰 ai-news-roundup（每日 07:00）
+**代号**：AI-NEWS-ROUNDUP
+**触发**：每日 07:00 (Asia/Taipei)
+**执行体**：cron → `agentId: main` 🟡 待切换到 `product-agent`
+**质量参数（5/12 对齐）**：
+- 选文：18 条（非 15），product-agent 自主决定
+- 标题：英文原题可保留，不限 20 字硬截断
+- Quote：要求有当日具体洞察，禁用"关键词"模板
+- 产品雷达：与 AI 应用相关即合格
+**状态**: 🟡 审计完成，待 product-agent 切换 agentId 并优化 quote 质量
+
 ---
-*最后更新: 2026-04-28 01:52 (✅ 三节拍 cron 与自动守护已恢复；保留 gateway service 配置现代化为后续维护项)*
+*最后更新: 2026-05-12 08:20*
