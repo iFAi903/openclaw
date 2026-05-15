@@ -5,7 +5,7 @@
 - **运行时段**: 24/7 (Always Active)
 - **自动重启**: 已启用 ✅
 - **崩溃恢复**: 已启用 ✅
-- **最后更新**: 2026-05-12 08:20 Asia/Taipei
+- **最后更新**: 2026-05-15 19:40 Asia/Taipei
 
 ## 🎙️ 语音唤醒监听
 - **监听状态**: ACTIVE ✅
@@ -42,8 +42,8 @@
 ### 🌙 节拍一：深夜复盘 (23:30)
 **代号**：NIGHTLY-REVIEW
 **触发**：每日 23:30 (Asia/Taipei)
-**输出**：`memory/📅 YYYY-MM-DD.md`
-**状态**: ✅ **OK** — 2026-04-28 01:43 手动实跑成功，已生成/更新 `memory/📅 2026-04-28.md`。已切换为 gpt-5.5、light-context、轻量守护 prompt、no-deliver。
+**输出**：`00-Memory/daily/YYYY-MM-DD.md`
+**状态**: ✅ **OK** — 2026-05-15 19:40 核验 cron payload：实际写入 `00-Memory/daily/YYYY-MM-DD.md`，下一次 23:30 运行将生成/追加当天日志。已切换为 gpt-5.5、light-context、轻量守护 prompt、no-deliver。
 
 ---
 
@@ -64,4 +64,4 @@
 **状态**: ✅ **OK** — cron agentId 已切换为 product-agent，SKILL.md 5/12 08:08 已升级（金句退化检测 + 18条选文 + 产品雷达门禁加固）
 
 ---
-*最后更新: 2026-05-12 09:09*
+*最后更新: 2026-05-15 19:40*
