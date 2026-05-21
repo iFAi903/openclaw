@@ -43,14 +43,14 @@
 **代号**：NIGHTLY-REVIEW
 **触发**：每日 23:30 (Asia/Taipei)
 **输出**：`00-Memory/daily/YYYY-MM-DD.md`
-**状态**: 🟡 **WATCH** — 2026-05-21 08:40 核验：2026-05-20 23:30 的缺失日志已补偿为 `00-Memory/daily/2026-05-20.md`；cron 配置确认 `toolsAllow=null`。需等 2026-05-21 23:30 下一轮自动执行确认是否真实恢复落盘。
+**状态**: ✅ **OK** — 2026-05-21 23:40 核验：`nightly-review-001` 本轮 cron 状态 `ok`，且已自动生成 `00-Memory/daily/2026-05-21.md`。深夜复盘自动落盘恢复确认。
 
 ---
 
 ## 🧠 Self-Improving + Proactivity Check
 - **Last Check**: 2026-04-28 01:52
-- **Status**: 🟡 **WATCH** — 三节拍 cron 均存在且启用；08:30 晨间简报已恢复 delivered，00:00 每日进化与 23:30 深夜复盘仍需等下一轮自动产物验证。
-- **Action Needed**: 🟡 **WATCH** — 2026-05-21 23:30 后核验深夜复盘是否生成 `00-Memory/daily/2026-05-21.md`；2026-05-22 00:00 后核验每日进化是否生成 `reports/evolution-2026-05-22.md`。2026-05-21 11:10 已清理 OpenClaw 配置中的重复 bundled feishu path 与未安装 disabled line entry，`openclaw cron list` 不再出现插件配置 warning。
+- **Status**: 🟡 **WATCH** — 三节拍 cron 均存在且启用；08:30 晨间简报已恢复 delivered，23:30 深夜复盘已恢复自动落盘。00:00 每日进化仍需等下一轮自动产物验证。
+- **Action Needed**: 🟡 **WATCH** — 2026-05-22 00:00 后核验每日进化是否生成 `reports/evolution-2026-05-22.md`；2026-05-22 07:00 后核验 AI 新闻早报是否自动投递。2026-05-21 11:10 已清理 OpenClaw 配置中的重复 bundled feishu path 与未安装 disabled line entry，使用 `$HOME/.npm-global/bin` 后 `openclaw cron list` 不再出现插件配置 warning。
 
 ### 📰 ai-news-roundup（每日 07:00）
 **代号**：AI-NEWS-ROUNDUP
@@ -64,4 +64,4 @@
 **状态**: 🟡 **WATCH** — 2026-05-21 09:14 已定位 07:00 失败主因：`fetch_ai_news.py` 串行网络翻译导致抓取链路可能超时。已将 Google Translate 网络调用改为 opt-in，仅保留本地短语回退；手动验证 `fetch_ai_news.py` 42 秒完成，`build_daily_data.py` 成功生成 18 新闻 + 5 产品。待 2026-05-22 07:00 下一轮自动投递确认。
 
 ---
-*最后更新: 2026-05-21 11:10*
+*最后更新: 2026-05-21 23:40*
