@@ -27,7 +27,7 @@
 **代号**：DAILY-EVOLUTION
 **触发**：每日 00:00 (Asia/Taipei)
 **输出**：`reports/evolution-YYYY-MM-DD.md`
-**状态**: ✅ **OK** — 2026-04-28 01:45 手动实跑成功，已生成 `reports/evolution-2026-04-28.md`。已切换为 gpt-5.5、light-context、轻量守护 prompt、no-deliver。
+**状态**: 🟡 **WATCH** — 2026-05-21 08:11 核验：调度层仍显示 OK，但 2026-05-20 / 2026-05-21 均出现产物缺失；run summary 含 `BLOCKED` / `[blocked]`。已移除显式 `toolsAllow` 进行下一轮恢复验证，并补偿生成 `reports/evolution-2026-05-21.md`。
 
 ---
 
@@ -35,7 +35,7 @@
 **代号**：MORNING-BRIEF
 **触发**：每日 08:30 (Asia/Taipei)
 **输出**：飞书主动消息
-**状态**: ✅ **OK** — 2026-05-16 08:40 已核验发送成功，并将读取路径对齐为 `00-Memory/daily/YYYY-MM-DD.md`；delivery 维持 `announce -> feishu:user:ou_f804aeb5aa82fc47dca4830476a6e75d`。
+**状态**: 🟡 **WATCH** — 2026-05-21 08:11 运行前核验：下一次 08:30 将触发；上一轮虽已 delivered，但内容提示无法读取本地任务/日志。已移除显式 `toolsAllow`，待 08:30 后确认是否恢复读取能力。
 
 ---
 
@@ -43,14 +43,14 @@
 **代号**：NIGHTLY-REVIEW
 **触发**：每日 23:30 (Asia/Taipei)
 **输出**：`00-Memory/daily/YYYY-MM-DD.md`
-**状态**: ✅ **OK** — 2026-05-15 19:40 核验 cron payload：实际写入 `00-Memory/daily/YYYY-MM-DD.md`，下一次 23:30 运行将生成/追加当天日志。已切换为 gpt-5.5、light-context、轻量守护 prompt、no-deliver。
+**状态**: 🟡 **WATCH** — 2026-05-21 08:11 核验：2026-05-20 23:30 调度层显示 OK，但 run summary 含 `[blocked] No filesystem read/write tool is available`，目标日志缺失。已补偿生成 `00-Memory/daily/2026-05-20.md`，并移除显式 `toolsAllow`。
 
 ---
 
 ## 🧠 Self-Improving + Proactivity Check
 - **Last Check**: 2026-04-28 01:52
-- **Status**: ✅ **OK** — 三节拍 cron 均存在、启用、实跑成功；OpenClaw heartbeat 已启用，状态显示 `1h (main)`。
-- **Action Needed**: 🟡 **WATCH** — Gateway service 仍提示旧式 embedded token，后续可安排 `openclaw gateway install --force` / doctor repair；不影响当前 cron 三节拍运行。
+- **Status**: 🟡 **WATCH** — 三节拍 cron 均存在且启用，但 2026-05-20 起出现“调度 OK、执行层缺文件/命令工具、产物缺失”的假阳性。
+- **Action Needed**: 🔴 **P0** — 08:30 后核验晨间简报是否恢复读取本地文件；若仍失败，需修复 cron isolated session/provider 的工具注入层。Gateway embedded token 与插件配置 warning 仍需安排维护窗口。
 
 ### 📰 ai-news-roundup（每日 07:00）
 **代号**：AI-NEWS-ROUNDUP
@@ -61,7 +61,7 @@
 - 标题：英文原题可保留，不限 20 字硬截断
 - Quote：要求有当日具体洞察，禁用"关键词"模板
 - 产品雷达：与 AI 应用相关即合格
-**状态**: ✅ **OK** — cron agentId 已切换为 product-agent，SKILL.md 5/12 08:08 已升级（金句退化检测 + 18条选文 + 产品雷达门禁加固）
+**状态**: 🔴 **DEGRADED** — 2026-05-21 07:00 运行失败，错误为 `run python3 scripts/fetch_ai_news.py` 失败；delivery 未完成，失败通知记录已生成。
 
 ---
-*最后更新: 2026-05-16 08:40*
+*最后更新: 2026-05-21 08:11*
