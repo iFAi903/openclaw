@@ -5,7 +5,7 @@
 - **运行时段**: 24/7 (Always Active)
 - **自动重启**: 已启用 ✅
 - **崩溃恢复**: 已启用 ✅
-- **最后更新**: 2026-05-16 08:40 Asia/Taipei
+- **最后更新**: 2026-05-21 08:40 Asia/Taipei
 
 ## 🎙️ 语音唤醒监听
 - **监听状态**: ACTIVE ✅
@@ -27,7 +27,7 @@
 **代号**：DAILY-EVOLUTION
 **触发**：每日 00:00 (Asia/Taipei)
 **输出**：`reports/evolution-YYYY-MM-DD.md`
-**状态**: 🟡 **WATCH** — 2026-05-21 08:11 核验：调度层仍显示 OK，但 2026-05-20 / 2026-05-21 均出现产物缺失；run summary 含 `BLOCKED` / `[blocked]`。已移除显式 `toolsAllow` 进行下一轮恢复验证，并补偿生成 `reports/evolution-2026-05-21.md`。
+**状态**: 🟡 **WATCH** — 2026-05-21 08:40 核验：08:11 已移除显式 `toolsAllow` 并补偿生成 `reports/evolution-2026-05-21.md`；08:40 cron 配置确认 `toolsAllow=null`。需等 2026-05-22 00:00 下一轮自动执行确认是否真实恢复落盘。
 
 ---
 
@@ -35,7 +35,7 @@
 **代号**：MORNING-BRIEF
 **触发**：每日 08:30 (Asia/Taipei)
 **输出**：飞书主动消息
-**状态**: 🟡 **WATCH** — 2026-05-21 08:11 运行前核验：下一次 08:30 将触发；上一轮虽已 delivered，但内容提示无法读取本地任务/日志。已移除显式 `toolsAllow`，待 08:30 后确认是否恢复读取能力。
+**状态**: ✅ **OK** — 2026-05-21 08:40 核验：08:30 自动运行已完成，cron 状态 `ok`，delivery 为 `delivered`，run summary 未再出现 `No filesystem` / `[blocked]`。显式 `toolsAllow` 已保持移除。
 
 ---
 
@@ -43,14 +43,14 @@
 **代号**：NIGHTLY-REVIEW
 **触发**：每日 23:30 (Asia/Taipei)
 **输出**：`00-Memory/daily/YYYY-MM-DD.md`
-**状态**: 🟡 **WATCH** — 2026-05-21 08:11 核验：2026-05-20 23:30 调度层显示 OK，但 run summary 含 `[blocked] No filesystem read/write tool is available`，目标日志缺失。已补偿生成 `00-Memory/daily/2026-05-20.md`，并移除显式 `toolsAllow`。
+**状态**: 🟡 **WATCH** — 2026-05-21 08:40 核验：2026-05-20 23:30 的缺失日志已补偿为 `00-Memory/daily/2026-05-20.md`；cron 配置确认 `toolsAllow=null`。需等 2026-05-21 23:30 下一轮自动执行确认是否真实恢复落盘。
 
 ---
 
 ## 🧠 Self-Improving + Proactivity Check
 - **Last Check**: 2026-04-28 01:52
-- **Status**: 🟡 **WATCH** — 三节拍 cron 均存在且启用，但 2026-05-20 起出现“调度 OK、执行层缺文件/命令工具、产物缺失”的假阳性。
-- **Action Needed**: 🔴 **P0** — 08:30 后核验晨间简报是否恢复读取本地文件；若仍失败，需修复 cron isolated session/provider 的工具注入层。Gateway embedded token 与插件配置 warning 仍需安排维护窗口。
+- **Status**: 🟡 **WATCH** — 三节拍 cron 均存在且启用；08:30 晨间简报已恢复 delivered，00:00 每日进化与 23:30 深夜复盘仍需等下一轮自动产物验证。
+- **Action Needed**: 🟡 **WATCH** — 2026-05-21 23:30 后核验深夜复盘是否生成 `00-Memory/daily/2026-05-21.md`；2026-05-22 00:00 后核验每日进化是否生成 `reports/evolution-2026-05-22.md`。Gateway embedded token 与插件配置 warning 仍需安排维护窗口。
 
 ### 📰 ai-news-roundup（每日 07:00）
 **代号**：AI-NEWS-ROUNDUP
@@ -64,4 +64,4 @@
 **状态**: 🔴 **DEGRADED** — 2026-05-21 07:00 运行失败，错误为 `run python3 scripts/fetch_ai_news.py` 失败；delivery 未完成，失败通知记录已生成。
 
 ---
-*最后更新: 2026-05-21 08:11*
+*最后更新: 2026-05-21 08:40*
