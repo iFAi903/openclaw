@@ -5,7 +5,7 @@
 - **运行时段**: 24/7 (Always Active)
 - **自动重启**: 已启用 ✅
 - **崩溃恢复**: 已启用 ✅
-- **最后更新**: 2026-05-21 09:14 Asia/Taipei
+- **最后更新**: 2026-05-21 10:40 Asia/Taipei
 
 ## 🎙️ 语音唤醒监听
 - **监听状态**: ACTIVE ✅
@@ -50,7 +50,7 @@
 ## 🧠 Self-Improving + Proactivity Check
 - **Last Check**: 2026-04-28 01:52
 - **Status**: 🟡 **WATCH** — 三节拍 cron 均存在且启用；08:30 晨间简报已恢复 delivered，00:00 每日进化与 23:30 深夜复盘仍需等下一轮自动产物验证。
-- **Action Needed**: 🟡 **WATCH** — 2026-05-21 23:30 后核验深夜复盘是否生成 `00-Memory/daily/2026-05-21.md`；2026-05-22 00:00 后核验每日进化是否生成 `reports/evolution-2026-05-22.md`。Gateway embedded token 与插件配置 warning 仍需安排维护窗口。
+- **Action Needed**: 🟡 **WATCH** — 2026-05-21 23:30 后核验深夜复盘是否生成 `00-Memory/daily/2026-05-21.md`；2026-05-22 00:00 后核验每日进化是否生成 `reports/evolution-2026-05-22.md`。2026-05-21 10:40 只读核验显示 Gateway running / connectivity ok / admin-capable，未再出现 embedded token 警告；插件配置 warning 仍需安排维护窗口。
 
 ### 📰 ai-news-roundup（每日 07:00）
 **代号**：AI-NEWS-ROUNDUP
@@ -64,4 +64,4 @@
 **状态**: 🟡 **WATCH** — 2026-05-21 09:14 已定位 07:00 失败主因：`fetch_ai_news.py` 串行网络翻译导致抓取链路可能超时。已将 Google Translate 网络调用改为 opt-in，仅保留本地短语回退；手动验证 `fetch_ai_news.py` 42 秒完成，`build_daily_data.py` 成功生成 18 新闻 + 5 产品。待 2026-05-22 07:00 下一轮自动投递确认。
 
 ---
-*最后更新: 2026-05-21 09:14*
+*最后更新: 2026-05-21 10:40*
