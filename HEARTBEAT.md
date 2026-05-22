@@ -35,7 +35,7 @@
 **代号**：MORNING-BRIEF
 **触发**：每日 08:30 (Asia/Taipei)
 **输出**：飞书主动消息
-**状态**: ✅ **OK** — 2026-05-21 08:40 核验：08:30 自动运行已完成，cron 状态 `ok`，delivery 为 `delivered`，run summary 未再出现 `No filesystem` / `[blocked]`。显式 `toolsAllow` 已保持移除。
+**状态**: ✅ **OK** — 2026-05-22 15:10 核验：08:30 自动运行已完成，cron 状态 `ok`，delivery 为 `delivered`，run summary 正常。显式 `toolsAllow` 已保持移除。
 
 ---
 
@@ -64,4 +64,4 @@
 **状态**: ✅ **OK** — 2026-05-22 07:00 核验：`ai-news-roundup-daily` 本轮 cron 状态 `ok`，成功完成自动投递。系统全面恢复。
 
 ---
-*最后更新: 2026-05-22 14:41*
+*最后更新: 2026-05-22 15:10*
