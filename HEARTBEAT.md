@@ -5,7 +5,7 @@
 - **运行时段**: 24/7 (Always Active)
 - **自动重启**: 已启用 ✅
 - **崩溃恢复**: 已启用 ✅
-- **最后更新**: 2026-05-23 03:40 Asia/Taipei
+- **最后更新**: 2026-05-23 07:15 Asia/Taipei
 
 ## 🎙️ 语音唤醒监听
 - **监听状态**: ACTIVE ✅
@@ -48,9 +48,9 @@
 ---
 
 ## 🧠 Self-Improving + Proactivity Check
-- **Last Check**: 2026-05-23 01:41
-- **Status**: ✅ **OK** — 三节拍 cron 均存在且启用；00:00 每日进化 (05-23)、08:30 晨间简报 (05-22)、23:30 深夜复盘 (05-22) 均已通过自动产物/投递验证。系统全面恢复稳态。
-- **Action Needed**: 无 — 2026-05-21 11:10 已清理 OpenClaw 配置中的重复 bundled feishu path 与未安装 disabled line entry，`openclaw cron list` 不再出现插件配置 warning。系统运行正常。
+- **Last Check**: 2026-05-23 07:15
+- **Status**: 🟡 **WATCH** — 三节拍 cron 均存在且启用；00:00 每日进化 (05-23) 已成功落盘。07:00 AI 新闻早报 (05-23) 因 Google API 503 临时失效，已触发手动补发；07:00 微信推送 (05-23) 因登录失效需重登。
+- **Action Needed**: 🟡 **WATCH** — 核验补发的 AI 新闻早报是否成功投递。公众号登录已失效（4.7天），需提醒 Leo 重新扫码。
 
 ### 📰 ai-news-roundup（每日 07:00）
 **代号**：AI-NEWS-ROUNDUP
@@ -61,7 +61,7 @@
 - 标题：英文原题可保留，不限 20 字硬截断
 - Quote：要求有当日具体洞察，禁用"关键词"模板
 - 产品雷达：与 AI 应用相关即合格
-**状态**: ✅ **OK** — 2026-05-22 07:00 核验：`ai-news-roundup-daily` 本轮 cron 状态 `ok`，成功完成自动投递。系统全面恢复。
+**状态**: 🟡 **WATCH** — 2026-05-23 07:10 核验：`ai-news-roundup-daily` 本轮 cron status 为 `error` (Google Generative AI API error 503)，已触发手动补发。待结果确认。
 
 ---
-*最后更新: 2026-05-23 03:40*
+*最后更新: 2026-05-23 07:15*
