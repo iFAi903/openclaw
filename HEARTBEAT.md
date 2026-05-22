@@ -48,9 +48,9 @@
 ---
 
 ## 🧠 Self-Improving + Proactivity Check
-- **Last Check**: 2026-04-28 01:52
-- **Status**: 🟡 **WATCH** — 三节拍 cron 均存在且启用；00:00 每日进化、08:30 晨间简报、23:30 深夜复盘均已恢复并通过自动产物/投递验证。AI 新闻早报仍需等 2026-05-22 07:00 自动投递验证。
-- **Action Needed**: 🟡 **WATCH** — 2026-05-22 07:00 后核验 AI 新闻早报是否自动投递；若成功，将 ai-news-roundup 状态从 WATCH 调整为 OK。2026-05-21 11:10 已清理 OpenClaw 配置中的重复 bundled feishu path 与未安装 disabled line entry，使用 `$HOME/.npm-global/bin` 后 `openclaw cron list` 不再出现插件配置 warning。
+- **Last Check**: 2026-05-22 10:17
+- **Status**: ✅ **OK** — 三节拍 cron 均存在且启用；00:00 每日进化、08:30 晨间简报、23:30 深夜复盘均已恢复并通过自动产物/投递验证。07:00 AI 新闻早报已成功自动投递，系统全面恢复稳态。
+- **Action Needed**: 无 — 2026-05-21 11:10 已清理 OpenClaw 配置中的重复 bundled feishu path 与未安装 disabled line entry，`openclaw cron list` 不再出现插件配置 warning。系统运行正常。
 
 ### 📰 ai-news-roundup（每日 07:00）
 **代号**：AI-NEWS-ROUNDUP
@@ -64,4 +64,4 @@
 **状态**: ✅ **OK** — 2026-05-22 07:00 核验：`ai-news-roundup-daily` 本轮 cron 状态 `ok`，成功完成自动投递。系统全面恢复。
 
 ---
-*最后更新: 2026-05-22 00:11*
+*最后更新: 2026-05-22 10:17*
