@@ -55,9 +55,9 @@
 ---
 
 ## 🧠 Self-Improving + Proactivity Check
-- **Last Update**: 2026-06-21 23:50
-- **Status**: ✅ **OK** — `gpt-5.4-mini` 配额耗尽（6月26日重置），7/7 cron job 全量切换至 `deepseek-v4-flash`。23:00 安全审计+课表遭遇 deepseek API 短暂不可用（~30min窗口），23:30 恢复，二次重跑全部 ok。
-- **Action Needed**: 追踪 6月26日配额重置后是否切回 gpt-5.4-mini。监控 deepseek 夜间稳定性。
+- **Last Update**: 2026-06-22 00:12
+- **Status**: ✅ **OK** — `gpt-5.4-mini` 配额耗尽（6月26日重置），7/7 cron job 全量切换至 `deepseek-v4-flash`。23:00 安全审计+课表遭遇 deepseek API 短暂不可用（~30min窗口），23:30 恢复，二次重跑全部 ok。00:00 进化首轮超时（600s），自动重跑成功落盘（1.4KB）。00:10 战报 ok。
+- **Action Needed**: 追踪 6月26日配额重置后是否切回 gpt-5.4-mini。监控 deepseek 夜间稳定性。考虑将进化 job 超时从 600s 提到 900s 或转为 bash 脚本。
 
 ### 🎒 小羽毛课表审计（每日 10:00 / 23:00）
 **代号**：CLASS-AUDIT
