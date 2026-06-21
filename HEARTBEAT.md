@@ -5,7 +5,7 @@
 - **运行时段**: 24/7 (Always Active)
 - **自动重启**: 已启用 ✅
 - **崩溃恢复**: 已启用 ✅
-- **最后更新**: 2026-05-23 07:15 Asia/Taipei
+- **最后更新**: 2026-06-13 12:06 Asia/Taipei
 
 ## 🎙️ 语音唤醒监听
 - **监听状态**: ACTIVE ✅
@@ -27,7 +27,7 @@
 **代号**：DAILY-EVOLUTION
 **触发**：每日 00:00 (Asia/Taipei)
 **输出**：`reports/evolution-YYYY-MM-DD.md`
-**状态**: ✅ **OK** — 2026-05-23 00:11 核验：`daily-evolution（product-agent）` 本轮 cron 状态 `error` (Write fail false positive)，但已核实 `reports/evolution-2026-05-23.md` 自动生成且内容完整。每日进化自动落盘持续确认。
+**状态**: ✅ **FIXED** — 2026-06-19 19:40 重建：cron `77a68848` (每日进化（潜龙计划）)，00:00 Taipei，模型 `gpt-5.4-mini`，轻量四阶段。2026-06-20 00:00 首次验收：成功落盘（1.2KB），4条洞察 + evolution.json 同步。
 
 ---
 
@@ -35,7 +35,7 @@
 **代号**：MORNING-BRIEF
 **触发**：每日 08:30 (Asia/Taipei)
 **输出**：飞书主动消息
-**状态**: ✅ **OK** — 2026-05-22 15:10 核验：08:30 自动运行已完成，cron 状态 `ok`，delivery 为 `delivered`，run summary 正常。显式 `toolsAllow` 已保持移除。
+**状态**: ✅ **OK** — 2026-06-14 08:30 核验：恢复成功，`ok`，34s，delivered。
 
 ---
 
@@ -43,25 +43,33 @@
 **代号**：NIGHTLY-REVIEW
 **触发**：每日 23:30 (Asia/Taipei)
 **输出**：`00-Memory/daily/YYYY-MM-DD.md`
-**状态**: ✅ **OK** — 2026-05-22 23:40 核验：`nightly-review-001` 本轮 cron 状态 `ok`，且已生成 `memory/00-Memory/daily/2026-05-22.md`（路径对齐中）。深夜复盘自动落盘恢复确认。
+**状态**: ✅ **FIXED** — 2026-06-19 23:41 实测验证：`gpt-5.4-mini` 成功落盘（2.4KB，完整四段）。根因是 emoji 文件名 + 指令优先级。prompt 改为六步硬性流程，文件路径避开 emoji。
+
+---
+
+### 🔒 每晚安全审计 (23:00)
+**代号**：NIGHTLY-SECURITY-AUDIT
+**触发**：每日 23:00 (Asia/Taipei)
+**状态**: ✅ **OK** — 2026-06-19 23:00 核验：模型切换后恢复成功，`ok`，206s。`gpt-5.4-mini` 稳定。
 
 ---
 
 ## 🧠 Self-Improving + Proactivity Check
-- **Last Check**: 2026-05-23 07:15
-- **Status**: 🟡 **WATCH** — 三节拍 cron 均存在且启用；00:00 每日进化 (05-23) 已成功落盘。07:00 AI 新闻早报 (05-23) 因 Google API 503 临时失效，已触发手动补发；07:00 微信推送 (05-23) 因登录失效需重登。
-- **Action Needed**: 🟡 **WATCH** — 核验补发的 AI 新闻早报是否成功投递。公众号登录已失效（4.7天），需提醒 Leo 重新扫码。
+- **Last Update**: 2026-06-21 23:50
+- **Status**: ✅ **OK** — `gpt-5.4-mini` 配额耗尽（6月26日重置），7/7 cron job 全量切换至 `deepseek-v4-flash`。23:00 安全审计+课表遭遇 deepseek API 短暂不可用（~30min窗口），23:30 恢复，二次重跑全部 ok。
+- **Action Needed**: 追踪 6月26日配额重置后是否切回 gpt-5.4-mini。监控 deepseek 夜间稳定性。
+
+### 🎒 小羽毛课表审计（每日 10:00 / 23:00）
+**代号**：CLASS-AUDIT
+**触发**：每日 10:00 + 23:00 (Asia/Taipei)
+**执行体**：cron `7b47a862` → bash 脚本 ✅
+**状态**: ✅ **NEW** — 2026-06-20 18:40 重建为 bash 脚本。每日两次点名：上午场查 00:00-10:00 四节课，夜间场查全天七节课。
 
 ### 📰 ai-news-roundup（每日 07:00）
 **代号**：AI-NEWS-ROUNDUP
 **触发**：每日 07:00 (Asia/Taipei)
-**执行体**：cron → `agentId: product-agent` ✅ 已切换
-**质量参数（5/12 对齐）**：
-- 选文：18 条（非 15），product-agent 自主决定
-- 标题：英文原题可保留，不限 20 字硬截断
-- Quote：要求有当日具体洞察，禁用"关键词"模板
-- 产品雷达：与 AI 应用相关即合格
-**状态**: 🟡 **WATCH** — 2026-05-23 07:10 核验：`ai-news-roundup-daily` 本轮 cron status 为 `error` (Google Generative AI API error 503)，已触发手动补发。待结果确认。
+**执行体**：cron → `agentId: main` ✅
+**状态**: ✅ **OK** — 2026-06-13 07:00 核验：今日运行成功，`delivered`。
 
 ---
-*最后更新: 2026-05-23 07:15*
+*最后更新: 2026-06-14 23:40*
