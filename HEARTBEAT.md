@@ -55,9 +55,9 @@
 ---
 
 ## 🧠 Self-Improving + Proactivity Check
-- **Last Update**: 2026-06-22 08:42
-- **Status**: ✅ **OK** — `gpt-5.4-mini` 配额耗尽（6月26日重置），7/7 cron job 全量切换至 `deepseek-v4-flash`。deepseek 间歇性 API 无响应（23:00~30min窗口、08:30~10min窗口），自动重跑机制有效兜底。07:00 AI早报 643s（首次执行）、08:30 简报首轮超时→重跑 21s ok。
-- **Action Needed**: 追踪 6月26日配额重置后是否切回 gpt-5.4-mini。deepseek 间歇性故障频率值得关注——如果每天≥2次窗口，需讨论是否混合模型策略。
+- **Last Update**: 2026-06-23 00:46
+- **Status**: ⚠️ **WATCH** — `gpt-5.4-mini` 配额耗尽（6月26日重置），7/7 cron job 全量切换至 `deepseek-v4-flash`。deepseek 间歇性 API 无响应（23:00~30min窗口、08:30~10min窗口），自动重跑机制有效兜底。07:00 AI早报 643s（首次执行）、08:30 简报首轮超时→重跑 21s ok。23:30 复盘首轮 600s 超时，自动重跑成功（389s）。00:00 进化首轮 `custom-deepseek/` 别名错误+gateway 重启中断，修复别名后手动重跑中。发现 2 个 job 的 model 别名被改成 `custom-deepseek/`（非标准），已全部修正。
+- **Action Needed**: 追踪 6月26日配额重置后是否切回 gpt-5.4-mini。追查 `custom-deepseek/` 别名来源（是否 gateway config 自动改写）。deepseek 晚间可靠性仍然不足。
 
 ### 🎒 小羽毛课表审计（每日 10:00 / 23:00）
 **代号**：CLASS-AUDIT
