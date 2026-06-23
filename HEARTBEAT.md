@@ -55,9 +55,9 @@
 ---
 
 ## 🧠 Self-Improving + Proactivity Check
-- **Last Update**: 2026-06-23 01:42
-- **Status**: ✅ **OK** — `gpt-5.4-mini` 配额耗尽（6月26日重置），7/7 cron job 全量切换至 `deepseek-v4-flash`。deepseek 间歇性 API 无响应（23:00~30min窗口、08:30~10min窗口），自动重跑机制有效兜底。07:00 AI早报 643s、08:30 简报首轮超时→重跑 21s ok。23:30 复盘首轮 600s 超时→重跑 389s ok。00:00 进化首轮 `custom-deepseek/` 别名错误+gateway 重启中断、二轮 600s 超时、三轮 43s ok（2.8KB）。发现 2 job model 别名被改成 `custom-deepseek/`，已修正。
-- **Action Needed**: 追踪 6月26日配额重置后是否切回 gpt-5.4-mini。追查 `custom-deepseek/` 别名来源。deepseek 晚间可靠性不足，建议 00:00 进化 job 启动延迟 30min 避开深夜 API 不稳窗口。
+- **Last Update**: 2026-06-24 00:40
+- **Status**: ⚠️ **WATCH** — `gpt-5.4-mini` 配额耗尽（6月26日重置），全量 `deepseek-v4-flash`。6/23 deepseek 白天 08:30/10:00 各掉一次（重跑兜底），晚间 23:00/23:30 绿灯，00:00 进化又超时（二轮重跑 48s ok）。模式：deepseek 最不稳窗口 00:00（连续三晚超时），其次 08:30/10:00（连续两晨），晚间 23:00-23:30 相对稳定。
+- **Action Needed**: 6月26日配额重置后切回 gpt-5.4-mini。追查 `custom-deepseek/` 别名来源。00:00 进化 job 延迟 30min 启动有明确证据支撑。
 
 ### 🎒 小羽毛课表审计（每日 10:00 / 23:00）
 **代号**：CLASS-AUDIT
