@@ -55,9 +55,9 @@
 ---
 
 ## 🧠 Self-Improving + Proactivity Check
-- **Last Update**: 2026-06-28 20:15
-- **Status**: ✅ **OK** — 6/26 `gpt-5.4-mini` 配额重置，大部分 cron job 已自动切回。现状：安全审计/复盘/进化 → `gpt-5.4-mini` ✅；战报/课表/AI早报 → bash command 类型（脱离模型依赖）✅；晨间简报 6/28 模型被异常改成 `lmstudio/qwen/qwen3-4b-2507`（导致报错 96s），已修复 → `gpt-5.4-mini`。6/27-28 进化 00:00 窗口仍偶发超时，但整体可靠性大幅回升。今夜 23:00-23:30 待验。
-- **Action Needed**: 调查 `lmstudio/qwen` 模型别名是谁/什么进程写入的。守住 cron job model 字段不被非预期改写。
+- **Last Update**: 2026-06-28 23:44
+- **Status**: ✅ **OK** — `gpt-5.4-mini` 配额已重置。关键发现：`custom-gateway-microflow-ai/gpt-5.4-mini` 别名 6/28 晚上连续返回 503（安全审计2次+复盘1次），切到 `openai/gpt-5.4-mini` 直连后秒通。已将所有 agentTurn cron job（安全审计/复盘/进化/晨间简报）全部改为 `openai/gpt-5.4-mini` + `deepseek-v4-flash` fallback。bash 类 job（战报/课表/AI早报）不受影响。晨间简报 6/28 模型被异常改成 `lmstudio/qwen/qwen3-4b-2507`，已修复。
+- **Action Needed**: ①调查 `custom-gateway-microflow-ai/gpt-5.4-mini` 503 根因（gateway 侧还是 provider 侧）。②追查 `lmstudio/qwen` 别名写入来源。③明早 08:30 验证简报恢复。
 
 ### 🎒 小羽毛课表审计（每日 10:00 / 23:00）
 **代号**：CLASS-AUDIT
