@@ -55,9 +55,9 @@
 ---
 
 ## 🧠 Self-Improving + Proactivity Check
-- **Last Update**: 2026-06-29 03:13
-- **Status**: ✅ **OK** — `gpt-5.4-mini` 配额已重置。关键发现：`custom-gateway-microflow-ai/gpt-5.4-mini` 别名 6/28 晚间连续返回 503（安全审计2次+复盘1次），切到 `openai/gpt-5.4-mini` 直连后秒通。已将所有 agentTurn cron job（安全审计/复盘/进化/晨间简报）全部改为 `openai/gpt-5.4-mini` + `deepseek-v4-flash` fallback。bash 类 job（战报/课表/AI早报）不受影响。6/28 夜间 5/5 全部通过：Crypto晚巡 ✅ 6s | 课表 ✅ 10s | 安全审计 🔴503→✅ 78s | 复盘 ✅ 40s（5.5KB）| 进化 ✅ 211s（1.9KB）。进化/复盘/晨间简报曾被 agent 自动改写为 openai 直连——自愈行为生效。
-- **Action Needed**: ①调查 `custom-gateway-microflow-ai/gpt-5.4-mini` 503 根因（gateway 侧还是 provider 侧）。②追查 `lmstudio/qwen` 别名写入来源（6/28 仅在晨间简报出现）。③6/29 08:30 验证简报首次跑 openai 直连。
+- **Last Update**: 2026-06-29 04:43
+- **Status**: ✅ **OK** — `gpt-5.4-mini` 配额已重置。关键发现：`custom-gateway-microflow-ai/gpt-5.4-mini` 别名 6/28 晚间连续返回 503（安全审计2次），切到 `openai/gpt-5.4-mini` 直连后秒通。所有 agentTurn cron job 已全部改为 `openai/gpt-5.4-mini` + `deepseek-v4-flash` fallback。bash 类 job 不受影响。6/28 夜间 5/5 ✅：Crypto晚巡 6s | 课表 10s | 安全审计 🔴503→✅ 78s | 复盘 40s（5.5KB）| 进化 211s（1.9KB）。复盘/进化曾被 agent 自动改写为 openai 直连——自愈行为生效 ✅。
+- **Action Needed**: ①调查 `custom-gateway-microflow-ai/gpt-5.4-mini` 503 根因。②追查 `lmstudio/qwen` 别名写入来源（6/28 仅晨间简报）。③6/29 08:30 验证简报首次跑 openai 直连。
 
 ### 🎒 小羽毛课表审计（每日 10:00 / 23:00）
 **代号**：CLASS-AUDIT
@@ -72,4 +72,4 @@
 **状态**: ✅ **OK** — 2026-06-13 07:00 核验：今日运行成功，`delivered`。
 
 ---
-*最后更新: 2026-06-29 03:40*
+*最后更新: 2026-06-29 04:43*
