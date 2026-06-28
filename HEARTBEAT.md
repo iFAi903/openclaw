@@ -55,9 +55,9 @@
 ---
 
 ## 🧠 Self-Improving + Proactivity Check
-- **Last Update**: 2026-06-24 00:40
-- **Status**: ⚠️ **WATCH** — `gpt-5.4-mini` 配额耗尽（6月26日重置），全量 `deepseek-v4-flash`。6/23 deepseek 白天 08:30/10:00 各掉一次（重跑兜底），晚间 23:00/23:30 绿灯，00:00 进化又超时（二轮重跑 48s ok）。模式：deepseek 最不稳窗口 00:00（连续三晚超时），其次 08:30/10:00（连续两晨），晚间 23:00-23:30 相对稳定。
-- **Action Needed**: 6月26日配额重置后切回 gpt-5.4-mini。追查 `custom-deepseek/` 别名来源。00:00 进化 job 延迟 30min 启动有明确证据支撑。
+- **Last Update**: 2026-06-28 20:15
+- **Status**: ✅ **OK** — 6/26 `gpt-5.4-mini` 配额重置，大部分 cron job 已自动切回。现状：安全审计/复盘/进化 → `gpt-5.4-mini` ✅；战报/课表/AI早报 → bash command 类型（脱离模型依赖）✅；晨间简报 6/28 模型被异常改成 `lmstudio/qwen/qwen3-4b-2507`（导致报错 96s），已修复 → `gpt-5.4-mini`。6/27-28 进化 00:00 窗口仍偶发超时，但整体可靠性大幅回升。今夜 23:00-23:30 待验。
+- **Action Needed**: 调查 `lmstudio/qwen` 模型别名是谁/什么进程写入的。守住 cron job model 字段不被非预期改写。
 
 ### 🎒 小羽毛课表审计（每日 10:00 / 23:00）
 **代号**：CLASS-AUDIT
