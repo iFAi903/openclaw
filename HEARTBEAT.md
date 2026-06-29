@@ -55,9 +55,9 @@
 ---
 
 ## 🧠 Self-Improving + Proactivity Check
-- **Last Update**: 2026-06-29 04:43
-- **Status**: ✅ **OK** — `gpt-5.4-mini` 配额已重置。关键发现：`custom-gateway-microflow-ai/gpt-5.4-mini` 别名 6/28 晚间连续返回 503（安全审计2次），切到 `openai/gpt-5.4-mini` 直连后秒通。所有 agentTurn cron job 已全部改为 `openai/gpt-5.4-mini` + `deepseek-v4-flash` fallback。bash 类 job 不受影响。6/28 夜间 5/5 ✅：Crypto晚巡 6s | 课表 10s | 安全审计 🔴503→✅ 78s | 复盘 40s（5.5KB）| 进化 211s（1.9KB）。复盘/进化曾被 agent 自动改写为 openai 直连——自愈行为生效 ✅。
-- **Action Needed**: ①调查 `custom-gateway-microflow-ai/gpt-5.4-mini` 503 根因。②追查 `lmstudio/qwen` 别名写入来源（6/28 仅晨间简报）。③6/29 08:30 验证简报首次跑 openai 直连。
+- **Last Update**: 2026-06-30 00:31
+- **Status**: ✅ **OK** — `openai/gpt-5.4-mini` 直连连续2天稳定。6/29 全天 7/7 全勤：AI早报 85s | 简报 92s ③✅ | Crypto早晚 5.4s/6.7s | 课表早晚 7.6s/10s | 安全审计 25s | 复盘 64s(11.7KB) | 进化 65s(3.2KB) | 战报 10s。战报误报进化 🔴600s 是并发时序问题（两者同时启动，战报 10s 查状态时进化尚在 65s 运行中）。openai 直连 100% 成功率。
+- **Action Needed**: ①调查 `custom-gateway-microflow-ai/gpt-5.4-mini` 503 根因（已绕过，不紧急）。②追查 `lmstudio/qwen` 别名写入来源。
 
 ### 🎒 小羽毛课表审计（每日 10:00 / 23:00）
 **代号**：CLASS-AUDIT
