@@ -1,0 +1,184 @@
+@import "tailwindcss";
+
+:root {
+  --bg-primary: #f6f6f8;
+  --bg-card: #ffffff;
+  --bg-subtle: #f0f0f4;
+  --border-light: #e5e5ea;
+  --border-default: #d9d9df;
+  --text-primary: #1c1c1e;
+  --text-secondary: #636368;
+  --text-tertiary: #8e8e93;
+  --feather-cyan: #38bdf8;
+  --signal-blue: #4b7bff;
+  --pulse-violet: #a267ff;
+  --accent-gray: #8e8e93;
+}
+
+@theme inline {
+  --color-background: var(--bg-primary);
+  --color-foreground: var(--text-primary);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  color: var(--text-primary);
+  background: var(--bg-primary);
+  font-family: var(--font-geist-sans), -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+::selection {
+  background: rgba(75, 123, 255, 0.16);
+  color: var(--text-primary);
+}
+
+/* ── Feather text gradient ── */
+.feather-text {
+  background: linear-gradient(135deg, var(--feather-cyan) 0%, var(--signal-blue) 50%, var(--pulse-violet) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* ── Feather icon dot ── */
+.feather-dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--feather-cyan), var(--signal-blue), var(--pulse-violet));
+}
+
+/* ── Card base ── */
+.card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-light);
+  border-radius: 16px;
+  transition: all 0.25s ease;
+}
+
+.card:hover {
+  border-color: var(--border-default);
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.06);
+  transform: translateY(-2px);
+}
+
+/* ── Stat panel ── */
+.stat-panel {
+  background: var(--bg-subtle);
+  border: 1px solid var(--border-light);
+  border-radius: 14px;
+  padding: 16px 18px 14px;
+}
+
+.stat-label {
+  font-size: 11px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--text-tertiary);
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+.stat-value {
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--text-secondary);
+}
+
+/* ── Tag badge ── */
+.tag-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  background: var(--bg-subtle);
+  color: var(--text-tertiary);
+  border: 1px solid var(--border-light);
+}
+
+.tag-badge-accent {
+  background: linear-gradient(135deg, rgba(56, 189, 248, 0.08), rgba(75, 123, 255, 0.08));
+  color: var(--signal-blue);
+  border-color: rgba(75, 123, 255, 0.16);
+}
+
+/* ── Lead story card ── */
+.lead-card {
+  background: linear-gradient(135deg, #ffffff 0%, #f8f9fc 100%);
+  border: 1px solid var(--border-default);
+  border-radius: 20px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.lead-card:hover {
+  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.08);
+  border-color: rgba(75, 123, 255, 0.25);
+}
+
+/* ── Section heading ── */
+.section-heading {
+  font-size: 13px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--text-tertiary);
+  font-weight: 600;
+}
+
+/* ── Product section ── */
+.product-section {
+  background: linear-gradient(135deg, #faf8ff 0%, #f6f6f8 100%);
+  border: 1px solid var(--border-light);
+}
+
+/* ── Divider ── */
+.section-divider {
+  height: 1px;
+  background: var(--border-light);
+}
+
+/* ── Scrollbar ── */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border-default);
+  border-radius: 999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-tertiary);
+}
+
+/* ── Source link badge ── */
+.source-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 2px 8px;
+  border-radius: 6px;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  background: var(--bg-subtle);
+  color: var(--text-tertiary);
+}

@@ -1,0 +1,127 @@
+# 小羽毛 AI 新闻早报 — 配置
+# 16 个 RSS 源（15 国际 + 1 中文精选）+ 5 个产品平台
+
+profile:
+  name: "小羽毛 AI 新闻早报"
+  timezone: "Asia/Taipei"
+  lookback_hours: 24
+  max_items_per_source: 10
+
+# === 16 个国际 AI RSS 源 ===
+rss_sources:
+  # 极客公园 RSS 已失效（2026-07 起持续 0 条），替换为三花AI快讯
+  - name: "三花AI"
+    url: "https://sanhua.himrr.com/daily-news/feed"
+    weight: 11
+    must_keep: true
+
+  - name: "TheVerge"
+    url: "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+    weight: 11
+
+  - name: "TechCrunch"
+    url: "https://techcrunch.com/category/artificial-intelligence/feed/"
+    weight: 11
+
+  - name: "Wired"
+    url: "https://www.wired.com/feed/tag/ai/latest/rss"
+    weight: 10
+
+  - name: "VentureBeat"
+    url: "https://venturebeat.com/category/ai/feed/"
+    weight: 10
+
+  - name: "MIT Tech Review"
+    url: "https://www.technologyreview.com/topic/artificial-intelligence/feed"
+    weight: 10
+
+  - name: "AI News"
+    url: "https://www.artificialintelligence-news.com/feed/"
+    weight: 10
+
+  - name: "TheGuardian AI"
+    url: "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+    weight: 9
+
+  - name: "MarkTechPost"
+    url: "https://www.marktechpost.com/feed/"
+    weight: 9
+
+  - name: "MIT News"
+    url: "https://news.mit.edu/rss/topic/artificial-intelligence2"
+    weight: 9
+
+  - name: "Google Research"
+    url: "https://research.google/blog/rss/"
+    weight: 8
+
+  - name: "OpenAI Blog"
+    url: "https://openai.com/blog/rss.xml"
+    weight: 10
+
+  - name: "BAIR Berkeley"
+    url: "https://bair.berkeley.edu/blog/feed.xml"
+    weight: 8
+
+  - name: "ScienceDaily"
+    url: "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml"
+    weight: 8
+
+  - name: "KDnuggets"
+    url: "https://www.kdnuggets.com/feed"
+    weight: 7
+
+  - name: "AI HOT"
+    url: "https://aihot.virxact.com/feed.xml"
+    weight: 12
+    must_keep: true
+    max_select: 3
+
+# === 5 个产品平台 ===
+product_platforms:
+  - "Product Hunt"
+  - "GitHub"
+  - "Toolify"
+  - "Hacker News"
+  - "Trustmrr"
+
+# === 质量门禁 ===
+quality:
+  # 退化标题模式（命中则需 Agent 重写）
+  degraded_title_patterns:
+    - "新动态"
+    - "新能力"
+    - "今日观察"
+    - "今日精选"
+    - "值得关注"
+    - "AI 资讯"
+  # 退化摘要模式
+  degraded_summary_patterns:
+    - "值得关注其影响"
+    - "影响行业格局"
+    - "值得关注"
+  # 标签候选
+  tag_categories:
+    - "资本"
+    - "模型"
+    - "Agent"
+    - "基础设施"
+    - "开源"
+    - "产品"
+    - "研究"
+    - "政策"
+    - "应用"
+    - "硬件"
+    - "行业"
+    - "全球"
+
+# === 输出 ===
+output:
+  max_news: 18
+  max_products: 5
+  max_per_source: 2
+  title_max_chars: 20
+  summary_max_chars: 120
+  quote_max_chars: 90
+  tags_max: 3
+  recent_dedup_days: 3
